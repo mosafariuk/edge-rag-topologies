@@ -30,6 +30,9 @@ import time
 from datetime import datetime, timezone
 from urllib.parse import urlparse
 
+# Cloudflare's bot filter returns 403 to Python's default user agent; identify the probe instead.
+USER_AGENT = "edge-rag-probe/0.1 (+research; contact in repo README)"
+
 DEFAULT_QUERIES = [
     "how does connection pooling reduce database latency",
     "what limits the recall of an HNSW index",
@@ -90,7 +93,8 @@ def one_request(conn, path: str, payload: bytes, fresh: bool) -> dict:
     else:
         row["connect_ms"] = 0.0
     conn.request("POST", path, body=payload, headers={"content-type": "application/json",
-                                                       "content-length": str(len(payload))})
+                                                       "content-length": str(len(payload)),
+                                                       "user-agent": USER_AGENT})
     resp = conn.getresponse()
     body = resp.read()
     row["wall_ms"] = round((time.perf_counter() - t0) * 1000, 2)
