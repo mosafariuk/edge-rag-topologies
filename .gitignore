@@ -1,0 +1,12 @@
+node_modules/
+.venv/
+data/
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+.DS_Store
+!results/run.log
+*.bak

@@ -1,0 +1,62 @@
+[data] generating 300000x768 clustered vectors -> /Users/mo/workspace/Article/Infrastructure_Performance/data/vectors.f32
+[data]   50000/300000
+[data]   300000/300000
+[gt] exact top-10 for 1000 queries in 18.9s
+[load] COPY 300000 rows ...
+[load]   20000/300000  (48s)
+[load]   220000/300000  (465s)
+[load] done in 631s
+[result] seqscan_exact {} exact: recall=1.000 p50=1061.62ms p99=3786.65ms qps=1
+Traceback (most recent call last):
+  File "/Users/mo/workspace/Article/Infrastructure_Performance/bench.py", line 302, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mo/workspace/Article/Infrastructure_Performance/bench.py", line 269, in main
+    build_s, size = build_index(conn, "hnsw", bp)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/mo/workspace/Article/Infrastructure_Performance/bench.py", line 149, in build_index
+    cur.execute(ddl)
+    ~~~~~~~~~~~^^^^^
+  File "/Users/mo/workspace/Article/Infrastructure_Performance/.venv/lib/python3.13/site-packages/psycopg/cursor.py", line 117, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.DiskFull: could not resize shared memory segment "/PostgreSQL.2477335944" to 1255247584 bytes: No space left on device
+[data] reuse existing memmap /Users/mo/workspace/Article/Infrastructure_Performance/data/vectors.f32 (300000x768)
+[gt] exact top-10 for 1000 queries in 16.0s
+[resume] reusing loaded table (300000 rows); skipping load + seqscan baseline
+[build] hnsw {'m': 16, 'ef_construction': 64} -> 293.9s, index 1172 MB
+[plan] index
+[result] hnsw {'m': 16, 'ef_construction': 64} ef_search=40: recall=0.903 p50=12.50ms p99=72.41ms qps=60
+[result] hnsw {'m': 16, 'ef_construction': 64} ef_search=100: recall=0.933 p50=8.07ms p99=110.16ms qps=78
+[result] hnsw {'m': 16, 'ef_construction': 64} ef_search=200: recall=0.952 p50=3.92ms p99=11.26ms qps=228
+[result] hnsw {'m': 16, 'ef_construction': 64} ef_search=400: recall=0.973 p50=8.03ms p99=51.12ms qps=96
+[build] hnsw {'m': 16, 'ef_construction': 200} -> 669.4s, index 1172 MB
+[plan] index
+[result] hnsw {'m': 16, 'ef_construction': 200} ef_search=40: recall=0.972 p50=25.71ms p99=217.55ms qps=27
+[result] hnsw {'m': 16, 'ef_construction': 200} ef_search=100: recall=0.998 p50=12.28ms p99=55.85ms qps=70
+[result] hnsw {'m': 16, 'ef_construction': 200} ef_search=200: recall=1.000 p50=9.43ms p99=83.95ms qps=70
+[result] hnsw {'m': 16, 'ef_construction': 200} ef_search=400: recall=1.000 p50=6.70ms p99=35.70ms qps=117
+[build] hnsw {'m': 32, 'ef_construction': 200} -> 55777.9s, index 1172 MB
+[plan] index
+[result] hnsw {'m': 32, 'ef_construction': 200} ef_search=40: recall=0.996 p50=21.93ms p99=162.82ms qps=34
+[result] hnsw {'m': 32, 'ef_construction': 200} ef_search=100: recall=0.999 p50=7.98ms p99=57.70ms qps=98
+[result] hnsw {'m': 32, 'ef_construction': 200} ef_search=200: recall=0.999 p50=6.29ms p99=23.97ms qps=146
+[result] hnsw {'m': 32, 'ef_construction': 200} ef_search=400: recall=1.000 p50=8.71ms p99=43.32ms qps=91
+[build] ivfflat {'lists': 1000} -> 166.7s, index 1178 MB
+[plan] index
+[result] ivfflat {'lists': 1000} probes=1: recall=0.873 p50=9.55ms p99=55.82ms qps=78
+[result] ivfflat {'lists': 1000} probes=10: recall=1.000 p50=18.08ms p99=94.43ms qps=45
+[result] ivfflat {'lists': 1000} probes=40: recall=1.000 p50=41.63ms p99=97.17ms qps=23
+[result] ivfflat {'lists': 1000} probes=100: recall=1.000 p50=75.33ms p99=208.94ms qps=12
+Traceback (most recent call last):
+  File "/Users/mo/workspace/Article/Infrastructure_Performance/bench.py", line 320, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mo/workspace/Article/Infrastructure_Performance/bench.py", line 297, in main
+    build_s, size = build_index(conn, "ivfflat", bp)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mo/workspace/Article/Infrastructure_Performance/bench.py", line 156, in build_index
+    cur.execute(ddl)
+    ~~~~~~~~~~~^^^^^
+  File "/Users/mo/workspace/Article/Infrastructure_Performance/.venv/lib/python3.13/site-packages/psycopg/cursor.py", line 117, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.ProgramLimitExceeded: memory required is 3738 MB, maintenance_work_mem is 2048 MB

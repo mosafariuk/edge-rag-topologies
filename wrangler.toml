@@ -1,0 +1,28 @@
+# Edge-RAG Worker configuration (Wrangler)
+# -----------------------------------------
+# Bindings: Workers AI (edge embedding) + Hyperdrive (pooled edge->Postgres).
+
+name = "edge-rag"
+main = "worker.ts"
+compatibility_date = "2025-07-01"
+# nodejs_compat lets the `postgres` driver use the Node built-ins it expects.
+compatibility_flags = ["nodejs_compat"]
+
+# Workers AI: edge inference for query embedding (bge-base-en-v1.5, 768-dim).
+[ai]
+binding = "AI"
+
+# Hyperdrive: pools and keeps warm the connection to the Postgres origin. Create it first,
+# then paste its id:
+#   npx wrangler hyperdrive create edge-rag-pg \
+#     --connection-string="postgres://USER:PASSWORD@HOST:5432/DBNAME"
+[[hyperdrive]]
+binding = "HYPERDRIVE"
+id = "<your-hyperdrive-id>"
+
+[vars]
+MAX_TOP_K = "50"
+# HNSW candidate-list size applied per query inside a transaction (SET LOCAL). Table I of the
+# paper shows recall 0.90-0.97 at the pgvector default of 40 and >=0.99 at 100-400 for the
+# 300k x 768 corpus; choose per recall target.
+EF_SEARCH = "100"

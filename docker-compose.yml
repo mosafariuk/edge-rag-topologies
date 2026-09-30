@@ -1,0 +1,47 @@
+# pgvector benchmark database
+# ---------------------------
+# Pinned pgvector image (pgvector 0.8.x on Postgres 17). Postgres is tuned for an in-RAM
+# ANN benchmark on a memory-constrained host (Docker VM raised to ~6 GB). The tuning is passed
+# via `command` so the run is fully reproducible and self-documenting.
+#
+# NOTE (honesty): these settings target a laptop-class 6 GB VM. They are NOT production values;
+# the paper's §V-E methodology flags the hardware explicitly.
+
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    container_name: edge_rag_pgvector_bench
+    environment:
+      POSTGRES_USER: bench
+      POSTGRES_PASSWORD: bench
+      POSTGRES_DB: bench
+    ports:
+      - "55432:5432"          # host 55432 -> container 5432 (avoids clashing with local PG)
+    shm_size: "1gb"           # parallel index builds use shared memory
+    command:
+      - "postgres"
+      - "-c"
+      - "shared_buffers=1024MB"                 # modest: leave room for OS page cache of the index
+      - "-c"
+      - "effective_cache_size=3500MB"           # hint: OS page cache holds the hot HNSW index
+      - "-c"
+      - "maintenance_work_mem=1200MB"           # HNSW/IVFFlat build memory (build spills for 1M×768)
+      - "-c"
+      - "max_parallel_maintenance_workers=6"    # parallel index build across cores
+      - "-c"
+      - "max_parallel_workers=8"
+      - "-c"
+      - "max_parallel_workers_per_gather=4"
+      - "-c"
+      - "work_mem=64MB"
+      - "-c"
+      - "max_wal_size=8GB"                      # fewer checkpoints during bulk COPY
+      - "-c"
+      - "checkpoint_timeout=30min"
+      - "-c"
+      - "jit=off"                               # JIT hurts these short vector queries
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bench -d bench"]
+      interval: 3s
+      timeout: 5s
+      retries: 20
