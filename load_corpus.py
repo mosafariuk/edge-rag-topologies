@@ -56,7 +56,7 @@ def synthetic_passages(n: int, seed: int = 42) -> list[str]:
             f"in configuration {rng.integers(1, 10_000)}." for i in range(n)]
 
 
-def embed_all(model, texts: list[str], batch: int = 128) -> np.ndarray:
+def embed_all(model, texts: list[str], batch: int = 32) -> np.ndarray:
     vecs = model.encode(texts, batch_size=batch, normalize_embeddings=True,
                         show_progress_bar=True, convert_to_numpy=True)
     return np.ascontiguousarray(vecs.astype("float32"))
@@ -82,18 +82,36 @@ def main() -> None:
     ap.add_argument("--m", type=int, default=16)
     ap.add_argument("--ef-construction", type=int, default=200)
     ap.add_argument("--skip-index", action="store_true")
+    ap.add_argument("--cache", help=".npy file to save/reuse embeddings so replicas load identical vectors")
+    ap.add_argument("--embed-only", action="store_true", help="compute --cache and exit (no database)")
+    ap.add_argument("--batch", type=int, default=32)
+    ap.add_argument("--max-seq", type=int, default=384, help="token limit per passage (model max 512)")
     args = ap.parse_args()
-    if not args.target:
+    if not args.target and not args.embed_only:
         raise SystemExit("set DATABASE_URL or --target")
 
     texts = passages_from_file(args.passages, args.limit) if args.passages else synthetic_passages(args.generate or args.limit)
     print(f"[corpus] {len(texts)} passages ({'file' if args.passages else 'SYNTHETIC'})")
 
-    from sentence_transformers import SentenceTransformer
-    model = SentenceTransformer(MODEL, device="cpu")
-    t0 = time.time()
-    vecs = embed_all(model, texts)
-    print(f"[embed] {vecs.shape} in {time.time()-t0:.0f}s")
+    if args.cache and os.path.exists(args.cache):
+        vecs = np.load(args.cache)
+        assert vecs.shape == (len(texts), DIM), f"cache shape {vecs.shape} != {(len(texts), DIM)}"
+        print(f"[embed] reused {args.cache} {vecs.shape}")
+    else:
+        from sentence_transformers import SentenceTransformer
+        import torch
+        device = "mps" if torch.backends.mps.is_available() else "cpu"
+        model = SentenceTransformer(MODEL, device=device)
+        model.max_seq_length = args.max_seq  # MS MARCO passages are short; 384 tokens covers them
+        print(f"[embed] device={device} batch={args.batch} max_seq_length={args.max_seq}")
+        t0 = time.time()
+        vecs = embed_all(model, texts, batch=args.batch)
+        print(f"[embed] {vecs.shape} in {time.time()-t0:.0f}s")
+        if args.cache:
+            np.save(args.cache, vecs)
+    if args.embed_only:
+        print(f"[done] embeddings -> {args.cache}")
+        return
 
     with psycopg.connect(args.target) as conn:
         with conn.cursor() as cur:

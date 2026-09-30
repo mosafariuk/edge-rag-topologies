@@ -36,7 +36,7 @@ TOPOLOGY_LABEL = "edge-pooled"
 
 [[hyperdrive]]
 binding = "HYPERDRIVE"
-id = "<hyperdrive-id-primary>"
+id = "3661680718f444ebbb29a18eafc549d9"
 
 # ---------------------------------------------------------------- edge-pooled (explicit env)
 [env.pooled]
@@ -50,7 +50,7 @@ TOPOLOGY = "hyperdrive"
 TOPOLOGY_LABEL = "edge-pooled"
 [[env.pooled.hyperdrive]]
 binding = "HYPERDRIVE"
-id = "<hyperdrive-id-primary>"
+id = "3661680718f444ebbb29a18eafc549d9"
 
 # ---------------------------------------------------------------- edge-replica
 [env.replica]
@@ -64,7 +64,7 @@ TOPOLOGY = "hyperdrive"
 TOPOLOGY_LABEL = "edge-replica"
 [[env.replica.hyperdrive]]
 binding = "HYPERDRIVE"
-id = "<hyperdrive-id-replica>"
+id = "744d309343a243ac89ad90a1545d8b57"
 
 # ---------------------------------------------------------------- edge-unpooled
 [env.unpooled]
