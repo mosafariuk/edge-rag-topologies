@@ -68,6 +68,31 @@ export default {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const tStart = Date.now();
 
+    // GET /health?q=... : embed-only path (no database). Measures Workers AI embedding latency
+    // at the serving PoP, independently of the retrieval tier.
+    if (request.method === "GET") {
+      const url = new URL(request.url);
+      if (url.pathname !== "/health") {
+        return json({ error: "Use POST / with { query: string, topK?: number }, or GET /health" }, 404);
+      }
+      const q = (url.searchParams.get("q") ?? "health check query").trim() || "health check query";
+      const timing: Record<string, number> = {};
+      try {
+        const tEmbed = Date.now();
+        const vec = await embedQuery(env, q);
+        timing.embed = Date.now() - tEmbed;
+        timing.total = Date.now() - tStart;
+        return json(
+          { ok: true, topology: env.TOPOLOGY_LABEL ?? null,
+            colo: (request.cf as { colo?: string } | undefined)?.colo ?? null,
+            dims: vec.length, timingMs: timing },
+          200, { "server-timing": serverTiming(timing) });
+      } catch (err) {
+        timing.total = Date.now() - tStart;
+        return json({ ok: false, detail: String(err), timingMs: timing }, 502,
+                    { "server-timing": serverTiming(timing) });
+      }
+    }
     if (request.method !== "POST") {
       return json({ error: "Use POST with { query: string, topK?: number }" }, 405);
     }
