@@ -28,8 +28,21 @@ import postgres from "postgres";
 export interface Env {
   /** Workers AI binding (edge inference). */
   AI: Ai;
-  /** Hyperdrive binding: exposes a pooled, edge-local Postgres connection string. */
-  HYPERDRIVE: Hyperdrive;
+  /**
+   * Hyperdrive binding: a pooled Postgres connection string. Which database it points at
+   * (central primary or a near-PoP replica) is decided per wrangler environment, so the
+   * "edge-pooled" and "edge-replica" topologies share this code and differ only in config.
+   */
+  HYPERDRIVE?: Hyperdrive;
+  /**
+   * Direct connection string (a Wrangler secret) for the "edge-unpooled" topology: the Worker
+   * dials the origin itself on every request and pays the full TCP+TLS+auth setup cost.
+   */
+  DATABASE_URL?: string;
+  /** "hyperdrive" (default) or "direct". Set per wrangler environment. */
+  TOPOLOGY?: string;
+  /** Label echoed in responses so probes can tag rows (e.g. "edge-pooled"). */
+  TOPOLOGY_LABEL?: string;
   /** Optional: cap results; defaults applied below. */
   MAX_TOP_K?: string;
   /** Optional: HNSW ef_search operating point (default 100). */
@@ -73,12 +86,19 @@ export default {
     const topK = clampInt(body.topK, DEFAULT_TOP_K, 1, clampInt(env.MAX_TOP_K, HARD_MAX_TOP_K, 1, HARD_MAX_TOP_K));
     const efSearch = clampInt(env.EF_SEARCH, DEFAULT_EF_SEARCH, topK, MAX_EF_SEARCH);
 
-    // A driver instance per invocation is the documented Hyperdrive pattern: the TCP/TLS/auth
-    // work is done once by Hyperdrive's pool, not by this short-lived isolate.
-    const sql = postgres(env.HYPERDRIVE.connectionString, {
-      max: 1,             // one connection per invocation; Hyperdrive multiplexes behind it
+    // Resolve the topology. A driver instance per invocation is the documented Hyperdrive
+    // pattern: with Hyperdrive the TCP/TLS/auth work is done once by the pool, not by this
+    // short-lived isolate; with a direct URL the isolate pays it on every request.
+    const direct = (env.TOPOLOGY ?? "hyperdrive").toLowerCase() === "direct";
+    const connectionString = direct ? env.DATABASE_URL : env.HYPERDRIVE?.connectionString;
+    if (!connectionString) {
+      return json({ error: `No connection string for TOPOLOGY=${env.TOPOLOGY ?? "hyperdrive"}` }, 500);
+    }
+    const sql = postgres(connectionString, {
+      max: 1,             // one connection per invocation
       fetch_types: false, // avoid a type-lookup round trip on first use
       prepare: false,     // named prepared statements are unsafe under transaction pooling
+      ssl: direct ? "require" : undefined, // origin TLS when dialing directly
     });
 
     const timing: Record<string, number> = {};
@@ -109,6 +129,8 @@ export default {
         {
           query,
           model: EMBEDDING_MODEL,
+          topology: env.TOPOLOGY_LABEL ?? (direct ? "edge-unpooled" : "edge-pooled"),
+          colo: (request.cf as { colo?: string } | undefined)?.colo ?? null,
           topK,
           efSearch,
           timingMs: timing,
