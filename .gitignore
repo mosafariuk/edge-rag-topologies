@@ -10,3 +10,6 @@ data/
 .DS_Store
 !results/run.log
 *.bak
+.env
+phase2.env
+probe/results/
