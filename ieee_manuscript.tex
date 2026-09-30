@@ -188,15 +188,15 @@ remain central in all variants; it is outside the scope of this study.
   box/.style={draw,rounded corners,align=center,inner sep=2.2pt,minimum height=6mm},
   reg/.style={box,fill=black!7}]
 \node[box] (u1) {User};
-\node[reg,right=18mm of u1] (c1) {Central Region\\{\scriptsize embed\,$\cdot$\,pgvector\,$\cdot$\,LLM}};
+\node[reg,right=21mm of u1] (c1) {Central Region\\{\scriptsize embed\,$\cdot$\,pgvector\,$\cdot$\,LLM}};
 \draw[->] (u1) -- node[above,font=\scriptsize]{$D$ (cross-region)} (c1);
 \node[font=\scriptsize\itshape,anchor=west] at ([yshift=5mm]u1.north west) {(a) Centralized};
 \node[box,below=16mm of u1] (u2) {User};
-\node[box,right=6mm of u2] (e2) {Edge PoP\\{\scriptsize Worker: embed}};
+\node[box,right=9mm of u2] (e2) {Edge PoP\\{\scriptsize Worker: embed}};
 \node[reg,right=27mm of e2] (d2) {Postgres\\{\scriptsize pgvector}};
 \node[reg,below=6mm of d2] (r2) {Replica\\{\scriptsize near PoP}};
 \draw[->] (u2) -- node[above,font=\scriptsize]{$d_{\mathrm{edge}}$} (e2);
-\draw[->] (e2) -- node[above,font=\scriptsize]{$D_{db}$ (unpooled\,/\,pooled)} (d2);
+\draw[->] (e2) -- node[above,font=\scriptsize]{$D_{db}$} node[below,font=\scriptsize]{unpooled\,/\,pooled} (d2);
 \draw[->,dashed] (e2.south) |- (r2.west);
 \node[font=\scriptsize,anchor=north west] at ([xshift=1mm,yshift=-1mm]e2.south) {edge-replica};
 \node[font=\scriptsize\itshape,anchor=west] at ([yshift=5mm]u2.north west) {(b) Edge-RAG variants};
