@@ -29,6 +29,9 @@ def main() -> None:
     ap.add_argument("--batch", type=int, default=32)
     ap.add_argument("--max-seq", type=int, default=384)
     ap.add_argument("--device", default=None, help="mps | cpu (default: mps if available)")
+    ap.add_argument("--offset", type=int, default=0, help="this worker's chunk offset (distributed runs)")
+    ap.add_argument("--stride", type=int, default=1, help="number of workers sharing the chunks")
+    ap.add_argument("--merge-only", action="store_true", help="only merge existing chunk files")
     args = ap.parse_args()
 
     texts = []
@@ -41,18 +44,20 @@ def main() -> None:
                 break
     os.makedirs(args.outdir, exist_ok=True)
 
-    import torch
-    from sentence_transformers import SentenceTransformer
-    device = args.device or ("mps" if torch.backends.mps.is_available() else "cpu")
-    model = SentenceTransformer(MODEL, device=device)
-    model.max_seq_length = args.max_seq
-    print(f"[embed] {len(texts)} passages, device={device}, chunk={args.chunk}, batch={args.batch}")
-
     n_chunks = (len(texts) + args.chunk - 1) // args.chunk
+    if not args.merge_only:
+        import torch
+        from sentence_transformers import SentenceTransformer
+        device = args.device or ("mps" if torch.backends.mps.is_available() else "cpu")
+        model = SentenceTransformer(MODEL, device=device)
+        model.max_seq_length = args.max_seq
+        print(f"[embed] {len(texts)} passages, device={device}, chunk={args.chunk}, batch={args.batch}, "
+              f"worker {args.offset}/{args.stride}")
     t_start = time.time()
+    done = 0
     for ci in range(n_chunks):
         path = os.path.join(args.outdir, f"chunk_{ci:05d}.npy")
-        if os.path.exists(path):
+        if args.merge_only or os.path.exists(path) or ci % args.stride != args.offset:
             continue
         lo, hi = ci * args.chunk, min((ci + 1) * args.chunk, len(texts))
         t0 = time.time()
@@ -63,11 +68,14 @@ def main() -> None:
         if device == "mps":
             torch.mps.empty_cache()
         gc.collect()
-        done = hi
-        rate = done / (time.time() - t_start)
+        done += hi - lo
         print(f"[embed] chunk {ci+1}/{n_chunks} ({hi - lo} in {time.time()-t0:.0f}s) "
-              f"total {done}/{len(texts)}  eta {(len(texts)-done)/max(rate,1e-6)/60:.0f} min", flush=True)
+              f"this worker {done} done, {done/(time.time()-t_start):.1f}/s", flush=True)
 
+    missing = [ci for ci in range(n_chunks) if not os.path.exists(os.path.join(args.outdir, f"chunk_{ci:05d}.npy"))]
+    if missing:
+        print(f"[embed] worker finished; {len(missing)} chunks still missing (other workers): {missing[:10]}...")
+        return
     parts = [np.load(os.path.join(args.outdir, f"chunk_{ci:05d}.npy")) for ci in range(n_chunks)]
     all_vecs = np.concatenate(parts, axis=0)
     assert all_vecs.shape == (len(texts), 768), all_vecs.shape

@@ -21,6 +21,7 @@ so the probe's TLS cost is the same as for the Workers.
 from __future__ import annotations
 
 import json
+import math
 import os
 import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -38,26 +39,31 @@ DEFAULT_TOP_K, MAX_TOP_K = 5, 50
 
 model = SentenceTransformer(MODEL_NAME, device="cpu")
 model.encode(["warm-up"], normalize_embeddings=True)  # load weights before serving
-pool = ConnectionPool(DATABASE_URL, min_size=2, max_size=8, open=True) if POOL else None
-
-SQL = """SELECT id, content, (embedding <=> %(v)s::vector) AS distance
-         FROM documents ORDER BY embedding <=> %(v)s::vector LIMIT %(k)s"""
-
+pool = ConnectionPool(DATABASE_URL, min_size=2, max_size=8, open=True, kwargs={"autocommit": True}) if POOL else None
 
 def retrieve(vec: list[float], k: int) -> list[dict]:
+    # Same single-round-trip shape as worker.ts: BEGIN; SET LOCAL; SELECT; COMMIT in one query
+    # string (simple protocol). Only validated numbers are inlined.
+    assert all(math.isfinite(x) for x in vec)
     literal = "[" + ",".join(f"{x:.7g}" for x in vec) + "]"
+    q = (f"BEGIN; SET LOCAL hnsw.ef_search = {int(EF_SEARCH)}; "
+         f"SELECT id, content, (embedding <=> '{literal}'::vector) AS distance "
+         f"FROM documents ORDER BY embedding <=> '{literal}'::vector LIMIT {int(k)}; COMMIT")
 
     def run(conn: psycopg.Connection) -> list[dict]:
-        with conn.transaction():
-            with conn.cursor() as cur:
-                cur.execute(f"SET LOCAL hnsw.ef_search = {EF_SEARCH}")
-                cur.execute(SQL, {"v": literal, "k": k})
-                return [{"id": r[0], "content": r[1], "similarity": 1 - float(r[2])} for r in cur.fetchall()]
+        with conn.cursor() as cur:
+            cur.execute(q)
+            while cur.description is None and cur.nextset():
+                pass
+            rows = cur.fetchall()
+            while cur.nextset():  # drain COMMIT
+                pass
+            return [{"id": r[0], "content": r[1], "similarity": 1 - float(r[2])} for r in rows]
 
     if pool is not None:
         with pool.connection() as conn:
             return run(conn)
-    with psycopg.connect(DATABASE_URL) as conn:  # fresh TCP+TLS+auth per request
+    with psycopg.connect(DATABASE_URL, autocommit=True) as conn:  # fresh TCP+TLS+auth per request
         return run(conn)
 
 

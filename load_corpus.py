@@ -65,12 +65,29 @@ def embed_all(model, texts: list[str], batch: int = 32) -> np.ndarray:
 def binary_copy(conn: psycopg.Connection, texts: list[str], vecs: np.ndarray) -> None:
     """pgvector binary format per value: int16 dim, int16 unused(0), then dim x float4 BE."""
     hdr = struct.pack(">hh", DIM, 0)
+    from psycopg.adapt import Dumper
+    from psycopg.pq import Format
+    from psycopg.types import TypeInfo
+    info = TypeInfo.fetch(conn, "vector")
+    info.register(conn)  # make the extension type known to the driver
+
+    class VectorBytes(bytes):
+        """Already-encoded pgvector binary value (int16 dim, int16 unused, float4 BE x dim)."""
+
+    class VectorBinaryDumper(Dumper):
+        format = Format.BINARY
+        oid = info.oid
+
+        def dump(self, obj):  # bytes pass straight through
+            return bytes(obj)
+
+    conn.adapters.register_dumper(VectorBytes, VectorBinaryDumper)
     with conn.cursor() as cur:
         with cur.copy("COPY documents (content, embedding) FROM STDIN WITH (FORMAT BINARY)") as cp:
             cp.set_types(["text", "vector"])
             be = vecs.astype(">f4")
             for i, text in enumerate(texts):
-                cp.write_row([text, hdr + be[i].tobytes()])
+                cp.write_row([text, VectorBytes(hdr + be[i].tobytes())])
 
 
 def main() -> None:

@@ -1,29 +1,29 @@
 #!/usr/bin/env bash
 # Run the full topology matrix from ONE probe location. Copy probe.py + this file to each VM.
-#   REGION=sydney ./run_matrix.sh
-# Fill the URLs below (or export them) before running. Leave a URL empty to skip that topology.
-set -euo pipefail
+#   REGION=sydney ROT=1 ./run_matrix.sh
+# ROT rotates the topology order so that concurrent regions do not all hit the CPU-bound
+# centralized baseline at the same moment. Leave a URL empty to skip that topology.
+set -uo pipefail
 REGION="${REGION:?set REGION, e.g. sydney}"
 N="${N:-300}"
+ROT="${ROT:-0}"
+INTERVAL="${INTERVAL:-0.5}"
 OUT="results/${REGION}.csv"
 
-CENTRAL_URL="${CENTRAL_URL:-}"              # https://central.example.com  (baseline/server.py, POOL=1)
-CENTRAL_UNPOOLED_URL="${CENTRAL_UNPOOLED_URL:-}"   # same server with POOL=0 (optional)
-EDGE_UNPOOLED_URL="${EDGE_UNPOOLED_URL:-}"  # https://edge-rag-unpooled.<acct>.workers.dev
-EDGE_POOLED_URL="${EDGE_POOLED_URL:-}"      # https://edge-rag-pooled.<acct>.workers.dev
-EDGE_REPLICA_URL="${EDGE_REPLICA_URL:-}"    # https://edge-rag-replica.<acct>.workers.dev
-VECTORIZE_URL="${VECTORIZE_URL:-}"          # optional vendor-default stack
+LABELS=(centralized edge-pooled edge-replica edge-unpooled central-tunnel)
+URLS=("${CENTRAL_URL:-}" "${EDGE_POOLED_URL:-}" "${EDGE_REPLICA_URL:-}" "${EDGE_UNPOOLED_URL:-}" "${CENTRAL_TUNNEL_URL:-}")
+K=${#LABELS[@]}
 
-run() { [ -n "$2" ] && python3 probe.py --target "$2" --label "$1" --region "$REGION" --n "$N" --mode both --out "$OUT" || echo "[skip] $1"; }
-
-# Interleave topologies in two passes so time-of-day drift affects all of them equally.
 for pass in 1 2; do
-  echo "=== pass $pass ==="
-  run centralized          "$CENTRAL_URL"
-  run edge-pooled          "$EDGE_POOLED_URL"
-  run edge-replica         "$EDGE_REPLICA_URL"
-  run edge-unpooled        "$EDGE_UNPOOLED_URL"
-  run centralized-unpooled "$CENTRAL_UNPOOLED_URL"
-  run vectorize            "$VECTORIZE_URL"
+  echo "=== $(date -u +%FT%TZ) pass $pass (rotation $ROT)"
+  for j in $(seq 0 $((K-1))); do
+    i=$(( (j + ROT) % K ))
+    if [ -n "${URLS[$i]}" ]; then
+      python3 probe.py --target "${URLS[$i]}" --label "${LABELS[$i]}" --region "$REGION" --n "$N" \
+        --mode both --interval "$INTERVAL" --out "$OUT" || echo "[warn] ${LABELS[$i]} failed"
+    else
+      echo "[skip] ${LABELS[$i]}"
+    fi
+  done
 done
-echo "done -> $OUT ; copy it back and run: python3 analyze.py results/*.csv"
+echo "=== $(date -u +%FT%TZ) MATRIX DONE -> $OUT"

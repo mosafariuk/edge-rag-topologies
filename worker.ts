@@ -133,19 +133,19 @@ export default {
       const embedding = await embedQuery(env, query);
       timing.embed = Date.now() - tEmbed;
 
-      // 3. Cosine ANN search. The SET LOCAL and the SELECT run inside ONE transaction so the
-      //    ef_search operating point actually applies to this query (see header note).
+      // 3. Cosine ANN search. SET LOCAL must share a transaction with the SELECT (see header),
+      //    and through a transaction-mode pooler every statement is a round trip to the origin:
+      //    measured 4 x ~80 ms from London for BEGIN / SET / SELECT / COMMIT sent separately.
+      //    So all four are sent as ONE simple-protocol query string. Only numbers are inlined:
+      //    the vector literal is validated as finite floats and topK/efSearch are clamped ints.
       const literal = toVectorLiteral(embedding);
       const tSearch = Date.now();
-      const rows = await sql.begin(async (tx) => {
-        await tx.unsafe(`SET LOCAL hnsw.ef_search = ${efSearch}`);
-        return tx<RetrievedChunk[]>`
-          SELECT id, content, (embedding <=> ${literal}::vector) AS distance
-          FROM documents
-          ORDER BY embedding <=> ${literal}::vector
-          LIMIT ${topK}
-        `;
-      });
+      const multi = await sql.unsafe(
+        `BEGIN; SET LOCAL hnsw.ef_search = ${efSearch}; ` +
+        `SELECT id, content, (embedding <=> '${literal}'::vector) AS distance ` +
+        `FROM documents ORDER BY embedding <=> '${literal}'::vector LIMIT ${topK}; COMMIT`,
+      );
+      const rows = pickRows<RetrievedChunk>(multi);
       timing.search = Date.now() - tSearch;
       timing.total = Date.now() - tStart;
 
@@ -160,7 +160,7 @@ export default {
           efSearch,
           timingMs: timing,
           results: rows.map((r) => ({
-            id: r.id,
+            id: Number(r.id),
             content: r.content,
             similarity: 1 - Number(r.distance),
           })),
@@ -182,7 +182,11 @@ export default {
 
 /** Generate a 768-dim embedding at the edge; validate dimensionality defensively. */
 async function embedQuery(env: Env, text: string): Promise<number[]> {
-  const out = (await env.AI.run(EMBEDDING_MODEL, { text: [text] })) as { data?: number[][] };
+  // Workers AI defaults to mean pooling for bge models; the model's reference pooling (and what
+  // sentence-transformers uses for the corpus) is CLS. Mismatched pooling changes the ranking.
+  const out = (await env.AI.run(EMBEDDING_MODEL, { text: [text], pooling: "cls" } as never)) as {
+    data?: number[][];
+  };
   const vec = out?.data?.[0];
   if (!Array.isArray(vec) || vec.length !== EMBEDDING_DIM) {
     throw new Error(`Embedding model returned ${vec?.length ?? "no"} dims; expected ${EMBEDDING_DIM}`);
@@ -190,9 +194,25 @@ async function embedQuery(env: Env, text: string): Promise<number[]> {
   return vec;
 }
 
-/** pgvector accepts a bracketed, comma-separated literal, e.g. "[0.1,0.2,...]". */
+/** pgvector accepts a bracketed, comma-separated literal, e.g. "[0.1,0.2,...]". Only finite
+ *  numbers are emitted, so the literal is safe to inline in a query string. */
 function toVectorLiteral(vec: number[]): string {
+  if (!vec.every((x) => typeof x === "number" && Number.isFinite(x))) {
+    throw new Error("Embedding contains non-finite values");
+  }
   return `[${vec.join(",")}]`;
+}
+
+/** A multi-statement `sql.unsafe` returns one result set per statement; take the SELECT's. */
+function pickRows<T>(res: unknown): T[] {
+  const sets = Array.isArray(res) && res.length > 0 && Array.isArray(res[0]) ? (res as unknown[][]) : [res as unknown[]];
+  for (let i = sets.length - 1; i >= 0; i--) {
+    const r = sets[i];
+    if (Array.isArray(r) && r.length > 0 && typeof r[0] === "object" && r[0] !== null && "content" in (r[0] as object)) {
+      return r as T[];
+    }
+  }
+  return [];
 }
 
 /** Parse an integer-like value, falling back to `dflt`, and clamp to [lo, hi]. */
