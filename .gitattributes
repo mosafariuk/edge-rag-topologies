@@ -1,2 +1,4 @@
 results/*.csv -text
 results/run.log -text
+probe/results/*.csv -text
+probe/results_partial/*.csv -text
