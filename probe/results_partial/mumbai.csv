@@ -1,0 +1,243 @@
+ts,region,topology,mode,i,status,wall_ms,connect_ms,st_embed,st_search,st_total,colo,server_topology,n_results,tcp_rtt_ms,query
+2026-10-01T01:20:58+00:00,mumbai,edge-unpooled,cold,0,200,2806.62,12.25,42.0,2731.0,2773.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:21:02+00:00,mumbai,edge-unpooled,cold,1,200,3354.81,13.44,433.0,2859.0,3292.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:21:06+00:00,mumbai,edge-unpooled,cold,2,200,2755.7,7.56,25.0,2708.0,2733.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:21:09+00:00,mumbai,edge-unpooled,cold,3,200,2666.85,5.85,25.0,2626.0,2651.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:21:12+00:00,mumbai,edge-unpooled,cold,4,200,2768.18,10.69,130.0,2613.0,2743.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:21:15+00:00,mumbai,edge-unpooled,cold,5,200,2719.28,10.24,36.0,2657.0,2693.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:21:18+00:00,mumbai,edge-unpooled,cold,6,200,2267.25,9.5,30.0,2213.0,2243.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:21:21+00:00,mumbai,edge-unpooled,cold,7,200,2665.63,12.01,68.0,2565.0,2633.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:21:25+00:00,mumbai,edge-unpooled,cold,8,200,3194.06,12.27,322.0,2810.0,3132.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:21:28+00:00,mumbai,edge-unpooled,cold,9,200,2817.81,9.16,55.0,2737.0,2792.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:21:31+00:00,mumbai,edge-unpooled,cold,10,200,2566.14,12.96,46.0,2486.0,2532.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:21:34+00:00,mumbai,edge-unpooled,cold,11,200,2627.06,10.0,59.0,2543.0,2602.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:21:37+00:00,mumbai,edge-unpooled,cold,12,200,2516.7,11.46,45.0,2434.0,2479.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:21:41+00:00,mumbai,edge-unpooled,cold,13,200,2725.18,10.82,104.0,2596.0,2700.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:21:44+00:00,mumbai,edge-unpooled,cold,14,200,2742.63,9.76,44.0,2676.0,2720.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:21:47+00:00,mumbai,edge-unpooled,cold,15,200,2554.21,11.27,57.0,2465.0,2522.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:21:50+00:00,mumbai,edge-unpooled,cold,16,200,2772.1,10.74,135.0,2609.0,2744.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:21:54+00:00,mumbai,edge-unpooled,cold,17,200,2778.86,6.74,140.0,2613.0,2753.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:21:57+00:00,mumbai,edge-unpooled,cold,18,200,2651.89,10.52,23.0,2605.0,2628.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:22:00+00:00,mumbai,edge-unpooled,cold,19,200,2565.08,10.78,44.0,2485.0,2529.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:22:03+00:00,mumbai,edge-unpooled,cold,20,200,2737.41,13.13,65.0,2637.0,2702.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:22:06+00:00,mumbai,edge-unpooled,cold,21,200,2615.97,10.49,103.0,2487.0,2590.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:22:09+00:00,mumbai,edge-unpooled,cold,22,200,2659.31,11.37,43.0,2586.0,2629.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:22:13+00:00,mumbai,edge-unpooled,cold,23,200,2716.72,9.29,24.0,2670.0,2694.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:22:15+00:00,mumbai,edge-unpooled,cold,24,200,2368.1,9.49,49.0,2296.0,2345.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:18+00:00,mumbai,edge-unpooled,cold,25,200,2533.97,11.9,59.0,2441.0,2500.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:22+00:00,mumbai,edge-unpooled,cold,26,200,2660.9,10.55,32.0,2604.0,2636.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:22:25+00:00,mumbai,edge-unpooled,cold,27,200,2716.73,10.15,52.0,2640.0,2692.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:28+00:00,mumbai,edge-unpooled,cold,28,200,2845.98,10.75,69.0,2752.0,2821.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:22:31+00:00,mumbai,edge-unpooled,cold,29,200,2700.67,13.06,53.0,2611.0,2664.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:22:35+00:00,mumbai,edge-unpooled,cold,30,200,2652.13,8.47,41.0,2586.0,2627.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:22:38+00:00,mumbai,edge-unpooled,cold,31,200,2626.03,13.27,66.0,2528.0,2594.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:41+00:00,mumbai,edge-unpooled,cold,32,200,2707.76,7.24,52.0,2632.0,2684.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:22:44+00:00,mumbai,edge-unpooled,cold,33,200,2525.34,7.75,59.0,2450.0,2509.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:47+00:00,mumbai,edge-unpooled,cold,34,200,2629.92,9.07,88.0,2509.0,2597.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:22:50+00:00,mumbai,edge-unpooled,cold,35,200,2595.68,11.54,35.0,2529.0,2564.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:22:53+00:00,mumbai,edge-unpooled,cold,36,200,2366.46,9.11,150.0,2192.0,2342.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:22:56+00:00,mumbai,edge-unpooled,cold,37,200,2720.56,10.93,34.0,2652.0,2686.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:22:59+00:00,mumbai,edge-unpooled,cold,38,200,2614.39,9.97,28.0,2563.0,2591.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:23:03+00:00,mumbai,edge-unpooled,cold,39,200,2750.52,12.97,56.0,2656.0,2712.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:23:06+00:00,mumbai,edge-unpooled,cold,40,200,2506.54,9.94,29.0,2454.0,2483.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:23:09+00:00,mumbai,edge-unpooled,cold,41,200,2447.32,9.61,26.0,2387.0,2413.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:23:12+00:00,mumbai,edge-unpooled,cold,42,200,2719.17,9.95,71.0,2623.0,2694.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:23:15+00:00,mumbai,edge-unpooled,cold,43,200,2645.62,9.54,24.0,2598.0,2622.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:23:18+00:00,mumbai,edge-unpooled,cold,44,200,2782.17,10.64,41.0,2704.0,2745.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:23:21+00:00,mumbai,edge-unpooled,cold,45,200,2665.86,10.68,42.0,2597.0,2639.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:23:25+00:00,mumbai,edge-unpooled,cold,46,200,2564.52,5.99,25.0,2526.0,2551.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:23:28+00:00,mumbai,edge-unpooled,cold,47,200,2710.9,7.02,89.0,2600.0,2689.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:23:31+00:00,mumbai,edge-unpooled,cold,48,200,2736.04,10.48,90.0,2623.0,2713.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:23:34+00:00,mumbai,edge-unpooled,cold,49,200,2665.24,10.2,44.0,2587.0,2631.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:23:37+00:00,mumbai,edge-unpooled,cold,50,200,2706.14,11.63,89.0,2591.0,2680.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:23:41+00:00,mumbai,edge-unpooled,cold,51,200,2752.98,8.07,109.0,2618.0,2727.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:23:44+00:00,mumbai,edge-unpooled,cold,52,200,2647.27,11.15,57.0,2557.0,2614.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:23:47+00:00,mumbai,edge-unpooled,cold,53,200,2591.76,8.5,33.0,2538.0,2571.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:23:50+00:00,mumbai,edge-unpooled,cold,54,200,2700.98,8.63,57.0,2619.0,2676.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:23:53+00:00,mumbai,edge-unpooled,cold,55,200,2481.64,9.76,31.0,2428.0,2459.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:23:56+00:00,mumbai,edge-unpooled,cold,56,200,2651.83,9.39,44.0,2584.0,2628.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:00+00:00,mumbai,edge-unpooled,cold,57,200,2766.54,11.73,96.0,2635.0,2731.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:24:03+00:00,mumbai,edge-unpooled,cold,58,200,2533.76,5.71,51.0,2467.0,2518.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:24:06+00:00,mumbai,edge-unpooled,cold,59,200,2637.01,10.46,48.0,2565.0,2613.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:24:09+00:00,mumbai,edge-unpooled,cold,60,200,2805.62,12.47,118.0,2652.0,2770.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:24:12+00:00,mumbai,edge-unpooled,cold,61,200,2536.26,7.37,33.0,2482.0,2515.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:24:15+00:00,mumbai,edge-unpooled,cold,62,200,2715.25,7.15,92.0,2609.0,2701.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:24:19+00:00,mumbai,edge-unpooled,cold,63,200,2780.96,11.79,49.0,2698.0,2747.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:24:22+00:00,mumbai,edge-unpooled,cold,64,200,2614.51,9.98,32.0,2557.0,2589.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:24:25+00:00,mumbai,edge-unpooled,cold,65,200,2726.09,8.17,44.0,2658.0,2702.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:24:28+00:00,mumbai,edge-unpooled,cold,66,200,2701.17,9.77,58.0,2621.0,2679.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:24:31+00:00,mumbai,edge-unpooled,cold,67,200,2641.69,6.7,40.0,2586.0,2626.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:24:35+00:00,mumbai,edge-unpooled,cold,68,200,2756.63,6.07,23.0,2720.0,2743.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:24:38+00:00,mumbai,edge-unpooled,cold,69,200,2611.46,12.89,51.0,2528.0,2579.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:24:41+00:00,mumbai,edge-unpooled,cold,70,200,2659.62,7.78,46.0,2588.0,2634.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:24:44+00:00,mumbai,edge-unpooled,cold,71,200,2629.52,8.15,50.0,2557.0,2607.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:47+00:00,mumbai,edge-unpooled,cold,72,200,2227.4,6.27,46.0,2165.0,2211.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:24:50+00:00,mumbai,edge-unpooled,cold,73,200,2705.99,9.93,33.0,2650.0,2683.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:53+00:00,mumbai,edge-unpooled,cold,74,200,2600.94,8.63,132.0,2446.0,2578.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:24:56+00:00,mumbai,edge-unpooled,cold,75,200,2684.18,10.02,87.0,2571.0,2658.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:24:59+00:00,mumbai,edge-unpooled,cold,76,200,2633.03,9.6,42.0,2565.0,2607.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:25:02+00:00,mumbai,edge-unpooled,cold,77,200,2648.54,9.65,24.0,2599.0,2623.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:25:06+00:00,mumbai,edge-unpooled,cold,78,200,2721.87,11.02,56.0,2629.0,2685.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:25:09+00:00,mumbai,edge-unpooled,cold,79,200,2431.74,10.89,30.0,2376.0,2406.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:25:12+00:00,mumbai,edge-unpooled,cold,80,200,2644.67,8.27,46.0,2576.0,2622.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:25:15+00:00,mumbai,edge-unpooled,cold,81,200,2689.93,11.96,108.0,2552.0,2660.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:25:18+00:00,mumbai,edge-unpooled,cold,82,200,2571.0,9.72,104.0,2442.0,2546.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:25:21+00:00,mumbai,edge-unpooled,cold,83,200,2460.44,11.72,64.0,2372.0,2436.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:25:24+00:00,mumbai,edge-unpooled,cold,84,200,2610.05,11.27,91.0,2496.0,2587.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:25:27+00:00,mumbai,edge-unpooled,cold,85,200,2434.99,9.03,96.0,2314.0,2410.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:25:30+00:00,mumbai,edge-unpooled,cold,86,200,2613.54,22.85,35.0,2545.0,2580.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:25:33+00:00,mumbai,edge-unpooled,cold,87,200,2625.13,9.23,29.0,2574.0,2603.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:25:36+00:00,mumbai,edge-unpooled,cold,88,200,2636.42,7.98,45.0,2573.0,2618.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:25:40+00:00,mumbai,edge-unpooled,cold,89,200,2538.2,11.53,26.0,2475.0,2501.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:43+00:00,mumbai,edge-unpooled,cold,90,200,2694.79,11.04,44.0,2626.0,2670.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:25:46+00:00,mumbai,edge-unpooled,cold,91,200,2485.17,10.04,42.0,2417.0,2459.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:25:49+00:00,mumbai,edge-unpooled,cold,92,200,2681.35,10.89,39.0,2618.0,2657.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:25:52+00:00,mumbai,edge-unpooled,cold,93,200,2634.14,10.09,25.0,2586.0,2611.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:55+00:00,mumbai,edge-unpooled,cold,94,200,2781.3,10.57,55.0,2697.0,2752.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:25:59+00:00,mumbai,edge-unpooled,cold,95,200,2691.59,8.27,49.0,2622.0,2671.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:26:02+00:00,mumbai,edge-unpooled,cold,96,200,2703.94,10.56,44.0,2636.0,2680.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:05+00:00,mumbai,edge-unpooled,cold,97,200,2598.48,10.33,42.0,2525.0,2567.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:26:08+00:00,mumbai,edge-unpooled,cold,98,200,2664.65,6.09,45.0,2593.0,2638.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:26:11+00:00,mumbai,edge-unpooled,cold,99,200,2639.29,8.97,42.0,2573.0,2615.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:26:14+00:00,mumbai,edge-unpooled,cold,100,200,2735.67,13.09,111.0,2587.0,2698.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:26:18+00:00,mumbai,edge-unpooled,cold,101,200,2650.9,10.22,60.0,2567.0,2627.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:26:21+00:00,mumbai,edge-unpooled,cold,102,200,2619.33,7.74,55.0,2548.0,2603.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:24+00:00,mumbai,edge-unpooled,cold,103,200,2766.95,10.77,39.0,2704.0,2743.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:26:27+00:00,mumbai,edge-unpooled,cold,104,200,2587.72,7.15,24.0,2548.0,2572.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:26:30+00:00,mumbai,edge-unpooled,cold,105,200,2706.33,13.37,46.0,2627.0,2673.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:26:33+00:00,mumbai,edge-unpooled,cold,106,200,2521.21,6.33,47.0,2452.0,2499.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:26:36+00:00,mumbai,edge-unpooled,cold,107,200,2688.4,8.71,45.0,2615.0,2660.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:26:40+00:00,mumbai,edge-unpooled,cold,108,200,2623.27,11.8,47.0,2543.0,2590.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:43+00:00,mumbai,edge-unpooled,cold,109,200,2667.38,8.96,44.0,2599.0,2643.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:46+00:00,mumbai,edge-unpooled,cold,110,200,2625.91,12.89,57.0,2535.0,2592.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:26:49+00:00,mumbai,edge-unpooled,cold,111,200,2773.68,11.18,35.0,2706.0,2741.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:26:52+00:00,mumbai,edge-unpooled,cold,112,200,2575.22,9.46,51.0,2498.0,2549.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:26:55+00:00,mumbai,edge-unpooled,cold,113,200,2504.84,6.64,45.0,2445.0,2490.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:26:58+00:00,mumbai,edge-unpooled,cold,114,200,2656.32,7.9,23.0,2611.0,2634.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:27:02+00:00,mumbai,edge-unpooled,cold,115,200,2766.56,10.93,44.0,2691.0,2735.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:05+00:00,mumbai,edge-unpooled,cold,116,200,2599.84,10.11,43.0,2531.0,2574.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:27:08+00:00,mumbai,edge-unpooled,cold,117,200,2715.9,11.09,57.0,2625.0,2682.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:27:11+00:00,mumbai,edge-unpooled,cold,118,200,2484.57,7.26,48.0,2421.0,2469.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:27:14+00:00,mumbai,edge-unpooled,cold,119,200,2674.71,13.21,36.0,2600.0,2636.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:18+00:00,mumbai,edge-unpooled,cold,120,200,2758.35,10.59,125.0,2600.0,2725.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:21+00:00,mumbai,edge-unpooled,cold,121,200,2808.26,15.07,97.0,2680.0,2777.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:27:24+00:00,mumbai,edge-unpooled,cold,122,200,2647.65,9.35,102.0,2521.0,2623.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:27:27+00:00,mumbai,edge-unpooled,cold,123,200,2757.56,11.71,34.0,2694.0,2728.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:30+00:00,mumbai,edge-unpooled,cold,124,200,2589.21,8.23,25.0,2540.0,2565.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:27:34+00:00,mumbai,edge-unpooled,cold,125,200,2670.73,6.79,44.0,2613.0,2657.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:27:37+00:00,mumbai,edge-unpooled,cold,126,200,2822.62,12.34,67.0,2720.0,2787.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:27:40+00:00,mumbai,edge-unpooled,cold,127,200,2663.71,13.91,49.0,2577.0,2626.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:27:43+00:00,mumbai,edge-unpooled,cold,128,200,2627.0,6.12,52.0,2562.0,2614.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:46+00:00,mumbai,edge-unpooled,cold,129,200,2793.81,7.53,43.0,2734.0,2777.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:27:50+00:00,mumbai,edge-unpooled,cold,130,200,2581.07,6.06,23.0,2543.0,2566.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:53+00:00,mumbai,edge-unpooled,cold,131,200,2571.33,11.72,55.0,2482.0,2537.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:56+00:00,mumbai,edge-unpooled,cold,132,200,2668.3,8.53,34.0,2599.0,2633.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:27:59+00:00,mumbai,edge-unpooled,cold,133,200,2693.94,8.27,43.0,2633.0,2676.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:28:02+00:00,mumbai,edge-unpooled,cold,134,200,2811.73,12.57,98.0,2670.0,2768.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:28:05+00:00,mumbai,edge-unpooled,cold,135,200,2587.84,5.32,34.0,2536.0,2570.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:28:08+00:00,mumbai,edge-unpooled,cold,136,200,2601.63,5.52,54.0,2535.0,2589.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:28:12+00:00,mumbai,edge-unpooled,cold,137,200,2722.06,8.3,43.0,2655.0,2698.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:15+00:00,mumbai,edge-unpooled,cold,138,200,2637.49,7.43,45.0,2568.0,2613.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:18+00:00,mumbai,edge-unpooled,cold,139,200,2568.73,12.49,50.0,2484.0,2534.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:21+00:00,mumbai,edge-unpooled,cold,140,200,2482.01,8.93,49.0,2410.0,2459.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:28:24+00:00,mumbai,edge-unpooled,cold,141,200,2554.36,12.32,47.0,2473.0,2520.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:27+00:00,mumbai,edge-unpooled,cold,142,200,2568.97,9.99,46.0,2499.0,2545.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:28:30+00:00,mumbai,edge-unpooled,cold,143,200,2724.74,11.53,57.0,2635.0,2692.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:28:33+00:00,mumbai,edge-unpooled,cold,144,200,2641.84,13.67,57.0,2549.0,2606.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:28:36+00:00,mumbai,edge-unpooled,cold,145,200,2324.35,8.05,50.0,2251.0,2301.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:28:39+00:00,mumbai,edge-unpooled,cold,146,200,2659.33,9.49,45.0,2591.0,2636.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:28:43+00:00,mumbai,edge-unpooled,cold,147,200,2765.74,10.3,95.0,2635.0,2730.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:28:46+00:00,mumbai,edge-unpooled,cold,148,200,2595.21,9.38,37.0,2534.0,2571.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:49+00:00,mumbai,edge-unpooled,cold,149,200,2750.2,11.11,47.0,2678.0,2725.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:28:52+00:00,mumbai,edge-unpooled,cold,150,200,2583.03,9.85,46.0,2513.0,2559.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:28:55+00:00,mumbai,edge-unpooled,cold,151,200,2440.62,7.41,28.0,2396.0,2424.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:28:58+00:00,mumbai,edge-unpooled,cold,152,200,2703.24,7.6,48.0,2640.0,2688.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:29:01+00:00,mumbai,edge-unpooled,cold,153,200,2674.92,11.67,40.0,2604.0,2644.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:29:05+00:00,mumbai,edge-unpooled,cold,154,200,2705.13,7.71,29.0,2660.0,2689.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:29:08+00:00,mumbai,edge-unpooled,cold,155,200,2678.62,11.6,70.0,2574.0,2644.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:29:11+00:00,mumbai,edge-unpooled,cold,156,200,2763.12,9.29,42.0,2700.0,2742.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:29:14+00:00,mumbai,edge-unpooled,cold,157,200,2422.51,12.1,57.0,2332.0,2389.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:29:17+00:00,mumbai,edge-unpooled,cold,158,200,2770.91,9.79,37.0,2705.0,2742.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:29:21+00:00,mumbai,edge-unpooled,cold,159,200,2966.97,11.43,106.0,2829.0,2935.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:29:24+00:00,mumbai,edge-unpooled,cold,160,200,2638.18,6.74,43.0,2575.0,2618.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:29:27+00:00,mumbai,edge-unpooled,cold,161,200,2715.16,7.9,96.0,2603.0,2699.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:29:30+00:00,mumbai,edge-unpooled,cold,162,200,2598.98,5.1,93.0,2491.0,2584.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:29:34+00:00,mumbai,edge-unpooled,cold,163,200,2795.18,10.02,86.0,2685.0,2771.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:29:37+00:00,mumbai,edge-unpooled,cold,164,200,2691.51,12.66,33.0,2622.0,2655.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:29:40+00:00,mumbai,edge-unpooled,cold,165,200,2592.07,11.78,50.0,2510.0,2560.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:29:43+00:00,mumbai,edge-unpooled,cold,166,200,2529.24,7.7,27.0,2483.0,2510.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:46+00:00,mumbai,edge-unpooled,cold,167,200,2634.44,11.42,99.0,2502.0,2601.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:29:49+00:00,mumbai,edge-unpooled,cold,168,200,2409.29,5.83,42.0,2355.0,2397.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:29:52+00:00,mumbai,edge-unpooled,cold,169,200,2550.78,6.73,30.0,2499.0,2529.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:29:55+00:00,mumbai,edge-unpooled,cold,170,200,2527.66,6.94,43.0,2469.0,2512.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:29:58+00:00,mumbai,edge-unpooled,cold,171,200,2621.92,8.17,23.0,2574.0,2597.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:30:01+00:00,mumbai,edge-unpooled,cold,172,200,2731.71,12.36,118.0,2580.0,2698.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:30:05+00:00,mumbai,edge-unpooled,cold,173,200,2613.82,12.31,61.0,2512.0,2573.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:30:08+00:00,mumbai,edge-unpooled,cold,174,200,2680.08,7.46,93.0,2570.0,2663.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:11+00:00,mumbai,edge-unpooled,cold,175,200,2738.65,12.83,98.0,2607.0,2705.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:30:14+00:00,mumbai,edge-unpooled,cold,176,200,2656.38,7.52,99.0,2541.0,2640.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:30:17+00:00,mumbai,edge-unpooled,cold,177,200,2616.82,13.78,36.0,2546.0,2582.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:30:21+00:00,mumbai,edge-unpooled,cold,178,200,2863.88,9.37,127.0,2718.0,2845.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:30:24+00:00,mumbai,edge-unpooled,cold,179,200,2754.42,12.35,55.0,2663.0,2718.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:30:27+00:00,mumbai,edge-unpooled,cold,180,200,2661.66,11.92,93.0,2534.0,2627.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:30:30+00:00,mumbai,edge-unpooled,cold,181,200,2744.09,10.71,101.0,2611.0,2712.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:30:33+00:00,mumbai,edge-unpooled,cold,182,200,2519.54,25.2,38.0,2435.0,2473.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:30:37+00:00,mumbai,edge-unpooled,cold,183,200,2633.39,12.77,88.0,2518.0,2606.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:30:40+00:00,mumbai,edge-unpooled,cold,184,200,2776.38,12.8,53.0,2687.0,2740.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:43+00:00,mumbai,edge-unpooled,cold,185,200,2680.42,6.78,40.0,2627.0,2667.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:46+00:00,mumbai,edge-unpooled,cold,186,200,2667.25,10.37,56.0,2587.0,2643.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:30:49+00:00,mumbai,edge-unpooled,cold,187,200,2615.76,6.29,60.0,2540.0,2600.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:30:53+00:00,mumbai,edge-unpooled,cold,188,200,2829.17,10.03,91.0,2713.0,2804.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:30:56+00:00,mumbai,edge-unpooled,cold,189,200,2619.97,6.33,24.0,2581.0,2605.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:30:59+00:00,mumbai,edge-unpooled,cold,190,200,2724.23,10.86,44.0,2656.0,2700.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:31:02+00:00,mumbai,edge-unpooled,cold,191,200,2594.94,10.34,95.0,2465.0,2560.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:31:05+00:00,mumbai,edge-unpooled,cold,192,200,2798.2,10.77,93.0,2668.0,2761.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:31:08+00:00,mumbai,edge-unpooled,cold,193,200,2521.12,13.49,39.0,2445.0,2484.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:31:12+00:00,mumbai,edge-unpooled,cold,194,200,2864.26,10.24,96.0,2745.0,2841.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:31:15+00:00,mumbai,edge-unpooled,cold,195,200,2756.08,12.67,32.0,2691.0,2723.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:31:18+00:00,mumbai,edge-unpooled,cold,196,200,2629.38,6.83,25.0,2590.0,2615.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:21+00:00,mumbai,edge-unpooled,cold,197,200,2498.74,9.76,44.0,2421.0,2465.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:31:24+00:00,mumbai,edge-unpooled,cold,198,200,2675.79,12.8,57.0,2582.0,2639.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:27+00:00,mumbai,edge-unpooled,cold,199,200,2546.4,8.18,46.0,2469.0,2515.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:31:31+00:00,mumbai,edge-unpooled,cold,200,200,2615.48,7.0,34.0,2560.0,2594.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:31:34+00:00,mumbai,edge-unpooled,cold,201,200,2532.23,12.92,39.0,2457.0,2496.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:37+00:00,mumbai,edge-unpooled,cold,202,200,2437.85,10.51,43.0,2371.0,2414.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:31:40+00:00,mumbai,edge-unpooled,cold,203,200,2629.97,7.57,72.0,2542.0,2614.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:43+00:00,mumbai,edge-unpooled,cold,204,200,2543.09,8.99,60.0,2459.0,2519.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:31:46+00:00,mumbai,edge-unpooled,cold,205,200,2514.03,11.7,26.0,2451.0,2477.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:31:49+00:00,mumbai,edge-unpooled,cold,206,200,2604.36,7.89,42.0,2546.0,2588.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:31:52+00:00,mumbai,edge-unpooled,cold,207,200,2610.57,7.68,45.0,2549.0,2594.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:31:55+00:00,mumbai,edge-unpooled,cold,208,200,2500.43,7.35,51.0,2433.0,2484.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:31:58+00:00,mumbai,edge-unpooled,cold,209,200,2645.38,10.74,57.0,2554.0,2611.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:01+00:00,mumbai,edge-unpooled,cold,210,200,2653.68,9.14,56.0,2570.0,2626.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:32:04+00:00,mumbai,edge-unpooled,cold,211,200,2578.67,11.93,46.0,2499.0,2545.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:32:07+00:00,mumbai,edge-unpooled,cold,212,200,2455.88,7.73,28.0,2408.0,2436.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:32:11+00:00,mumbai,edge-unpooled,cold,213,200,2693.06,10.99,50.0,2616.0,2666.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:14+00:00,mumbai,edge-unpooled,cold,214,200,2603.06,8.01,26.0,2557.0,2583.0,BOM,edge-unpooled,5,0.99,what limits the recall of an HNSW index
+2026-10-01T01:32:17+00:00,mumbai,edge-unpooled,cold,215,200,2623.77,7.63,52.0,2553.0,2605.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:20+00:00,mumbai,edge-unpooled,cold,216,200,2511.79,16.64,48.0,2425.0,2473.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:32:23+00:00,mumbai,edge-unpooled,cold,217,200,2540.58,11.0,51.0,2458.0,2509.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:32:26+00:00,mumbai,edge-unpooled,cold,218,200,2452.87,12.28,39.0,2381.0,2420.0,BOM,edge-unpooled,5,0.99,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:29+00:00,mumbai,edge-unpooled,cold,219,200,2759.03,6.31,45.0,2699.0,2744.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:32:32+00:00,mumbai,edge-unpooled,cold,220,200,2636.24,7.3,23.0,2598.0,2621.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:32:35+00:00,mumbai,edge-unpooled,cold,221,200,2698.82,6.9,63.0,2620.0,2683.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:32:39+00:00,mumbai,edge-unpooled,cold,222,200,2695.16,6.34,104.0,2578.0,2682.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:32:42+00:00,mumbai,edge-unpooled,cold,223,200,2612.8,6.65,24.0,2572.0,2596.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:32:45+00:00,mumbai,edge-unpooled,cold,224,200,2387.08,6.43,46.0,2326.0,2372.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:32:48+00:00,mumbai,edge-unpooled,cold,225,200,2673.3,9.82,50.0,2600.0,2650.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:32:51+00:00,mumbai,edge-unpooled,cold,226,200,2614.24,8.09,37.0,2558.0,2595.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured
+2026-10-01T01:32:54+00:00,mumbai,edge-unpooled,cold,227,200,2644.83,12.04,47.0,2561.0,2608.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:32:57+00:00,mumbai,edge-unpooled,cold,228,200,2699.15,9.84,133.0,2541.0,2674.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:33:00+00:00,mumbai,edge-unpooled,cold,229,200,2683.96,6.51,43.0,2625.0,2668.0,BOM,edge-unpooled,5,0.99,how do read replicas affect data freshness
+2026-10-01T01:33:04+00:00,mumbai,edge-unpooled,cold,230,200,2812.17,9.6,110.0,2666.0,2776.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:33:07+00:00,mumbai,edge-unpooled,cold,231,200,2494.24,6.34,49.0,2419.0,2468.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:33:10+00:00,mumbai,edge-unpooled,cold,232,200,3071.74,11.93,104.0,2934.0,3038.0,BOM,edge-unpooled,5,0.99,why are container cold starts slow
+2026-10-01T01:33:13+00:00,mumbai,edge-unpooled,cold,233,200,2616.36,6.56,35.0,2566.0,2601.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:33:17+00:00,mumbai,edge-unpooled,cold,234,200,2673.39,7.47,41.0,2601.0,2642.0,BOM,edge-unpooled,5,0.99,what is the cold start time of a V8 isolate
+2026-10-01T01:33:20+00:00,mumbai,edge-unpooled,cold,235,200,2939.35,12.88,71.0,2833.0,2904.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:33:23+00:00,mumbai,edge-unpooled,cold,236,200,2567.84,10.83,31.0,2508.0,2539.0,BOM,edge-unpooled,5,0.99,how does connection pooling reduce database latency
+2026-10-01T01:33:26+00:00,mumbai,edge-unpooled,cold,237,200,2625.87,7.86,62.0,2547.0,2609.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:33:29+00:00,mumbai,edge-unpooled,cold,238,200,2646.39,6.88,26.0,2605.0,2631.0,BOM,edge-unpooled,5,0.99,what does ef_search control in pgvector
+2026-10-01T01:33:33+00:00,mumbai,edge-unpooled,cold,239,200,2822.52,11.44,47.0,2746.0,2793.0,BOM,edge-unpooled,5,0.99,how much memory does a 768-dimensional vector index need
+2026-10-01T01:33:36+00:00,mumbai,edge-unpooled,cold,240,200,2602.12,14.79,35.0,2533.0,2568.0,BOM,edge-unpooled,5,0.99,when does edge computing reduce time to first token
+2026-10-01T01:33:39+00:00,mumbai,edge-unpooled,cold,241,200,2666.68,6.76,49.0,2603.0,2652.0,BOM,edge-unpooled,5,0.99,how is recall at ten measured

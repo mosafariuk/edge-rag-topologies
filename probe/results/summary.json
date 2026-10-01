@@ -1,0 +1,1062 @@
+[
+  {
+    "region": "london",
+    "topology": "central-tunnel",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 205.4,
+    "wall_p50_ci95": [
+      203.9,
+      207.2
+    ],
+    "wall_p95": 338.5,
+    "connect_p50": 8.9,
+    "net_p50": 110.7,
+    "embed_p50": 85.0,
+    "search_p50": 5.0,
+    "server_total_p50": 90.0,
+    "tcp_rtt_ms": 1.89,
+    "colos": []
+  },
+  {
+    "region": "london",
+    "topology": "central-tunnel",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 187.0,
+    "wall_p50_ci95": [
+      184.0,
+      188.6
+    ],
+    "wall_p95": 295.2,
+    "connect_p50": 0.0,
+    "net_p50": 91.9,
+    "embed_p50": 87.0,
+    "search_p50": 5.0,
+    "server_total_p50": 92.0,
+    "tcp_rtt_ms": 1.89,
+    "colos": []
+  },
+  {
+    "region": "london",
+    "topology": "centralized",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 327.0,
+    "wall_p50_ci95": [
+      324.8,
+      329.8
+    ],
+    "wall_p95": 408.8,
+    "connect_p50": 155.8,
+    "net_p50": 233.7,
+    "embed_p50": 89.0,
+    "search_p50": 5.0,
+    "server_total_p50": 94.0,
+    "tcp_rtt_ms": 76.94,
+    "colos": []
+  },
+  {
+    "region": "london",
+    "topology": "centralized",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 166.8,
+    "wall_p50_ci95": [
+      166.1,
+      167.7
+    ],
+    "wall_p95": 233.3,
+    "connect_p50": 0.0,
+    "net_p50": 78.1,
+    "embed_p50": 84.0,
+    "search_p50": 4.0,
+    "server_total_p50": 89.0,
+    "tcp_rtt_ms": 76.94,
+    "colos": []
+  },
+  {
+    "region": "london",
+    "topology": "edge-pooled",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 169.6,
+    "wall_p50_ci95": [
+      168.2,
+      171.3
+    ],
+    "wall_p95": 205.2,
+    "connect_p50": 12.3,
+    "net_p50": 30.3,
+    "embed_p50": 39.0,
+    "search_p50": 99.0,
+    "server_total_p50": 139.0,
+    "tcp_rtt_ms": 2.66,
+    "colos": [
+      "LHR"
+    ]
+  },
+  {
+    "region": "london",
+    "topology": "edge-pooled",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 150.3,
+    "wall_p50_ci95": [
+      149.2,
+      151.7
+    ],
+    "wall_p95": 169.0,
+    "connect_p50": 0.0,
+    "net_p50": 12.3,
+    "embed_p50": 39.0,
+    "search_p50": 98.0,
+    "server_total_p50": 137.0,
+    "tcp_rtt_ms": 2.66,
+    "colos": [
+      "LHR"
+    ]
+  },
+  {
+    "region": "london",
+    "topology": "edge-replica",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 416.6,
+    "wall_p50_ci95": [
+      414.7,
+      418.9
+    ],
+    "wall_p95": 449.5,
+    "connect_p50": 11.6,
+    "net_p50": 27.8,
+    "embed_p50": 41.0,
+    "search_p50": 344.0,
+    "server_total_p50": 387.0,
+    "tcp_rtt_ms": 2.29,
+    "colos": [
+      "LHR"
+    ]
+  },
+  {
+    "region": "london",
+    "topology": "edge-replica",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 397.2,
+    "wall_p50_ci95": [
+      395.1,
+      398.6
+    ],
+    "wall_p95": 420.0,
+    "connect_p50": 0.0,
+    "net_p50": 9.7,
+    "embed_p50": 41.0,
+    "search_p50": 351.0,
+    "server_total_p50": 387.0,
+    "tcp_rtt_ms": 2.29,
+    "colos": [
+      "LHR"
+    ]
+  },
+  {
+    "region": "london",
+    "topology": "edge-unpooled",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 940.8,
+    "wall_p50_ci95": [
+      937.8,
+      943.0
+    ],
+    "wall_p95": 1002.4,
+    "connect_p50": 11.1,
+    "net_p50": 27.5,
+    "embed_p50": 42.0,
+    "search_p50": 873.0,
+    "server_total_p50": 914.0,
+    "tcp_rtt_ms": 2.62,
+    "colos": [
+      "LHR"
+    ]
+  },
+  {
+    "region": "london",
+    "topology": "edge-unpooled",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 922.8,
+    "wall_p50_ci95": [
+      918.5,
+      925.3
+    ],
+    "wall_p95": 947.8,
+    "connect_p50": 0.0,
+    "net_p50": 14.9,
+    "embed_p50": 46.0,
+    "search_p50": 870.0,
+    "server_total_p50": 907.0,
+    "tcp_rtt_ms": 2.62,
+    "colos": [
+      "LHR"
+    ]
+  },
+  {
+    "region": "mumbai",
+    "topology": "central-tunnel",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 319.0,
+    "wall_p50_ci95": [
+      317.4,
+      320.4
+    ],
+    "wall_p95": 439.7,
+    "connect_p50": 6.4,
+    "net_p50": 226.0,
+    "embed_p50": 84.0,
+    "search_p50": 4.0,
+    "server_total_p50": 88.0,
+    "tcp_rtt_ms": 0.89,
+    "colos": []
+  },
+  {
+    "region": "mumbai",
+    "topology": "central-tunnel",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 303.2,
+    "wall_p50_ci95": [
+      301.3,
+      305.6
+    ],
+    "wall_p95": 393.0,
+    "connect_p50": 0.0,
+    "net_p50": 210.4,
+    "embed_p50": 84.0,
+    "search_p50": 4.0,
+    "server_total_p50": 89.0,
+    "tcp_rtt_ms": 0.89,
+    "colos": []
+  },
+  {
+    "region": "mumbai",
+    "topology": "centralized",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 654.7,
+    "wall_p50_ci95": [
+      650.4,
+      656.0
+    ],
+    "wall_p95": 766.1,
+    "connect_p50": 372.2,
+    "net_p50": 558.5,
+    "embed_p50": 91.0,
+    "search_p50": 5.0,
+    "server_total_p50": 96.0,
+    "tcp_rtt_ms": 184.92,
+    "colos": []
+  },
+  {
+    "region": "mumbai",
+    "topology": "centralized",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 275.1,
+    "wall_p50_ci95": [
+      274.5,
+      276.4
+    ],
+    "wall_p95": 354.7,
+    "connect_p50": 0.0,
+    "net_p50": 186.4,
+    "embed_p50": 84.0,
+    "search_p50": 4.0,
+    "server_total_p50": 89.0,
+    "tcp_rtt_ms": 184.92,
+    "colos": []
+  },
+  {
+    "region": "mumbai",
+    "topology": "edge-pooled",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 373.1,
+    "wall_p50_ci95": [
+      370.6,
+      375.5
+    ],
+    "wall_p95": 438.7,
+    "connect_p50": 8.2,
+    "net_p50": 25.5,
+    "embed_p50": 52.0,
+    "search_p50": 294.0,
+    "server_total_p50": 346.5,
+    "tcp_rtt_ms": 0.9,
+    "colos": [
+      "BOM"
+    ]
+  },
+  {
+    "region": "mumbai",
+    "topology": "edge-pooled",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 352.8,
+    "wall_p50_ci95": [
+      351.3,
+      355.3
+    ],
+    "wall_p95": 418.0,
+    "connect_p50": 0.0,
+    "net_p50": 8.8,
+    "embed_p50": 53.0,
+    "search_p50": 294.0,
+    "server_total_p50": 344.0,
+    "tcp_rtt_ms": 0.9,
+    "colos": [
+      "BOM"
+    ]
+  },
+  {
+    "region": "mumbai",
+    "topology": "edge-replica",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 351.3,
+    "wall_p50_ci95": [
+      348.5,
+      354.8
+    ],
+    "wall_p95": 633.7,
+    "connect_p50": 8.2,
+    "net_p50": 23.3,
+    "embed_p50": 53.0,
+    "search_p50": 272.0,
+    "server_total_p50": 326.0,
+    "tcp_rtt_ms": 1.04,
+    "colos": [
+      "BOM"
+    ]
+  },
+  {
+    "region": "mumbai",
+    "topology": "edge-replica",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 410.6,
+    "wall_p50_ci95": [
+      374.5,
+      543.4
+    ],
+    "wall_p95": 652.3,
+    "connect_p50": 0.0,
+    "net_p50": 10.0,
+    "embed_p50": 52.0,
+    "search_p50": 329.5,
+    "server_total_p50": 399.0,
+    "tcp_rtt_ms": 1.04,
+    "colos": [
+      "BOM"
+    ]
+  },
+  {
+    "region": "mumbai",
+    "topology": "edge-unpooled",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 2653.9,
+    "wall_p50_ci95": [
+      2646.5,
+      2665.2
+    ],
+    "wall_p95": 2812.4,
+    "connect_p50": 8.8,
+    "net_p50": 23.4,
+    "embed_p50": 48.5,
+    "search_p50": 2579.0,
+    "server_total_p50": 2631.0,
+    "tcp_rtt_ms": 0.99,
+    "colos": [
+      "BOM"
+    ]
+  },
+  {
+    "region": "mumbai",
+    "topology": "edge-unpooled",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 2595.1,
+    "wall_p50_ci95": [
+      2583.9,
+      2615.0
+    ],
+    "wall_p95": 2762.2,
+    "connect_p50": 0.0,
+    "net_p50": 7.8,
+    "embed_p50": 51.0,
+    "search_p50": 2537.5,
+    "server_total_p50": 2586.5,
+    "tcp_rtt_ms": 0.99,
+    "colos": [
+      "BOM"
+    ]
+  },
+  {
+    "region": "saopaulo",
+    "topology": "central-tunnel",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 251.0,
+    "wall_p50_ci95": [
+      249.0,
+      252.8
+    ],
+    "wall_p95": 351.0,
+    "connect_p50": 10.2,
+    "net_p50": 157.3,
+    "embed_p50": 85.0,
+    "search_p50": 4.0,
+    "server_total_p50": 89.0,
+    "tcp_rtt_ms": 3.18,
+    "colos": []
+  },
+  {
+    "region": "saopaulo",
+    "topology": "central-tunnel",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 235.7,
+    "wall_p50_ci95": [
+      234.7,
+      236.9
+    ],
+    "wall_p95": 321.6,
+    "connect_p50": 0.0,
+    "net_p50": 143.1,
+    "embed_p50": 85.0,
+    "search_p50": 4.0,
+    "server_total_p50": 90.0,
+    "tcp_rtt_ms": 3.18,
+    "colos": []
+  },
+  {
+    "region": "saopaulo",
+    "topology": "centralized",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 435.8,
+    "wall_p50_ci95": [
+      435.1,
+      436.7
+    ],
+    "wall_p95": 540.4,
+    "connect_p50": 230.9,
+    "net_p50": 346.3,
+    "embed_p50": 84.0,
+    "search_p50": 4.0,
+    "server_total_p50": 88.0,
+    "tcp_rtt_ms": 115.06,
+    "colos": []
+  },
+  {
+    "region": "saopaulo",
+    "topology": "centralized",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 205.0,
+    "wall_p50_ci95": [
+      204.0,
+      206.2
+    ],
+    "wall_p95": 312.4,
+    "connect_p50": 0.0,
+    "net_p50": 115.7,
+    "embed_p50": 85.0,
+    "search_p50": 4.0,
+    "server_total_p50": 89.0,
+    "tcp_rtt_ms": 115.06,
+    "colos": []
+  },
+  {
+    "region": "saopaulo",
+    "topology": "edge-pooled",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 284.5,
+    "wall_p50_ci95": [
+      280.6,
+      290.7
+    ],
+    "wall_p95": 392.3,
+    "connect_p50": 12.2,
+    "net_p50": 35.0,
+    "embed_p50": 93.0,
+    "search_p50": 154.0,
+    "server_total_p50": 249.0,
+    "tcp_rtt_ms": 2.73,
+    "colos": [
+      "GRU"
+    ]
+  },
+  {
+    "region": "saopaulo",
+    "topology": "edge-pooled",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 256.7,
+    "wall_p50_ci95": [
+      253.2,
+      259.6
+    ],
+    "wall_p95": 348.9,
+    "connect_p50": 0.0,
+    "net_p50": 12.6,
+    "embed_p50": 91.0,
+    "search_p50": 152.0,
+    "server_total_p50": 243.0,
+    "tcp_rtt_ms": 2.73,
+    "colos": [
+      "GRU"
+    ]
+  },
+  {
+    "region": "saopaulo",
+    "topology": "edge-replica",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 508.4,
+    "wall_p50_ci95": [
+      503.2,
+      514.0
+    ],
+    "wall_p95": 619.8,
+    "connect_p50": 15.4,
+    "net_p50": 36.2,
+    "embed_p50": 96.0,
+    "search_p50": 375.0,
+    "server_total_p50": 472.0,
+    "tcp_rtt_ms": 3.38,
+    "colos": [
+      "GRU"
+    ]
+  },
+  {
+    "region": "saopaulo",
+    "topology": "edge-replica",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 494.6,
+    "wall_p50_ci95": [
+      491.9,
+      497.6
+    ],
+    "wall_p95": 583.4,
+    "connect_p50": 0.0,
+    "net_p50": 14.9,
+    "embed_p50": 101.0,
+    "search_p50": 378.0,
+    "server_total_p50": 479.0,
+    "tcp_rtt_ms": 3.38,
+    "colos": [
+      "GRU"
+    ]
+  },
+  {
+    "region": "saopaulo",
+    "topology": "edge-unpooled",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 1430.8,
+    "wall_p50_ci95": [
+      1417.9,
+      1439.2
+    ],
+    "wall_p95": 1650.5,
+    "connect_p50": 13.6,
+    "net_p50": 34.5,
+    "embed_p50": 97.5,
+    "search_p50": 1303.0,
+    "server_total_p50": 1393.5,
+    "tcp_rtt_ms": 3.12,
+    "colos": [
+      "GRU"
+    ]
+  },
+  {
+    "region": "saopaulo",
+    "topology": "edge-unpooled",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 1360.2,
+    "wall_p50_ci95": [
+      1341.1,
+      1370.3
+    ],
+    "wall_p95": 1504.8,
+    "connect_p50": 0.0,
+    "net_p50": 12.4,
+    "embed_p50": 85.0,
+    "search_p50": 1239.0,
+    "server_total_p50": 1347.0,
+    "tcp_rtt_ms": 3.12,
+    "colos": [
+      "GRU"
+    ]
+  },
+  {
+    "region": "sydney",
+    "topology": "central-tunnel",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 337.8,
+    "wall_p50_ci95": [
+      336.5,
+      340.6
+    ],
+    "wall_p95": 460.0,
+    "connect_p50": 7.4,
+    "net_p50": 244.0,
+    "embed_p50": 86.0,
+    "search_p50": 5.0,
+    "server_total_p50": 91.0,
+    "tcp_rtt_ms": 1.81,
+    "colos": []
+  },
+  {
+    "region": "sydney",
+    "topology": "central-tunnel",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 324.2,
+    "wall_p50_ci95": [
+      322.9,
+      325.5
+    ],
+    "wall_p95": 393.0,
+    "connect_p50": 0.0,
+    "net_p50": 232.6,
+    "embed_p50": 84.0,
+    "search_p50": 4.0,
+    "server_total_p50": 89.0,
+    "tcp_rtt_ms": 1.81,
+    "colos": []
+  },
+  {
+    "region": "sydney",
+    "topology": "centralized",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 738.4,
+    "wall_p50_ci95": [
+      736.2,
+      740.9
+    ],
+    "wall_p95": 761.5,
+    "connect_p50": 437.6,
+    "net_p50": 656.2,
+    "embed_p50": 83.0,
+    "search_p50": 4.0,
+    "server_total_p50": 87.0,
+    "tcp_rtt_ms": 218.09,
+    "colos": []
+  },
+  {
+    "region": "sydney",
+    "topology": "centralized",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 294.5,
+    "wall_p50_ci95": [
+      294.3,
+      295.1
+    ],
+    "wall_p95": 307.6,
+    "connect_p50": 0.0,
+    "net_p50": 208.0,
+    "embed_p50": 83.0,
+    "search_p50": 4.0,
+    "server_total_p50": 87.0,
+    "tcp_rtt_ms": 218.09,
+    "colos": []
+  },
+  {
+    "region": "sydney",
+    "topology": "edge-pooled",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 440.9,
+    "wall_p50_ci95": [
+      437.0,
+      444.0
+    ],
+    "wall_p95": 501.7,
+    "connect_p50": 9.2,
+    "net_p50": 26.4,
+    "embed_p50": 164.0,
+    "search_p50": 255.0,
+    "server_total_p50": 418.0,
+    "tcp_rtt_ms": 1.45,
+    "colos": [
+      "SYD"
+    ]
+  },
+  {
+    "region": "sydney",
+    "topology": "edge-pooled",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 427.1,
+    "wall_p50_ci95": [
+      424.9,
+      429.8
+    ],
+    "wall_p95": 484.7,
+    "connect_p50": 0.0,
+    "net_p50": 9.3,
+    "embed_p50": 164.5,
+    "search_p50": 254.0,
+    "server_total_p50": 418.0,
+    "tcp_rtt_ms": 1.45,
+    "colos": [
+      "SYD"
+    ]
+  },
+  {
+    "region": "sydney",
+    "topology": "edge-replica",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 205.1,
+    "wall_p50_ci95": [
+      203.6,
+      206.8
+    ],
+    "wall_p95": 273.4,
+    "connect_p50": 8.8,
+    "net_p50": 20.4,
+    "embed_p50": 171.0,
+    "search_p50": 13.0,
+    "server_total_p50": 184.0,
+    "tcp_rtt_ms": 1.53,
+    "colos": [
+      "SYD"
+    ]
+  },
+  {
+    "region": "sydney",
+    "topology": "edge-replica",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 190.9,
+    "wall_p50_ci95": [
+      189.0,
+      192.5
+    ],
+    "wall_p95": 250.7,
+    "connect_p50": 0.0,
+    "net_p50": 9.7,
+    "embed_p50": 169.0,
+    "search_p50": 12.5,
+    "server_total_p50": 181.5,
+    "tcp_rtt_ms": 1.53,
+    "colos": [
+      "SYD"
+    ]
+  },
+  {
+    "region": "sydney",
+    "topology": "edge-unpooled",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 2362.8,
+    "wall_p50_ci95": [
+      2354.7,
+      2372.5
+    ],
+    "wall_p95": 2553.9,
+    "connect_p50": 9.0,
+    "net_p50": 20.5,
+    "embed_p50": 170.0,
+    "search_p50": 2178.5,
+    "server_total_p50": 2340.0,
+    "tcp_rtt_ms": 1.51,
+    "colos": [
+      "SYD"
+    ]
+  },
+  {
+    "region": "sydney",
+    "topology": "edge-unpooled",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 2357.9,
+    "wall_p50_ci95": [
+      2343.3,
+      2373.3
+    ],
+    "wall_p95": 2562.9,
+    "connect_p50": 0.0,
+    "net_p50": 9.7,
+    "embed_p50": 173.0,
+    "search_p50": 2174.0,
+    "server_total_p50": 2348.0,
+    "tcp_rtt_ms": 1.51,
+    "colos": [
+      "SYD"
+    ]
+  },
+  {
+    "region": "virginia",
+    "topology": "central-tunnel",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 133.7,
+    "wall_p50_ci95": [
+      131.6,
+      136.0
+    ],
+    "wall_p95": 214.9,
+    "connect_p50": 8.2,
+    "net_p50": 39.7,
+    "embed_p50": 85.0,
+    "search_p50": 4.0,
+    "server_total_p50": 89.0,
+    "tcp_rtt_ms": 1.9,
+    "colos": []
+  },
+  {
+    "region": "virginia",
+    "topology": "central-tunnel",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 114.3,
+    "wall_p50_ci95": [
+      111.3,
+      116.0
+    ],
+    "wall_p95": 194.0,
+    "connect_p50": 0.0,
+    "net_p50": 19.6,
+    "embed_p50": 86.0,
+    "search_p50": 4.0,
+    "server_total_p50": 91.0,
+    "tcp_rtt_ms": 1.9,
+    "colos": []
+  },
+  {
+    "region": "virginia",
+    "topology": "centralized",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 95.7,
+    "wall_p50_ci95": [
+      95.0,
+      96.9
+    ],
+    "wall_p95": 169.5,
+    "connect_p50": 4.4,
+    "net_p50": 6.4,
+    "embed_p50": 85.0,
+    "search_p50": 4.0,
+    "server_total_p50": 89.0,
+    "tcp_rtt_ms": 1.1,
+    "colos": []
+  },
+  {
+    "region": "virginia",
+    "topology": "centralized",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 91.5,
+    "wall_p50_ci95": [
+      90.8,
+      92.9
+    ],
+    "wall_p95": 199.3,
+    "connect_p50": 0.0,
+    "net_p50": 2.3,
+    "embed_p50": 85.0,
+    "search_p50": 4.0,
+    "server_total_p50": 89.0,
+    "tcp_rtt_ms": 1.1,
+    "colos": []
+  },
+  {
+    "region": "virginia",
+    "topology": "edge-pooled",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 106.4,
+    "wall_p50_ci95": [
+      104.4,
+      109.2
+    ],
+    "wall_p95": 167.8,
+    "connect_p50": 13.5,
+    "net_p50": 36.2,
+    "embed_p50": 53.0,
+    "search_p50": 15.0,
+    "server_total_p50": 69.0,
+    "tcp_rtt_ms": 1.55,
+    "colos": [
+      "IAD"
+    ]
+  },
+  {
+    "region": "virginia",
+    "topology": "edge-pooled",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 75.9,
+    "wall_p50_ci95": [
+      75.3,
+      77.0
+    ],
+    "wall_p95": 109.9,
+    "connect_p50": 0.0,
+    "net_p50": 14.7,
+    "embed_p50": 47.0,
+    "search_p50": 14.0,
+    "server_total_p50": 62.0,
+    "tcp_rtt_ms": 1.55,
+    "colos": [
+      "IAD"
+    ]
+  },
+  {
+    "region": "virginia",
+    "topology": "edge-replica",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 348.0,
+    "wall_p50_ci95": [
+      345.7,
+      350.2
+    ],
+    "wall_p95": 412.9,
+    "connect_p50": 12.8,
+    "net_p50": 36.1,
+    "embed_p50": 53.0,
+    "search_p50": 257.0,
+    "server_total_p50": 311.0,
+    "tcp_rtt_ms": 1.68,
+    "colos": [
+      "IAD"
+    ]
+  },
+  {
+    "region": "virginia",
+    "topology": "edge-replica",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 316.0,
+    "wall_p50_ci95": [
+      314.9,
+      317.7
+    ],
+    "wall_p95": 344.7,
+    "connect_p50": 0.0,
+    "net_p50": 13.5,
+    "embed_p50": 45.0,
+    "search_p50": 256.0,
+    "server_total_p50": 302.5,
+    "tcp_rtt_ms": 1.68,
+    "colos": [
+      "IAD"
+    ]
+  },
+  {
+    "region": "virginia",
+    "topology": "edge-unpooled",
+    "mode": "cold",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 166.0,
+    "wall_p50_ci95": [
+      163.8,
+      169.0
+    ],
+    "wall_p95": 251.5,
+    "connect_p50": 11.9,
+    "net_p50": 37.9,
+    "embed_p50": 51.0,
+    "search_p50": 74.0,
+    "server_total_p50": 126.5,
+    "tcp_rtt_ms": 2.08,
+    "colos": [
+      "IAD"
+    ]
+  },
+  {
+    "region": "virginia",
+    "topology": "edge-unpooled",
+    "mode": "warm",
+    "n": 600,
+    "errors": 0,
+    "wall_p50": 140.6,
+    "wall_p50_ci95": [
+      139.5,
+      142.0
+    ],
+    "wall_p95": 174.8,
+    "connect_p50": 0.0,
+    "net_p50": 14.1,
+    "embed_p50": 54.0,
+    "search_p50": 71.0,
+    "server_total_p50": 125.5,
+    "tcp_rtt_ms": 2.08,
+    "colos": [
+      "IAD"
+    ]
+  }
+]

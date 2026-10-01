@@ -1,0 +1,667 @@
+ts,region,topology,mode,i,status,wall_ms,connect_ms,st_embed,st_search,st_total,colo,server_topology,n_results,tcp_rtt_ms,query
+2026-10-01T01:20:27+00:00,saopaulo,edge-replica,cold,0,200,512.03,22.37,91.0,380.0,471.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:20:29+00:00,saopaulo,edge-replica,cold,1,200,836.21,16.68,322.0,388.0,710.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:20:30+00:00,saopaulo,edge-replica,cold,2,200,529.92,18.03,110.0,380.0,490.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:20:31+00:00,saopaulo,edge-replica,cold,3,200,609.1,14.01,153.0,381.0,534.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:20:32+00:00,saopaulo,edge-replica,cold,4,200,453.28,17.69,45.0,368.0,413.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:20:33+00:00,saopaulo,edge-replica,cold,5,200,483.92,21.75,56.0,381.0,437.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:20:34+00:00,saopaulo,edge-replica,cold,6,200,753.92,18.47,285.0,388.0,673.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:20:35+00:00,saopaulo,edge-replica,cold,7,200,514.74,16.04,100.0,376.0,476.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:20:36+00:00,saopaulo,edge-replica,cold,8,200,603.26,17.45,181.0,381.0,562.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:20:37+00:00,saopaulo,edge-replica,cold,9,200,597.07,18.41,150.0,382.0,532.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:20:38+00:00,saopaulo,edge-replica,cold,10,200,684.94,38.93,177.0,379.0,556.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:20:39+00:00,saopaulo,edge-replica,cold,11,200,581.82,17.39,161.0,384.0,545.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:20:41+00:00,saopaulo,edge-replica,cold,12,200,589.11,18.27,135.0,378.0,513.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:20:42+00:00,saopaulo,edge-replica,cold,13,200,616.01,21.04,179.0,380.0,559.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:20:43+00:00,saopaulo,edge-replica,cold,14,200,580.08,14.81,162.0,375.0,537.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:20:44+00:00,saopaulo,edge-replica,cold,15,200,736.69,16.9,239.0,378.0,617.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:20:45+00:00,saopaulo,edge-replica,cold,16,200,836.85,20.47,337.0,391.0,728.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:20:46+00:00,saopaulo,edge-replica,cold,17,200,503.23,17.55,84.0,375.0,459.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:20:47+00:00,saopaulo,edge-replica,cold,18,200,515.19,14.71,96.0,377.0,473.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:20:48+00:00,saopaulo,edge-replica,cold,19,200,522.3,17.31,97.0,382.0,479.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:20:49+00:00,saopaulo,edge-replica,cold,20,200,494.82,10.74,95.0,374.0,469.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:20:50+00:00,saopaulo,edge-replica,cold,21,200,500.77,16.06,87.0,381.0,468.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:20:52+00:00,saopaulo,edge-replica,cold,22,200,582.61,16.56,169.0,376.0,545.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:20:53+00:00,saopaulo,edge-replica,cold,23,200,524.41,11.85,105.0,379.0,484.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:20:54+00:00,saopaulo,edge-replica,cold,24,200,501.84,16.93,86.0,375.0,461.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:20:55+00:00,saopaulo,edge-replica,cold,25,200,456.52,15.46,42.0,377.0,419.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:20:56+00:00,saopaulo,edge-replica,cold,26,200,567.46,14.95,161.0,374.0,535.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:20:57+00:00,saopaulo,edge-replica,cold,27,200,492.3,19.25,63.0,378.0,441.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:20:58+00:00,saopaulo,edge-replica,cold,28,200,484.35,20.67,57.0,375.0,432.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:20:59+00:00,saopaulo,edge-replica,cold,29,200,467.31,17.25,52.0,376.0,428.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:21:00+00:00,saopaulo,edge-replica,cold,30,200,478.5,14.05,63.0,373.0,436.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:21:01+00:00,saopaulo,edge-replica,cold,31,200,558.13,17.08,119.0,386.0,505.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:02+00:00,saopaulo,edge-replica,cold,32,200,540.16,28.32,64.0,375.0,439.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:21:03+00:00,saopaulo,edge-replica,cold,33,200,483.21,16.48,59.0,377.0,436.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:04+00:00,saopaulo,edge-replica,cold,34,200,468.39,18.84,52.0,373.0,425.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:21:05+00:00,saopaulo,edge-replica,cold,35,200,456.58,15.63,53.0,370.0,423.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:21:06+00:00,saopaulo,edge-replica,cold,36,200,493.12,10.5,97.0,371.0,468.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:21:07+00:00,saopaulo,edge-replica,cold,37,200,522.82,18.25,97.0,379.0,476.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:21:08+00:00,saopaulo,edge-replica,cold,38,200,591.91,23.78,167.0,383.0,550.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:21:09+00:00,saopaulo,edge-replica,cold,39,200,463.63,20.26,37.0,379.0,416.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:21:10+00:00,saopaulo,edge-replica,cold,40,200,531.11,18.69,108.0,377.0,485.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:21:11+00:00,saopaulo,edge-replica,cold,41,200,457.21,15.38,42.0,377.0,419.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:21:12+00:00,saopaulo,edge-replica,cold,42,200,691.74,20.1,262.0,371.0,633.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:21:13+00:00,saopaulo,edge-replica,cold,43,200,536.57,17.22,106.0,387.0,493.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:21:14+00:00,saopaulo,edge-replica,cold,44,200,512.02,13.18,108.0,372.0,480.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:21:15+00:00,saopaulo,edge-replica,cold,45,200,544.63,11.15,128.0,383.0,511.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:21:16+00:00,saopaulo,edge-replica,cold,46,200,583.77,18.27,162.0,384.0,546.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:21:17+00:00,saopaulo,edge-replica,cold,47,200,561.7,16.6,156.0,369.0,525.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:21:18+00:00,saopaulo,edge-replica,cold,48,200,505.4,12.42,85.0,385.0,470.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:21:19+00:00,saopaulo,edge-replica,cold,49,200,596.13,18.59,183.0,374.0,557.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:21:20+00:00,saopaulo,edge-replica,cold,50,200,580.29,15.99,157.0,373.0,530.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:21:21+00:00,saopaulo,edge-replica,cold,51,200,525.19,24.28,98.0,374.0,472.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:21:22+00:00,saopaulo,edge-replica,cold,52,200,454.36,17.35,43.0,371.0,414.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:21:23+00:00,saopaulo,edge-replica,cold,53,200,466.96,17.56,55.0,373.0,428.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:21:24+00:00,saopaulo,edge-replica,cold,54,200,519.92,16.19,99.0,383.0,482.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:25+00:00,saopaulo,edge-replica,cold,55,200,632.93,23.29,171.0,390.0,561.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:21:26+00:00,saopaulo,edge-replica,cold,56,200,529.51,20.87,120.0,369.0,489.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:28+00:00,saopaulo,edge-replica,cold,57,200,607.63,15.57,188.0,382.0,570.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:21:29+00:00,saopaulo,edge-replica,cold,58,200,568.11,15.44,150.0,376.0,526.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:21:30+00:00,saopaulo,edge-replica,cold,59,200,622.73,17.09,191.0,374.0,565.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:21:31+00:00,saopaulo,edge-replica,cold,60,200,586.8,16.59,170.0,380.0,550.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:32+00:00,saopaulo,edge-replica,cold,61,200,514.73,11.5,106.0,379.0,485.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:21:33+00:00,saopaulo,edge-replica,cold,62,200,501.72,17.57,68.0,383.0,451.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:21:34+00:00,saopaulo,edge-replica,cold,63,200,570.08,29.24,150.0,366.0,516.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:21:35+00:00,saopaulo,edge-replica,cold,64,200,495.61,16.1,93.0,365.0,458.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:21:36+00:00,saopaulo,edge-replica,cold,65,200,499.33,15.51,89.0,371.0,460.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:37+00:00,saopaulo,edge-replica,cold,66,200,513.38,16.71,97.0,382.0,479.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:21:38+00:00,saopaulo,edge-replica,cold,67,200,473.23,14.59,60.0,377.0,437.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:21:39+00:00,saopaulo,edge-replica,cold,68,200,523.36,15.36,94.0,379.0,473.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:21:40+00:00,saopaulo,edge-replica,cold,69,200,627.58,19.19,192.0,376.0,568.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:21:41+00:00,saopaulo,edge-replica,cold,70,200,693.64,74.26,93.0,374.0,467.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:21:42+00:00,saopaulo,edge-replica,cold,71,200,613.33,19.24,180.0,379.0,559.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:44+00:00,saopaulo,edge-replica,cold,72,200,503.39,12.54,96.0,373.0,469.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:21:45+00:00,saopaulo,edge-replica,cold,73,200,490.06,24.53,55.0,377.0,432.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:46+00:00,saopaulo,edge-replica,cold,74,200,586.53,16.37,173.0,377.0,550.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:21:47+00:00,saopaulo,edge-replica,cold,75,200,495.71,15.48,88.0,373.0,461.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:21:48+00:00,saopaulo,edge-replica,cold,76,200,509.6,16.34,99.0,371.0,470.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:21:49+00:00,saopaulo,edge-replica,cold,77,200,581.61,21.33,158.0,375.0,533.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:21:50+00:00,saopaulo,edge-replica,cold,78,200,490.66,15.75,87.0,371.0,458.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:21:51+00:00,saopaulo,edge-replica,cold,79,200,459.29,17.44,45.0,375.0,420.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:21:52+00:00,saopaulo,edge-replica,cold,80,200,481.04,19.59,57.0,373.0,430.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:21:53+00:00,saopaulo,edge-replica,cold,81,200,542.25,29.76,94.0,372.0,466.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:21:54+00:00,saopaulo,edge-replica,cold,82,200,456.79,18.62,46.0,370.0,416.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:21:55+00:00,saopaulo,edge-replica,cold,83,200,492.13,14.64,86.0,369.0,455.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:21:56+00:00,saopaulo,edge-replica,cold,84,200,500.36,18.63,85.0,380.0,465.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:21:57+00:00,saopaulo,edge-replica,cold,85,200,628.89,17.51,192.0,390.0,582.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:21:58+00:00,saopaulo,edge-replica,cold,86,200,502.33,14.46,92.0,373.0,465.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:21:59+00:00,saopaulo,edge-replica,cold,87,200,529.28,14.23,98.0,376.0,474.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:22:00+00:00,saopaulo,edge-replica,cold,88,200,437.11,12.61,41.0,370.0,411.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:22:01+00:00,saopaulo,edge-replica,cold,89,200,518.73,19.06,99.0,372.0,471.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:02+00:00,saopaulo,edge-replica,cold,90,200,556.19,18.7,152.0,368.0,520.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:22:03+00:00,saopaulo,edge-replica,cold,91,200,620.85,18.49,197.0,379.0,576.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:22:04+00:00,saopaulo,edge-replica,cold,92,200,458.94,19.32,50.0,371.0,421.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:22:05+00:00,saopaulo,edge-replica,cold,93,200,494.09,18.51,80.0,378.0,458.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:06+00:00,saopaulo,edge-replica,cold,94,200,499.94,20.83,89.0,374.0,463.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:22:07+00:00,saopaulo,edge-replica,cold,95,200,539.26,19.97,118.0,377.0,495.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:22:08+00:00,saopaulo,edge-replica,cold,96,200,589.84,16.14,172.0,379.0,551.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:09+00:00,saopaulo,edge-replica,cold,97,200,514.87,19.25,97.0,375.0,472.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:22:10+00:00,saopaulo,edge-replica,cold,98,200,456.49,18.47,44.0,373.0,417.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:22:11+00:00,saopaulo,edge-replica,cold,99,200,465.04,20.27,49.0,376.0,425.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:22:12+00:00,saopaulo,edge-replica,cold,100,200,480.65,18.87,57.0,379.0,436.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:22:13+00:00,saopaulo,edge-replica,cold,101,200,529.65,14.39,106.0,383.0,489.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:22:14+00:00,saopaulo,edge-replica,cold,102,200,498.53,10.43,100.0,371.0,471.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:15+00:00,saopaulo,edge-replica,cold,103,200,526.35,22.13,106.0,375.0,481.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:22:16+00:00,saopaulo,edge-replica,cold,104,200,589.44,17.2,153.0,389.0,542.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:22:17+00:00,saopaulo,edge-replica,cold,105,200,501.78,13.09,91.0,371.0,462.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:22:18+00:00,saopaulo,edge-replica,cold,106,200,496.06,17.19,86.0,373.0,459.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:22:42+00:00,saopaulo,edge-replica,cold,107,200,22982.32,18.12,22563.0,383.0,22946.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:22:43+00:00,saopaulo,edge-replica,cold,108,200,573.53,19.62,160.0,373.0,533.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:44+00:00,saopaulo,edge-replica,cold,109,200,548.53,21.91,111.0,372.0,483.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:45+00:00,saopaulo,edge-replica,cold,110,200,575.55,17.1,164.0,373.0,537.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:22:46+00:00,saopaulo,edge-replica,cold,111,200,516.63,15.64,96.0,385.0,481.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:22:47+00:00,saopaulo,edge-replica,cold,112,200,549.55,13.68,136.0,375.0,511.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:22:48+00:00,saopaulo,edge-replica,cold,113,200,466.27,17.24,59.0,373.0,432.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:22:49+00:00,saopaulo,edge-replica,cold,114,200,473.01,18.91,41.0,382.0,423.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:22:50+00:00,saopaulo,edge-replica,cold,115,200,519.38,17.3,101.0,376.0,477.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:51+00:00,saopaulo,edge-replica,cold,116,200,721.81,20.44,301.0,376.0,677.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:22:52+00:00,saopaulo,edge-replica,cold,117,200,457.2,15.4,47.0,377.0,424.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:22:53+00:00,saopaulo,edge-replica,cold,118,200,471.65,16.35,54.0,377.0,431.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:22:54+00:00,saopaulo,edge-replica,cold,119,200,527.48,16.25,109.0,377.0,486.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:55+00:00,saopaulo,edge-replica,cold,120,200,586.26,16.44,169.0,379.0,548.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:56+00:00,saopaulo,edge-replica,cold,121,200,509.56,10.14,110.0,373.0,483.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:22:57+00:00,saopaulo,edge-replica,cold,122,200,463.83,14.67,57.0,371.0,428.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:22:58+00:00,saopaulo,edge-replica,cold,123,200,521.81,11.54,88.0,387.0,475.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:59+00:00,saopaulo,edge-replica,cold,124,200,585.48,18.25,172.0,374.0,546.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:23:00+00:00,saopaulo,edge-replica,cold,125,200,496.77,11.03,96.0,377.0,473.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:23:01+00:00,saopaulo,edge-replica,cold,126,200,463.06,16.57,51.0,373.0,424.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:23:02+00:00,saopaulo,edge-replica,cold,127,200,536.17,16.99,127.0,373.0,500.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:23:04+00:00,saopaulo,edge-replica,cold,128,200,768.37,33.47,327.0,374.0,701.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:05+00:00,saopaulo,edge-replica,cold,129,200,549.59,17.26,140.0,371.0,511.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:23:06+00:00,saopaulo,edge-replica,cold,130,200,534.12,16.02,126.0,374.0,500.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:07+00:00,saopaulo,edge-replica,cold,131,200,555.56,21.19,137.0,376.0,513.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:08+00:00,saopaulo,edge-replica,cold,132,200,505.73,19.03,92.0,363.0,455.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:23:09+00:00,saopaulo,edge-replica,cold,133,200,543.01,22.9,109.0,375.0,484.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:23:10+00:00,saopaulo,edge-replica,cold,134,200,496.95,17.0,88.0,376.0,464.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:23:11+00:00,saopaulo,edge-replica,cold,135,200,562.05,15.84,112.0,383.0,495.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:23:12+00:00,saopaulo,edge-replica,cold,136,200,543.52,27.41,73.0,391.0,464.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:23:13+00:00,saopaulo,edge-replica,cold,137,200,535.18,21.69,109.0,374.0,483.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:14+00:00,saopaulo,edge-replica,cold,138,200,568.62,19.54,130.0,381.0,511.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:23:15+00:00,saopaulo,edge-replica,cold,139,200,674.77,16.26,262.0,378.0,640.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:23:16+00:00,saopaulo,edge-replica,cold,140,200,611.17,18.12,179.0,379.0,558.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:23:17+00:00,saopaulo,edge-replica,cold,141,200,525.63,17.88,108.0,374.0,482.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:19+00:00,saopaulo,edge-replica,cold,142,200,526.93,17.55,98.0,387.0,485.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:23:19+00:00,saopaulo,edge-replica,cold,143,200,477.1,17.09,60.0,379.0,439.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:23:21+00:00,saopaulo,edge-replica,cold,144,200,576.3,17.53,152.0,375.0,527.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:23:24+00:00,saopaulo,edge-replica,cold,145,200,2739.0,14.68,87.0,2618.0,2705.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:23:25+00:00,saopaulo,edge-replica,cold,146,200,563.49,18.27,129.0,381.0,510.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:23:26+00:00,saopaulo,edge-replica,cold,147,200,527.71,19.13,100.0,369.0,469.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:23:27+00:00,saopaulo,edge-replica,cold,148,200,593.7,21.19,165.0,378.0,543.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:28+00:00,saopaulo,edge-replica,cold,149,200,478.86,22.43,54.0,378.0,432.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:23:29+00:00,saopaulo,edge-replica,cold,150,200,483.06,11.36,56.0,380.0,436.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:23:30+00:00,saopaulo,edge-replica,cold,151,200,606.32,18.3,183.0,377.0,560.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:23:31+00:00,saopaulo,edge-replica,cold,152,200,555.62,12.06,150.0,381.0,531.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:23:32+00:00,saopaulo,edge-replica,cold,153,200,559.72,14.52,146.0,377.0,523.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:23:33+00:00,saopaulo,edge-replica,cold,154,200,442.95,12.26,44.0,373.0,417.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:23:34+00:00,saopaulo,edge-replica,cold,155,200,451.44,25.05,43.0,368.0,411.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:23:35+00:00,saopaulo,edge-replica,cold,156,200,580.72,18.55,161.0,381.0,542.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:23:36+00:00,saopaulo,edge-replica,cold,157,200,480.32,12.94,91.0,364.0,455.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:23:37+00:00,saopaulo,edge-replica,cold,158,200,449.06,12.24,53.0,373.0,426.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:23:38+00:00,saopaulo,edge-replica,cold,159,200,443.51,14.7,41.0,369.0,410.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:23:39+00:00,saopaulo,edge-replica,cold,160,200,576.81,19.9,157.0,372.0,529.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:23:40+00:00,saopaulo,edge-replica,cold,161,200,580.16,14.24,172.0,376.0,548.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:23:42+00:00,saopaulo,edge-replica,cold,162,200,767.39,18.65,350.0,373.0,723.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:23:43+00:00,saopaulo,edge-replica,cold,163,200,459.55,19.3,42.0,378.0,420.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:23:43+00:00,saopaulo,edge-replica,cold,164,200,456.44,15.3,47.0,372.0,419.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:23:45+00:00,saopaulo,edge-replica,cold,165,200,523.76,12.24,95.0,392.0,487.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:23:46+00:00,saopaulo,edge-replica,cold,166,200,565.27,15.8,154.0,374.0,528.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:47+00:00,saopaulo,edge-replica,cold,167,200,496.84,10.77,92.0,381.0,473.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:23:48+00:00,saopaulo,edge-replica,cold,168,200,514.0,15.42,106.0,369.0,475.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:23:49+00:00,saopaulo,edge-replica,cold,169,200,582.63,20.56,152.0,372.0,524.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:23:50+00:00,saopaulo,edge-replica,cold,170,200,464.99,16.15,52.0,377.0,429.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:23:51+00:00,saopaulo,edge-replica,cold,171,200,451.39,20.28,42.0,370.0,412.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:23:52+00:00,saopaulo,edge-replica,cold,172,200,440.78,15.69,39.0,364.0,403.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:23:53+00:00,saopaulo,edge-replica,cold,173,200,572.86,16.23,166.0,371.0,537.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:23:54+00:00,saopaulo,edge-replica,cold,174,200,583.2,12.04,167.0,376.0,543.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:55+00:00,saopaulo,edge-replica,cold,175,200,565.86,11.35,171.0,372.0,543.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:23:56+00:00,saopaulo,edge-replica,cold,176,200,470.62,15.94,51.0,380.0,431.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:23:57+00:00,saopaulo,edge-replica,cold,177,200,500.55,17.9,88.0,374.0,462.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:23:58+00:00,saopaulo,edge-replica,cold,178,200,601.11,12.66,188.0,379.0,567.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:23:59+00:00,saopaulo,edge-replica,cold,179,200,532.63,20.6,71.0,387.0,458.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:24:00+00:00,saopaulo,edge-replica,cold,180,200,489.72,10.73,93.0,372.0,465.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:24:01+00:00,saopaulo,edge-replica,cold,181,200,530.06,20.05,112.0,376.0,488.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:24:02+00:00,saopaulo,edge-replica,cold,182,200,451.75,13.55,44.0,380.0,424.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:24:03+00:00,saopaulo,edge-replica,cold,183,200,487.27,12.75,91.0,372.0,463.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:24:04+00:00,saopaulo,edge-replica,cold,184,200,496.52,14.32,95.0,375.0,470.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:05+00:00,saopaulo,edge-replica,cold,185,200,512.27,13.23,101.0,380.0,481.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:24:06+00:00,saopaulo,edge-replica,cold,186,200,454.93,17.81,40.0,373.0,413.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:24:07+00:00,saopaulo,edge-replica,cold,187,200,565.3,10.13,166.0,375.0,541.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:24:08+00:00,saopaulo,edge-replica,cold,188,200,510.46,15.33,102.0,370.0,472.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:24:09+00:00,saopaulo,edge-replica,cold,189,200,507.5,12.77,96.0,376.0,472.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:24:10+00:00,saopaulo,edge-replica,cold,190,200,543.37,16.97,107.0,382.0,489.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:24:11+00:00,saopaulo,edge-replica,cold,191,200,503.49,17.52,83.0,384.0,467.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:24:12+00:00,saopaulo,edge-replica,cold,192,200,476.68,16.75,60.0,378.0,438.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:24:13+00:00,saopaulo,edge-replica,cold,193,200,604.51,12.09,194.0,383.0,577.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:24:14+00:00,saopaulo,edge-replica,cold,194,200,484.42,17.73,62.0,380.0,442.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:24:15+00:00,saopaulo,edge-replica,cold,195,200,492.44,13.46,85.0,365.0,450.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:24:16+00:00,saopaulo,edge-replica,cold,196,200,485.45,17.77,62.0,378.0,440.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:24:17+00:00,saopaulo,edge-replica,cold,197,200,591.19,15.89,178.0,376.0,554.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:24:18+00:00,saopaulo,edge-replica,cold,198,200,497.79,10.85,100.0,373.0,473.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:19+00:00,saopaulo,edge-replica,cold,199,200,542.83,17.1,110.0,381.0,491.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:24:20+00:00,saopaulo,edge-replica,cold,200,200,552.8,22.02,105.0,380.0,485.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:24:21+00:00,saopaulo,edge-replica,cold,201,200,468.39,18.32,51.0,372.0,423.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:24:22+00:00,saopaulo,edge-replica,cold,202,200,523.05,17.62,104.0,382.0,486.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:24:23+00:00,saopaulo,edge-replica,cold,203,200,505.52,18.57,99.0,368.0,467.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:24+00:00,saopaulo,edge-replica,cold,204,200,575.47,17.63,156.0,374.0,530.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:24:26+00:00,saopaulo,edge-replica,cold,205,200,655.22,16.94,242.0,377.0,619.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:24:27+00:00,saopaulo,edge-replica,cold,206,200,535.6,19.51,98.0,377.0,475.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:24:28+00:00,saopaulo,edge-replica,cold,207,200,563.73,16.25,144.0,379.0,523.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:24:29+00:00,saopaulo,edge-replica,cold,208,200,550.46,16.92,110.0,392.0,502.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:24:30+00:00,saopaulo,edge-replica,cold,209,200,590.32,18.02,174.0,378.0,552.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:31+00:00,saopaulo,edge-replica,cold,210,200,466.75,19.98,53.0,375.0,428.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:24:32+00:00,saopaulo,edge-replica,cold,211,200,582.53,17.23,157.0,375.0,532.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:24:33+00:00,saopaulo,edge-replica,cold,212,200,478.77,14.27,57.0,382.0,439.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:24:34+00:00,saopaulo,edge-replica,cold,213,200,448.87,16.51,44.0,369.0,413.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:24:35+00:00,saopaulo,edge-replica,cold,214,200,559.27,22.68,123.0,381.0,504.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:24:36+00:00,saopaulo,edge-replica,cold,215,200,572.18,17.67,160.0,372.0,532.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:24:37+00:00,saopaulo,edge-replica,cold,216,200,482.46,18.34,64.0,379.0,443.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:24:38+00:00,saopaulo,edge-replica,cold,217,200,517.49,11.48,106.0,382.0,488.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:24:39+00:00,saopaulo,edge-replica,cold,218,200,582.0,16.26,161.0,380.0,541.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:40+00:00,saopaulo,edge-replica,cold,219,200,542.06,15.83,121.0,384.0,505.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:24:41+00:00,saopaulo,edge-replica,cold,220,200,442.12,11.29,53.0,365.0,418.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:24:42+00:00,saopaulo,edge-replica,cold,221,200,565.13,21.45,134.0,378.0,512.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:24:43+00:00,saopaulo,edge-replica,cold,222,200,462.77,16.14,45.0,378.0,423.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:24:44+00:00,saopaulo,edge-replica,cold,223,200,564.19,12.17,163.0,378.0,541.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:24:45+00:00,saopaulo,edge-replica,cold,224,200,562.4,13.23,159.0,377.0,536.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:24:46+00:00,saopaulo,edge-replica,cold,225,200,518.42,18.01,103.0,374.0,477.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:24:47+00:00,saopaulo,edge-replica,cold,226,200,497.36,16.69,91.0,372.0,463.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:24:48+00:00,saopaulo,edge-replica,cold,227,200,517.82,17.65,89.0,376.0,465.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:24:49+00:00,saopaulo,edge-replica,cold,228,200,514.1,14.19,98.0,383.0,481.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:24:50+00:00,saopaulo,edge-replica,cold,229,200,456.42,16.92,46.0,372.0,418.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:24:51+00:00,saopaulo,edge-replica,cold,230,200,496.38,16.17,58.0,386.0,444.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:24:52+00:00,saopaulo,edge-replica,cold,231,200,497.02,11.12,101.0,371.0,472.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:24:53+00:00,saopaulo,edge-replica,cold,232,200,575.46,14.73,171.0,366.0,537.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:24:54+00:00,saopaulo,edge-replica,cold,233,200,454.49,19.69,47.0,370.0,417.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:24:55+00:00,saopaulo,edge-replica,cold,234,200,444.09,11.97,46.0,375.0,421.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:24:56+00:00,saopaulo,edge-replica,cold,235,200,503.24,16.21,89.0,377.0,466.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:24:57+00:00,saopaulo,edge-replica,cold,236,200,619.79,20.35,169.0,395.0,564.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:24:58+00:00,saopaulo,edge-replica,cold,237,200,485.8,12.03,90.0,372.0,462.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:24:59+00:00,saopaulo,edge-replica,cold,238,200,477.83,13.81,84.0,365.0,449.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:25:01+00:00,saopaulo,edge-replica,cold,239,200,623.58,22.17,190.0,380.0,570.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:02+00:00,saopaulo,edge-replica,cold,240,200,479.5,17.92,62.0,378.0,440.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:25:03+00:00,saopaulo,edge-replica,cold,241,200,595.22,15.91,180.0,378.0,558.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:25:04+00:00,saopaulo,edge-replica,cold,242,200,471.2,19.98,60.0,373.0,433.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:25:05+00:00,saopaulo,edge-replica,cold,243,200,445.16,16.79,42.0,368.0,410.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:25:06+00:00,saopaulo,edge-replica,cold,244,200,472.16,16.34,64.0,373.0,437.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:25:07+00:00,saopaulo,edge-replica,cold,245,200,585.05,17.06,158.0,376.0,534.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:25:08+00:00,saopaulo,edge-replica,cold,246,200,524.45,14.64,99.0,381.0,480.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:25:09+00:00,saopaulo,edge-replica,cold,247,200,527.18,23.22,61.0,394.0,455.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:25:10+00:00,saopaulo,edge-replica,cold,248,200,510.83,18.6,97.0,376.0,473.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:25:11+00:00,saopaulo,edge-replica,cold,249,200,478.03,22.33,50.0,383.0,433.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:25:12+00:00,saopaulo,edge-replica,cold,250,200,506.23,19.98,62.0,378.0,440.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:25:13+00:00,saopaulo,edge-replica,cold,251,200,501.69,14.76,93.0,371.0,464.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:25:14+00:00,saopaulo,edge-replica,cold,252,200,434.64,11.39,44.0,365.0,409.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:25:15+00:00,saopaulo,edge-replica,cold,253,200,521.15,16.16,104.0,383.0,487.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:25:16+00:00,saopaulo,edge-replica,cold,254,200,500.35,17.51,90.0,372.0,462.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:25:17+00:00,saopaulo,edge-replica,cold,255,200,458.51,15.57,48.0,374.0,422.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:25:18+00:00,saopaulo,edge-replica,cold,256,200,472.9,16.14,53.0,382.0,435.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:25:19+00:00,saopaulo,edge-replica,cold,257,200,507.2,17.45,89.0,374.0,463.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:25:20+00:00,saopaulo,edge-replica,cold,258,200,586.05,18.49,157.0,379.0,536.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:25:21+00:00,saopaulo,edge-replica,cold,259,200,481.92,18.43,53.0,372.0,425.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:25:22+00:00,saopaulo,edge-replica,cold,260,200,549.36,41.29,49.0,380.0,429.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:25:23+00:00,saopaulo,edge-replica,cold,261,200,552.91,40.65,96.0,383.0,479.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:25:24+00:00,saopaulo,edge-replica,cold,262,200,495.82,14.24,91.0,370.0,461.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:25:25+00:00,saopaulo,edge-replica,cold,263,200,566.8,20.25,117.0,391.0,508.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:25:26+00:00,saopaulo,edge-replica,cold,264,200,582.63,16.23,170.0,377.0,547.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:25:27+00:00,saopaulo,edge-replica,cold,265,200,570.54,38.91,106.0,379.0,485.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:28+00:00,saopaulo,edge-replica,cold,266,200,479.13,14.69,58.0,381.0,439.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:25:29+00:00,saopaulo,edge-replica,cold,267,200,586.08,16.27,154.0,382.0,536.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:25:30+00:00,saopaulo,edge-replica,cold,268,200,574.72,25.83,148.0,373.0,521.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:25:31+00:00,saopaulo,edge-replica,cold,269,200,568.59,16.31,155.0,375.0,530.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:25:32+00:00,saopaulo,edge-replica,cold,270,200,501.4,13.05,90.0,381.0,471.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:25:33+00:00,saopaulo,edge-replica,cold,271,200,457.58,16.81,45.0,373.0,418.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:25:34+00:00,saopaulo,edge-replica,cold,272,200,540.89,22.25,103.0,372.0,475.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:25:35+00:00,saopaulo,edge-replica,cold,273,200,566.31,11.67,160.0,380.0,540.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:37+00:00,saopaulo,edge-replica,cold,274,200,692.53,39.49,198.0,381.0,579.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:38+00:00,saopaulo,edge-replica,cold,275,200,501.96,17.77,87.0,375.0,462.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:39+00:00,saopaulo,edge-replica,cold,276,200,586.02,13.47,179.0,376.0,555.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:25:40+00:00,saopaulo,edge-replica,cold,277,200,548.03,18.88,102.0,379.0,481.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:41+00:00,saopaulo,edge-replica,cold,278,200,573.42,21.03,153.0,378.0,531.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:25:42+00:00,saopaulo,edge-replica,cold,279,200,612.33,22.9,176.0,375.0,551.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:25:43+00:00,saopaulo,edge-replica,cold,280,200,738.92,18.36,311.0,388.0,699.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:44+00:00,saopaulo,edge-replica,cold,281,200,490.55,24.09,44.0,380.0,424.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:25:45+00:00,saopaulo,edge-replica,cold,282,200,462.68,16.8,47.0,378.0,425.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:25:46+00:00,saopaulo,edge-replica,cold,283,200,450.07,12.01,55.0,371.0,426.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:25:47+00:00,saopaulo,edge-replica,cold,284,200,510.16,17.37,90.0,381.0,471.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:25:48+00:00,saopaulo,edge-replica,cold,285,200,499.53,18.6,58.0,382.0,440.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:49+00:00,saopaulo,edge-replica,cold,286,200,514.16,11.06,98.0,375.0,473.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:25:50+00:00,saopaulo,edge-replica,cold,287,200,629.01,18.64,193.0,390.0,583.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:25:51+00:00,saopaulo,edge-replica,cold,288,200,582.58,11.41,183.0,375.0,558.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:52+00:00,saopaulo,edge-replica,cold,289,200,497.73,17.32,86.0,376.0,462.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:25:54+00:00,saopaulo,edge-replica,cold,290,200,569.92,11.06,153.0,383.0,536.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:25:54+00:00,saopaulo,edge-replica,cold,291,200,467.64,18.06,52.0,377.0,429.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:25:55+00:00,saopaulo,edge-replica,cold,292,200,493.03,17.07,83.0,372.0,455.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:25:57+00:00,saopaulo,edge-replica,cold,293,200,579.84,15.19,161.0,381.0,542.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:58+00:00,saopaulo,edge-replica,cold,294,200,506.88,15.2,91.0,379.0,470.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:25:59+00:00,saopaulo,edge-replica,cold,295,200,522.16,14.39,103.0,380.0,483.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:26:00+00:00,saopaulo,edge-replica,cold,296,200,522.12,11.04,107.0,389.0,496.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:26:01+00:00,saopaulo,edge-replica,cold,297,200,455.16,13.02,51.0,377.0,428.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:26:02+00:00,saopaulo,edge-replica,cold,298,200,593.47,16.8,177.0,376.0,553.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:03+00:00,saopaulo,edge-replica,cold,299,200,502.74,11.58,104.0,373.0,477.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:26:09+00:00,saopaulo,edge-replica,warm,0,200,507.18,0.0,107.0,381.0,488.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:26:10+00:00,saopaulo,edge-replica,warm,1,200,504.07,0.0,101.0,385.0,486.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:26:11+00:00,saopaulo,edge-replica,warm,2,200,491.24,0.0,93.0,384.0,477.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:26:12+00:00,saopaulo,edge-replica,warm,3,200,566.36,0.0,163.0,388.0,551.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:26:13+00:00,saopaulo,edge-replica,warm,4,200,501.71,0.0,105.0,383.0,488.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:26:14+00:00,saopaulo,edge-replica,warm,5,200,513.65,0.0,94.0,380.0,474.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:26:15+00:00,saopaulo,edge-replica,warm,6,200,549.0,0.0,155.0,380.0,535.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:16+00:00,saopaulo,edge-replica,warm,7,200,482.37,0.0,93.0,375.0,468.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:26:17+00:00,saopaulo,edge-replica,warm,8,200,442.39,0.0,49.0,378.0,427.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:18+00:00,saopaulo,edge-replica,warm,9,200,444.35,0.0,51.0,377.0,428.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:26:19+00:00,saopaulo,edge-replica,warm,10,200,476.11,0.0,68.0,392.0,460.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:26:20+00:00,saopaulo,edge-replica,warm,11,200,506.9,0.0,116.0,375.0,491.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:26:21+00:00,saopaulo,edge-replica,warm,12,200,447.59,0.0,55.0,375.0,430.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:26:22+00:00,saopaulo,edge-replica,warm,13,200,470.54,0.0,81.0,375.0,456.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:23+00:00,saopaulo,edge-replica,warm,14,200,439.77,0.0,48.0,376.0,424.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:26:24+00:00,saopaulo,edge-replica,warm,15,200,459.6,0.0,67.0,379.0,446.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:26:25+00:00,saopaulo,edge-replica,warm,16,200,445.21,0.0,53.0,376.0,429.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:26+00:00,saopaulo,edge-replica,warm,17,200,446.74,0.0,54.0,379.0,433.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:27+00:00,saopaulo,edge-replica,warm,18,200,498.56,0.0,100.0,375.0,475.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:28+00:00,saopaulo,edge-replica,warm,19,200,550.83,0.0,155.0,380.0,535.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:26:29+00:00,saopaulo,edge-replica,warm,20,200,444.44,0.0,47.0,377.0,424.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:26:30+00:00,saopaulo,edge-replica,warm,21,200,452.58,0.0,62.0,376.0,438.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:26:31+00:00,saopaulo,edge-replica,warm,22,200,509.01,0.0,123.0,371.0,494.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:26:32+00:00,saopaulo,edge-replica,warm,23,200,494.38,0.0,101.0,378.0,479.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:26:33+00:00,saopaulo,edge-replica,warm,24,200,456.66,0.0,58.0,383.0,441.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:26:33+00:00,saopaulo,edge-replica,warm,25,200,457.3,0.0,74.0,367.0,441.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:26:35+00:00,saopaulo,edge-replica,warm,26,200,528.35,0.0,129.0,385.0,514.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:26:36+00:00,saopaulo,edge-replica,warm,27,200,505.63,0.0,111.0,379.0,490.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:26:36+00:00,saopaulo,edge-replica,warm,28,200,444.81,0.0,52.0,377.0,429.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:26:38+00:00,saopaulo,edge-replica,warm,29,200,582.88,0.0,183.0,383.0,566.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:26:39+00:00,saopaulo,edge-replica,warm,30,200,515.92,0.0,118.0,383.0,501.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:26:40+00:00,saopaulo,edge-replica,warm,31,200,498.45,0.0,108.0,375.0,483.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:26:41+00:00,saopaulo,edge-replica,warm,32,200,567.57,0.0,173.0,378.0,551.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:26:42+00:00,saopaulo,edge-replica,warm,33,200,447.45,0.0,53.0,378.0,431.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:26:43+00:00,saopaulo,edge-replica,warm,34,200,454.4,0.0,50.0,390.0,440.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:44+00:00,saopaulo,edge-replica,warm,35,200,490.51,0.0,99.0,373.0,472.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:26:45+00:00,saopaulo,edge-replica,warm,36,200,498.58,0.0,116.0,371.0,487.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:26:46+00:00,saopaulo,edge-replica,warm,37,200,496.83,0.0,105.0,378.0,483.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:26:46+00:00,saopaulo,edge-replica,warm,38,200,445.23,0.0,53.0,376.0,429.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:26:47+00:00,saopaulo,edge-replica,warm,39,200,443.51,0.0,55.0,373.0,428.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:26:48+00:00,saopaulo,edge-replica,warm,40,200,512.81,0.0,117.0,382.0,499.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:26:49+00:00,saopaulo,edge-replica,warm,41,200,450.26,0.0,59.0,378.0,437.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:26:50+00:00,saopaulo,edge-replica,warm,42,200,540.12,0.0,151.0,376.0,527.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:26:51+00:00,saopaulo,edge-replica,warm,43,200,497.45,0.0,111.0,370.0,481.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:26:52+00:00,saopaulo,edge-replica,warm,44,200,560.48,0.0,162.0,385.0,547.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:26:53+00:00,saopaulo,edge-replica,warm,45,200,501.25,0.0,97.0,383.0,480.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:26:55+00:00,saopaulo,edge-replica,warm,46,200,564.04,0.0,172.0,377.0,549.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:26:56+00:00,saopaulo,edge-replica,warm,47,200,570.79,0.0,182.0,373.0,555.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:26:57+00:00,saopaulo,edge-replica,warm,48,200,498.84,0.0,104.0,381.0,485.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:26:58+00:00,saopaulo,edge-replica,warm,49,200,566.98,0.0,176.0,379.0,555.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:59+00:00,saopaulo,edge-replica,warm,50,200,448.45,0.0,49.0,381.0,430.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:27:00+00:00,saopaulo,edge-replica,warm,51,200,500.24,0.0,104.0,381.0,485.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:27:01+00:00,saopaulo,edge-replica,warm,52,200,570.46,0.0,175.0,381.0,556.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:27:02+00:00,saopaulo,edge-replica,warm,53,200,550.31,0.0,160.0,374.0,534.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:27:03+00:00,saopaulo,edge-replica,warm,54,200,574.9,0.0,179.0,379.0,558.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:27:04+00:00,saopaulo,edge-replica,warm,55,200,497.81,0.0,118.0,366.0,484.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:27:05+00:00,saopaulo,edge-replica,warm,56,200,494.35,0.0,112.0,368.0,480.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:27:06+00:00,saopaulo,edge-replica,warm,57,200,568.28,0.0,170.0,384.0,554.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:07+00:00,saopaulo,edge-replica,warm,58,200,469.47,0.0,77.0,375.0,452.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:27:08+00:00,saopaulo,edge-replica,warm,59,200,579.23,0.0,180.0,382.0,562.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:27:09+00:00,saopaulo,edge-replica,warm,60,200,578.7,0.0,177.0,386.0,563.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:27:10+00:00,saopaulo,edge-replica,warm,61,200,509.17,0.0,122.0,372.0,494.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:11+00:00,saopaulo,edge-replica,warm,62,200,502.79,0.0,110.0,374.0,484.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:27:12+00:00,saopaulo,edge-replica,warm,63,200,498.96,0.0,89.0,389.0,478.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:27:13+00:00,saopaulo,edge-replica,warm,64,200,500.39,0.0,96.0,387.0,483.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:27:14+00:00,saopaulo,edge-replica,warm,65,200,508.37,0.0,101.0,388.0,489.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:27:15+00:00,saopaulo,edge-replica,warm,66,200,478.11,0.0,73.0,389.0,462.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:27:16+00:00,saopaulo,edge-replica,warm,67,200,462.22,0.0,57.0,384.0,441.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:27:17+00:00,saopaulo,edge-replica,warm,68,200,482.86,0.0,97.0,371.0,468.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:27:18+00:00,saopaulo,edge-replica,warm,69,200,487.87,0.0,101.0,374.0,475.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:27:19+00:00,saopaulo,edge-replica,warm,70,200,482.36,0.0,94.0,373.0,467.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:27:20+00:00,saopaulo,edge-replica,warm,71,200,581.26,0.0,193.0,374.0,567.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:27:21+00:00,saopaulo,edge-replica,warm,72,200,587.98,0.0,175.0,395.0,570.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:22+00:00,saopaulo,edge-replica,warm,73,200,514.78,0.0,125.0,376.0,501.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:27:23+00:00,saopaulo,edge-replica,warm,74,200,447.65,0.0,59.0,373.0,432.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:24+00:00,saopaulo,edge-replica,warm,75,200,520.71,0.0,122.0,380.0,502.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:27:25+00:00,saopaulo,edge-replica,warm,76,200,588.14,0.0,195.0,375.0,570.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:26+00:00,saopaulo,edge-replica,warm,77,200,499.64,0.0,97.0,384.0,481.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:27+00:00,saopaulo,edge-replica,warm,78,200,447.88,0.0,46.0,384.0,430.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:28+00:00,saopaulo,edge-replica,warm,79,200,561.71,0.0,173.0,375.0,548.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:27:29+00:00,saopaulo,edge-replica,warm,80,200,503.67,0.0,108.0,380.0,488.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:27:30+00:00,saopaulo,edge-replica,warm,81,200,453.17,0.0,52.0,384.0,436.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:27:31+00:00,saopaulo,edge-replica,warm,82,200,591.05,0.0,194.0,382.0,576.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:27:32+00:00,saopaulo,edge-replica,warm,83,200,486.31,0.0,97.0,375.0,472.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:27:33+00:00,saopaulo,edge-replica,warm,84,200,509.06,0.0,115.0,377.0,492.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:34+00:00,saopaulo,edge-replica,warm,85,200,493.58,0.0,102.0,378.0,480.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:27:35+00:00,saopaulo,edge-replica,warm,86,200,436.76,0.0,48.0,373.0,421.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:36+00:00,saopaulo,edge-replica,warm,87,200,502.81,0.0,109.0,380.0,489.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:27:37+00:00,saopaulo,edge-replica,warm,88,200,553.8,0.0,170.0,369.0,539.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:27:38+00:00,saopaulo,edge-replica,warm,89,200,579.23,0.0,180.0,382.0,562.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:27:39+00:00,saopaulo,edge-replica,warm,90,200,552.45,0.0,157.0,380.0,537.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:27:40+00:00,saopaulo,edge-replica,warm,91,200,578.28,0.0,185.0,377.0,562.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:27:41+00:00,saopaulo,edge-replica,warm,92,200,460.96,0.0,64.0,379.0,443.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:27:42+00:00,saopaulo,edge-replica,warm,93,200,486.04,0.0,94.0,379.0,473.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:27:43+00:00,saopaulo,edge-replica,warm,94,200,458.54,0.0,55.0,385.0,440.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:27:44+00:00,saopaulo,edge-replica,warm,95,200,450.18,0.0,54.0,382.0,436.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:27:45+00:00,saopaulo,edge-replica,warm,96,200,499.32,0.0,107.0,376.0,483.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:27:46+00:00,saopaulo,edge-replica,warm,97,200,433.66,0.0,51.0,368.0,419.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:27:47+00:00,saopaulo,edge-replica,warm,98,200,493.06,0.0,106.0,371.0,477.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:27:48+00:00,saopaulo,edge-replica,warm,99,200,446.73,0.0,53.0,380.0,433.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:27:49+00:00,saopaulo,edge-replica,warm,100,200,569.29,0.0,179.0,377.0,556.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:27:50+00:00,saopaulo,edge-replica,warm,101,200,580.42,0.0,182.0,383.0,565.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:27:51+00:00,saopaulo,edge-replica,warm,102,200,444.75,0.0,60.0,372.0,432.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:27:52+00:00,saopaulo,edge-replica,warm,103,200,436.35,0.0,45.0,377.0,422.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:27:53+00:00,saopaulo,edge-replica,warm,104,200,493.89,0.0,102.0,376.0,478.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:27:54+00:00,saopaulo,edge-replica,warm,105,200,496.17,0.0,103.0,377.0,480.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:27:55+00:00,saopaulo,edge-replica,warm,106,200,504.03,0.0,105.0,383.0,488.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:27:56+00:00,saopaulo,edge-replica,warm,107,200,465.34,0.0,67.0,373.0,440.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:57+00:00,saopaulo,edge-replica,warm,108,200,537.55,0.0,150.0,374.0,524.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:27:58+00:00,saopaulo,edge-replica,warm,109,200,443.86,0.0,52.0,375.0,427.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:27:59+00:00,saopaulo,edge-replica,warm,110,200,455.29,0.0,52.0,384.0,436.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:28:00+00:00,saopaulo,edge-replica,warm,111,200,573.76,0.0,181.0,379.0,560.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:28:01+00:00,saopaulo,edge-replica,warm,112,200,718.43,0.0,331.0,374.0,705.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:28:02+00:00,saopaulo,edge-replica,warm,113,200,486.89,0.0,91.0,381.0,472.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:28:03+00:00,saopaulo,edge-replica,warm,114,200,475.07,0.0,91.0,372.0,463.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:04+00:00,saopaulo,edge-replica,warm,115,200,485.21,0.0,87.0,382.0,469.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:05+00:00,saopaulo,edge-replica,warm,116,200,500.3,0.0,108.0,377.0,485.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:28:06+00:00,saopaulo,edge-replica,warm,117,200,440.53,0.0,48.0,376.0,424.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:07+00:00,saopaulo,edge-replica,warm,118,200,495.72,0.0,103.0,376.0,479.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:08+00:00,saopaulo,edge-replica,warm,119,200,497.21,0.0,107.0,377.0,484.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:09+00:00,saopaulo,edge-replica,warm,120,200,492.49,0.0,106.0,371.0,477.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:28:10+00:00,saopaulo,edge-replica,warm,121,200,500.14,0.0,113.0,371.0,484.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:11+00:00,saopaulo,edge-replica,warm,122,200,428.19,0.0,44.0,370.0,414.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:28:12+00:00,saopaulo,edge-replica,warm,123,200,495.19,0.0,100.0,379.0,479.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:13+00:00,saopaulo,edge-replica,warm,124,200,443.91,0.0,49.0,378.0,427.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:28:14+00:00,saopaulo,edge-replica,warm,125,200,487.18,0.0,98.0,375.0,473.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:28:15+00:00,saopaulo,edge-replica,warm,126,200,467.96,0.0,82.0,372.0,454.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:28:16+00:00,saopaulo,edge-replica,warm,127,200,447.38,0.0,68.0,365.0,433.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:28:17+00:00,saopaulo,edge-replica,warm,128,200,454.8,0.0,58.0,382.0,440.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:28:18+00:00,saopaulo,edge-replica,warm,129,200,577.96,0.0,176.0,384.0,560.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:28:19+00:00,saopaulo,edge-replica,warm,130,200,588.16,0.0,193.0,379.0,572.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:20+00:00,saopaulo,edge-replica,warm,131,200,497.52,0.0,94.0,390.0,484.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:28:21+00:00,saopaulo,edge-replica,warm,132,200,594.78,0.0,183.0,380.0,563.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:22+00:00,saopaulo,edge-replica,warm,133,200,568.55,0.0,169.0,383.0,552.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:28:23+00:00,saopaulo,edge-replica,warm,134,200,553.37,0.0,164.0,374.0,538.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:28:24+00:00,saopaulo,edge-replica,warm,135,200,544.61,0.0,158.0,372.0,530.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:25+00:00,saopaulo,edge-replica,warm,136,200,556.91,0.0,165.0,374.0,539.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:28:27+00:00,saopaulo,edge-replica,warm,137,200,566.75,0.0,172.0,374.0,546.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:28:28+00:00,saopaulo,edge-replica,warm,138,200,576.07,0.0,173.0,389.0,562.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:29+00:00,saopaulo,edge-replica,warm,139,200,687.62,0.0,292.0,380.0,672.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:28:30+00:00,saopaulo,edge-replica,warm,140,200,446.0,0.0,54.0,377.0,431.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:28:31+00:00,saopaulo,edge-replica,warm,141,200,440.62,0.0,49.0,378.0,427.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:28:32+00:00,saopaulo,edge-replica,warm,142,200,472.13,0.0,77.0,379.0,456.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:28:33+00:00,saopaulo,edge-replica,warm,143,200,439.21,0.0,49.0,376.0,425.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:34+00:00,saopaulo,edge-replica,warm,144,200,566.97,0.0,159.0,390.0,549.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:28:35+00:00,saopaulo,edge-replica,warm,145,200,491.11,0.0,96.0,372.0,468.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:28:36+00:00,saopaulo,edge-replica,warm,146,200,443.46,0.0,47.0,378.0,425.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:28:37+00:00,saopaulo,edge-replica,warm,147,200,460.62,0.0,56.0,384.0,440.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:28:38+00:00,saopaulo,edge-replica,warm,148,200,581.36,0.0,172.0,384.0,556.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:28:39+00:00,saopaulo,edge-replica,warm,149,200,736.66,0.0,314.0,403.0,717.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:28:40+00:00,saopaulo,edge-replica,warm,150,200,440.72,0.0,50.0,375.0,425.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:41+00:00,saopaulo,edge-replica,warm,151,200,439.38,0.0,51.0,374.0,425.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:28:42+00:00,saopaulo,edge-replica,warm,152,200,498.32,0.0,105.0,376.0,481.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:43+00:00,saopaulo,edge-replica,warm,153,200,582.69,0.0,166.0,383.0,549.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:28:44+00:00,saopaulo,edge-replica,warm,154,200,489.7,0.0,101.0,371.0,472.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:28:45+00:00,saopaulo,edge-replica,warm,155,200,463.81,0.0,74.0,377.0,451.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:28:46+00:00,saopaulo,edge-replica,warm,156,200,453.68,0.0,53.0,387.0,440.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:28:47+00:00,saopaulo,edge-replica,warm,157,200,445.41,0.0,57.0,373.0,430.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:48+00:00,saopaulo,edge-replica,warm,158,200,572.58,0.0,167.0,391.0,558.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:49+00:00,saopaulo,edge-replica,warm,159,200,497.53,0.0,104.0,379.0,483.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:28:50+00:00,saopaulo,edge-replica,warm,160,200,445.4,0.0,55.0,375.0,430.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:51+00:00,saopaulo,edge-replica,warm,161,200,501.97,0.0,111.0,376.0,487.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:28:52+00:00,saopaulo,edge-replica,warm,162,200,507.3,0.0,109.0,383.0,492.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:53+00:00,saopaulo,edge-replica,warm,163,200,441.6,0.0,49.0,377.0,426.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:54+00:00,saopaulo,edge-replica,warm,164,200,557.47,0.0,166.0,377.0,543.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:28:55+00:00,saopaulo,edge-replica,warm,165,200,447.92,0.0,59.0,374.0,433.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:28:56+00:00,saopaulo,edge-replica,warm,166,200,503.92,0.0,97.0,388.0,485.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:57+00:00,saopaulo,edge-replica,warm,167,200,488.48,0.0,104.0,372.0,476.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:28:58+00:00,saopaulo,edge-replica,warm,168,200,592.83,0.0,190.0,387.0,577.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:28:59+00:00,saopaulo,edge-replica,warm,169,200,526.85,0.0,123.0,384.0,507.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:00+00:00,saopaulo,edge-replica,warm,170,200,494.49,0.0,100.0,379.0,479.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:29:01+00:00,saopaulo,edge-replica,warm,171,200,444.64,0.0,53.0,374.0,427.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:29:02+00:00,saopaulo,edge-replica,warm,172,200,490.45,0.0,97.0,378.0,475.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:29:03+00:00,saopaulo,edge-replica,warm,173,200,535.99,0.0,146.0,375.0,521.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:29:04+00:00,saopaulo,edge-replica,warm,174,200,498.59,0.0,105.0,381.0,486.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:29:05+00:00,saopaulo,edge-replica,warm,175,200,496.42,0.0,91.0,384.0,475.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:29:06+00:00,saopaulo,edge-replica,warm,176,200,579.29,0.0,167.0,387.0,554.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:29:07+00:00,saopaulo,edge-replica,warm,177,200,522.59,0.0,134.0,371.0,505.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:29:08+00:00,saopaulo,edge-replica,warm,178,200,550.22,0.0,156.0,378.0,534.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:29:09+00:00,saopaulo,edge-replica,warm,179,200,493.77,0.0,62.0,412.0,474.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:29:10+00:00,saopaulo,edge-replica,warm,180,200,564.44,0.0,174.0,377.0,551.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:29:11+00:00,saopaulo,edge-replica,warm,181,200,685.21,0.0,297.0,375.0,672.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:29:12+00:00,saopaulo,edge-replica,warm,182,200,551.1,0.0,166.0,371.0,537.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:29:13+00:00,saopaulo,edge-replica,warm,183,200,495.79,0.0,109.0,370.0,479.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:29:14+00:00,saopaulo,edge-replica,warm,184,200,466.67,0.0,68.0,382.0,450.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:29:15+00:00,saopaulo,edge-replica,warm,185,200,533.52,0.0,126.0,389.0,515.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:29:16+00:00,saopaulo,edge-replica,warm,186,200,524.08,0.0,135.0,376.0,511.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:29:17+00:00,saopaulo,edge-replica,warm,187,200,559.86,0.0,174.0,371.0,545.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:29:18+00:00,saopaulo,edge-replica,warm,188,200,490.6,0.0,96.0,376.0,472.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:29:19+00:00,saopaulo,edge-replica,warm,189,200,588.38,0.0,200.0,374.0,574.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:29:20+00:00,saopaulo,edge-replica,warm,190,200,570.61,0.0,177.0,378.0,555.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:29:21+00:00,saopaulo,edge-replica,warm,191,200,494.77,0.0,103.0,377.0,480.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:29:22+00:00,saopaulo,edge-replica,warm,192,200,505.95,0.0,116.0,376.0,492.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:29:23+00:00,saopaulo,edge-replica,warm,193,200,448.37,0.0,54.0,380.0,434.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:29:24+00:00,saopaulo,edge-replica,warm,194,200,498.75,0.0,97.0,381.0,478.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:29:25+00:00,saopaulo,edge-replica,warm,195,200,499.72,0.0,98.0,386.0,484.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:26+00:00,saopaulo,edge-replica,warm,196,200,444.11,0.0,51.0,379.0,430.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:29:27+00:00,saopaulo,edge-replica,warm,197,200,528.9,0.0,118.0,387.0,505.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:29:28+00:00,saopaulo,edge-replica,warm,198,200,440.97,0.0,56.0,369.0,425.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:29:29+00:00,saopaulo,edge-replica,warm,199,200,483.14,0.0,95.0,371.0,466.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:30+00:00,saopaulo,edge-replica,warm,200,200,573.04,0.0,186.0,367.0,553.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:29:31+00:00,saopaulo,edge-replica,warm,201,200,469.74,0.0,49.0,401.0,450.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:29:32+00:00,saopaulo,edge-replica,warm,202,200,491.2,0.0,97.0,378.0,475.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:29:33+00:00,saopaulo,edge-replica,warm,203,200,449.14,0.0,54.0,378.0,432.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:29:34+00:00,saopaulo,edge-replica,warm,204,200,445.59,0.0,52.0,378.0,430.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:35+00:00,saopaulo,edge-replica,warm,205,200,445.25,0.0,45.0,385.0,430.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:29:36+00:00,saopaulo,edge-replica,warm,206,200,451.7,0.0,56.0,379.0,435.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:29:37+00:00,saopaulo,edge-replica,warm,207,200,428.47,0.0,48.0,369.0,417.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:29:38+00:00,saopaulo,edge-replica,warm,208,200,721.94,0.0,326.0,381.0,707.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:29:39+00:00,saopaulo,edge-replica,warm,209,200,496.42,0.0,106.0,377.0,483.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:29:40+00:00,saopaulo,edge-replica,warm,210,200,561.5,0.0,176.0,372.0,548.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:29:41+00:00,saopaulo,edge-replica,warm,211,200,563.69,0.0,176.0,372.0,548.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:29:42+00:00,saopaulo,edge-replica,warm,212,200,461.59,0.0,62.0,370.0,432.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:29:43+00:00,saopaulo,edge-replica,warm,213,200,564.72,0.0,174.0,376.0,550.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:29:45+00:00,saopaulo,edge-replica,warm,214,200,606.99,0.0,206.0,385.0,591.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:29:46+00:00,saopaulo,edge-replica,warm,215,200,607.7,0.0,219.0,377.0,596.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:47+00:00,saopaulo,edge-replica,warm,216,200,481.81,0.0,85.0,381.0,466.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:48+00:00,saopaulo,edge-replica,warm,217,200,553.99,0.0,162.0,379.0,541.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:29:49+00:00,saopaulo,edge-replica,warm,218,200,522.99,0.0,104.0,403.0,507.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:29:50+00:00,saopaulo,edge-replica,warm,219,200,488.86,0.0,95.0,376.0,471.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:29:51+00:00,saopaulo,edge-replica,warm,220,200,565.78,0.0,172.0,377.0,549.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:29:52+00:00,saopaulo,edge-replica,warm,221,200,484.18,0.0,93.0,376.0,469.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:29:53+00:00,saopaulo,edge-replica,warm,222,200,491.87,0.0,92.0,382.0,474.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:29:54+00:00,saopaulo,edge-replica,warm,223,200,486.35,0.0,103.0,367.0,470.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:29:55+00:00,saopaulo,edge-replica,warm,224,200,531.3,0.0,104.0,396.0,500.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:29:56+00:00,saopaulo,edge-replica,warm,225,200,574.27,0.0,160.0,396.0,556.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:29:57+00:00,saopaulo,edge-replica,warm,226,200,432.18,0.0,42.0,377.0,419.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:29:58+00:00,saopaulo,edge-replica,warm,227,200,443.05,0.0,50.0,378.0,428.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:29:59+00:00,saopaulo,edge-replica,warm,228,200,491.66,0.0,101.0,377.0,478.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:30:00+00:00,saopaulo,edge-replica,warm,229,200,491.33,0.0,99.0,376.0,475.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:30:01+00:00,saopaulo,edge-replica,warm,230,200,516.21,0.0,109.0,380.0,489.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:02+00:00,saopaulo,edge-replica,warm,231,200,523.45,0.0,119.0,388.0,507.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:30:03+00:00,saopaulo,edge-replica,warm,232,200,487.45,0.0,103.0,370.0,473.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:30:04+00:00,saopaulo,edge-replica,warm,233,200,499.82,0.0,107.0,374.0,481.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:30:05+00:00,saopaulo,edge-replica,warm,234,200,443.52,0.0,55.0,373.0,428.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:30:06+00:00,saopaulo,edge-replica,warm,235,200,570.49,0.0,175.0,379.0,554.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:30:07+00:00,saopaulo,edge-replica,warm,236,200,439.52,0.0,49.0,375.0,424.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:08+00:00,saopaulo,edge-replica,warm,237,200,488.5,0.0,95.0,379.0,474.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:30:09+00:00,saopaulo,edge-replica,warm,238,200,543.0,0.0,157.0,371.0,528.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:30:10+00:00,saopaulo,edge-replica,warm,239,200,560.77,0.0,162.0,385.0,547.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:30:11+00:00,saopaulo,edge-replica,warm,240,200,454.82,0.0,65.0,376.0,441.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:30:12+00:00,saopaulo,edge-replica,warm,241,200,435.68,0.0,44.0,378.0,422.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:30:13+00:00,saopaulo,edge-replica,warm,242,200,460.25,0.0,60.0,387.0,447.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:30:14+00:00,saopaulo,edge-replica,warm,243,200,450.26,0.0,50.0,386.0,436.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:15+00:00,saopaulo,edge-replica,warm,244,200,465.29,0.0,64.0,387.0,451.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:30:15+00:00,saopaulo,edge-replica,warm,245,200,480.13,0.0,82.0,380.0,462.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:16+00:00,saopaulo,edge-replica,warm,246,200,504.41,0.0,98.0,390.0,488.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:30:18+00:00,saopaulo,edge-replica,warm,247,200,582.67,0.0,189.0,377.0,566.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:30:19+00:00,saopaulo,edge-replica,warm,248,200,456.12,0.0,66.0,371.0,437.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:30:19+00:00,saopaulo,edge-replica,warm,249,200,454.77,0.0,60.0,379.0,439.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:30:20+00:00,saopaulo,edge-replica,warm,250,200,446.99,0.0,58.0,375.0,433.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:30:22+00:00,saopaulo,edge-replica,warm,251,200,568.41,0.0,160.0,389.0,549.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:22+00:00,saopaulo,edge-replica,warm,252,200,493.83,0.0,95.0,381.0,476.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:23+00:00,saopaulo,edge-replica,warm,253,200,441.69,0.0,42.0,384.0,426.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:30:24+00:00,saopaulo,edge-replica,warm,254,200,497.29,0.0,101.0,379.0,480.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:30:25+00:00,saopaulo,edge-replica,warm,255,200,543.38,0.0,149.0,376.0,525.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:30:26+00:00,saopaulo,edge-replica,warm,256,200,490.96,0.0,99.0,376.0,475.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:30:27+00:00,saopaulo,edge-replica,warm,257,200,452.97,0.0,65.0,374.0,439.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:28+00:00,saopaulo,edge-replica,warm,258,200,450.01,0.0,56.0,376.0,432.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:30:29+00:00,saopaulo,edge-replica,warm,259,200,448.31,0.0,57.0,377.0,434.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:30:30+00:00,saopaulo,edge-replica,warm,260,200,504.44,0.0,105.0,374.0,479.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:30:31+00:00,saopaulo,edge-replica,warm,261,200,496.39,0.0,101.0,381.0,482.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:30:32+00:00,saopaulo,edge-replica,warm,262,200,612.17,0.0,208.0,390.0,598.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:33+00:00,saopaulo,edge-replica,warm,263,200,468.07,0.0,71.0,382.0,453.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:34+00:00,saopaulo,edge-replica,warm,264,200,493.68,0.0,93.0,385.0,478.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:30:35+00:00,saopaulo,edge-replica,warm,265,200,448.35,0.0,55.0,379.0,434.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:36+00:00,saopaulo,edge-replica,warm,266,200,493.91,0.0,102.0,377.0,479.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:30:37+00:00,saopaulo,edge-replica,warm,267,200,549.58,0.0,166.0,367.0,533.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:30:38+00:00,saopaulo,edge-replica,warm,268,200,507.8,0.0,115.0,379.0,494.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:30:39+00:00,saopaulo,edge-replica,warm,269,200,484.3,0.0,96.0,372.0,468.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:30:40+00:00,saopaulo,edge-replica,warm,270,200,441.73,0.0,54.0,374.0,428.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:41+00:00,saopaulo,edge-replica,warm,271,200,517.59,0.0,120.0,383.0,503.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:30:42+00:00,saopaulo,edge-replica,warm,272,200,563.17,0.0,159.0,390.0,549.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:30:43+00:00,saopaulo,edge-replica,warm,273,200,491.92,0.0,99.0,376.0,475.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:30:44+00:00,saopaulo,edge-replica,warm,274,200,563.29,0.0,170.0,377.0,547.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:30:45+00:00,saopaulo,edge-replica,warm,275,200,513.89,0.0,117.0,379.0,496.0,GRU,edge-replica,5,3.38,how is recall at ten measured
+2026-10-01T01:30:46+00:00,saopaulo,edge-replica,warm,276,200,495.94,0.0,98.0,381.0,479.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:30:47+00:00,saopaulo,edge-replica,warm,277,200,485.69,0.0,99.0,373.0,472.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:30:48+00:00,saopaulo,edge-replica,warm,278,200,509.21,0.0,107.0,388.0,495.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:30:49+00:00,saopaulo,edge-replica,warm,279,200,494.94,0.0,106.0,373.0,479.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:30:51+00:00,saopaulo,edge-replica,warm,280,200,576.09,0.0,172.0,388.0,560.0,GRU,edge-replica,5,3.38,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:52+00:00,saopaulo,edge-replica,warm,281,200,579.84,0.0,172.0,387.0,559.0,GRU,edge-replica,5,3.38,what is the cold start time of a V8 isolate
+2026-10-01T01:30:53+00:00,saopaulo,edge-replica,warm,282,200,504.02,0.0,100.0,389.0,489.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:30:54+00:00,saopaulo,edge-replica,warm,283,200,567.93,0.0,177.0,376.0,553.0,GRU,edge-replica,5,3.38,how do read replicas affect data freshness
+2026-10-01T01:30:55+00:00,saopaulo,edge-replica,warm,284,200,488.13,0.0,101.0,375.0,476.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:30:56+00:00,saopaulo,edge-replica,warm,285,200,498.26,0.0,104.0,380.0,484.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:30:57+00:00,saopaulo,edge-replica,warm,286,200,702.36,0.0,300.0,387.0,687.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:30:58+00:00,saopaulo,edge-replica,warm,287,200,521.18,0.0,128.0,378.0,506.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:30:59+00:00,saopaulo,edge-replica,warm,288,200,439.91,0.0,51.0,376.0,427.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:31:00+00:00,saopaulo,edge-replica,warm,289,200,489.57,0.0,104.0,371.0,475.0,GRU,edge-replica,5,3.38,when does edge computing reduce time to first token
+2026-10-01T01:31:01+00:00,saopaulo,edge-replica,warm,290,200,447.45,0.0,49.0,381.0,430.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:31:02+00:00,saopaulo,edge-replica,warm,291,200,461.27,0.0,61.0,383.0,444.0,GRU,edge-replica,5,3.38,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:03+00:00,saopaulo,edge-replica,warm,292,200,509.6,0.0,120.0,374.0,494.0,GRU,edge-replica,5,3.38,how does connection pooling reduce database latency
+2026-10-01T01:31:04+00:00,saopaulo,edge-replica,warm,293,200,556.78,0.0,170.0,373.0,543.0,GRU,edge-replica,5,3.38,what does ef_search control in pgvector
+2026-10-01T01:31:05+00:00,saopaulo,edge-replica,warm,294,200,484.04,0.0,94.0,377.0,471.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:31:06+00:00,saopaulo,edge-replica,warm,295,200,500.06,0.0,107.0,377.0,484.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:31:07+00:00,saopaulo,edge-replica,warm,296,200,494.01,0.0,102.0,377.0,479.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:31:08+00:00,saopaulo,edge-replica,warm,297,200,592.9,0.0,202.0,378.0,580.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:31:09+00:00,saopaulo,edge-replica,warm,298,200,437.95,0.0,58.0,363.0,421.0,GRU,edge-replica,5,3.38,why are container cold starts slow
+2026-10-01T01:31:10+00:00,saopaulo,edge-replica,warm,299,200,504.86,0.0,104.0,388.0,492.0,GRU,edge-replica,5,3.38,what limits the recall of an HNSW index
+2026-10-01T01:31:29+00:00,saopaulo,edge-unpooled,cold,0,200,1368.71,16.28,98.0,1232.0,1330.0,GRU,edge-unpooled,5,3.12,why are container cold starts slow
+2026-10-01T01:31:31+00:00,saopaulo,edge-unpooled,cold,1,200,1516.36,17.35,157.0,1319.0,1476.0,GRU,edge-unpooled,5,3.12,when does edge computing reduce time to first token
+2026-10-01T01:31:33+00:00,saopaulo,edge-unpooled,cold,2,200,1393.39,11.6,64.0,1299.0,1363.0,GRU,edge-unpooled,5,3.12,how does connection pooling reduce database latency
+2026-10-01T01:31:36+00:00,saopaulo,edge-unpooled,cold,3,200,1865.6,21.54,182.0,1613.0,1795.0,GRU,edge-unpooled,5,3.12,what limits the recall of an HNSW index
+2026-10-01T01:31:37+00:00,saopaulo,edge-unpooled,cold,4,200,1305.71,16.99,57.0,1210.0,1267.0,GRU,edge-unpooled,5,3.12,how do read replicas affect data freshness
+2026-10-01T01:31:39+00:00,saopaulo,edge-unpooled,cold,5,200,1328.9,17.63,61.0,1225.0,1286.0,GRU,edge-unpooled,5,3.12,how do read replicas affect data freshness
+2026-10-01T01:31:41+00:00,saopaulo,edge-unpooled,cold,6,200,1697.85,23.42,334.0,1253.0,1587.0,GRU,edge-unpooled,5,3.12,what limits the recall of an HNSW index
+2026-10-01T01:31:44+00:00,saopaulo,edge-unpooled,cold,7,200,1726.61,14.49,87.0,1609.0,1696.0,GRU,edge-unpooled,5,3.12,when does edge computing reduce time to first token
+2026-10-01T01:31:46+00:00,saopaulo,edge-unpooled,cold,8,200,1651.04,11.98,167.0,1426.0,1593.0,GRU,edge-unpooled,5,3.12,what limits the recall of an HNSW index
+2026-10-01T01:31:48+00:00,saopaulo,edge-unpooled,cold,9,200,1461.07,27.28,159.0,1238.0,1397.0,GRU,edge-unpooled,5,3.12,why are container cold starts slow
+2026-10-01T01:31:50+00:00,saopaulo,edge-unpooled,cold,10,200,1427.66,16.28,159.0,1230.0,1389.0,GRU,edge-unpooled,5,3.12,how do read replicas affect data freshness
+2026-10-01T01:31:52+00:00,saopaulo,edge-unpooled,cold,11,200,1398.31,22.44,70.0,1269.0,1339.0,GRU,edge-unpooled,5,3.12,how does connection pooling reduce database latency
+2026-10-01T01:31:53+00:00,saopaulo,edge-unpooled,cold,12,200,1330.56,17.88,162.0,1129.0,1291.0,GRU,edge-unpooled,5,3.12,how is recall at ten measured
+2026-10-01T01:31:55+00:00,saopaulo,edge-unpooled,cold,13,200,1446.04,9.94,108.0,1311.0,1419.0,GRU,edge-unpooled,5,3.12,what limits the recall of an HNSW index
+2026-10-01T01:31:57+00:00,saopaulo,edge-unpooled,cold,14,200,1268.59,17.48,88.0,1140.0,1228.0,GRU,edge-unpooled,5,3.12,when does edge computing reduce time to first token
+2026-10-01T01:31:59+00:00,saopaulo,edge-unpooled,cold,15,200,1519.9,16.7,162.0,1317.0,1479.0,GRU,edge-unpooled,5,3.12,how is recall at ten measured
+2026-10-01T01:32:01+00:00,saopaulo,edge-unpooled,cold,16,200,1278.5,11.9,62.0,1189.0,1251.0,GRU,edge-unpooled,5,3.12,how does connection pooling reduce database latency
+2026-10-01T01:32:03+00:00,saopaulo,edge-unpooled,cold,17,200,1289.42,20.47,46.0,1204.0,1250.0,GRU,edge-unpooled,5,3.12,how is recall at ten measured
+2026-10-01T01:32:05+00:00,saopaulo,edge-unpooled,cold,18,200,1410.8,19.22,53.0,1317.0,1370.0,GRU,edge-unpooled,5,3.12,how is recall at ten measured
+2026-10-01T01:32:06+00:00,saopaulo,edge-unpooled,cold,19,200,1326.67,12.31,169.0,1132.0,1301.0,GRU,edge-unpooled,5,3.12,how do read replicas affect data freshness
+2026-10-01T01:32:08+00:00,saopaulo,edge-unpooled,cold,20,200,1450.8,12.5,103.0,1317.0,1420.0,GRU,edge-unpooled,5,3.12,how does connection pooling reduce database latency
+2026-10-01T01:32:10+00:00,saopaulo,edge-unpooled,cold,21,200,1461.87,12.04,124.0,1310.0,1434.0,GRU,edge-unpooled,5,3.12,when does edge computing reduce time to first token
+2026-10-01T01:32:12+00:00,saopaulo,edge-unpooled,cold,22,200,1393.64,14.46,153.0,1209.0,1362.0,GRU,edge-unpooled,5,3.12,how does connection pooling reduce database latency
+2026-10-01T01:32:14+00:00,saopaulo,edge-unpooled,cold,23,200,1476.69,19.73,196.0,1202.0,1398.0,GRU,edge-unpooled,5,3.12,why are container cold starts slow
+2026-10-01T01:32:16+00:00,saopaulo,edge-unpooled,cold,24,200,1304.97,13.02,56.0,1217.0,1273.0,GRU,edge-unpooled,5,3.12,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:18+00:00,saopaulo,edge-unpooled,cold,25,200,1364.46,17.07,75.0,1252.0,1327.0,GRU,edge-unpooled,5,3.12,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:20+00:00,saopaulo,edge-unpooled,cold,26,200,1409.11,11.39,100.0,1282.0,1382.0,GRU,edge-unpooled,5,3.12,how do read replicas affect data freshness
+2026-10-01T01:32:22+00:00,saopaulo,edge-unpooled,cold,27,200,1250.62,13.92,42.0,1175.0,1217.0,GRU,edge-unpooled,5,3.12,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:24+00:00,saopaulo,edge-unpooled,cold,28,200,1417.34,14.93,61.0,1325.0,1386.0,GRU,edge-unpooled,5,3.12,why are container cold starts slow
+2026-10-01T01:32:26+00:00,saopaulo,edge-unpooled,cold,29,200,1449.47,18.08,110.0,1299.0,1409.0,GRU,edge-unpooled,5,3.12,what limits the recall of an HNSW index
+2026-10-01T01:32:27+00:00,saopaulo,edge-unpooled,cold,30,200,1418.5,15.08,61.0,1323.0,1384.0,GRU,edge-unpooled,5,3.12,how is recall at ten measured
+2026-10-01T01:32:29+00:00,saopaulo,edge-unpooled,cold,31,200,1368.72,12.61,102.0,1234.0,1336.0,GRU,edge-unpooled,5,3.12,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:31+00:00,saopaulo,edge-unpooled,cold,32,200,1355.68,13.9,117.0,1198.0,1315.0,GRU,edge-unpooled,5,3.12,why are container cold starts slow
+2026-10-01T01:32:33+00:00,saopaulo,edge-unpooled,cold,33,200,1491.54,18.03,189.0,1243.0,1432.0,GRU,edge-unpooled,5,3.12,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:35+00:00,saopaulo,edge-unpooled,cold,34,200,1498.97,22.33,123.0,1318.0,1441.0,GRU,edge-unpooled,5,3.12,what limits the recall of an HNSW index
+2026-10-01T01:32:37+00:00,saopaulo,edge-unpooled,cold,35,200,1445.63,13.69,107.0,1305.0,1412.0,GRU,edge-unpooled,5,3.12,how is recall at ten measured
+2026-10-01T01:32:39+00:00,saopaulo,edge-unpooled,cold,36,200,1410.22,19.45,114.0,1244.0,1358.0,GRU,edge-unpooled,5,3.12,how is recall at ten measured
+2026-10-01T01:32:41+00:00,saopaulo,edge-unpooled,cold,37,200,1415.38,15.66,53.0,1329.0,1382.0,GRU,edge-unpooled,5,3.12,when does edge computing reduce time to first token
+2026-10-01T01:32:43+00:00,saopaulo,edge-unpooled,cold,38,200,1361.05,12.9,97.0,1235.0,1332.0,GRU,edge-unpooled,5,3.12,what is the cold start time of a V8 isolate
+2026-10-01T01:32:45+00:00,saopaulo,edge-unpooled,cold,39,200,1318.93,12.08,95.0,1195.0,1290.0,GRU,edge-unpooled,5,3.12,what limits the recall of an HNSW index
+2026-10-01T01:32:47+00:00,saopaulo,edge-unpooled,cold,40,200,1492.1,20.81,162.0,1273.0,1435.0,GRU,edge-unpooled,5,3.12,why are container cold starts slow
+2026-10-01T01:32:49+00:00,saopaulo,edge-unpooled,cold,41,200,1598.85,15.86,100.0,1464.0,1564.0,GRU,edge-unpooled,5,3.12,what limits the recall of an HNSW index
+2026-10-01T01:32:51+00:00,saopaulo,edge-unpooled,cold,42,200,1397.57,12.56,127.0,1242.0,1369.0,GRU,edge-unpooled,5,3.12,how is recall at ten measured
+2026-10-01T01:32:53+00:00,saopaulo,edge-unpooled,cold,43,200,1349.14,14.58,91.0,1219.0,1310.0,GRU,edge-unpooled,5,3.12,how does connection pooling reduce database latency
+2026-10-01T01:32:55+00:00,saopaulo,edge-unpooled,cold,44,200,1481.31,15.96,61.0,1388.0,1449.0,GRU,edge-unpooled,5,3.12,how is recall at ten measured
+2026-10-01T01:32:56+00:00,saopaulo,edge-unpooled,cold,45,200,1245.92,11.44,88.0,1132.0,1220.0,GRU,edge-unpooled,5,3.12,when does edge computing reduce time to first token
+2026-10-01T01:32:58+00:00,saopaulo,edge-unpooled,cold,46,200,1294.12,11.8,52.0,1198.0,1250.0,GRU,edge-unpooled,5,3.12,what does ef_search control in pgvector
+2026-10-01T01:33:00+00:00,saopaulo,edge-unpooled,cold,47,200,1561.68,12.42,105.0,1426.0,1531.0,GRU,edge-unpooled,5,3.12,why are container cold starts slow
+2026-10-01T01:33:02+00:00,saopaulo,edge-unpooled,cold,48,200,1532.87,18.88,90.0,1389.0,1479.0,GRU,edge-unpooled,5,3.12,how do read replicas affect data freshness
+2026-10-01T01:33:04+00:00,saopaulo,edge-unpooled,cold,49,200,1445.5,12.51,97.0,1311.0,1408.0,GRU,edge-unpooled,5,3.12,what is the cold start time of a V8 isolate
+2026-10-01T01:33:06+00:00,saopaulo,edge-unpooled,cold,50,200,1279.09,21.13,56.0,1186.0,1242.0,GRU,edge-unpooled,5,3.12,what does ef_search control in pgvector
+2026-10-01T01:33:08+00:00,saopaulo,edge-unpooled,cold,51,200,1789.56,12.91,166.0,1593.0,1759.0,GRU,edge-unpooled,5,3.12,how is recall at ten measured
+2026-10-01T01:33:10+00:00,saopaulo,edge-unpooled,cold,52,200,1396.02,15.76,142.0,1205.0,1347.0,GRU,edge-unpooled,5,3.12,what does ef_search control in pgvector
+2026-10-01T01:33:12+00:00,saopaulo,edge-unpooled,cold,53,200,1290.67,18.12,50.0,1204.0,1254.0,GRU,edge-unpooled,5,3.12,what is the cold start time of a V8 isolate
+2026-10-01T01:33:14+00:00,saopaulo,edge-unpooled,cold,54,200,1677.48,13.27,124.0,1524.0,1648.0,GRU,edge-unpooled,5,3.12,how much memory does a 768-dimensional vector index need
+2026-10-01T01:33:16+00:00,saopaulo,edge-unpooled,cold,55,200,1592.63,14.39,145.0,1411.0,1556.0,GRU,edge-unpooled,5,3.12,when does edge computing reduce time to first token
+2026-10-01T01:33:18+00:00,saopaulo,edge-unpooled,cold,56,200,1589.12,14.57,50.0,1504.0,1554.0,GRU,edge-unpooled,5,3.12,why is fibre propagation slower than light in vacuum
+2026-10-01T01:33:20+00:00,saopaulo,edge-unpooled,cold,57,200,1386.95,18.84,50.0,1294.0,1344.0,GRU,edge-unpooled,5,3.12,when does edge computing reduce time to first token
+2026-10-01T01:33:22+00:00,saopaulo,edge-unpooled,cold,58,200,1422.22,18.58,131.0,1233.0,1364.0,GRU,edge-unpooled,5,3.12,what limits the recall of an HNSW index
+2026-10-01T01:33:24+00:00,saopaulo,edge-unpooled,cold,59,200,1531.34,16.4,98.0,1398.0,1496.0,GRU,edge-unpooled,5,3.12,how is recall at ten measured
+2026-10-01T01:33:26+00:00,saopaulo,edge-unpooled,cold,60,200,1449.14,11.55,94.0,1327.0,1421.0,GRU,edge-unpooled,5,3.12,how much memory does a 768-dimensional vector index need
+2026-10-01T01:33:28+00:00,saopaulo,edge-unpooled,cold,61,200,1464.19,21.33,181.0,1231.0,1412.0,GRU,edge-unpooled,5,3.12,why are container cold starts slow
+2026-10-01T01:33:30+00:00,saopaulo,edge-unpooled,cold,62,200,1377.83,15.15,45.0,1297.0,1342.0,GRU,edge-unpooled,5,3.12,what does ef_search control in pgvector
+2026-10-01T01:33:32+00:00,saopaulo,edge-unpooled,cold,63,200,1453.15,11.98,113.0,1311.0,1424.0,GRU,edge-unpooled,5,3.12,what is the cold start time of a V8 isolate
+2026-10-01T01:33:34+00:00,saopaulo,edge-unpooled,cold,64,200,1433.12,19.49,157.0,1230.0,1387.0,GRU,edge-unpooled,5,3.12,what does ef_search control in pgvector
+2026-10-01T01:33:36+00:00,saopaulo,edge-unpooled,cold,65,200,1357.91,12.44,104.0,1226.0,1330.0,GRU,edge-unpooled,5,3.12,how much memory does a 768-dimensional vector index need

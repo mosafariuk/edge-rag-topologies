@@ -12,4 +12,3 @@ data/
 *.bak
 .env
 phase2.env
-probe/results/

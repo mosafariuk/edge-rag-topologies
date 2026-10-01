@@ -1,0 +1,1274 @@
+ts,region,topology,mode,i,status,wall_ms,connect_ms,st_embed,st_search,st_total,colo,server_topology,n_results,tcp_rtt_ms,query
+2026-10-01T01:20:33+00:00,virginia,central-tunnel,cold,0,200,126.74,8.73,72.0,4.0,77.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:20:34+00:00,virginia,central-tunnel,cold,1,200,144.5,9.83,85.0,5.0,89.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:20:34+00:00,virginia,central-tunnel,cold,2,200,129.22,7.56,87.0,6.0,93.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:20:35+00:00,virginia,central-tunnel,cold,3,200,141.05,8.12,84.0,5.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:20:36+00:00,virginia,central-tunnel,cold,4,200,123.36,6.48,83.0,5.0,88.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:20:36+00:00,virginia,central-tunnel,cold,5,200,150.23,10.33,82.0,4.0,86.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:20:37+00:00,virginia,central-tunnel,cold,6,200,198.83,8.95,119.0,5.0,124.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:20:38+00:00,virginia,central-tunnel,cold,7,200,138.83,8.58,83.0,5.0,88.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:20:38+00:00,virginia,central-tunnel,cold,8,200,126.32,10.24,83.0,5.0,87.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:20:39+00:00,virginia,central-tunnel,cold,9,200,115.39,7.99,73.0,4.0,77.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:20:40+00:00,virginia,central-tunnel,cold,10,200,120.56,6.97,82.0,4.0,85.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:20:40+00:00,virginia,central-tunnel,cold,11,200,124.06,6.12,83.0,5.0,88.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:20:41+00:00,virginia,central-tunnel,cold,12,200,124.93,8.39,71.0,4.0,75.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:20:41+00:00,virginia,central-tunnel,cold,13,200,123.26,7.33,83.0,5.0,88.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:20:42+00:00,virginia,central-tunnel,cold,14,200,134.92,9.35,87.0,5.0,92.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:20:43+00:00,virginia,central-tunnel,cold,15,200,218.01,8.87,169.0,7.0,176.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:20:43+00:00,virginia,central-tunnel,cold,16,200,123.32,9.34,82.0,4.0,87.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:20:44+00:00,virginia,central-tunnel,cold,17,200,117.68,9.08,73.0,5.0,77.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:20:45+00:00,virginia,central-tunnel,cold,18,200,113.34,8.01,71.0,5.0,76.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:20:45+00:00,virginia,central-tunnel,cold,19,200,169.25,7.45,122.0,4.0,126.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:20:46+00:00,virginia,central-tunnel,cold,20,200,140.65,11.69,82.0,4.0,87.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:20:47+00:00,virginia,central-tunnel,cold,21,200,129.6,9.31,82.0,5.0,86.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:20:47+00:00,virginia,central-tunnel,cold,22,200,123.36,9.29,84.0,5.0,88.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:20:48+00:00,virginia,central-tunnel,cold,23,200,147.14,9.82,98.0,4.0,102.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:20:49+00:00,virginia,central-tunnel,cold,24,200,120.05,6.04,84.0,4.0,87.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:20:49+00:00,virginia,central-tunnel,cold,25,200,132.46,6.57,94.0,4.0,98.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:20:50+00:00,virginia,central-tunnel,cold,26,200,123.09,7.3,82.0,4.0,86.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:20:50+00:00,virginia,central-tunnel,cold,27,200,133.79,8.42,83.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:20:51+00:00,virginia,central-tunnel,cold,28,200,130.62,9.8,70.0,4.0,74.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:20:52+00:00,virginia,central-tunnel,cold,29,200,131.57,7.64,87.0,4.0,92.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:20:52+00:00,virginia,central-tunnel,cold,30,200,120.76,8.53,71.0,5.0,82.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:20:53+00:00,virginia,central-tunnel,cold,31,200,135.08,6.12,96.0,4.0,100.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:20:54+00:00,virginia,central-tunnel,cold,32,200,149.85,8.9,106.0,6.0,112.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:20:54+00:00,virginia,central-tunnel,cold,33,200,126.92,7.78,82.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:20:55+00:00,virginia,central-tunnel,cold,34,200,151.89,9.26,83.0,6.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:20:56+00:00,virginia,central-tunnel,cold,35,200,123.39,5.37,72.0,4.0,76.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:20:56+00:00,virginia,central-tunnel,cold,36,200,180.27,12.01,120.0,4.0,124.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:20:57+00:00,virginia,central-tunnel,cold,37,200,127.21,7.25,82.0,5.0,86.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:20:58+00:00,virginia,central-tunnel,cold,38,200,119.46,5.96,85.0,4.0,88.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:20:58+00:00,virginia,central-tunnel,cold,39,200,126.36,8.01,82.0,5.0,86.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:20:59+00:00,virginia,central-tunnel,cold,40,200,131.88,17.81,73.0,4.0,77.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:20:59+00:00,virginia,central-tunnel,cold,41,200,125.28,8.58,83.0,5.0,88.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:21:00+00:00,virginia,central-tunnel,cold,42,200,104.41,6.28,70.0,5.0,75.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:21:01+00:00,virginia,central-tunnel,cold,43,200,137.86,9.67,83.0,4.0,87.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:21:01+00:00,virginia,central-tunnel,cold,44,200,112.98,8.03,71.0,5.0,75.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:21:02+00:00,virginia,central-tunnel,cold,45,200,149.22,8.02,95.0,7.0,102.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:21:03+00:00,virginia,central-tunnel,cold,46,200,137.25,5.66,92.0,4.0,97.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:21:03+00:00,virginia,central-tunnel,cold,47,200,116.27,8.57,71.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:21:04+00:00,virginia,central-tunnel,cold,48,200,130.42,5.78,83.0,4.0,87.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:21:05+00:00,virginia,central-tunnel,cold,49,200,202.71,6.84,154.0,6.0,160.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:21:05+00:00,virginia,central-tunnel,cold,50,200,147.02,7.62,93.0,4.0,98.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:21:06+00:00,virginia,central-tunnel,cold,51,200,132.24,12.44,71.0,5.0,75.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:21:07+00:00,virginia,central-tunnel,cold,52,200,129.78,5.95,92.0,4.0,96.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:21:07+00:00,virginia,central-tunnel,cold,53,200,141.39,12.9,88.0,4.0,91.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:21:08+00:00,virginia,central-tunnel,cold,54,200,135.46,8.18,94.0,5.0,99.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:08+00:00,virginia,central-tunnel,cold,55,200,125.35,6.91,84.0,5.0,89.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:21:09+00:00,virginia,central-tunnel,cold,56,200,123.71,7.21,84.0,4.0,88.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:10+00:00,virginia,central-tunnel,cold,57,200,124.27,6.21,85.0,5.0,90.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:21:10+00:00,virginia,central-tunnel,cold,58,200,193.09,6.83,149.0,7.0,156.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:21:11+00:00,virginia,central-tunnel,cold,59,200,116.39,8.1,72.0,5.0,77.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:21:12+00:00,virginia,central-tunnel,cold,60,200,141.37,8.71,97.0,4.0,101.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:13+00:00,virginia,central-tunnel,cold,61,200,540.34,6.86,71.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:21:13+00:00,virginia,central-tunnel,cold,62,200,142.1,8.53,98.0,6.0,104.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:21:14+00:00,virginia,central-tunnel,cold,63,200,154.89,9.7,84.0,4.0,88.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:21:15+00:00,virginia,central-tunnel,cold,64,200,206.21,9.13,94.0,4.0,99.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:21:15+00:00,virginia,central-tunnel,cold,65,200,190.98,7.75,148.0,6.0,154.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:16+00:00,virginia,central-tunnel,cold,66,200,118.83,6.94,70.0,5.0,75.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:21:17+00:00,virginia,central-tunnel,cold,67,200,167.98,7.96,85.0,5.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:21:17+00:00,virginia,central-tunnel,cold,68,200,139.92,5.44,84.0,5.0,88.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:21:18+00:00,virginia,central-tunnel,cold,69,200,134.98,9.21,86.0,4.0,90.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:21:19+00:00,virginia,central-tunnel,cold,70,200,134.92,10.31,83.0,4.0,87.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:21:19+00:00,virginia,central-tunnel,cold,71,200,122.97,8.76,82.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:20+00:00,virginia,central-tunnel,cold,72,200,138.03,9.68,84.0,4.0,87.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:21:21+00:00,virginia,central-tunnel,cold,73,200,124.11,9.04,83.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:21+00:00,virginia,central-tunnel,cold,74,200,144.46,8.66,100.0,7.0,107.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:21:22+00:00,virginia,central-tunnel,cold,75,200,136.92,11.28,85.0,4.0,89.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:21:23+00:00,virginia,central-tunnel,cold,76,200,137.36,10.52,84.0,7.0,91.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:21:23+00:00,virginia,central-tunnel,cold,77,200,124.34,7.14,85.0,5.0,90.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:21:24+00:00,virginia,central-tunnel,cold,78,200,159.29,7.74,114.0,6.0,121.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:21:24+00:00,virginia,central-tunnel,cold,79,200,114.21,9.01,70.0,5.0,75.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:21:25+00:00,virginia,central-tunnel,cold,80,200,127.56,7.04,86.0,4.0,90.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:21:26+00:00,virginia,central-tunnel,cold,81,200,132.82,8.44,91.0,4.0,95.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:21:26+00:00,virginia,central-tunnel,cold,82,200,202.14,10.09,142.0,5.0,147.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:21:27+00:00,virginia,central-tunnel,cold,83,200,114.09,8.22,72.0,5.0,77.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:21:28+00:00,virginia,central-tunnel,cold,84,200,150.25,7.68,95.0,4.0,100.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:21:28+00:00,virginia,central-tunnel,cold,85,200,129.72,8.42,70.0,6.0,76.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:21:29+00:00,virginia,central-tunnel,cold,86,200,170.45,12.27,92.0,4.0,96.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:21:30+00:00,virginia,central-tunnel,cold,87,200,230.33,9.94,137.0,7.0,145.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:21:30+00:00,virginia,central-tunnel,cold,88,200,151.66,7.57,83.0,5.0,87.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:21:31+00:00,virginia,central-tunnel,cold,89,200,151.0,8.87,94.0,4.0,98.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:32+00:00,virginia,central-tunnel,cold,90,200,145.27,7.62,103.0,5.0,108.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:21:32+00:00,virginia,central-tunnel,cold,91,200,153.29,13.0,85.0,5.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:21:33+00:00,virginia,central-tunnel,cold,92,200,139.26,9.74,92.0,7.0,99.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:21:34+00:00,virginia,central-tunnel,cold,93,200,160.33,8.13,96.0,4.0,101.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:34+00:00,virginia,central-tunnel,cold,94,200,114.18,8.37,74.0,5.0,79.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:21:35+00:00,virginia,central-tunnel,cold,95,200,134.16,7.67,93.0,4.0,97.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:21:36+00:00,virginia,central-tunnel,cold,96,200,215.55,6.24,173.0,5.0,178.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:36+00:00,virginia,central-tunnel,cold,97,200,122.06,7.53,82.0,4.0,86.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:21:37+00:00,virginia,central-tunnel,cold,98,200,137.47,8.24,85.0,4.0,89.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:21:38+00:00,virginia,central-tunnel,cold,99,200,129.42,9.06,84.0,5.0,89.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:21:38+00:00,virginia,central-tunnel,cold,100,200,163.88,10.63,114.0,4.0,118.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:21:39+00:00,virginia,central-tunnel,cold,101,200,133.73,6.46,85.0,4.0,89.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:21:40+00:00,virginia,central-tunnel,cold,102,200,121.44,6.93,83.0,4.0,87.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:40+00:00,virginia,central-tunnel,cold,103,200,107.91,7.91,70.0,5.0,75.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:21:41+00:00,virginia,central-tunnel,cold,104,200,136.73,9.5,86.0,5.0,90.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:21:41+00:00,virginia,central-tunnel,cold,105,200,144.65,7.3,97.0,7.0,104.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:21:42+00:00,virginia,central-tunnel,cold,106,200,123.62,6.9,84.0,4.0,88.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:21:43+00:00,virginia,central-tunnel,cold,107,200,136.41,8.72,84.0,5.0,89.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:21:43+00:00,virginia,central-tunnel,cold,108,200,131.51,7.78,92.0,4.0,96.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:44+00:00,virginia,central-tunnel,cold,109,200,211.28,14.11,163.0,5.0,168.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:45+00:00,virginia,central-tunnel,cold,110,200,129.75,8.33,85.0,5.0,90.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:21:45+00:00,virginia,central-tunnel,cold,111,200,121.8,6.61,83.0,4.0,87.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:21:46+00:00,virginia,central-tunnel,cold,112,200,153.01,10.42,82.0,4.0,86.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:21:47+00:00,virginia,central-tunnel,cold,113,200,160.47,10.25,96.0,4.0,100.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:21:47+00:00,virginia,central-tunnel,cold,114,200,170.45,19.4,100.0,7.0,107.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:21:48+00:00,virginia,central-tunnel,cold,115,200,123.5,8.11,84.0,4.0,88.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:49+00:00,virginia,central-tunnel,cold,116,200,140.73,10.45,94.0,4.0,99.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:21:49+00:00,virginia,central-tunnel,cold,117,200,140.87,8.82,84.0,4.0,88.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:21:50+00:00,virginia,central-tunnel,cold,118,200,176.3,7.2,125.0,5.0,129.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:21:51+00:00,virginia,central-tunnel,cold,119,200,146.4,5.66,93.0,4.0,98.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:51+00:00,virginia,central-tunnel,cold,120,200,132.35,8.17,83.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:52+00:00,virginia,central-tunnel,cold,121,200,130.18,9.67,83.0,4.0,87.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:21:53+00:00,virginia,central-tunnel,cold,122,200,120.21,8.38,73.0,4.0,77.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:21:53+00:00,virginia,central-tunnel,cold,123,200,157.76,11.57,103.0,5.0,108.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:54+00:00,virginia,central-tunnel,cold,124,200,120.25,9.76,80.0,4.0,84.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:21:54+00:00,virginia,central-tunnel,cold,125,200,123.44,7.51,84.0,4.0,87.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:21:55+00:00,virginia,central-tunnel,cold,126,200,117.16,7.4,80.0,4.0,84.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:21:56+00:00,virginia,central-tunnel,cold,127,200,154.58,9.06,102.0,7.0,109.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:21:56+00:00,virginia,central-tunnel,cold,128,200,138.58,8.92,100.0,4.0,103.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:57+00:00,virginia,central-tunnel,cold,129,200,138.14,11.52,82.0,4.0,87.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:21:58+00:00,virginia,central-tunnel,cold,130,200,131.39,9.03,83.0,4.0,87.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:58+00:00,virginia,central-tunnel,cold,131,200,192.27,9.52,132.0,4.0,136.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:59+00:00,virginia,central-tunnel,cold,132,200,126.32,7.96,81.0,5.0,86.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:22:00+00:00,virginia,central-tunnel,cold,133,200,121.23,5.97,83.0,5.0,88.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:22:00+00:00,virginia,central-tunnel,cold,134,200,131.7,7.39,82.0,5.0,87.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:22:01+00:00,virginia,central-tunnel,cold,135,200,155.79,8.76,109.0,4.0,114.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:22:02+00:00,virginia,central-tunnel,cold,136,200,108.59,6.2,72.0,5.0,77.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:22:02+00:00,virginia,central-tunnel,cold,137,200,127.24,7.39,83.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:03+00:00,virginia,central-tunnel,cold,138,200,147.16,8.01,93.0,4.0,98.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:03+00:00,virginia,central-tunnel,cold,139,200,148.79,10.92,91.0,4.0,95.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:04+00:00,virginia,central-tunnel,cold,140,200,181.61,8.27,131.0,7.0,137.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:22:05+00:00,virginia,central-tunnel,cold,141,200,124.6,7.77,84.0,4.0,88.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:05+00:00,virginia,central-tunnel,cold,142,200,123.03,7.84,81.0,4.0,85.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:22:06+00:00,virginia,central-tunnel,cold,143,200,112.67,6.97,72.0,4.0,76.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:22:07+00:00,virginia,central-tunnel,cold,144,200,181.26,7.62,141.0,4.0,144.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:22:07+00:00,virginia,central-tunnel,cold,145,200,129.89,9.36,70.0,4.0,75.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:22:08+00:00,virginia,central-tunnel,cold,146,200,123.59,7.63,71.0,4.0,76.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:22:09+00:00,virginia,central-tunnel,cold,147,200,167.26,8.04,105.0,3.0,109.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:22:09+00:00,virginia,central-tunnel,cold,148,200,137.16,9.97,83.0,4.0,87.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:10+00:00,virginia,central-tunnel,cold,149,200,199.58,13.59,116.0,7.0,124.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:22:11+00:00,virginia,central-tunnel,cold,150,200,113.81,7.79,72.0,5.0,76.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:22:11+00:00,virginia,central-tunnel,cold,151,200,134.44,7.49,83.0,4.0,88.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:22:12+00:00,virginia,central-tunnel,cold,152,200,139.76,7.83,94.0,4.0,99.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:22:13+00:00,virginia,central-tunnel,cold,153,200,161.65,6.64,117.0,6.0,123.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:22:13+00:00,virginia,central-tunnel,cold,154,200,124.43,9.71,81.0,4.0,85.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:22:14+00:00,virginia,central-tunnel,cold,155,200,119.47,6.13,82.0,4.0,86.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:22:15+00:00,virginia,central-tunnel,cold,156,200,137.44,9.26,83.0,4.0,87.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:22:15+00:00,virginia,central-tunnel,cold,157,200,152.37,8.55,105.0,4.0,109.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:22:16+00:00,virginia,central-tunnel,cold,158,200,125.39,6.12,86.0,5.0,90.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:22:16+00:00,virginia,central-tunnel,cold,159,200,135.72,6.98,95.0,4.0,99.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:22:17+00:00,virginia,central-tunnel,cold,160,200,138.31,11.76,83.0,4.0,87.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:22:18+00:00,virginia,central-tunnel,cold,161,200,131.94,9.33,85.0,4.0,89.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:22:18+00:00,virginia,central-tunnel,cold,162,200,161.99,15.92,108.0,7.0,115.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:22:19+00:00,virginia,central-tunnel,cold,163,200,129.58,7.01,85.0,4.0,90.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:22:20+00:00,virginia,central-tunnel,cold,164,200,129.23,8.26,84.0,5.0,89.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:22:20+00:00,virginia,central-tunnel,cold,165,200,133.29,7.43,93.0,4.0,97.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:22:21+00:00,virginia,central-tunnel,cold,166,200,243.62,7.86,201.0,4.0,205.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:22+00:00,virginia,central-tunnel,cold,167,200,132.07,7.89,85.0,5.0,90.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:22:22+00:00,virginia,central-tunnel,cold,168,200,128.95,9.64,84.0,4.0,88.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:22:23+00:00,virginia,central-tunnel,cold,169,200,113.3,8.38,72.0,5.0,76.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:22:24+00:00,virginia,central-tunnel,cold,170,200,160.66,11.7,85.0,4.0,89.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:22:24+00:00,virginia,central-tunnel,cold,171,200,134.82,15.95,84.0,5.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:22:25+00:00,virginia,central-tunnel,cold,172,200,132.12,7.27,83.0,4.0,87.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:22:26+00:00,virginia,central-tunnel,cold,173,200,116.5,10.72,70.0,5.0,75.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:22:26+00:00,virginia,central-tunnel,cold,174,200,129.42,8.21,84.0,4.0,88.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:27+00:00,virginia,central-tunnel,cold,175,200,174.88,11.01,113.0,6.0,119.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:22:27+00:00,virginia,central-tunnel,cold,176,200,121.7,6.83,83.0,5.0,87.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:22:28+00:00,virginia,central-tunnel,cold,177,200,121.01,7.59,83.0,4.0,86.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:22:29+00:00,virginia,central-tunnel,cold,178,200,117.63,7.28,71.0,5.0,76.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:22:29+00:00,virginia,central-tunnel,cold,179,200,183.26,7.76,138.0,4.0,142.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:22:30+00:00,virginia,central-tunnel,cold,180,200,123.62,5.82,83.0,5.0,87.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:22:31+00:00,virginia,central-tunnel,cold,181,200,133.63,8.33,82.0,5.0,87.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:22:31+00:00,virginia,central-tunnel,cold,182,200,126.41,7.42,71.0,5.0,75.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:22:32+00:00,virginia,central-tunnel,cold,183,200,132.22,7.72,93.0,4.0,97.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:22:33+00:00,virginia,central-tunnel,cold,184,200,130.83,9.14,85.0,4.0,89.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:33+00:00,virginia,central-tunnel,cold,185,200,159.98,6.86,115.0,4.0,119.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:34+00:00,virginia,central-tunnel,cold,186,200,127.52,7.29,83.0,4.0,87.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:22:35+00:00,virginia,central-tunnel,cold,187,200,116.24,7.89,72.0,5.0,76.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:22:35+00:00,virginia,central-tunnel,cold,188,200,188.76,12.66,129.0,6.0,136.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:22:36+00:00,virginia,central-tunnel,cold,189,200,133.86,7.36,94.0,4.0,98.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:22:37+00:00,virginia,central-tunnel,cold,190,200,123.04,8.84,84.0,5.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:22:37+00:00,virginia,central-tunnel,cold,191,200,124.54,9.46,82.0,5.0,86.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:22:38+00:00,virginia,central-tunnel,cold,192,200,193.59,11.1,146.0,4.0,150.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:22:38+00:00,virginia,central-tunnel,cold,193,200,129.21,6.37,94.0,4.0,99.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:22:39+00:00,virginia,central-tunnel,cold,194,200,133.33,8.95,92.0,4.0,97.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:22:40+00:00,virginia,central-tunnel,cold,195,200,161.04,8.47,93.0,4.0,98.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:22:40+00:00,virginia,central-tunnel,cold,196,200,139.67,6.18,94.0,5.0,99.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:41+00:00,virginia,central-tunnel,cold,197,200,187.44,7.76,132.0,7.0,140.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:22:42+00:00,virginia,central-tunnel,cold,198,200,118.53,5.9,83.0,4.0,87.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:42+00:00,virginia,central-tunnel,cold,199,200,176.94,10.42,129.0,10.0,138.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:22:43+00:00,virginia,central-tunnel,cold,200,200,128.06,6.03,84.0,4.0,87.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:22:44+00:00,virginia,central-tunnel,cold,201,200,166.41,11.08,122.0,4.0,126.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:44+00:00,virginia,central-tunnel,cold,202,200,140.47,10.8,94.0,4.0,99.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:22:45+00:00,virginia,central-tunnel,cold,203,200,125.59,8.6,83.0,4.0,87.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:46+00:00,virginia,central-tunnel,cold,204,200,119.97,7.9,70.0,4.0,74.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:22:46+00:00,virginia,central-tunnel,cold,205,200,124.29,9.75,83.0,5.0,88.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:22:47+00:00,virginia,central-tunnel,cold,206,200,138.54,7.12,88.0,5.0,93.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:22:48+00:00,virginia,central-tunnel,cold,207,200,123.76,11.38,71.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:22:48+00:00,virginia,central-tunnel,cold,208,200,142.21,8.96,84.0,4.0,87.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:22:49+00:00,virginia,central-tunnel,cold,209,200,122.31,7.6,83.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:50+00:00,virginia,central-tunnel,cold,210,200,148.5,8.44,101.0,7.0,108.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:22:50+00:00,virginia,central-tunnel,cold,211,200,131.03,7.18,85.0,4.0,89.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:22:51+00:00,virginia,central-tunnel,cold,212,200,128.17,10.65,70.0,4.0,74.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:22:51+00:00,virginia,central-tunnel,cold,213,200,134.8,6.18,95.0,4.0,99.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:52+00:00,virginia,central-tunnel,cold,214,200,192.89,6.01,152.0,7.0,159.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:22:53+00:00,virginia,central-tunnel,cold,215,200,159.45,10.49,94.0,4.0,99.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:53+00:00,virginia,central-tunnel,cold,216,200,117.86,8.17,71.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:22:54+00:00,virginia,central-tunnel,cold,217,200,128.08,7.47,85.0,4.0,89.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:22:55+00:00,virginia,central-tunnel,cold,218,200,143.63,8.8,100.0,5.0,105.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:55+00:00,virginia,central-tunnel,cold,219,200,123.23,7.72,84.0,4.0,88.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:22:56+00:00,virginia,central-tunnel,cold,220,200,122.96,6.93,82.0,5.0,87.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:22:57+00:00,virginia,central-tunnel,cold,221,200,108.18,7.35,71.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:22:57+00:00,virginia,central-tunnel,cold,222,200,112.02,7.96,73.0,4.0,77.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:22:58+00:00,virginia,central-tunnel,cold,223,200,165.11,11.1,102.0,6.0,108.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:22:59+00:00,virginia,central-tunnel,cold,224,200,132.64,7.8,86.0,4.0,90.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:22:59+00:00,virginia,central-tunnel,cold,225,200,124.17,6.81,83.0,5.0,88.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:23:00+00:00,virginia,central-tunnel,cold,226,200,119.65,8.35,71.0,5.0,75.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:23:00+00:00,virginia,central-tunnel,cold,227,200,167.3,8.81,122.0,8.0,130.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:23:01+00:00,virginia,central-tunnel,cold,228,200,121.14,6.72,83.0,5.0,87.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:23:02+00:00,virginia,central-tunnel,cold,229,200,134.46,8.55,84.0,4.0,88.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:23:02+00:00,virginia,central-tunnel,cold,230,200,126.42,7.4,84.0,5.0,89.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:23:03+00:00,virginia,central-tunnel,cold,231,200,183.66,8.08,140.0,6.0,146.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:23:04+00:00,virginia,central-tunnel,cold,232,200,114.35,7.14,70.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:23:04+00:00,virginia,central-tunnel,cold,233,200,143.75,8.42,92.0,4.0,96.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:23:05+00:00,virginia,central-tunnel,cold,234,200,130.04,6.44,84.0,4.0,88.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:23:06+00:00,virginia,central-tunnel,cold,235,200,136.49,13.86,88.0,5.0,93.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:23:06+00:00,virginia,central-tunnel,cold,236,200,131.17,9.45,83.0,5.0,88.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:23:07+00:00,virginia,central-tunnel,cold,237,200,145.6,9.96,95.0,4.0,99.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:23:08+00:00,virginia,central-tunnel,cold,238,200,130.38,7.14,94.0,4.0,98.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:23:08+00:00,virginia,central-tunnel,cold,239,200,134.14,8.52,95.0,4.0,99.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:23:09+00:00,virginia,central-tunnel,cold,240,200,186.0,9.26,136.0,5.0,142.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:23:09+00:00,virginia,central-tunnel,cold,241,200,115.37,7.76,71.0,5.0,76.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:23:10+00:00,virginia,central-tunnel,cold,242,200,141.89,9.8,98.0,4.0,102.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:23:11+00:00,virginia,central-tunnel,cold,243,200,141.21,7.08,91.0,4.0,96.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:23:11+00:00,virginia,central-tunnel,cold,244,200,129.05,10.48,82.0,4.0,86.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:23:12+00:00,virginia,central-tunnel,cold,245,200,125.81,9.24,83.0,4.0,87.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:23:13+00:00,virginia,central-tunnel,cold,246,200,143.97,9.62,85.0,5.0,90.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:23:13+00:00,virginia,central-tunnel,cold,247,200,128.97,7.87,83.0,5.0,87.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:23:14+00:00,virginia,central-tunnel,cold,248,200,130.75,10.74,86.0,5.0,90.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:23:15+00:00,virginia,central-tunnel,cold,249,200,169.5,6.5,130.0,7.0,137.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:23:15+00:00,virginia,central-tunnel,cold,250,200,159.64,11.69,93.0,4.0,98.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:23:16+00:00,virginia,central-tunnel,cold,251,200,127.78,7.79,84.0,5.0,90.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:23:17+00:00,virginia,central-tunnel,cold,252,200,129.59,10.18,84.0,4.0,87.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:23:17+00:00,virginia,central-tunnel,cold,253,200,135.66,8.54,93.0,5.0,98.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:23:18+00:00,virginia,central-tunnel,cold,254,200,140.2,6.85,94.0,4.0,98.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:23:19+00:00,virginia,central-tunnel,cold,255,200,116.84,7.86,73.0,5.0,78.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:23:19+00:00,virginia,central-tunnel,cold,256,200,106.8,6.89,70.0,5.0,74.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:23:20+00:00,virginia,central-tunnel,cold,257,200,133.27,9.35,83.0,4.0,88.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:23:20+00:00,virginia,central-tunnel,cold,258,200,170.03,10.88,113.0,6.0,119.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:23:21+00:00,virginia,central-tunnel,cold,259,200,129.71,7.14,86.0,4.0,89.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:23:22+00:00,virginia,central-tunnel,cold,260,200,131.31,11.92,84.0,5.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:23:22+00:00,virginia,central-tunnel,cold,261,200,137.07,5.82,102.0,5.0,107.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:23:23+00:00,virginia,central-tunnel,cold,262,200,192.29,7.5,147.0,6.0,152.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:23:24+00:00,virginia,central-tunnel,cold,263,200,125.46,8.27,85.0,5.0,89.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:23:24+00:00,virginia,central-tunnel,cold,264,200,139.46,8.35,91.0,4.0,96.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:23:25+00:00,virginia,central-tunnel,cold,265,200,118.79,5.42,82.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:26+00:00,virginia,central-tunnel,cold,266,200,163.89,7.14,122.0,4.0,125.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:23:26+00:00,virginia,central-tunnel,cold,267,200,131.91,7.68,85.0,4.0,89.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:23:27+00:00,virginia,central-tunnel,cold,268,200,147.89,9.99,85.0,4.0,90.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:23:28+00:00,virginia,central-tunnel,cold,269,200,130.11,7.74,81.0,4.0,85.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:23:28+00:00,virginia,central-tunnel,cold,270,200,133.41,6.74,93.0,4.0,98.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:23:29+00:00,virginia,central-tunnel,cold,271,200,208.05,12.61,124.0,6.0,129.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:23:30+00:00,virginia,central-tunnel,cold,272,200,142.74,10.45,84.0,5.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:23:30+00:00,virginia,central-tunnel,cold,273,200,120.86,6.65,83.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:31+00:00,virginia,central-tunnel,cold,274,200,124.43,9.24,82.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:32+00:00,virginia,central-tunnel,cold,275,200,217.87,8.01,179.0,4.0,183.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:32+00:00,virginia,central-tunnel,cold,276,200,122.35,7.26,83.0,4.0,87.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:23:33+00:00,virginia,central-tunnel,cold,277,200,116.97,8.0,82.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:33+00:00,virginia,central-tunnel,cold,278,200,126.61,9.08,71.0,5.0,76.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:23:34+00:00,virginia,central-tunnel,cold,279,200,176.07,7.7,133.0,4.0,138.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:23:35+00:00,virginia,central-tunnel,cold,280,200,119.64,7.84,84.0,4.0,88.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:35+00:00,virginia,central-tunnel,cold,281,200,111.64,9.06,71.0,5.0,75.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:23:36+00:00,virginia,central-tunnel,cold,282,200,108.95,8.24,71.0,5.0,75.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:23:37+00:00,virginia,central-tunnel,cold,283,200,149.75,8.63,101.0,4.0,105.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:23:37+00:00,virginia,central-tunnel,cold,284,200,124.13,6.89,89.0,4.0,92.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:23:38+00:00,virginia,central-tunnel,cold,285,200,135.22,10.16,84.0,4.0,88.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:39+00:00,virginia,central-tunnel,cold,286,200,113.71,7.79,72.0,4.0,77.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:23:39+00:00,virginia,central-tunnel,cold,287,200,128.69,9.19,74.0,4.0,79.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:23:40+00:00,virginia,central-tunnel,cold,288,200,147.79,8.95,102.0,7.0,108.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:40+00:00,virginia,central-tunnel,cold,289,200,135.88,6.71,85.0,4.0,89.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:23:41+00:00,virginia,central-tunnel,cold,290,200,127.54,7.58,84.0,4.0,88.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:23:42+00:00,virginia,central-tunnel,cold,291,200,132.46,6.78,86.0,5.0,91.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:23:42+00:00,virginia,central-tunnel,cold,292,200,153.7,6.7,110.0,7.0,116.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:23:43+00:00,virginia,central-tunnel,cold,293,200,125.84,6.43,84.0,4.0,87.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:44+00:00,virginia,central-tunnel,cold,294,200,123.12,6.56,84.0,4.0,88.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:23:44+00:00,virginia,central-tunnel,cold,295,200,137.93,10.88,83.0,5.0,88.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:23:45+00:00,virginia,central-tunnel,cold,296,200,197.86,10.89,151.0,5.0,155.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:23:46+00:00,virginia,central-tunnel,cold,297,200,127.36,6.9,83.0,4.0,88.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:23:46+00:00,virginia,central-tunnel,cold,298,200,149.23,10.9,98.0,4.0,102.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:23:47+00:00,virginia,central-tunnel,cold,299,200,141.26,8.79,84.0,5.0,89.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:23:49+00:00,virginia,central-tunnel,warm,0,200,109.74,0.0,86.0,4.0,89.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:23:49+00:00,virginia,central-tunnel,warm,1,200,114.55,0.0,94.0,4.0,98.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:23:50+00:00,virginia,central-tunnel,warm,2,200,134.51,0.0,106.0,12.0,118.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:23:51+00:00,virginia,central-tunnel,warm,3,200,99.85,0.0,71.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:23:51+00:00,virginia,central-tunnel,warm,4,200,106.53,0.0,84.0,4.0,87.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:23:52+00:00,virginia,central-tunnel,warm,5,200,98.97,0.0,76.0,4.0,80.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:23:52+00:00,virginia,central-tunnel,warm,6,200,103.41,0.0,84.0,4.0,87.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:53+00:00,virginia,central-tunnel,warm,7,200,109.49,0.0,76.0,5.0,81.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:23:54+00:00,virginia,central-tunnel,warm,8,200,106.98,0.0,84.0,4.0,88.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:54+00:00,virginia,central-tunnel,warm,9,200,139.48,0.0,116.0,5.0,121.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:23:55+00:00,virginia,central-tunnel,warm,10,200,92.32,0.0,71.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:23:55+00:00,virginia,central-tunnel,warm,11,200,108.26,0.0,83.0,4.0,87.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:23:56+00:00,virginia,central-tunnel,warm,12,200,119.4,0.0,96.0,5.0,101.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:23:57+00:00,virginia,central-tunnel,warm,13,200,137.26,0.0,113.0,6.0,119.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:57+00:00,virginia,central-tunnel,warm,14,200,95.37,0.0,70.0,5.0,75.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:23:58+00:00,virginia,central-tunnel,warm,15,200,108.28,0.0,85.0,4.0,89.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:23:59+00:00,virginia,central-tunnel,warm,16,200,116.32,0.0,84.0,4.0,88.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:59+00:00,virginia,central-tunnel,warm,17,200,115.67,0.0,90.0,4.0,94.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:00+00:00,virginia,central-tunnel,warm,18,200,110.44,0.0,84.0,4.0,88.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:00+00:00,virginia,central-tunnel,warm,19,200,120.64,0.0,92.0,4.0,96.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:24:01+00:00,virginia,central-tunnel,warm,20,200,109.57,0.0,76.0,5.0,81.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:24:02+00:00,virginia,central-tunnel,warm,21,200,108.39,0.0,85.0,5.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:24:02+00:00,virginia,central-tunnel,warm,22,200,96.96,0.0,73.0,4.0,77.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:03+00:00,virginia,central-tunnel,warm,23,200,105.22,0.0,82.0,4.0,86.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:24:03+00:00,virginia,central-tunnel,warm,24,200,156.55,0.0,134.0,4.0,138.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:24:04+00:00,virginia,central-tunnel,warm,25,200,106.6,0.0,71.0,4.0,76.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:05+00:00,virginia,central-tunnel,warm,26,200,98.73,0.0,72.0,4.0,76.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:05+00:00,virginia,central-tunnel,warm,27,200,97.27,0.0,71.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:06+00:00,virginia,central-tunnel,warm,28,200,168.56,0.0,143.0,7.0,150.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:24:07+00:00,virginia,central-tunnel,warm,29,200,106.7,0.0,84.0,5.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:24:07+00:00,virginia,central-tunnel,warm,30,200,99.44,0.0,73.0,4.0,77.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:08+00:00,virginia,central-tunnel,warm,31,200,107.12,0.0,82.0,5.0,86.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:24:08+00:00,virginia,central-tunnel,warm,32,200,120.99,0.0,89.0,12.0,101.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:24:09+00:00,virginia,central-tunnel,warm,33,200,109.78,0.0,82.0,5.0,87.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:24:10+00:00,virginia,central-tunnel,warm,34,200,122.83,0.0,93.0,4.0,97.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:24:10+00:00,virginia,central-tunnel,warm,35,200,108.7,0.0,81.0,4.0,86.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:24:11+00:00,virginia,central-tunnel,warm,36,200,109.82,0.0,84.0,5.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:24:11+00:00,virginia,central-tunnel,warm,37,200,95.01,0.0,73.0,4.0,77.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:12+00:00,virginia,central-tunnel,warm,38,200,113.8,0.0,90.0,4.0,95.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:24:13+00:00,virginia,central-tunnel,warm,39,200,155.32,0.0,132.0,4.0,136.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:13+00:00,virginia,central-tunnel,warm,40,200,104.85,0.0,83.0,5.0,87.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:24:14+00:00,virginia,central-tunnel,warm,41,200,102.83,0.0,82.0,5.0,87.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:24:15+00:00,virginia,central-tunnel,warm,42,200,204.75,0.0,181.0,6.0,187.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:24:15+00:00,virginia,central-tunnel,warm,43,200,190.59,0.0,150.0,4.0,153.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:24:16+00:00,virginia,central-tunnel,warm,44,200,149.84,0.0,120.0,8.0,128.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:24:17+00:00,virginia,central-tunnel,warm,45,200,94.1,0.0,73.0,4.0,77.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:17+00:00,virginia,central-tunnel,warm,46,200,96.56,0.0,73.0,5.0,78.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:24:18+00:00,virginia,central-tunnel,warm,47,200,100.07,0.0,78.0,4.0,82.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:18+00:00,virginia,central-tunnel,warm,48,200,106.27,0.0,83.0,5.0,88.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:24:19+00:00,virginia,central-tunnel,warm,49,200,118.29,0.0,94.0,4.0,98.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:24:20+00:00,virginia,central-tunnel,warm,50,200,116.25,0.0,94.0,4.0,99.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:24:20+00:00,virginia,central-tunnel,warm,51,200,99.4,0.0,77.0,4.0,81.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:21+00:00,virginia,central-tunnel,warm,52,200,175.69,0.0,132.0,4.0,136.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:22+00:00,virginia,central-tunnel,warm,53,200,170.9,0.0,138.0,6.0,143.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:24:22+00:00,virginia,central-tunnel,warm,54,200,97.17,0.0,71.0,4.0,76.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:23+00:00,virginia,central-tunnel,warm,55,200,103.7,0.0,83.0,5.0,88.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:24:23+00:00,virginia,central-tunnel,warm,56,200,96.9,0.0,71.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:24+00:00,virginia,central-tunnel,warm,57,200,116.75,0.0,94.0,4.0,98.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:24:25+00:00,virginia,central-tunnel,warm,58,200,96.64,0.0,72.0,4.0,76.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:25+00:00,virginia,central-tunnel,warm,59,200,107.85,0.0,84.0,5.0,89.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:24:26+00:00,virginia,central-tunnel,warm,60,200,116.57,0.0,93.0,4.0,97.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:24:26+00:00,virginia,central-tunnel,warm,61,200,112.75,0.0,83.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:27+00:00,virginia,central-tunnel,warm,62,200,112.18,0.0,87.0,4.0,90.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:24:28+00:00,virginia,central-tunnel,warm,63,200,118.56,0.0,95.0,5.0,99.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:24:28+00:00,virginia,central-tunnel,warm,64,200,173.27,0.0,150.0,4.0,154.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:24:29+00:00,virginia,central-tunnel,warm,65,200,164.1,0.0,138.0,7.0,146.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:24:30+00:00,virginia,central-tunnel,warm,66,200,105.46,0.0,82.0,4.0,86.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:24:30+00:00,virginia,central-tunnel,warm,67,200,112.43,0.0,83.0,5.0,88.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:24:31+00:00,virginia,central-tunnel,warm,68,200,106.52,0.0,84.0,5.0,89.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:24:31+00:00,virginia,central-tunnel,warm,69,200,115.78,0.0,84.0,4.0,88.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:24:32+00:00,virginia,central-tunnel,warm,70,200,107.86,0.0,84.0,5.0,88.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:24:33+00:00,virginia,central-tunnel,warm,71,200,105.2,0.0,83.0,5.0,88.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:24:33+00:00,virginia,central-tunnel,warm,72,200,124.54,0.0,93.0,4.0,97.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:24:34+00:00,virginia,central-tunnel,warm,73,200,119.22,0.0,96.0,5.0,101.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:24:34+00:00,virginia,central-tunnel,warm,74,200,107.83,0.0,82.0,4.0,85.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:35+00:00,virginia,central-tunnel,warm,75,200,106.14,0.0,82.0,4.0,86.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:24:36+00:00,virginia,central-tunnel,warm,76,200,104.5,0.0,83.0,4.0,87.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:36+00:00,virginia,central-tunnel,warm,77,200,162.35,0.0,134.0,4.0,138.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:24:37+00:00,virginia,central-tunnel,warm,78,200,181.38,0.0,148.0,3.0,152.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:38+00:00,virginia,central-tunnel,warm,79,200,160.35,0.0,131.0,6.0,138.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:24:38+00:00,virginia,central-tunnel,warm,80,200,105.77,0.0,83.0,5.0,88.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:24:39+00:00,virginia,central-tunnel,warm,81,200,105.85,0.0,83.0,5.0,87.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:24:40+00:00,virginia,central-tunnel,warm,82,200,104.74,0.0,81.0,4.0,85.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:24:40+00:00,virginia,central-tunnel,warm,83,200,117.53,0.0,93.0,4.0,97.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:24:41+00:00,virginia,central-tunnel,warm,84,200,110.26,0.0,86.0,4.0,90.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:41+00:00,virginia,central-tunnel,warm,85,200,121.64,0.0,82.0,5.0,87.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:24:42+00:00,virginia,central-tunnel,warm,86,200,113.06,0.0,82.0,4.0,85.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:43+00:00,virginia,central-tunnel,warm,87,200,106.39,0.0,83.0,4.0,86.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:24:43+00:00,virginia,central-tunnel,warm,88,200,100.13,0.0,71.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:44+00:00,virginia,central-tunnel,warm,89,200,118.05,0.0,84.0,4.0,88.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:24:44+00:00,virginia,central-tunnel,warm,90,200,173.27,0.0,148.0,4.0,152.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:24:45+00:00,virginia,central-tunnel,warm,91,200,166.51,0.0,130.0,6.0,136.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:24:46+00:00,virginia,central-tunnel,warm,92,200,115.84,0.0,86.0,6.0,92.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:24:46+00:00,virginia,central-tunnel,warm,93,200,108.14,0.0,86.0,4.0,90.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:24:47+00:00,virginia,central-tunnel,warm,94,200,108.22,0.0,82.0,4.0,86.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:24:48+00:00,virginia,central-tunnel,warm,95,200,109.15,0.0,84.0,5.0,88.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:24:48+00:00,virginia,central-tunnel,warm,96,200,116.02,0.0,93.0,4.0,97.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:24:49+00:00,virginia,central-tunnel,warm,97,200,107.35,0.0,82.0,5.0,87.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:24:49+00:00,virginia,central-tunnel,warm,98,200,108.11,0.0,83.0,4.0,87.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:24:50+00:00,virginia,central-tunnel,warm,99,200,95.9,0.0,70.0,5.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:51+00:00,virginia,central-tunnel,warm,100,200,115.93,0.0,92.0,5.0,97.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:24:51+00:00,virginia,central-tunnel,warm,101,200,121.6,0.0,95.0,4.0,99.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:24:52+00:00,virginia,central-tunnel,warm,102,200,123.97,0.0,95.0,5.0,100.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:24:53+00:00,virginia,central-tunnel,warm,103,200,160.41,0.0,130.0,4.0,134.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:24:53+00:00,virginia,central-tunnel,warm,104,200,182.82,0.0,153.0,5.0,158.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:24:54+00:00,virginia,central-tunnel,warm,105,200,96.55,0.0,72.0,6.0,78.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:54+00:00,virginia,central-tunnel,warm,106,200,101.52,0.0,77.0,5.0,83.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:24:55+00:00,virginia,central-tunnel,warm,107,200,118.29,0.0,95.0,5.0,100.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:24:56+00:00,virginia,central-tunnel,warm,108,200,95.08,0.0,69.0,4.0,73.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:24:56+00:00,virginia,central-tunnel,warm,109,200,110.82,0.0,83.0,4.0,87.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:24:57+00:00,virginia,central-tunnel,warm,110,200,103.15,0.0,81.0,4.0,86.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:24:57+00:00,virginia,central-tunnel,warm,111,200,108.05,0.0,84.0,5.0,88.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:24:58+00:00,virginia,central-tunnel,warm,112,200,117.08,0.0,86.0,5.0,90.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:24:59+00:00,virginia,central-tunnel,warm,113,200,124.36,0.0,85.0,5.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:24:59+00:00,virginia,central-tunnel,warm,114,200,118.17,0.0,97.0,4.0,101.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:00+00:00,virginia,central-tunnel,warm,115,200,175.18,0.0,150.0,4.0,154.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:01+00:00,virginia,central-tunnel,warm,116,200,206.98,0.0,181.0,7.0,188.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:25:01+00:00,virginia,central-tunnel,warm,117,200,120.93,0.0,95.0,6.0,101.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:02+00:00,virginia,central-tunnel,warm,118,200,119.19,0.0,94.0,4.0,99.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:03+00:00,virginia,central-tunnel,warm,119,200,105.79,0.0,82.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:03+00:00,virginia,central-tunnel,warm,120,200,109.8,0.0,81.0,4.0,85.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:25:04+00:00,virginia,central-tunnel,warm,121,200,123.91,0.0,94.0,5.0,99.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:04+00:00,virginia,central-tunnel,warm,122,200,106.55,0.0,84.0,4.0,88.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:25:05+00:00,virginia,central-tunnel,warm,123,200,108.69,0.0,82.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:06+00:00,virginia,central-tunnel,warm,124,200,96.47,0.0,72.0,4.0,76.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:25:06+00:00,virginia,central-tunnel,warm,125,200,91.45,0.0,70.0,4.0,74.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:25:07+00:00,virginia,central-tunnel,warm,126,200,139.76,0.0,113.0,5.0,118.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:25:08+00:00,virginia,central-tunnel,warm,127,200,187.44,0.0,159.0,7.0,166.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:25:08+00:00,virginia,central-tunnel,warm,128,200,136.24,0.0,109.0,5.0,114.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:25:09+00:00,virginia,central-tunnel,warm,129,200,115.57,0.0,83.0,5.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:25:09+00:00,virginia,central-tunnel,warm,130,200,130.33,0.0,94.0,4.0,99.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:10+00:00,virginia,central-tunnel,warm,131,200,105.51,0.0,83.0,4.0,87.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:25:11+00:00,virginia,central-tunnel,warm,132,200,105.42,0.0,81.0,4.0,85.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:11+00:00,virginia,central-tunnel,warm,133,200,106.81,0.0,84.0,4.0,88.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:25:12+00:00,virginia,central-tunnel,warm,134,200,107.36,0.0,84.0,5.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:25:12+00:00,virginia,central-tunnel,warm,135,200,119.55,0.0,95.0,4.0,99.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:13+00:00,virginia,central-tunnel,warm,136,200,104.94,0.0,83.0,4.0,87.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:25:14+00:00,virginia,central-tunnel,warm,137,200,108.17,0.0,84.0,5.0,88.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:25:14+00:00,virginia,central-tunnel,warm,138,200,167.53,0.0,137.0,4.0,142.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:15+00:00,virginia,central-tunnel,warm,139,200,157.78,0.0,126.0,6.0,132.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:25:16+00:00,virginia,central-tunnel,warm,140,200,114.57,0.0,86.0,7.0,93.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:25:16+00:00,virginia,central-tunnel,warm,141,200,109.72,0.0,82.0,5.0,87.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:25:17+00:00,virginia,central-tunnel,warm,142,200,119.41,0.0,85.0,5.0,90.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:25:17+00:00,virginia,central-tunnel,warm,143,200,122.35,0.0,94.0,4.0,98.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:18+00:00,virginia,central-tunnel,warm,144,200,108.38,0.0,84.0,5.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:25:19+00:00,virginia,central-tunnel,warm,145,200,114.88,0.0,94.0,4.0,98.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:25:19+00:00,virginia,central-tunnel,warm,146,200,111.0,0.0,83.0,4.0,88.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:25:20+00:00,virginia,central-tunnel,warm,147,200,105.19,0.0,84.0,4.0,87.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:25:20+00:00,virginia,central-tunnel,warm,148,200,99.14,0.0,71.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:25:21+00:00,virginia,central-tunnel,warm,149,200,104.92,0.0,81.0,4.0,84.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:25:22+00:00,virginia,central-tunnel,warm,150,200,135.82,0.0,110.0,4.0,114.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:22+00:00,virginia,central-tunnel,warm,151,200,149.09,0.0,124.0,5.0,129.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:25:23+00:00,virginia,central-tunnel,warm,152,200,129.67,0.0,106.0,5.0,111.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:24+00:00,virginia,central-tunnel,warm,153,200,107.71,0.0,84.0,4.0,89.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:25:24+00:00,virginia,central-tunnel,warm,154,200,99.62,0.0,72.0,4.0,76.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:25:25+00:00,virginia,central-tunnel,warm,155,200,118.42,0.0,83.0,5.0,88.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:25:25+00:00,virginia,central-tunnel,warm,156,200,106.57,0.0,84.0,5.0,88.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:25:26+00:00,virginia,central-tunnel,warm,157,200,109.69,0.0,83.0,4.0,87.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:27+00:00,virginia,central-tunnel,warm,158,200,116.85,0.0,95.0,4.0,100.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:27+00:00,virginia,central-tunnel,warm,159,200,107.9,0.0,86.0,4.0,91.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:25:28+00:00,virginia,central-tunnel,warm,160,200,105.43,0.0,82.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:28+00:00,virginia,central-tunnel,warm,161,200,108.67,0.0,84.0,5.0,89.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:25:29+00:00,virginia,central-tunnel,warm,162,200,142.94,0.0,117.0,5.0,121.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:30+00:00,virginia,central-tunnel,warm,163,200,211.56,0.0,96.0,4.0,100.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:30+00:00,virginia,central-tunnel,warm,164,200,123.53,0.0,91.0,4.0,96.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:25:31+00:00,virginia,central-tunnel,warm,165,200,191.69,0.0,152.0,4.0,156.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:25:32+00:00,virginia,central-tunnel,warm,166,200,168.29,0.0,140.0,6.0,146.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:32+00:00,virginia,central-tunnel,warm,167,200,134.83,0.0,98.0,6.0,105.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:25:33+00:00,virginia,central-tunnel,warm,168,200,96.86,0.0,71.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:25:34+00:00,virginia,central-tunnel,warm,169,200,106.98,0.0,83.0,4.0,87.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:34+00:00,virginia,central-tunnel,warm,170,200,125.45,0.0,102.0,6.0,108.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:35+00:00,virginia,central-tunnel,warm,171,200,108.88,0.0,86.0,4.0,89.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:25:36+00:00,virginia,central-tunnel,warm,172,200,112.42,0.0,83.0,4.0,88.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:25:36+00:00,virginia,central-tunnel,warm,173,200,119.13,0.0,95.0,4.0,99.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:37+00:00,virginia,central-tunnel,warm,174,200,107.92,0.0,83.0,4.0,88.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:25:37+00:00,virginia,central-tunnel,warm,175,200,108.4,0.0,85.0,6.0,91.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:25:38+00:00,virginia,central-tunnel,warm,176,200,134.54,0.0,111.0,4.0,115.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:25:39+00:00,virginia,central-tunnel,warm,177,200,149.44,0.0,122.0,6.0,128.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:25:39+00:00,virginia,central-tunnel,warm,178,200,103.74,0.0,75.0,6.0,82.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:25:40+00:00,virginia,central-tunnel,warm,179,200,108.42,0.0,84.0,5.0,89.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:25:40+00:00,virginia,central-tunnel,warm,180,200,109.61,0.0,85.0,5.0,90.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:25:41+00:00,virginia,central-tunnel,warm,181,200,121.52,0.0,93.0,4.0,97.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:25:42+00:00,virginia,central-tunnel,warm,182,200,111.02,0.0,83.0,5.0,88.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:25:42+00:00,virginia,central-tunnel,warm,183,200,120.97,0.0,95.0,4.0,99.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:25:43+00:00,virginia,central-tunnel,warm,184,200,108.52,0.0,86.0,5.0,90.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:25:44+00:00,virginia,central-tunnel,warm,185,200,119.47,0.0,95.0,6.0,101.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:25:44+00:00,virginia,central-tunnel,warm,186,200,114.8,0.0,93.0,4.0,97.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:25:45+00:00,virginia,central-tunnel,warm,187,200,98.68,0.0,73.0,4.0,77.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:25:45+00:00,virginia,central-tunnel,warm,188,200,117.18,0.0,95.0,4.0,99.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:25:46+00:00,virginia,central-tunnel,warm,189,200,142.71,0.0,113.0,6.0,119.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:25:47+00:00,virginia,central-tunnel,warm,190,200,212.65,0.0,182.0,6.0,188.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:47+00:00,virginia,central-tunnel,warm,191,200,109.43,0.0,83.0,6.0,89.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:25:48+00:00,virginia,central-tunnel,warm,192,200,106.96,0.0,83.0,5.0,88.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:25:49+00:00,virginia,central-tunnel,warm,193,200,105.93,0.0,84.0,4.0,88.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:25:49+00:00,virginia,central-tunnel,warm,194,200,106.17,0.0,81.0,5.0,86.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:25:50+00:00,virginia,central-tunnel,warm,195,200,127.67,0.0,106.0,4.0,109.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:50+00:00,virginia,central-tunnel,warm,196,200,107.53,0.0,84.0,4.0,88.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:25:51+00:00,virginia,central-tunnel,warm,197,200,109.66,0.0,84.0,4.0,88.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:25:52+00:00,virginia,central-tunnel,warm,198,200,108.81,0.0,84.0,5.0,88.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:25:52+00:00,virginia,central-tunnel,warm,199,200,111.01,0.0,84.0,4.0,88.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:53+00:00,virginia,central-tunnel,warm,200,200,163.21,0.0,134.0,5.0,140.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:25:54+00:00,virginia,central-tunnel,warm,201,200,168.04,0.0,139.0,8.0,147.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:25:54+00:00,virginia,central-tunnel,warm,202,200,135.63,0.0,105.0,7.0,112.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:55+00:00,virginia,central-tunnel,warm,203,200,103.15,0.0,83.0,4.0,86.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:25:55+00:00,virginia,central-tunnel,warm,204,200,103.18,0.0,83.0,4.0,87.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:56+00:00,virginia,central-tunnel,warm,205,200,118.96,0.0,94.0,4.0,98.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:25:57+00:00,virginia,central-tunnel,warm,206,200,106.44,0.0,83.0,5.0,88.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:25:57+00:00,virginia,central-tunnel,warm,207,200,108.37,0.0,84.0,4.0,88.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:25:58+00:00,virginia,central-tunnel,warm,208,200,93.49,0.0,70.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:25:58+00:00,virginia,central-tunnel,warm,209,200,118.42,0.0,97.0,4.0,101.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:59+00:00,virginia,central-tunnel,warm,210,200,113.85,0.0,89.0,5.0,95.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:26:00+00:00,virginia,central-tunnel,warm,211,200,111.04,0.0,81.0,5.0,85.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:26:00+00:00,virginia,central-tunnel,warm,212,200,152.52,0.0,129.0,4.0,134.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:01+00:00,virginia,central-tunnel,warm,213,200,150.61,0.0,123.0,6.0,128.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:26:02+00:00,virginia,central-tunnel,warm,214,200,149.14,0.0,121.0,6.0,127.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:26:02+00:00,virginia,central-tunnel,warm,215,200,106.89,0.0,86.0,4.0,90.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:03+00:00,virginia,central-tunnel,warm,216,200,110.28,0.0,82.0,4.0,85.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:03+00:00,virginia,central-tunnel,warm,217,200,112.87,0.0,92.0,4.0,97.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:04+00:00,virginia,central-tunnel,warm,218,200,115.39,0.0,91.0,4.0,96.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:26:05+00:00,virginia,central-tunnel,warm,219,200,108.03,0.0,82.0,5.0,86.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:26:05+00:00,virginia,central-tunnel,warm,220,200,120.79,0.0,95.0,4.0,100.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:06+00:00,virginia,central-tunnel,warm,221,200,107.76,0.0,86.0,4.0,89.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:26:07+00:00,virginia,central-tunnel,warm,222,200,106.37,0.0,84.0,4.0,87.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:26:07+00:00,virginia,central-tunnel,warm,223,200,96.25,0.0,74.0,4.0,78.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:26:08+00:00,virginia,central-tunnel,warm,224,200,156.23,0.0,135.0,4.0,138.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:26:08+00:00,virginia,central-tunnel,warm,225,200,181.61,0.0,144.0,7.0,151.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:26:09+00:00,virginia,central-tunnel,warm,226,200,104.79,0.0,83.0,4.0,87.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:26:10+00:00,virginia,central-tunnel,warm,227,200,120.78,0.0,95.0,4.0,99.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:10+00:00,virginia,central-tunnel,warm,228,200,105.59,0.0,81.0,5.0,86.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:26:11+00:00,virginia,central-tunnel,warm,229,200,107.07,0.0,82.0,4.0,85.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:26:11+00:00,virginia,central-tunnel,warm,230,200,104.63,0.0,82.0,4.0,85.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:12+00:00,virginia,central-tunnel,warm,231,200,111.03,0.0,83.0,4.0,87.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:26:13+00:00,virginia,central-tunnel,warm,232,200,108.73,0.0,85.0,4.0,89.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:26:13+00:00,virginia,central-tunnel,warm,233,200,106.44,0.0,85.0,4.0,88.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:26:14+00:00,virginia,central-tunnel,warm,234,200,123.96,0.0,83.0,5.0,88.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:26:15+00:00,virginia,central-tunnel,warm,235,200,129.25,0.0,106.0,4.0,110.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:26:15+00:00,virginia,central-tunnel,warm,236,200,171.17,0.0,146.0,4.0,151.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:16+00:00,virginia,central-tunnel,warm,237,200,148.77,0.0,119.0,6.0,125.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:26:17+00:00,virginia,central-tunnel,warm,238,200,114.77,0.0,89.0,7.0,96.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:26:17+00:00,virginia,central-tunnel,warm,239,200,109.61,0.0,82.0,5.0,87.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:26:18+00:00,virginia,central-tunnel,warm,240,200,95.92,0.0,74.0,4.0,78.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:26:18+00:00,virginia,central-tunnel,warm,241,200,109.37,0.0,83.0,4.0,88.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:26:19+00:00,virginia,central-tunnel,warm,242,200,106.65,0.0,84.0,5.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:26:20+00:00,virginia,central-tunnel,warm,243,200,125.94,0.0,95.0,4.0,99.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:20+00:00,virginia,central-tunnel,warm,244,200,110.65,0.0,85.0,5.0,90.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:26:21+00:00,virginia,central-tunnel,warm,245,200,109.67,0.0,82.0,4.0,85.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:21+00:00,virginia,central-tunnel,warm,246,200,107.39,0.0,84.0,4.0,88.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:26:22+00:00,virginia,central-tunnel,warm,247,200,99.24,0.0,73.0,5.0,78.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:26:23+00:00,virginia,central-tunnel,warm,248,200,159.45,0.0,132.0,5.0,137.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:26:23+00:00,virginia,central-tunnel,warm,249,200,163.55,0.0,138.0,6.0,144.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:26:24+00:00,virginia,central-tunnel,warm,250,200,110.2,0.0,86.0,6.0,92.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:26:25+00:00,virginia,central-tunnel,warm,251,200,120.44,0.0,94.0,4.0,100.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:25+00:00,virginia,central-tunnel,warm,252,200,125.84,0.0,95.0,4.0,100.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:26+00:00,virginia,central-tunnel,warm,253,200,109.31,0.0,84.0,5.0,88.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:26:26+00:00,virginia,central-tunnel,warm,254,200,107.59,0.0,84.0,5.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:26:27+00:00,virginia,central-tunnel,warm,255,200,95.01,0.0,71.0,4.0,76.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:26:28+00:00,virginia,central-tunnel,warm,256,200,99.73,0.0,71.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:26:28+00:00,virginia,central-tunnel,warm,257,200,105.66,0.0,82.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:29+00:00,virginia,central-tunnel,warm,258,200,97.55,0.0,71.0,4.0,76.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:26:29+00:00,virginia,central-tunnel,warm,259,200,120.67,0.0,86.0,4.0,89.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:26:30+00:00,virginia,central-tunnel,warm,260,200,159.2,0.0,137.0,3.0,141.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:26:31+00:00,virginia,central-tunnel,warm,261,200,181.09,0.0,147.0,6.0,153.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:26:31+00:00,virginia,central-tunnel,warm,262,200,119.31,0.0,91.0,7.0,98.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:32+00:00,virginia,central-tunnel,warm,263,200,123.43,0.0,92.0,4.0,97.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:33+00:00,virginia,central-tunnel,warm,264,200,94.16,0.0,71.0,5.0,75.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:26:33+00:00,virginia,central-tunnel,warm,265,200,109.12,0.0,84.0,4.0,87.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:34+00:00,virginia,central-tunnel,warm,266,200,107.07,0.0,81.0,4.0,86.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:26:34+00:00,virginia,central-tunnel,warm,267,200,92.06,0.0,71.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:26:35+00:00,virginia,central-tunnel,warm,268,200,108.65,0.0,83.0,4.0,87.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:26:36+00:00,virginia,central-tunnel,warm,269,200,91.07,0.0,70.0,4.0,74.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:26:36+00:00,virginia,central-tunnel,warm,270,200,113.76,0.0,83.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:37+00:00,virginia,central-tunnel,warm,271,200,125.47,0.0,102.0,4.0,106.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:26:37+00:00,virginia,central-tunnel,warm,272,200,138.87,0.0,114.0,6.0,121.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:26:38+00:00,virginia,central-tunnel,warm,273,200,94.68,0.0,72.0,5.0,76.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:26:39+00:00,virginia,central-tunnel,warm,274,200,107.05,0.0,81.0,4.0,86.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:26:39+00:00,virginia,central-tunnel,warm,275,200,98.41,0.0,72.0,4.0,76.0,,centralized,5,1.9,how is recall at ten measured
+2026-10-01T01:26:40+00:00,virginia,central-tunnel,warm,276,200,107.53,0.0,82.0,5.0,87.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:26:40+00:00,virginia,central-tunnel,warm,277,200,106.03,0.0,82.0,5.0,87.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:26:41+00:00,virginia,central-tunnel,warm,278,200,106.9,0.0,83.0,4.0,88.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:26:42+00:00,virginia,central-tunnel,warm,279,200,114.69,0.0,84.0,4.0,88.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:26:42+00:00,virginia,central-tunnel,warm,280,200,105.42,0.0,82.0,4.0,86.0,,centralized,5,1.9,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:43+00:00,virginia,central-tunnel,warm,281,200,140.83,0.0,118.0,4.0,121.0,,centralized,5,1.9,what is the cold start time of a V8 isolate
+2026-10-01T01:26:44+00:00,virginia,central-tunnel,warm,282,200,176.01,0.0,150.0,7.0,157.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:26:44+00:00,virginia,central-tunnel,warm,283,200,107.83,0.0,84.0,5.0,89.0,,centralized,5,1.9,how do read replicas affect data freshness
+2026-10-01T01:26:45+00:00,virginia,central-tunnel,warm,284,200,115.7,0.0,92.0,4.0,96.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:26:45+00:00,virginia,central-tunnel,warm,285,200,92.81,0.0,69.0,4.0,74.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:26:46+00:00,virginia,central-tunnel,warm,286,200,107.47,0.0,84.0,4.0,88.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:26:47+00:00,virginia,central-tunnel,warm,287,200,106.4,0.0,84.0,4.0,89.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:26:47+00:00,virginia,central-tunnel,warm,288,200,107.22,0.0,73.0,4.0,78.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:26:48+00:00,virginia,central-tunnel,warm,289,200,109.1,0.0,86.0,5.0,91.0,,centralized,5,1.9,when does edge computing reduce time to first token
+2026-10-01T01:26:49+00:00,virginia,central-tunnel,warm,290,200,116.45,0.0,92.0,4.0,97.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:26:49+00:00,virginia,central-tunnel,warm,291,200,116.88,0.0,95.0,5.0,100.0,,centralized,5,1.9,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:50+00:00,virginia,central-tunnel,warm,292,200,127.3,0.0,100.0,4.0,104.0,,centralized,5,1.9,how does connection pooling reduce database latency
+2026-10-01T01:26:50+00:00,virginia,central-tunnel,warm,293,200,165.45,0.0,143.0,6.0,149.0,,centralized,5,1.9,what does ef_search control in pgvector
+2026-10-01T01:26:51+00:00,virginia,central-tunnel,warm,294,200,161.0,0.0,110.0,15.0,125.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:26:52+00:00,virginia,central-tunnel,warm,295,200,93.86,0.0,71.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:26:52+00:00,virginia,central-tunnel,warm,296,200,91.68,0.0,72.0,4.0,77.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:26:53+00:00,virginia,central-tunnel,warm,297,200,115.11,0.0,84.0,5.0,89.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:26:53+00:00,virginia,central-tunnel,warm,298,200,97.8,0.0,71.0,4.0,75.0,,centralized,5,1.9,why are container cold starts slow
+2026-10-01T01:26:54+00:00,virginia,central-tunnel,warm,299,200,109.42,0.0,86.0,5.0,90.0,,centralized,5,1.9,what limits the recall of an HNSW index
+2026-10-01T01:26:56+00:00,virginia,centralized,cold,0,200,130.15,8.43,115.0,4.0,119.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:26:57+00:00,virginia,centralized,cold,1,200,130.47,4.2,117.0,7.0,124.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:26:57+00:00,virginia,centralized,cold,2,200,115.06,4.11,96.0,7.0,103.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:26:58+00:00,virginia,centralized,cold,3,200,93.88,4.0,83.0,5.0,88.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:26:58+00:00,virginia,centralized,cold,4,200,91.75,4.13,82.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:26:59+00:00,virginia,centralized,cold,5,200,91.35,4.59,81.0,4.0,85.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:27:00+00:00,virginia,centralized,cold,6,200,93.56,3.82,83.0,5.0,88.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:27:00+00:00,virginia,centralized,cold,7,200,93.26,4.19,83.0,5.0,87.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:27:01+00:00,virginia,centralized,cold,8,200,95.54,4.6,84.0,5.0,89.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:27:01+00:00,virginia,centralized,cold,9,200,79.62,4.24,69.0,4.0,74.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:27:02+00:00,virginia,centralized,cold,10,200,140.02,11.01,122.0,4.0,126.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:27:03+00:00,virginia,centralized,cold,11,200,159.47,4.2,146.0,7.0,153.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:27:03+00:00,virginia,centralized,cold,12,200,82.11,4.12,70.0,6.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:27:04+00:00,virginia,centralized,cold,13,200,93.69,4.28,83.0,4.0,87.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:27:05+00:00,virginia,centralized,cold,14,200,92.34,4.1,82.0,5.0,86.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:27:05+00:00,virginia,centralized,cold,15,200,81.22,4.31,70.0,5.0,75.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:27:06+00:00,virginia,centralized,cold,16,200,92.71,4.14,82.0,5.0,87.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:27:06+00:00,virginia,centralized,cold,17,200,85.8,7.8,71.0,5.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:27:07+00:00,virginia,centralized,cold,18,200,79.98,4.01,70.0,5.0,74.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:27:08+00:00,virginia,centralized,cold,19,200,121.97,6.7,109.0,4.0,112.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:27:08+00:00,virginia,centralized,cold,20,200,156.86,4.21,143.0,7.0,150.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:27:09+00:00,virginia,centralized,cold,21,200,99.48,3.98,86.0,7.0,93.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:27:09+00:00,virginia,centralized,cold,22,200,92.12,4.72,81.0,5.0,85.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:27:10+00:00,virginia,centralized,cold,23,200,81.78,4.74,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:27:11+00:00,virginia,centralized,cold,24,200,94.09,4.67,84.0,4.0,88.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:11+00:00,virginia,centralized,cold,25,200,105.87,4.29,95.0,4.0,100.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:12+00:00,virginia,centralized,cold,26,200,91.91,4.36,82.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:27:12+00:00,virginia,centralized,cold,27,200,92.48,4.16,83.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:13+00:00,virginia,centralized,cold,28,200,80.74,3.8,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:27:14+00:00,virginia,centralized,cold,29,200,107.97,6.71,94.0,5.0,99.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:27:14+00:00,virginia,centralized,cold,30,200,136.3,6.62,120.0,7.0,127.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:27:15+00:00,virginia,centralized,cold,31,200,123.46,4.59,110.0,7.0,116.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:16+00:00,virginia,centralized,cold,32,200,85.34,6.72,73.0,4.0,77.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:27:16+00:00,virginia,centralized,cold,33,200,91.64,3.87,82.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:17+00:00,virginia,centralized,cold,34,200,101.51,10.88,84.0,5.0,89.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:27:17+00:00,virginia,centralized,cold,35,200,82.12,4.24,71.0,5.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:27:18+00:00,virginia,centralized,cold,36,200,82.32,4.35,71.0,5.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:27:18+00:00,virginia,centralized,cold,37,200,91.72,4.27,81.0,5.0,86.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:27:19+00:00,virginia,centralized,cold,38,200,92.43,4.14,83.0,4.0,86.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:27:20+00:00,virginia,centralized,cold,39,200,93.83,4.69,83.0,5.0,87.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:27:20+00:00,virginia,centralized,cold,40,200,103.58,8.99,88.0,4.0,92.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:27:21+00:00,virginia,centralized,cold,41,200,155.49,4.5,144.0,5.0,149.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:27:22+00:00,virginia,centralized,cold,42,200,87.2,4.27,75.0,6.0,81.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:27:22+00:00,virginia,centralized,cold,43,200,94.16,4.15,84.0,5.0,88.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:27:23+00:00,virginia,centralized,cold,44,200,83.8,6.19,71.0,5.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:27:23+00:00,virginia,centralized,cold,45,200,94.37,4.32,84.0,5.0,88.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:27:24+00:00,virginia,centralized,cold,46,200,101.85,4.25,92.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:27:25+00:00,virginia,centralized,cold,47,200,81.31,4.07,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:27:25+00:00,virginia,centralized,cold,48,200,91.61,5.06,81.0,4.0,85.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:27:26+00:00,virginia,centralized,cold,49,200,91.77,3.89,82.0,4.0,86.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:27:26+00:00,virginia,centralized,cold,50,200,121.31,9.76,105.0,4.0,110.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:27:27+00:00,virginia,centralized,cold,51,200,135.86,6.7,121.0,5.0,127.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:27:28+00:00,virginia,centralized,cold,52,200,129.83,4.26,116.0,8.0,123.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:27:28+00:00,virginia,centralized,cold,53,200,93.61,4.3,84.0,4.0,87.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:27:29+00:00,virginia,centralized,cold,54,200,106.05,4.55,95.0,4.0,100.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:29+00:00,virginia,centralized,cold,55,200,92.59,4.44,82.0,5.0,86.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:27:30+00:00,virginia,centralized,cold,56,200,92.5,5.09,82.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:31+00:00,virginia,centralized,cold,57,200,94.08,4.21,83.0,5.0,88.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:27:31+00:00,virginia,centralized,cold,58,200,95.66,3.84,85.0,5.0,90.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:27:32+00:00,virginia,centralized,cold,59,200,82.67,4.34,71.0,6.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:27:32+00:00,virginia,centralized,cold,60,200,111.1,6.13,98.0,4.0,103.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:33+00:00,virginia,centralized,cold,61,200,134.85,6.0,123.0,4.0,127.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:27:34+00:00,virginia,centralized,cold,62,200,139.51,4.26,126.0,7.0,133.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:27:34+00:00,virginia,centralized,cold,63,200,92.4,4.22,83.0,4.0,86.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:27:35+00:00,virginia,centralized,cold,64,200,101.71,4.27,91.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:27:36+00:00,virginia,centralized,cold,65,200,103.74,4.37,93.0,4.0,98.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:36+00:00,virginia,centralized,cold,66,200,86.15,8.38,71.0,5.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:27:37+00:00,virginia,centralized,cold,67,200,95.12,4.08,85.0,5.0,89.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:27:37+00:00,virginia,centralized,cold,68,200,96.07,5.82,84.0,5.0,89.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:27:38+00:00,virginia,centralized,cold,69,200,79.75,3.85,70.0,4.0,74.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:27:39+00:00,virginia,centralized,cold,70,200,93.35,4.24,83.0,4.0,87.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:27:39+00:00,virginia,centralized,cold,71,200,91.19,4.47,82.0,3.0,85.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:40+00:00,virginia,centralized,cold,72,200,98.17,4.29,88.0,4.0,92.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:27:40+00:00,virginia,centralized,cold,73,200,95.68,4.53,86.0,3.0,89.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:41+00:00,virginia,centralized,cold,74,200,104.73,4.53,94.0,4.0,98.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:27:42+00:00,virginia,centralized,cold,75,200,93.34,3.8,84.0,4.0,88.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:27:42+00:00,virginia,centralized,cold,76,200,92.6,4.4,82.0,4.0,86.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:27:43+00:00,virginia,centralized,cold,77,200,96.39,4.47,85.0,5.0,90.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:27:43+00:00,virginia,centralized,cold,78,200,80.71,3.86,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:27:44+00:00,virginia,centralized,cold,79,200,80.33,4.09,70.0,4.0,75.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:27:45+00:00,virginia,centralized,cold,80,200,93.42,4.35,83.0,4.0,87.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:27:45+00:00,virginia,centralized,cold,81,200,93.81,4.54,84.0,4.0,87.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:27:46+00:00,virginia,centralized,cold,82,200,93.61,4.29,84.0,4.0,87.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:27:46+00:00,virginia,centralized,cold,83,200,100.09,7.98,86.0,4.0,90.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:27:47+00:00,virginia,centralized,cold,84,200,100.9,4.34,90.0,4.0,95.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:27:48+00:00,virginia,centralized,cold,85,200,80.54,4.23,70.0,4.0,75.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:27:48+00:00,virginia,centralized,cold,86,200,102.89,4.6,92.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:27:49+00:00,virginia,centralized,cold,87,200,93.44,3.89,83.0,5.0,88.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:27:49+00:00,virginia,centralized,cold,88,200,114.07,4.92,101.0,6.0,107.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:27:50+00:00,virginia,centralized,cold,89,200,106.2,5.37,95.0,4.0,99.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:51+00:00,virginia,centralized,cold,90,200,103.36,4.4,93.0,4.0,97.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:27:51+00:00,virginia,centralized,cold,91,200,94.77,4.42,84.0,4.0,88.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:27:52+00:00,virginia,centralized,cold,92,200,91.68,4.18,81.0,4.0,86.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:27:52+00:00,virginia,centralized,cold,93,200,107.83,5.0,95.0,5.0,101.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:53+00:00,virginia,centralized,cold,94,200,111.44,5.98,97.0,6.0,103.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:27:54+00:00,virginia,centralized,cold,95,200,101.66,3.93,92.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:27:54+00:00,virginia,centralized,cold,96,200,105.4,4.23,95.0,5.0,99.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:55+00:00,virginia,centralized,cold,97,200,92.33,4.1,83.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:27:55+00:00,virginia,centralized,cold,98,200,93.47,4.03,84.0,4.0,88.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:27:56+00:00,virginia,centralized,cold,99,200,95.93,4.44,85.0,4.0,89.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:27:57+00:00,virginia,centralized,cold,100,200,103.24,4.49,92.0,5.0,97.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:27:57+00:00,virginia,centralized,cold,101,200,93.26,4.82,83.0,4.0,87.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:27:58+00:00,virginia,centralized,cold,102,200,95.01,6.32,83.0,4.0,87.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:58+00:00,virginia,centralized,cold,103,200,80.27,4.4,69.0,5.0,74.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:27:59+00:00,virginia,centralized,cold,104,200,95.48,4.24,85.0,5.0,89.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:28:00+00:00,virginia,centralized,cold,105,200,103.37,4.26,93.0,4.0,97.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:28:00+00:00,virginia,centralized,cold,106,200,94.66,4.23,84.0,4.0,89.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:28:01+00:00,virginia,centralized,cold,107,200,93.99,4.01,83.0,5.0,88.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:28:02+00:00,virginia,centralized,cold,108,200,105.51,4.58,95.0,4.0,99.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:02+00:00,virginia,centralized,cold,109,200,96.89,5.57,86.0,4.0,90.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:03+00:00,virginia,centralized,cold,110,200,92.57,4.24,82.0,5.0,86.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:28:03+00:00,virginia,centralized,cold,111,200,92.29,4.14,82.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:28:04+00:00,virginia,centralized,cold,112,200,91.28,4.07,82.0,4.0,85.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:28:05+00:00,virginia,centralized,cold,113,200,102.02,3.89,92.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:28:05+00:00,virginia,centralized,cold,114,200,94.03,3.93,84.0,5.0,88.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:28:06+00:00,virginia,centralized,cold,115,200,95.87,4.6,86.0,4.0,89.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:06+00:00,virginia,centralized,cold,116,200,103.86,4.38,93.0,4.0,98.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:28:07+00:00,virginia,centralized,cold,117,200,92.64,4.25,83.0,4.0,87.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:28:08+00:00,virginia,centralized,cold,118,200,84.4,4.29,74.0,4.0,78.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:28:08+00:00,virginia,centralized,cold,119,200,106.21,4.57,95.0,4.0,100.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:09+00:00,virginia,centralized,cold,120,200,93.73,4.39,84.0,4.0,87.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:09+00:00,virginia,centralized,cold,121,200,91.82,3.96,82.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:28:10+00:00,virginia,centralized,cold,122,200,81.57,4.35,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:28:11+00:00,virginia,centralized,cold,123,200,104.91,4.23,94.0,4.0,99.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:11+00:00,virginia,centralized,cold,124,200,95.24,4.29,85.0,4.0,89.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:28:12+00:00,virginia,centralized,cold,125,200,91.46,3.75,82.0,4.0,86.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:28:12+00:00,virginia,centralized,cold,126,200,93.79,4.19,83.0,4.0,87.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:28:13+00:00,virginia,centralized,cold,127,200,92.76,3.95,82.0,5.0,87.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:28:14+00:00,virginia,centralized,cold,128,200,93.86,4.13,84.0,4.0,88.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:14+00:00,virginia,centralized,cold,129,200,94.76,4.52,84.0,5.0,88.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:28:15+00:00,virginia,centralized,cold,130,200,94.93,4.27,85.0,4.0,89.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:15+00:00,virginia,centralized,cold,131,200,92.61,4.67,82.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:16+00:00,virginia,centralized,cold,132,200,96.01,4.33,85.0,5.0,90.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:28:17+00:00,virginia,centralized,cold,133,200,97.35,6.71,84.0,5.0,89.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:28:17+00:00,virginia,centralized,cold,134,200,92.4,4.4,82.0,4.0,86.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:28:18+00:00,virginia,centralized,cold,135,200,103.48,5.08,92.0,4.0,97.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:28:18+00:00,virginia,centralized,cold,136,200,81.3,5.29,70.0,5.0,74.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:28:19+00:00,virginia,centralized,cold,137,200,92.65,4.33,83.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:20+00:00,virginia,centralized,cold,138,200,104.45,3.88,94.0,4.0,99.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:20+00:00,virginia,centralized,cold,139,200,105.48,4.73,95.0,4.0,99.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:21+00:00,virginia,centralized,cold,140,200,96.85,3.96,87.0,4.0,91.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:28:21+00:00,virginia,centralized,cold,141,200,93.88,4.65,84.0,4.0,87.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:22+00:00,virginia,centralized,cold,142,200,90.76,3.91,81.0,4.0,85.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:28:23+00:00,virginia,centralized,cold,143,200,80.08,4.73,69.0,4.0,73.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:28:23+00:00,virginia,centralized,cold,144,200,94.28,4.18,84.0,4.0,88.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:28:24+00:00,virginia,centralized,cold,145,200,80.29,3.92,70.0,5.0,75.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:28:24+00:00,virginia,centralized,cold,146,200,81.76,4.3,71.0,5.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:28:25+00:00,virginia,centralized,cold,147,200,93.2,4.36,83.0,4.0,87.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:28:26+00:00,virginia,centralized,cold,148,200,92.86,4.33,83.0,4.0,87.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:26+00:00,virginia,centralized,cold,149,200,103.04,4.32,91.0,5.0,96.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:28:27+00:00,virginia,centralized,cold,150,200,82.93,3.83,73.0,5.0,77.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:28:27+00:00,virginia,centralized,cold,151,200,93.17,4.36,82.0,5.0,87.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:28:28+00:00,virginia,centralized,cold,152,200,102.84,5.28,91.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:28:29+00:00,virginia,centralized,cold,153,200,81.73,4.39,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:28:29+00:00,virginia,centralized,cold,154,200,92.52,4.57,82.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:28:30+00:00,virginia,centralized,cold,155,200,100.28,12.21,82.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:28:30+00:00,virginia,centralized,cold,156,200,92.72,4.79,82.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:28:31+00:00,virginia,centralized,cold,157,200,92.11,4.28,82.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:28:32+00:00,virginia,centralized,cold,158,200,96.22,4.35,85.0,5.0,90.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:28:32+00:00,virginia,centralized,cold,159,200,101.56,3.92,92.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:28:33+00:00,virginia,centralized,cold,160,200,93.31,4.23,83.0,4.0,87.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:28:33+00:00,virginia,centralized,cold,161,200,95.67,4.52,85.0,4.0,89.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:28:34+00:00,virginia,centralized,cold,162,200,95.12,4.62,84.0,5.0,89.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:28:35+00:00,virginia,centralized,cold,163,200,94.94,4.36,84.0,5.0,89.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:28:35+00:00,virginia,centralized,cold,164,200,94.71,4.65,83.0,5.0,88.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:28:36+00:00,virginia,centralized,cold,165,200,106.34,5.03,95.0,4.0,99.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:28:36+00:00,virginia,centralized,cold,166,200,95.72,5.62,85.0,4.0,88.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:37+00:00,virginia,centralized,cold,167,200,95.67,4.25,85.0,5.0,90.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:28:38+00:00,virginia,centralized,cold,168,200,95.19,4.42,85.0,4.0,89.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:28:38+00:00,virginia,centralized,cold,169,200,82.16,4.51,71.0,5.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:28:39+00:00,virginia,centralized,cold,170,200,95.6,4.01,85.0,4.0,89.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:28:39+00:00,virginia,centralized,cold,171,200,98.49,4.72,87.0,5.0,92.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:28:40+00:00,virginia,centralized,cold,172,200,95.09,4.33,84.0,5.0,89.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:28:41+00:00,virginia,centralized,cold,173,200,84.17,5.92,72.0,4.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:28:41+00:00,virginia,centralized,cold,174,200,95.12,4.4,85.0,3.0,89.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:42+00:00,virginia,centralized,cold,175,200,82.92,5.27,71.0,4.0,76.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:28:42+00:00,virginia,centralized,cold,176,200,94.86,3.93,85.0,5.0,89.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:28:43+00:00,virginia,centralized,cold,177,200,95.4,4.4,85.0,4.0,89.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:28:44+00:00,virginia,centralized,cold,178,200,79.3,4.28,69.0,4.0,73.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:28:44+00:00,virginia,centralized,cold,179,200,94.61,4.48,84.0,4.0,88.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:28:45+00:00,virginia,centralized,cold,180,200,93.93,3.92,84.0,5.0,88.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:28:45+00:00,virginia,centralized,cold,181,200,97.22,7.89,83.0,5.0,87.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:28:46+00:00,virginia,centralized,cold,182,200,85.35,4.57,74.0,5.0,79.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:28:47+00:00,virginia,centralized,cold,183,200,91.99,3.88,82.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:28:47+00:00,virginia,centralized,cold,184,200,91.59,4.08,82.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:48+00:00,virginia,centralized,cold,185,200,106.89,4.23,96.0,4.0,101.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:48+00:00,virginia,centralized,cold,186,200,93.46,4.54,83.0,4.0,87.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:28:49+00:00,virginia,centralized,cold,187,200,84.77,4.76,74.0,5.0,78.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:28:50+00:00,virginia,centralized,cold,188,200,91.71,4.14,82.0,4.0,86.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:28:50+00:00,virginia,centralized,cold,189,200,105.01,5.1,93.0,4.0,97.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:28:51+00:00,virginia,centralized,cold,190,200,96.92,4.5,86.0,5.0,91.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:28:51+00:00,virginia,centralized,cold,191,200,96.26,3.89,86.0,5.0,91.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:28:52+00:00,virginia,centralized,cold,192,200,105.24,4.26,95.0,4.0,99.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:28:53+00:00,virginia,centralized,cold,193,200,102.85,4.31,92.0,4.0,97.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:28:53+00:00,virginia,centralized,cold,194,200,103.31,4.26,93.0,4.0,97.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:28:54+00:00,virginia,centralized,cold,195,200,102.08,3.98,92.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:28:54+00:00,virginia,centralized,cold,196,200,102.94,4.44,92.0,4.0,96.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:55+00:00,virginia,centralized,cold,197,200,97.47,4.36,86.0,5.0,91.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:28:56+00:00,virginia,centralized,cold,198,200,93.03,4.16,83.0,4.0,87.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:56+00:00,virginia,centralized,cold,199,200,93.99,4.53,83.0,4.0,88.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:28:57+00:00,virginia,centralized,cold,200,200,92.8,4.27,83.0,4.0,87.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:28:57+00:00,virginia,centralized,cold,201,200,111.44,12.58,93.0,4.0,97.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:58+00:00,virginia,centralized,cold,202,200,102.66,4.35,92.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:28:59+00:00,virginia,centralized,cold,203,200,92.21,4.3,82.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:59+00:00,virginia,centralized,cold,204,200,83.53,6.9,70.0,5.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:29:00+00:00,virginia,centralized,cold,205,200,108.48,5.71,96.0,4.0,101.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:29:00+00:00,virginia,centralized,cold,206,200,92.65,4.34,82.0,5.0,86.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:29:01+00:00,virginia,centralized,cold,207,200,80.88,4.29,70.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:29:02+00:00,virginia,centralized,cold,208,200,97.38,3.98,88.0,4.0,92.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:29:02+00:00,virginia,centralized,cold,209,200,93.61,5.58,82.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:03+00:00,virginia,centralized,cold,210,200,92.01,3.94,81.0,5.0,86.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:29:03+00:00,virginia,centralized,cold,211,200,92.85,4.28,82.0,4.0,87.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:29:04+00:00,virginia,centralized,cold,212,200,78.48,4.11,68.0,4.0,73.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:29:05+00:00,virginia,centralized,cold,213,200,104.6,3.91,95.0,4.0,99.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:29:05+00:00,virginia,centralized,cold,214,200,94.25,4.66,83.0,5.0,88.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:29:06+00:00,virginia,centralized,cold,215,200,104.38,4.42,94.0,4.0,98.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:29:06+00:00,virginia,centralized,cold,216,200,80.9,4.41,70.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:29:07+00:00,virginia,centralized,cold,217,200,95.36,4.35,85.0,4.0,89.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:29:08+00:00,virginia,centralized,cold,218,200,92.08,4.24,82.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:08+00:00,virginia,centralized,cold,219,200,92.78,4.24,83.0,4.0,87.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:29:09+00:00,virginia,centralized,cold,220,200,92.37,3.93,82.0,5.0,87.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:29:09+00:00,virginia,centralized,cold,221,200,82.63,5.73,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:29:10+00:00,virginia,centralized,cold,222,200,80.36,4.39,70.0,4.0,74.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:29:11+00:00,virginia,centralized,cold,223,200,80.59,3.81,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:29:11+00:00,virginia,centralized,cold,224,200,92.64,4.32,83.0,4.0,86.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:29:12+00:00,virginia,centralized,cold,225,200,96.17,4.24,86.0,4.0,90.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:29:12+00:00,virginia,centralized,cold,226,200,83.01,4.54,72.0,5.0,77.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:29:13+00:00,virginia,centralized,cold,227,200,91.23,4.24,81.0,5.0,85.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:29:14+00:00,virginia,centralized,cold,228,200,92.53,4.46,81.0,5.0,86.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:29:14+00:00,virginia,centralized,cold,229,200,95.32,3.92,86.0,4.0,90.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:29:15+00:00,virginia,centralized,cold,230,200,96.26,4.37,85.0,5.0,90.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:29:15+00:00,virginia,centralized,cold,231,200,92.9,4.28,82.0,5.0,87.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:29:16+00:00,virginia,centralized,cold,232,200,80.94,4.08,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:29:17+00:00,virginia,centralized,cold,233,200,104.27,4.07,94.0,4.0,98.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:29:17+00:00,virginia,centralized,cold,234,200,92.37,4.32,83.0,4.0,86.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:29:18+00:00,virginia,centralized,cold,235,200,93.99,4.43,83.0,4.0,88.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:29:18+00:00,virginia,centralized,cold,236,200,95.05,3.9,85.0,4.0,89.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:29:19+00:00,virginia,centralized,cold,237,200,104.21,4.49,93.0,4.0,98.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:29:20+00:00,virginia,centralized,cold,238,200,103.76,5.64,92.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:29:20+00:00,virginia,centralized,cold,239,200,105.79,4.43,95.0,4.0,100.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:29:21+00:00,virginia,centralized,cold,240,200,93.11,4.3,82.0,5.0,87.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:29:21+00:00,virginia,centralized,cold,241,200,80.06,4.02,70.0,5.0,74.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:29:22+00:00,virginia,centralized,cold,242,200,98.81,4.76,88.0,4.0,92.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:29:23+00:00,virginia,centralized,cold,243,200,101.87,4.25,92.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:29:23+00:00,virginia,centralized,cold,244,200,93.09,4.55,83.0,4.0,87.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:29:24+00:00,virginia,centralized,cold,245,200,95.91,3.92,87.0,3.0,90.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:29:24+00:00,virginia,centralized,cold,246,200,93.66,4.28,83.0,5.0,88.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:29:25+00:00,virginia,centralized,cold,247,200,94.26,4.84,83.0,5.0,88.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:29:26+00:00,virginia,centralized,cold,248,200,91.38,4.07,81.0,5.0,85.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:29:26+00:00,virginia,centralized,cold,249,200,93.87,4.34,83.0,5.0,88.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:29:27+00:00,virginia,centralized,cold,250,200,103.49,4.2,93.0,4.0,97.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:29:27+00:00,virginia,centralized,cold,251,200,95.35,4.06,85.0,5.0,89.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:29:28+00:00,virginia,centralized,cold,252,200,95.34,5.47,84.0,4.0,88.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:29:29+00:00,virginia,centralized,cold,253,200,93.25,4.26,83.0,5.0,87.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:29:29+00:00,virginia,centralized,cold,254,200,105.24,4.58,94.0,4.0,99.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:29:30+00:00,virginia,centralized,cold,255,200,81.17,4.34,70.0,5.0,75.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:29:30+00:00,virginia,centralized,cold,256,200,98.53,7.57,84.0,5.0,89.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:29:31+00:00,virginia,centralized,cold,257,200,102.69,14.62,82.0,4.0,86.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:29:32+00:00,virginia,centralized,cold,258,200,103.53,4.18,93.0,4.0,98.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:29:32+00:00,virginia,centralized,cold,259,200,93.08,4.9,83.0,4.0,86.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:29:33+00:00,virginia,centralized,cold,260,200,94.77,4.27,84.0,5.0,89.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:29:34+00:00,virginia,centralized,cold,261,200,122.9,4.1,111.0,6.0,117.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:29:34+00:00,virginia,centralized,cold,262,200,93.93,6.0,82.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:29:35+00:00,virginia,centralized,cold,263,200,92.94,4.4,82.0,5.0,87.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:29:35+00:00,virginia,centralized,cold,264,200,101.46,3.99,91.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:29:36+00:00,virginia,centralized,cold,265,200,92.91,4.34,83.0,4.0,87.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:37+00:00,virginia,centralized,cold,266,200,92.81,4.47,83.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:29:37+00:00,virginia,centralized,cold,267,200,91.7,4.21,82.0,4.0,86.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:29:38+00:00,virginia,centralized,cold,268,200,95.41,4.23,85.0,5.0,89.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:29:38+00:00,virginia,centralized,cold,269,200,92.36,4.21,83.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:29:39+00:00,virginia,centralized,cold,270,200,100.54,4.16,90.0,4.0,94.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:29:40+00:00,virginia,centralized,cold,271,200,92.96,4.08,83.0,4.0,87.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:29:40+00:00,virginia,centralized,cold,272,200,93.58,5.21,82.0,5.0,87.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:29:41+00:00,virginia,centralized,cold,273,200,92.02,4.21,82.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:41+00:00,virginia,centralized,cold,274,200,92.38,4.43,82.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:42+00:00,virginia,centralized,cold,275,200,91.95,4.49,82.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:43+00:00,virginia,centralized,cold,276,200,91.18,4.06,81.0,5.0,85.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:29:43+00:00,virginia,centralized,cold,277,200,95.04,5.94,84.0,4.0,87.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:44+00:00,virginia,centralized,cold,278,200,82.22,4.26,71.0,5.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:29:44+00:00,virginia,centralized,cold,279,200,103.62,4.27,93.0,4.0,98.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:29:45+00:00,virginia,centralized,cold,280,200,93.03,4.38,83.0,4.0,87.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:46+00:00,virginia,centralized,cold,281,200,84.95,4.23,74.0,5.0,78.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:29:46+00:00,virginia,centralized,cold,282,200,83.65,6.5,71.0,5.0,75.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:29:47+00:00,virginia,centralized,cold,283,200,102.29,4.24,92.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:29:47+00:00,virginia,centralized,cold,284,200,93.55,4.27,84.0,4.0,87.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:29:48+00:00,virginia,centralized,cold,285,200,91.85,4.02,83.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:49+00:00,virginia,centralized,cold,286,200,82.02,4.47,72.0,4.0,76.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:29:49+00:00,virginia,centralized,cold,287,200,81.97,4.37,71.0,4.0,76.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:29:50+00:00,virginia,centralized,cold,288,200,92.72,4.51,83.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:50+00:00,virginia,centralized,cold,289,200,95.18,6.99,82.0,4.0,87.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:29:51+00:00,virginia,centralized,cold,290,200,92.14,4.18,82.0,4.0,86.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:29:51+00:00,virginia,centralized,cold,291,200,93.24,4.18,83.0,5.0,87.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:29:52+00:00,virginia,centralized,cold,292,200,81.23,4.29,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:29:53+00:00,virginia,centralized,cold,293,200,93.12,4.12,83.0,4.0,87.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:53+00:00,virginia,centralized,cold,294,200,94.63,4.17,85.0,4.0,89.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:29:54+00:00,virginia,centralized,cold,295,200,92.51,4.52,81.0,5.0,86.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:29:54+00:00,virginia,centralized,cold,296,200,93.24,4.49,82.0,5.0,87.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:29:55+00:00,virginia,centralized,cold,297,200,156.47,68.41,82.0,4.0,86.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:29:56+00:00,virginia,centralized,cold,298,200,103.29,3.91,93.0,4.0,98.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:29:56+00:00,virginia,centralized,cold,299,200,92.39,5.16,81.0,5.0,86.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:29:58+00:00,virginia,centralized,warm,0,200,88.89,0.0,84.0,4.0,87.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:29:58+00:00,virginia,centralized,warm,1,200,98.19,0.0,92.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:29:59+00:00,virginia,centralized,warm,2,200,75.25,0.0,69.0,5.0,73.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:30:00+00:00,virginia,centralized,warm,3,200,77.99,0.0,72.0,4.0,76.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:00+00:00,virginia,centralized,warm,4,200,89.71,0.0,83.0,4.0,87.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:30:01+00:00,virginia,centralized,warm,5,200,77.34,0.0,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:01+00:00,virginia,centralized,warm,6,200,89.85,0.0,84.0,4.0,88.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:02+00:00,virginia,centralized,warm,7,200,75.63,0.0,69.0,4.0,74.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:03+00:00,virginia,centralized,warm,8,200,87.99,0.0,82.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:03+00:00,virginia,centralized,warm,9,200,79.22,0.0,71.0,4.0,76.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:04+00:00,virginia,centralized,warm,10,200,76.75,0.0,70.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:04+00:00,virginia,centralized,warm,11,200,86.49,0.0,80.0,4.0,84.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:30:05+00:00,virginia,centralized,warm,12,200,101.8,0.0,95.0,4.0,100.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:30:05+00:00,virginia,centralized,warm,13,200,89.31,0.0,83.0,4.0,87.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:06+00:00,virginia,centralized,warm,14,200,76.73,0.0,70.0,5.0,75.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:30:07+00:00,virginia,centralized,warm,15,200,91.59,0.0,85.0,5.0,89.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:30:07+00:00,virginia,centralized,warm,16,200,114.13,0.0,107.0,4.0,111.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:08+00:00,virginia,centralized,warm,17,200,89.53,0.0,84.0,4.0,87.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:08+00:00,virginia,centralized,warm,18,200,87.86,0.0,82.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:09+00:00,virginia,centralized,warm,19,200,98.76,0.0,92.0,4.0,97.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:30:10+00:00,virginia,centralized,warm,20,200,79.76,0.0,73.0,5.0,78.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:30:10+00:00,virginia,centralized,warm,21,200,91.28,0.0,85.0,5.0,89.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:30:11+00:00,virginia,centralized,warm,22,200,79.33,0.0,73.0,4.0,77.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:11+00:00,virginia,centralized,warm,23,200,88.44,0.0,82.0,4.0,86.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:30:12+00:00,virginia,centralized,warm,24,200,88.76,0.0,83.0,4.0,87.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:30:13+00:00,virginia,centralized,warm,25,200,76.29,0.0,70.0,4.0,74.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:13+00:00,virginia,centralized,warm,26,200,77.49,0.0,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:14+00:00,virginia,centralized,warm,27,200,77.62,0.0,71.0,4.0,76.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:14+00:00,virginia,centralized,warm,28,200,98.55,0.0,92.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:30:15+00:00,virginia,centralized,warm,29,200,92.26,0.0,85.0,5.0,90.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:30:15+00:00,virginia,centralized,warm,30,200,78.89,0.0,72.0,4.0,77.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:16+00:00,virginia,centralized,warm,31,200,88.23,0.0,82.0,4.0,86.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:30:17+00:00,virginia,centralized,warm,32,200,89.54,0.0,83.0,5.0,87.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:30:17+00:00,virginia,centralized,warm,33,200,90.56,0.0,84.0,5.0,88.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:30:18+00:00,virginia,centralized,warm,34,200,101.47,0.0,95.0,4.0,99.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:18+00:00,virginia,centralized,warm,35,200,89.87,0.0,83.0,4.0,88.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:30:19+00:00,virginia,centralized,warm,36,200,90.45,0.0,84.0,5.0,88.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:30:20+00:00,virginia,centralized,warm,37,200,78.64,0.0,72.0,4.0,76.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:20+00:00,virginia,centralized,warm,38,200,99.09,0.0,93.0,4.0,97.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:30:21+00:00,virginia,centralized,warm,39,200,79.21,0.0,73.0,4.0,77.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:21+00:00,virginia,centralized,warm,40,200,89.05,0.0,82.0,4.0,87.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:30:22+00:00,virginia,centralized,warm,41,200,89.51,0.0,83.0,5.0,87.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:30:23+00:00,virginia,centralized,warm,42,200,121.76,0.0,115.0,4.0,119.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:30:23+00:00,virginia,centralized,warm,43,200,87.65,0.0,82.0,4.0,86.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:30:24+00:00,virginia,centralized,warm,44,200,77.05,0.0,70.0,5.0,75.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:30:24+00:00,virginia,centralized,warm,45,200,78.28,0.0,72.0,4.0,76.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:25+00:00,virginia,centralized,warm,46,200,77.82,0.0,71.0,5.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:30:25+00:00,virginia,centralized,warm,47,200,78.1,0.0,72.0,4.0,76.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:26+00:00,virginia,centralized,warm,48,200,89.37,0.0,82.0,5.0,87.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:30:27+00:00,virginia,centralized,warm,49,200,103.8,0.0,97.0,4.0,102.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:27+00:00,virginia,centralized,warm,50,200,100.0,0.0,94.0,4.0,98.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:30:28+00:00,virginia,centralized,warm,51,200,79.14,0.0,73.0,4.0,77.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:28+00:00,virginia,centralized,warm,52,200,77.96,0.0,71.0,4.0,76.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:29+00:00,virginia,centralized,warm,53,200,98.49,0.0,92.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:30:30+00:00,virginia,centralized,warm,54,200,76.99,0.0,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:30+00:00,virginia,centralized,warm,55,200,87.59,0.0,81.0,5.0,86.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:30:31+00:00,virginia,centralized,warm,56,200,76.6,0.0,70.0,4.0,74.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:31+00:00,virginia,centralized,warm,57,200,99.81,0.0,93.0,4.0,98.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:32+00:00,virginia,centralized,warm,58,200,78.31,0.0,72.0,4.0,76.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:33+00:00,virginia,centralized,warm,59,200,89.91,0.0,83.0,5.0,88.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:30:33+00:00,virginia,centralized,warm,60,200,99.59,0.0,93.0,4.0,98.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:30:34+00:00,virginia,centralized,warm,61,200,89.03,0.0,83.0,4.0,87.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:34+00:00,virginia,centralized,warm,62,200,88.28,0.0,82.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:30:35+00:00,virginia,centralized,warm,63,200,89.45,0.0,83.0,4.0,87.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:30:35+00:00,virginia,centralized,warm,64,200,88.07,0.0,82.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:30:36+00:00,virginia,centralized,warm,65,200,98.93,0.0,93.0,4.0,97.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:30:37+00:00,virginia,centralized,warm,66,200,91.18,0.0,85.0,4.0,89.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:30:37+00:00,virginia,centralized,warm,67,200,90.99,0.0,84.0,5.0,89.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:30:38+00:00,virginia,centralized,warm,68,200,115.26,0.0,107.0,6.0,113.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:30:38+00:00,virginia,centralized,warm,69,200,88.67,0.0,83.0,4.0,87.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:30:39+00:00,virginia,centralized,warm,70,200,89.84,0.0,83.0,5.0,88.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:30:40+00:00,virginia,centralized,warm,71,200,90.35,0.0,84.0,5.0,88.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:30:40+00:00,virginia,centralized,warm,72,200,100.77,0.0,94.0,4.0,99.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:41+00:00,virginia,centralized,warm,73,200,91.0,0.0,84.0,5.0,89.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:30:41+00:00,virginia,centralized,warm,74,200,88.05,0.0,82.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:42+00:00,virginia,centralized,warm,75,200,88.54,0.0,83.0,4.0,86.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:30:43+00:00,virginia,centralized,warm,76,200,89.88,0.0,84.0,4.0,88.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:43+00:00,virginia,centralized,warm,77,200,102.62,0.0,96.0,4.0,100.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:44+00:00,virginia,centralized,warm,78,200,88.96,0.0,83.0,4.0,87.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:44+00:00,virginia,centralized,warm,79,200,97.59,0.0,91.0,4.0,95.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:30:45+00:00,virginia,centralized,warm,80,200,88.39,0.0,81.0,5.0,86.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:30:46+00:00,virginia,centralized,warm,81,200,95.45,0.0,89.0,5.0,93.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:30:46+00:00,virginia,centralized,warm,82,200,88.92,0.0,83.0,4.0,87.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:30:47+00:00,virginia,centralized,warm,83,200,98.66,0.0,92.0,4.0,97.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:30:47+00:00,virginia,centralized,warm,84,200,88.39,0.0,83.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:48+00:00,virginia,centralized,warm,85,200,89.46,0.0,83.0,5.0,87.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:30:49+00:00,virginia,centralized,warm,86,200,87.01,0.0,81.0,4.0,85.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:49+00:00,virginia,centralized,warm,87,200,88.48,0.0,83.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:30:50+00:00,virginia,centralized,warm,88,200,77.63,0.0,71.0,4.0,76.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:50+00:00,virginia,centralized,warm,89,200,87.12,0.0,81.0,4.0,85.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:30:51+00:00,virginia,centralized,warm,90,200,91.43,0.0,86.0,4.0,89.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:30:51+00:00,virginia,centralized,warm,91,200,87.97,0.0,82.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:30:52+00:00,virginia,centralized,warm,92,200,88.01,0.0,81.0,5.0,86.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:30:53+00:00,virginia,centralized,warm,93,200,89.1,0.0,83.0,4.0,87.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:30:53+00:00,virginia,centralized,warm,94,200,97.75,0.0,92.0,4.0,95.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:30:54+00:00,virginia,centralized,warm,95,200,89.67,0.0,83.0,5.0,88.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:30:54+00:00,virginia,centralized,warm,96,200,87.98,0.0,82.0,4.0,86.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:30:55+00:00,virginia,centralized,warm,97,200,88.81,0.0,82.0,4.0,87.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:30:56+00:00,virginia,centralized,warm,98,200,91.24,0.0,83.0,4.0,87.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:30:56+00:00,virginia,centralized,warm,99,200,76.08,0.0,70.0,4.0,74.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:30:57+00:00,virginia,centralized,warm,100,200,99.89,0.0,93.0,4.0,98.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:30:57+00:00,virginia,centralized,warm,101,200,98.23,0.0,92.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:30:58+00:00,virginia,centralized,warm,102,200,88.51,0.0,82.0,5.0,86.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:30:59+00:00,virginia,centralized,warm,103,200,87.91,0.0,82.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:30:59+00:00,virginia,centralized,warm,104,200,91.66,0.0,86.0,3.0,90.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:31:00+00:00,virginia,centralized,warm,105,200,77.86,0.0,72.0,4.0,76.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:31:00+00:00,virginia,centralized,warm,106,200,78.08,0.0,71.0,4.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:31:01+00:00,virginia,centralized,warm,107,200,100.21,0.0,94.0,4.0,98.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:01+00:00,virginia,centralized,warm,108,200,76.81,0.0,70.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:31:02+00:00,virginia,centralized,warm,109,200,90.67,0.0,84.0,5.0,89.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:31:03+00:00,virginia,centralized,warm,110,200,89.74,0.0,83.0,5.0,88.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:31:03+00:00,virginia,centralized,warm,111,200,90.03,0.0,83.0,5.0,88.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:31:04+00:00,virginia,centralized,warm,112,200,89.27,0.0,83.0,5.0,87.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:31:04+00:00,virginia,centralized,warm,113,200,89.74,0.0,83.0,4.0,88.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:31:05+00:00,virginia,centralized,warm,114,200,99.3,0.0,93.0,4.0,97.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:06+00:00,virginia,centralized,warm,115,200,101.79,0.0,95.0,4.0,99.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:06+00:00,virginia,centralized,warm,116,200,89.96,0.0,83.0,5.0,88.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:31:07+00:00,virginia,centralized,warm,117,200,89.61,0.0,84.0,4.0,88.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:07+00:00,virginia,centralized,warm,118,200,98.43,0.0,92.0,4.0,96.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:08+00:00,virginia,centralized,warm,119,200,87.41,0.0,81.0,4.0,85.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:09+00:00,virginia,centralized,warm,120,200,88.68,0.0,83.0,4.0,87.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:31:09+00:00,virginia,centralized,warm,121,200,100.8,0.0,94.0,4.0,99.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:10+00:00,virginia,centralized,warm,122,200,89.18,0.0,83.0,4.0,87.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:31:10+00:00,virginia,centralized,warm,123,200,89.19,0.0,83.0,4.0,87.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:11+00:00,virginia,centralized,warm,124,200,76.55,0.0,70.0,4.0,74.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:31:12+00:00,virginia,centralized,warm,125,200,100.01,0.0,91.0,5.0,97.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:31:12+00:00,virginia,centralized,warm,126,200,78.11,0.0,71.0,4.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:31:13+00:00,virginia,centralized,warm,127,200,100.64,0.0,94.0,4.0,99.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:31:13+00:00,virginia,centralized,warm,128,200,89.82,0.0,84.0,4.0,88.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:31:14+00:00,virginia,centralized,warm,129,200,89.42,0.0,83.0,5.0,87.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:31:14+00:00,virginia,centralized,warm,130,200,104.79,0.0,98.0,5.0,103.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:15+00:00,virginia,centralized,warm,131,200,88.61,0.0,82.0,4.0,86.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:31:16+00:00,virginia,centralized,warm,132,200,89.79,0.0,84.0,4.0,88.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:16+00:00,virginia,centralized,warm,133,200,89.68,0.0,84.0,4.0,87.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:31:17+00:00,virginia,centralized,warm,134,200,92.42,0.0,86.0,5.0,90.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:31:17+00:00,virginia,centralized,warm,135,200,99.0,0.0,93.0,4.0,97.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:18+00:00,virginia,centralized,warm,136,200,94.39,0.0,88.0,5.0,92.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:31:19+00:00,virginia,centralized,warm,137,200,88.65,0.0,82.0,4.0,87.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:31:19+00:00,virginia,centralized,warm,138,200,100.55,0.0,94.0,4.0,98.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:20+00:00,virginia,centralized,warm,139,200,94.5,0.0,88.0,5.0,92.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:31:20+00:00,virginia,centralized,warm,140,200,77.81,0.0,71.0,5.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:31:21+00:00,virginia,centralized,warm,141,200,88.76,0.0,82.0,5.0,87.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:31:22+00:00,virginia,centralized,warm,142,200,91.06,0.0,84.0,5.0,89.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:31:22+00:00,virginia,centralized,warm,143,200,100.94,0.0,95.0,4.0,99.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:23+00:00,virginia,centralized,warm,144,200,94.16,0.0,87.0,5.0,92.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:31:23+00:00,virginia,centralized,warm,145,200,101.19,0.0,95.0,4.0,99.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:31:24+00:00,virginia,centralized,warm,146,200,91.95,0.0,85.0,5.0,90.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:31:25+00:00,virginia,centralized,warm,147,200,90.72,0.0,85.0,4.0,88.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:31:25+00:00,virginia,centralized,warm,148,200,76.48,0.0,70.0,4.0,74.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:31:26+00:00,virginia,centralized,warm,149,200,89.47,0.0,83.0,4.0,87.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:31:26+00:00,virginia,centralized,warm,150,200,104.01,0.0,97.0,5.0,102.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:27+00:00,virginia,centralized,warm,151,200,78.52,0.0,72.0,5.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:31:28+00:00,virginia,centralized,warm,152,200,89.29,0.0,83.0,4.0,87.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:28+00:00,virginia,centralized,warm,153,200,89.09,0.0,82.0,4.0,87.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:31:29+00:00,virginia,centralized,warm,154,200,76.82,0.0,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:31:29+00:00,virginia,centralized,warm,155,200,88.65,0.0,82.0,5.0,86.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:31:30+00:00,virginia,centralized,warm,156,200,102.69,0.0,94.0,6.0,100.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:31:30+00:00,virginia,centralized,warm,157,200,92.32,0.0,86.0,4.0,90.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:31+00:00,virginia,centralized,warm,158,200,99.92,0.0,93.0,4.0,98.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:32+00:00,virginia,centralized,warm,159,200,89.0,0.0,82.0,4.0,87.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:31:32+00:00,virginia,centralized,warm,160,200,87.52,0.0,82.0,4.0,85.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:33+00:00,virginia,centralized,warm,161,200,88.39,0.0,81.0,5.0,86.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:31:33+00:00,virginia,centralized,warm,162,200,105.5,0.0,99.0,4.0,103.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:34+00:00,virginia,centralized,warm,163,200,99.04,0.0,93.0,4.0,97.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:35+00:00,virginia,centralized,warm,164,200,76.15,0.0,70.0,4.0,74.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:31:35+00:00,virginia,centralized,warm,165,200,90.99,0.0,84.0,5.0,89.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:31:36+00:00,virginia,centralized,warm,166,200,99.32,0.0,93.0,4.0,97.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:36+00:00,virginia,centralized,warm,167,200,103.27,0.0,97.0,4.0,101.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:31:37+00:00,virginia,centralized,warm,168,200,75.81,0.0,69.0,4.0,74.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:31:38+00:00,virginia,centralized,warm,169,200,87.29,0.0,81.0,4.0,85.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:38+00:00,virginia,centralized,warm,170,200,100.96,0.0,94.0,5.0,99.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:39+00:00,virginia,centralized,warm,171,200,91.57,0.0,86.0,4.0,89.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:31:39+00:00,virginia,centralized,warm,172,200,90.0,0.0,84.0,4.0,88.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:31:40+00:00,virginia,centralized,warm,173,200,100.7,0.0,94.0,4.0,99.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:41+00:00,virginia,centralized,warm,174,200,88.6,0.0,82.0,4.0,87.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:31:41+00:00,virginia,centralized,warm,175,200,90.68,0.0,84.0,4.0,89.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:31:42+00:00,virginia,centralized,warm,176,200,91.04,0.0,84.0,4.0,88.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:31:42+00:00,virginia,centralized,warm,177,200,77.33,0.0,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:31:43+00:00,virginia,centralized,warm,178,200,77.36,0.0,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:31:43+00:00,virginia,centralized,warm,179,200,87.93,0.0,81.0,5.0,86.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:31:44+00:00,virginia,centralized,warm,180,200,77.81,0.0,71.0,4.0,76.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:31:45+00:00,virginia,centralized,warm,181,200,99.15,0.0,93.0,4.0,97.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:31:45+00:00,virginia,centralized,warm,182,200,101.96,0.0,94.0,5.0,99.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:31:46+00:00,virginia,centralized,warm,183,200,100.11,0.0,94.0,4.0,98.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:31:46+00:00,virginia,centralized,warm,184,200,89.29,0.0,82.0,5.0,87.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:31:47+00:00,virginia,centralized,warm,185,200,88.1,0.0,82.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:31:48+00:00,virginia,centralized,warm,186,200,100.17,0.0,93.0,5.0,98.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:31:48+00:00,virginia,centralized,warm,187,200,80.98,0.0,72.0,6.0,79.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:31:49+00:00,virginia,centralized,warm,188,200,88.42,0.0,83.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:31:49+00:00,virginia,centralized,warm,189,200,76.91,0.0,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:31:50+00:00,virginia,centralized,warm,190,200,99.55,0.0,93.0,4.0,97.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:51+00:00,virginia,centralized,warm,191,200,88.55,0.0,82.0,5.0,86.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:31:51+00:00,virginia,centralized,warm,192,200,88.39,0.0,81.0,5.0,86.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:31:52+00:00,virginia,centralized,warm,193,200,91.15,0.0,85.0,4.0,89.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:31:52+00:00,virginia,centralized,warm,194,200,90.55,0.0,84.0,5.0,88.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:31:53+00:00,virginia,centralized,warm,195,200,91.37,0.0,86.0,4.0,89.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:54+00:00,virginia,centralized,warm,196,200,90.06,0.0,84.0,4.0,88.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:31:54+00:00,virginia,centralized,warm,197,200,89.96,0.0,84.0,4.0,88.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:31:55+00:00,virginia,centralized,warm,198,200,89.61,0.0,83.0,4.0,87.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:31:55+00:00,virginia,centralized,warm,199,200,89.2,0.0,83.0,4.0,87.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:56+00:00,virginia,centralized,warm,200,200,89.39,0.0,83.0,4.0,87.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:31:56+00:00,virginia,centralized,warm,201,200,91.56,0.0,85.0,5.0,89.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:31:57+00:00,virginia,centralized,warm,202,200,103.81,0.0,95.0,7.0,101.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:58+00:00,virginia,centralized,warm,203,200,88.55,0.0,82.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:31:58+00:00,virginia,centralized,warm,204,200,91.86,0.0,86.0,4.0,90.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:59+00:00,virginia,centralized,warm,205,200,89.61,0.0,83.0,5.0,87.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:31:59+00:00,virginia,centralized,warm,206,200,89.41,0.0,83.0,5.0,87.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:32:00+00:00,virginia,centralized,warm,207,200,88.76,0.0,83.0,4.0,87.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:32:01+00:00,virginia,centralized,warm,208,200,77.21,0.0,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:32:01+00:00,virginia,centralized,warm,209,200,101.3,0.0,95.0,4.0,99.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:02+00:00,virginia,centralized,warm,210,200,77.43,0.0,71.0,5.0,75.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:32:02+00:00,virginia,centralized,warm,211,200,90.47,0.0,84.0,5.0,88.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:32:03+00:00,virginia,centralized,warm,212,200,103.3,0.0,97.0,4.0,101.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:04+00:00,virginia,centralized,warm,213,200,113.48,0.0,105.0,6.0,111.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:32:04+00:00,virginia,centralized,warm,214,200,100.85,0.0,94.0,4.0,99.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:32:05+00:00,virginia,centralized,warm,215,200,89.7,0.0,84.0,3.0,88.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:05+00:00,virginia,centralized,warm,216,200,87.85,0.0,82.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:06+00:00,virginia,centralized,warm,217,200,100.82,0.0,94.0,4.0,99.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:07+00:00,virginia,centralized,warm,218,200,98.51,0.0,92.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:32:07+00:00,virginia,centralized,warm,219,200,89.53,0.0,83.0,4.0,87.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:32:08+00:00,virginia,centralized,warm,220,200,101.58,0.0,95.0,4.0,99.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:08+00:00,virginia,centralized,warm,221,200,87.98,0.0,82.0,4.0,86.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:32:09+00:00,virginia,centralized,warm,222,200,88.24,0.0,82.0,4.0,86.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:32:10+00:00,virginia,centralized,warm,223,200,76.34,0.0,70.0,4.0,74.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:32:10+00:00,virginia,centralized,warm,224,200,90.24,0.0,85.0,4.0,88.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:32:11+00:00,virginia,centralized,warm,225,200,93.35,0.0,86.0,5.0,91.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:32:11+00:00,virginia,centralized,warm,226,200,90.42,0.0,84.0,5.0,88.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:32:12+00:00,virginia,centralized,warm,227,200,100.26,0.0,94.0,4.0,98.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:12+00:00,virginia,centralized,warm,228,200,91.63,0.0,85.0,5.0,90.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:32:13+00:00,virginia,centralized,warm,229,200,90.46,0.0,84.0,4.0,88.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:32:14+00:00,virginia,centralized,warm,230,200,86.72,0.0,81.0,4.0,84.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:14+00:00,virginia,centralized,warm,231,200,91.64,0.0,85.0,4.0,89.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:32:15+00:00,virginia,centralized,warm,232,200,90.25,0.0,84.0,4.0,88.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:32:15+00:00,virginia,centralized,warm,233,200,88.57,0.0,83.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:32:16+00:00,virginia,centralized,warm,234,200,94.0,0.0,87.0,5.0,92.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:32:17+00:00,virginia,centralized,warm,235,200,103.08,0.0,97.0,4.0,101.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:32:17+00:00,virginia,centralized,warm,236,200,102.35,0.0,95.0,5.0,100.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:18+00:00,virginia,centralized,warm,237,200,78.79,0.0,72.0,4.0,77.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:32:18+00:00,virginia,centralized,warm,238,200,89.66,0.0,83.0,5.0,88.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:32:19+00:00,virginia,centralized,warm,239,200,90.75,0.0,84.0,5.0,89.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:32:20+00:00,virginia,centralized,warm,240,200,77.02,0.0,70.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:32:20+00:00,virginia,centralized,warm,241,200,88.88,0.0,82.0,4.0,87.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:32:21+00:00,virginia,centralized,warm,242,200,89.57,0.0,83.0,5.0,88.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:32:21+00:00,virginia,centralized,warm,243,200,99.73,0.0,93.0,4.0,98.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:22+00:00,virginia,centralized,warm,244,200,113.39,0.0,105.0,6.0,111.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:32:23+00:00,virginia,centralized,warm,245,200,88.13,0.0,82.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:23+00:00,virginia,centralized,warm,246,200,92.18,0.0,86.0,4.0,90.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:32:24+00:00,virginia,centralized,warm,247,200,77.6,0.0,71.0,5.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:32:24+00:00,virginia,centralized,warm,248,200,90.74,0.0,84.0,5.0,88.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:32:25+00:00,virginia,centralized,warm,249,200,88.01,0.0,82.0,4.0,86.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:32:25+00:00,virginia,centralized,warm,250,200,92.13,0.0,85.0,5.0,90.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:32:26+00:00,virginia,centralized,warm,251,200,99.97,0.0,93.0,4.0,98.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:27+00:00,virginia,centralized,warm,252,200,99.83,0.0,93.0,4.0,98.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:27+00:00,virginia,centralized,warm,253,200,90.97,0.0,84.0,5.0,89.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:32:28+00:00,virginia,centralized,warm,254,200,90.98,0.0,84.0,5.0,89.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:32:28+00:00,virginia,centralized,warm,255,200,78.01,0.0,71.0,5.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:32:29+00:00,virginia,centralized,warm,256,200,77.51,0.0,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:32:30+00:00,virginia,centralized,warm,257,200,87.8,0.0,82.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:30+00:00,virginia,centralized,warm,258,200,78.86,0.0,72.0,5.0,77.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:32:31+00:00,virginia,centralized,warm,259,200,87.47,0.0,82.0,4.0,85.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:32:31+00:00,virginia,centralized,warm,260,200,87.25,0.0,82.0,4.0,85.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:32:32+00:00,virginia,centralized,warm,261,200,96.51,0.0,90.0,4.0,94.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:32:33+00:00,virginia,centralized,warm,262,200,87.56,0.0,82.0,4.0,85.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:33+00:00,virginia,centralized,warm,263,200,102.18,0.0,96.0,5.0,100.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:34+00:00,virginia,centralized,warm,264,200,78.19,0.0,71.0,5.0,76.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:32:34+00:00,virginia,centralized,warm,265,200,90.15,0.0,84.0,4.0,88.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:35+00:00,virginia,centralized,warm,266,200,88.92,0.0,82.0,4.0,87.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:32:35+00:00,virginia,centralized,warm,267,200,77.16,0.0,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:32:36+00:00,virginia,centralized,warm,268,200,91.45,0.0,85.0,5.0,89.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:32:37+00:00,virginia,centralized,warm,269,200,78.46,0.0,72.0,4.0,76.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:32:37+00:00,virginia,centralized,warm,270,200,117.08,0.0,109.0,5.0,115.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:38+00:00,virginia,centralized,warm,271,200,77.46,0.0,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:32:38+00:00,virginia,centralized,warm,272,200,78.09,0.0,71.0,5.0,76.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:32:39+00:00,virginia,centralized,warm,273,200,81.37,0.0,75.0,4.0,79.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:32:40+00:00,virginia,centralized,warm,274,200,92.78,0.0,86.0,4.0,91.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:32:40+00:00,virginia,centralized,warm,275,200,76.81,0.0,70.0,5.0,75.0,,centralized,5,1.1,how is recall at ten measured
+2026-10-01T01:32:41+00:00,virginia,centralized,warm,276,200,89.4,0.0,82.0,5.0,87.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:32:41+00:00,virginia,centralized,warm,277,200,92.9,0.0,86.0,5.0,91.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:32:42+00:00,virginia,centralized,warm,278,200,91.05,0.0,84.0,4.0,89.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:32:43+00:00,virginia,centralized,warm,279,200,90.41,0.0,84.0,4.0,88.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:32:43+00:00,virginia,centralized,warm,280,200,88.81,0.0,83.0,4.0,86.0,,centralized,5,1.1,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:44+00:00,virginia,centralized,warm,281,200,91.58,0.0,86.0,4.0,89.0,,centralized,5,1.1,what is the cold start time of a V8 isolate
+2026-10-01T01:32:44+00:00,virginia,centralized,warm,282,200,89.2,0.0,82.0,5.0,87.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:32:45+00:00,virginia,centralized,warm,283,200,89.4,0.0,83.0,4.0,87.0,,centralized,5,1.1,how do read replicas affect data freshness
+2026-10-01T01:32:46+00:00,virginia,centralized,warm,284,200,101.96,0.0,95.0,4.0,100.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:32:46+00:00,virginia,centralized,warm,285,200,78.93,0.0,73.0,4.0,77.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:32:47+00:00,virginia,centralized,warm,286,200,93.01,0.0,86.0,5.0,91.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:32:47+00:00,virginia,centralized,warm,287,200,89.71,0.0,83.0,4.0,88.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:32:48+00:00,virginia,centralized,warm,288,200,79.45,0.0,73.0,4.0,77.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:32:48+00:00,virginia,centralized,warm,289,200,88.88,0.0,82.0,5.0,86.0,,centralized,5,1.1,when does edge computing reduce time to first token
+2026-10-01T01:32:49+00:00,virginia,centralized,warm,290,200,97.66,0.0,91.0,4.0,96.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:32:50+00:00,virginia,centralized,warm,291,200,99.48,0.0,93.0,4.0,97.0,,centralized,5,1.1,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:50+00:00,virginia,centralized,warm,292,200,89.88,0.0,83.0,4.0,88.0,,centralized,5,1.1,how does connection pooling reduce database latency
+2026-10-01T01:32:51+00:00,virginia,centralized,warm,293,200,104.34,0.0,98.0,4.0,102.0,,centralized,5,1.1,what does ef_search control in pgvector
+2026-10-01T01:32:51+00:00,virginia,centralized,warm,294,200,90.71,0.0,84.0,5.0,89.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:32:52+00:00,virginia,centralized,warm,295,200,76.84,0.0,70.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:32:53+00:00,virginia,centralized,warm,296,200,95.42,0.0,88.0,5.0,93.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:32:53+00:00,virginia,centralized,warm,297,200,90.01,0.0,83.0,5.0,88.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:32:54+00:00,virginia,centralized,warm,298,200,77.25,0.0,71.0,4.0,75.0,,centralized,5,1.1,why are container cold starts slow
+2026-10-01T01:32:54+00:00,virginia,centralized,warm,299,200,91.63,0.0,85.0,5.0,90.0,,centralized,5,1.1,what limits the recall of an HNSW index
+2026-10-01T01:32:57+00:00,virginia,edge-pooled,cold,0,200,161.14,12.41,66.0,16.0,82.0,IAD,edge-pooled,5,1.55,why are container cold starts slow
+2026-10-01T01:32:58+00:00,virginia,edge-pooled,cold,1,200,205.44,12.82,123.0,16.0,139.0,IAD,edge-pooled,5,1.55,when does edge computing reduce time to first token
+2026-10-01T01:32:59+00:00,virginia,edge-pooled,cold,2,200,103.53,14.67,50.0,14.0,64.0,IAD,edge-pooled,5,1.55,how does connection pooling reduce database latency
+2026-10-01T01:32:59+00:00,virginia,edge-pooled,cold,3,200,91.36,18.38,30.0,13.0,43.0,IAD,edge-pooled,5,1.55,what limits the recall of an HNSW index
+2026-10-01T01:33:00+00:00,virginia,edge-pooled,cold,4,200,140.19,13.45,54.0,31.0,85.0,IAD,edge-pooled,5,1.55,how do read replicas affect data freshness
+2026-10-01T01:33:01+00:00,virginia,edge-pooled,cold,5,200,287.11,14.53,194.0,19.0,213.0,IAD,edge-pooled,5,1.55,how do read replicas affect data freshness
+2026-10-01T01:33:02+00:00,virginia,edge-pooled,cold,6,200,232.85,14.59,134.0,14.0,148.0,IAD,edge-pooled,5,1.55,what limits the recall of an HNSW index
+2026-10-01T01:33:02+00:00,virginia,edge-pooled,cold,7,200,125.15,13.86,75.0,14.0,89.0,IAD,edge-pooled,5,1.55,when does edge computing reduce time to first token
+2026-10-01T01:33:03+00:00,virginia,edge-pooled,cold,8,200,123.3,14.47,66.0,20.0,86.0,IAD,edge-pooled,5,1.55,what limits the recall of an HNSW index
+2026-10-01T01:33:03+00:00,virginia,edge-pooled,cold,9,200,150.62,15.27,42.0,60.0,102.0,IAD,edge-pooled,5,1.55,why are container cold starts slow
+2026-10-01T01:33:04+00:00,virginia,edge-pooled,cold,10,200,105.43,15.26,39.0,16.0,55.0,IAD,edge-pooled,5,1.55,how do read replicas affect data freshness
+2026-10-01T01:33:05+00:00,virginia,edge-pooled,cold,11,200,107.62,14.62,51.0,15.0,66.0,IAD,edge-pooled,5,1.55,how does connection pooling reduce database latency
+2026-10-01T01:33:05+00:00,virginia,edge-pooled,cold,12,200,132.06,17.96,74.0,16.0,90.0,IAD,edge-pooled,5,1.55,how is recall at ten measured
+2026-10-01T01:33:06+00:00,virginia,edge-pooled,cold,13,200,222.83,14.96,138.0,17.0,155.0,IAD,edge-pooled,5,1.55,what limits the recall of an HNSW index
+2026-10-01T01:33:07+00:00,virginia,edge-pooled,cold,14,200,109.36,15.13,54.0,14.0,68.0,IAD,edge-pooled,5,1.55,when does edge computing reduce time to first token
+2026-10-01T01:33:07+00:00,virginia,edge-pooled,cold,15,200,101.7,14.22,50.0,17.0,67.0,IAD,edge-pooled,5,1.55,how is recall at ten measured
+2026-10-01T01:33:08+00:00,virginia,edge-pooled,cold,16,200,131.86,12.37,83.0,16.0,99.0,IAD,edge-pooled,5,1.55,how does connection pooling reduce database latency
+2026-10-01T01:33:08+00:00,virginia,edge-pooled,cold,17,200,91.2,12.92,46.0,13.0,59.0,IAD,edge-pooled,5,1.55,how is recall at ten measured
+2026-10-01T01:33:09+00:00,virginia,edge-pooled,cold,18,200,117.84,12.15,63.0,14.0,77.0,IAD,edge-pooled,5,1.55,how is recall at ten measured
+2026-10-01T01:33:10+00:00,virginia,edge-pooled,cold,19,200,131.22,19.9,75.0,15.0,90.0,IAD,edge-pooled,5,1.55,how do read replicas affect data freshness
+2026-10-01T01:33:11+00:00,virginia,edge-pooled,cold,20,200,243.68,15.59,83.0,25.0,108.0,IAD,edge-pooled,5,1.55,how does connection pooling reduce database latency
+2026-10-01T01:33:11+00:00,virginia,edge-pooled,cold,21,200,94.99,14.27,34.0,15.0,49.0,IAD,edge-pooled,5,1.55,when does edge computing reduce time to first token
+2026-10-01T01:33:12+00:00,virginia,edge-pooled,cold,22,200,224.89,13.73,130.0,22.0,152.0,IAD,edge-pooled,5,1.55,how does connection pooling reduce database latency
+2026-10-01T01:33:13+00:00,virginia,edge-pooled,cold,23,200,155.66,12.09,42.0,47.0,89.0,IAD,edge-pooled,5,1.55,why are container cold starts slow
+2026-10-01T01:33:13+00:00,virginia,edge-pooled,cold,24,200,99.64,14.18,49.0,13.0,62.0,IAD,edge-pooled,5,1.55,why is fibre propagation slower than light in vacuum
+2026-10-01T01:33:14+00:00,virginia,edge-pooled,cold,25,200,108.55,15.43,41.0,18.0,59.0,IAD,edge-pooled,5,1.55,how much memory does a 768-dimensional vector index need
+2026-10-01T01:33:14+00:00,virginia,edge-pooled,cold,26,200,103.67,14.29,57.0,12.0,69.0,IAD,edge-pooled,5,1.55,how do read replicas affect data freshness
+2026-10-01T01:33:15+00:00,virginia,edge-pooled,cold,27,200,123.04,14.76,79.0,13.0,92.0,IAD,edge-pooled,5,1.55,why is fibre propagation slower than light in vacuum
+2026-10-01T01:33:16+00:00,virginia,edge-pooled,cold,28,200,126.25,14.57,43.0,18.0,61.0,IAD,edge-pooled,5,1.55,why are container cold starts slow
+2026-10-01T01:33:16+00:00,virginia,edge-pooled,cold,29,200,116.6,16.06,52.0,18.0,70.0,IAD,edge-pooled,5,1.55,what limits the recall of an HNSW index
+2026-10-01T01:33:17+00:00,virginia,edge-pooled,cold,30,200,120.78,18.64,51.0,18.0,69.0,IAD,edge-pooled,5,1.55,how is recall at ten measured
+2026-10-01T01:33:17+00:00,virginia,edge-pooled,cold,31,200,110.56,15.09,60.0,15.0,75.0,IAD,edge-pooled,5,1.55,how much memory does a 768-dimensional vector index need
+2026-10-01T01:33:18+00:00,virginia,edge-pooled,cold,32,200,113.99,18.78,51.0,16.0,67.0,IAD,edge-pooled,5,1.55,why are container cold starts slow
+2026-10-01T01:33:19+00:00,virginia,edge-pooled,cold,33,200,135.4,13.49,82.0,13.0,95.0,IAD,edge-pooled,5,1.55,why is fibre propagation slower than light in vacuum
+2026-10-01T01:33:19+00:00,virginia,edge-pooled,cold,34,200,88.97,11.67,39.0,14.0,53.0,IAD,edge-pooled,5,1.55,what limits the recall of an HNSW index
+2026-10-01T01:33:20+00:00,virginia,edge-pooled,cold,35,200,140.31,13.38,90.0,15.0,105.0,IAD,edge-pooled,5,1.55,how is recall at ten measured
+2026-10-01T01:33:21+00:00,virginia,edge-pooled,cold,36,200,123.56,16.62,51.0,16.0,67.0,IAD,edge-pooled,5,1.55,how is recall at ten measured
+2026-10-01T01:33:21+00:00,virginia,edge-pooled,cold,37,200,113.6,16.84,40.0,16.0,56.0,IAD,edge-pooled,5,1.55,when does edge computing reduce time to first token
+2026-10-01T01:33:22+00:00,virginia,edge-pooled,cold,38,200,119.29,14.37,51.0,19.0,70.0,IAD,edge-pooled,5,1.55,what is the cold start time of a V8 isolate
+2026-10-01T01:33:22+00:00,virginia,edge-pooled,cold,39,200,117.27,14.71,59.0,18.0,77.0,IAD,edge-pooled,5,1.55,what limits the recall of an HNSW index
+2026-10-01T01:33:23+00:00,virginia,edge-pooled,cold,40,200,119.21,19.08,60.0,13.0,73.0,IAD,edge-pooled,5,1.55,why are container cold starts slow
+2026-10-01T01:33:24+00:00,virginia,edge-pooled,cold,41,200,113.12,15.12,57.0,14.0,71.0,IAD,edge-pooled,5,1.55,what limits the recall of an HNSW index
+2026-10-01T01:33:24+00:00,virginia,edge-pooled,cold,42,200,131.91,17.91,64.0,19.0,83.0,IAD,edge-pooled,5,1.55,how is recall at ten measured
+2026-10-01T01:33:25+00:00,virginia,edge-pooled,cold,43,200,87.43,13.08,38.0,12.0,50.0,IAD,edge-pooled,5,1.55,how does connection pooling reduce database latency
+2026-10-01T01:33:26+00:00,virginia,edge-pooled,cold,44,200,105.12,15.12,49.0,18.0,67.0,IAD,edge-pooled,5,1.55,how is recall at ten measured
+2026-10-01T01:33:26+00:00,virginia,edge-pooled,cold,45,200,167.77,18.08,98.0,16.0,114.0,IAD,edge-pooled,5,1.55,when does edge computing reduce time to first token
+2026-10-01T01:33:27+00:00,virginia,edge-pooled,cold,46,200,116.24,12.58,58.0,15.0,73.0,IAD,edge-pooled,5,1.55,what does ef_search control in pgvector
+2026-10-01T01:33:27+00:00,virginia,edge-pooled,cold,47,200,90.89,9.57,45.0,14.0,59.0,IAD,edge-pooled,5,1.55,why are container cold starts slow
+2026-10-01T01:33:28+00:00,virginia,edge-pooled,cold,48,200,167.45,15.9,106.0,15.0,121.0,IAD,edge-pooled,5,1.55,how do read replicas affect data freshness
+2026-10-01T01:33:29+00:00,virginia,edge-pooled,cold,49,200,252.99,14.98,158.0,15.0,173.0,IAD,edge-pooled,5,1.55,what is the cold start time of a V8 isolate
+2026-10-01T01:33:30+00:00,virginia,edge-pooled,cold,50,200,170.04,17.41,52.0,20.0,72.0,IAD,edge-pooled,5,1.55,what does ef_search control in pgvector
+2026-10-01T01:33:30+00:00,virginia,edge-pooled,cold,51,200,89.86,13.91,37.0,14.0,51.0,IAD,edge-pooled,5,1.55,how is recall at ten measured
+2026-10-01T01:33:31+00:00,virginia,edge-pooled,cold,52,200,112.22,13.42,62.0,14.0,76.0,IAD,edge-pooled,5,1.55,what does ef_search control in pgvector
+2026-10-01T01:33:31+00:00,virginia,edge-pooled,cold,53,200,90.95,22.5,43.0,13.0,56.0,IAD,edge-pooled,5,1.55,what is the cold start time of a V8 isolate
+2026-10-01T01:33:32+00:00,virginia,edge-pooled,cold,54,200,97.2,10.25,47.0,17.0,64.0,IAD,edge-pooled,5,1.55,how much memory does a 768-dimensional vector index need
+2026-10-01T01:33:33+00:00,virginia,edge-pooled,cold,55,200,119.35,13.54,63.0,16.0,79.0,IAD,edge-pooled,5,1.55,when does edge computing reduce time to first token
+2026-10-01T01:33:33+00:00,virginia,edge-pooled,cold,56,200,83.89,14.05,40.0,11.0,51.0,IAD,edge-pooled,5,1.55,why is fibre propagation slower than light in vacuum
+2026-10-01T01:33:34+00:00,virginia,edge-pooled,cold,57,200,131.77,14.88,82.0,14.0,96.0,IAD,edge-pooled,5,1.55,when does edge computing reduce time to first token
+2026-10-01T01:33:34+00:00,virginia,edge-pooled,cold,58,200,93.21,14.64,37.0,14.0,51.0,IAD,edge-pooled,5,1.55,what limits the recall of an HNSW index
+2026-10-01T01:33:35+00:00,virginia,edge-pooled,cold,59,200,115.31,15.58,51.0,16.0,67.0,IAD,edge-pooled,5,1.55,how is recall at ten measured
+2026-10-01T01:33:36+00:00,virginia,edge-pooled,cold,60,200,112.54,12.75,51.0,23.0,74.0,IAD,edge-pooled,5,1.55,how much memory does a 768-dimensional vector index need
+2026-10-01T01:33:36+00:00,virginia,edge-pooled,cold,61,200,91.68,18.37,44.0,14.0,58.0,IAD,edge-pooled,5,1.55,why are container cold starts slow
+2026-10-01T01:33:37+00:00,virginia,edge-pooled,cold,62,200,103.61,17.42,54.0,15.0,69.0,IAD,edge-pooled,5,1.55,what does ef_search control in pgvector
+2026-10-01T01:33:38+00:00,virginia,edge-pooled,cold,63,200,139.02,13.32,87.0,14.0,101.0,IAD,edge-pooled,5,1.55,what is the cold start time of a V8 isolate
+2026-10-01T01:33:38+00:00,virginia,edge-pooled,cold,64,200,138.02,11.93,68.0,15.0,83.0,IAD,edge-pooled,5,1.55,what does ef_search control in pgvector
+2026-10-01T01:33:39+00:00,virginia,edge-pooled,cold,65,200,91.05,6.02,54.0,16.0,70.0,IAD,edge-pooled,5,1.55,how much memory does a 768-dimensional vector index need
+2026-10-01T01:33:39+00:00,virginia,edge-pooled,cold,66,200,91.38,11.49,35.0,16.0,51.0,IAD,edge-pooled,5,1.55,how is recall at ten measured
+2026-10-01T01:33:40+00:00,virginia,edge-pooled,cold,67,200,96.88,10.6,51.0,15.0,66.0,IAD,edge-pooled,5,1.55,what limits the recall of an HNSW index
+2026-10-01T01:33:41+00:00,virginia,edge-pooled,cold,68,200,154.16,15.27,74.0,17.0,91.0,IAD,edge-pooled,5,1.55,what limits the recall of an HNSW index
+2026-10-01T01:33:41+00:00,virginia,edge-pooled,cold,69,200,90.75,16.92,30.0,18.0,48.0,IAD,edge-pooled,5,1.55,why are container cold starts slow
+2026-10-01T01:33:42+00:00,virginia,edge-pooled,cold,70,200,102.75,10.11,53.0,23.0,76.0,IAD,edge-pooled,5,1.55,how do read replicas affect data freshness
+2026-10-01T01:33:42+00:00,virginia,edge-pooled,cold,71,200,93.82,14.85,36.0,15.0,51.0,IAD,edge-pooled,5,1.55,why is fibre propagation slower than light in vacuum
+2026-10-01T01:33:43+00:00,virginia,edge-pooled,cold,72,200,103.93,19.05,39.0,17.0,56.0,IAD,edge-pooled,5,1.55,what is the cold start time of a V8 isolate

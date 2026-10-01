@@ -1,0 +1,959 @@
+ts,region,topology,mode,i,status,wall_ms,connect_ms,st_embed,st_search,st_total,colo,server_topology,n_results,tcp_rtt_ms,query
+2026-10-01T01:20:17+00:00,sydney,edge-pooled,cold,0,200,645.82,12.94,300.0,268.0,568.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:20:18+00:00,sydney,edge-pooled,cold,1,200,439.94,12.94,162.0,248.0,410.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:20:19+00:00,sydney,edge-pooled,cold,2,200,320.61,10.59,32.0,257.0,289.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:20:20+00:00,sydney,edge-pooled,cold,3,200,465.93,8.64,188.0,249.0,437.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:20:21+00:00,sydney,edge-pooled,cold,4,200,495.61,19.08,165.0,265.0,430.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:20:22+00:00,sydney,edge-pooled,cold,5,200,333.14,9.33,39.0,266.0,305.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:20:23+00:00,sydney,edge-pooled,cold,6,200,486.03,15.29,194.0,264.0,458.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:20:24+00:00,sydney,edge-pooled,cold,7,200,465.61,11.05,184.0,246.0,430.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:20:25+00:00,sydney,edge-pooled,cold,8,200,452.41,12.83,178.0,243.0,421.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:20:26+00:00,sydney,edge-pooled,cold,9,200,490.93,12.3,205.0,256.0,461.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:20:27+00:00,sydney,edge-pooled,cold,10,200,479.45,15.52,189.0,252.0,441.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:20:28+00:00,sydney,edge-pooled,cold,11,200,324.99,13.54,35.0,255.0,290.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:20:28+00:00,sydney,edge-pooled,cold,12,200,321.21,9.3,39.0,253.0,292.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:20:29+00:00,sydney,edge-pooled,cold,13,200,481.64,13.81,196.0,252.0,448.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:20:30+00:00,sydney,edge-pooled,cold,14,200,358.05,12.77,67.0,259.0,326.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:20:31+00:00,sydney,edge-pooled,cold,15,200,462.39,14.09,177.0,251.0,428.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:20:32+00:00,sydney,edge-pooled,cold,16,200,341.38,9.51,57.0,258.0,315.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:20:33+00:00,sydney,edge-pooled,cold,17,200,480.78,8.9,196.0,256.0,452.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:20:34+00:00,sydney,edge-pooled,cold,18,200,443.25,12.49,166.0,245.0,411.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:20:41+00:00,sydney,edge-pooled,cold,19,200,6755.81,14.19,6453.0,272.0,6725.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:20:42+00:00,sydney,edge-pooled,cold,20,200,455.09,12.97,163.0,257.0,420.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:20:43+00:00,sydney,edge-pooled,cold,21,200,470.47,15.59,177.0,252.0,429.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:20:44+00:00,sydney,edge-pooled,cold,22,200,450.1,9.11,167.0,256.0,423.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:20:45+00:00,sydney,edge-pooled,cold,23,200,436.58,9.17,160.0,247.0,407.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:20:46+00:00,sydney,edge-pooled,cold,24,200,574.24,7.81,300.0,255.0,555.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:20:47+00:00,sydney,edge-pooled,cold,25,200,470.8,16.92,178.0,252.0,430.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:20:48+00:00,sydney,edge-pooled,cold,26,200,488.66,12.07,202.0,255.0,457.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:20:49+00:00,sydney,edge-pooled,cold,27,200,381.28,12.17,90.0,259.0,349.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:20:50+00:00,sydney,edge-pooled,cold,28,200,496.35,7.79,230.0,247.0,477.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:20:51+00:00,sydney,edge-pooled,cold,29,200,336.43,13.5,53.0,253.0,306.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:20:52+00:00,sydney,edge-pooled,cold,30,200,445.94,10.65,163.0,254.0,417.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:20:53+00:00,sydney,edge-pooled,cold,31,200,451.43,13.02,163.0,260.0,423.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:20:54+00:00,sydney,edge-pooled,cold,32,200,380.76,11.36,85.0,262.0,347.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:20:55+00:00,sydney,edge-pooled,cold,33,200,444.15,13.34,168.0,244.0,412.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:20:55+00:00,sydney,edge-pooled,cold,34,200,375.37,13.12,87.0,259.0,346.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:20:56+00:00,sydney,edge-pooled,cold,35,200,344.11,16.28,41.0,266.0,307.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:20:57+00:00,sydney,edge-pooled,cold,36,200,456.24,8.2,169.0,262.0,431.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:20:58+00:00,sydney,edge-pooled,cold,37,200,331.89,14.88,37.0,262.0,299.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:20:59+00:00,sydney,edge-pooled,cold,38,200,451.72,14.43,161.0,258.0,419.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:21:00+00:00,sydney,edge-pooled,cold,39,200,454.88,12.3,172.0,250.0,422.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:21:01+00:00,sydney,edge-pooled,cold,40,200,365.05,11.5,81.0,254.0,335.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:21:02+00:00,sydney,edge-pooled,cold,41,200,510.28,14.98,209.0,259.0,468.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:21:03+00:00,sydney,edge-pooled,cold,42,200,570.02,12.06,289.0,253.0,542.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:21:04+00:00,sydney,edge-pooled,cold,43,200,463.34,12.17,181.0,251.0,432.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:21:05+00:00,sydney,edge-pooled,cold,44,200,318.23,11.63,35.0,253.0,288.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:21:06+00:00,sydney,edge-pooled,cold,45,200,310.58,6.49,41.0,250.0,291.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:21:07+00:00,sydney,edge-pooled,cold,46,200,476.18,7.77,193.0,263.0,456.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:21:08+00:00,sydney,edge-pooled,cold,47,200,465.37,12.0,170.0,263.0,433.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:21:08+00:00,sydney,edge-pooled,cold,48,200,378.49,9.07,91.0,260.0,351.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:21:09+00:00,sydney,edge-pooled,cold,49,200,377.16,13.17,87.0,261.0,348.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:21:10+00:00,sydney,edge-pooled,cold,50,200,366.36,11.68,82.0,254.0,336.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:21:11+00:00,sydney,edge-pooled,cold,51,200,462.82,12.86,165.0,268.0,433.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:21:12+00:00,sydney,edge-pooled,cold,52,200,380.06,13.0,89.0,261.0,350.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:21:13+00:00,sydney,edge-pooled,cold,53,200,448.85,12.37,169.0,251.0,420.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:21:14+00:00,sydney,edge-pooled,cold,54,200,410.9,11.88,120.0,264.0,384.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:15+00:00,sydney,edge-pooled,cold,55,200,477.77,14.32,172.0,260.0,432.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:21:16+00:00,sydney,edge-pooled,cold,56,200,353.36,13.44,41.0,275.0,316.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:17+00:00,sydney,edge-pooled,cold,57,200,448.76,12.38,162.0,258.0,420.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:21:18+00:00,sydney,edge-pooled,cold,58,200,467.92,12.01,178.0,260.0,438.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:21:19+00:00,sydney,edge-pooled,cold,59,200,368.37,7.91,82.0,257.0,339.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:21:19+00:00,sydney,edge-pooled,cold,60,200,318.32,8.91,40.0,253.0,293.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:20+00:00,sydney,edge-pooled,cold,61,200,318.84,9.22,40.0,251.0,291.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:21:21+00:00,sydney,edge-pooled,cold,62,200,319.56,9.61,44.0,245.0,289.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:21:22+00:00,sydney,edge-pooled,cold,63,200,352.26,6.94,82.0,251.0,333.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:21:23+00:00,sydney,edge-pooled,cold,64,200,462.23,14.51,163.0,260.0,423.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:21:24+00:00,sydney,edge-pooled,cold,65,200,363.76,9.57,82.0,253.0,335.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:25+00:00,sydney,edge-pooled,cold,66,200,313.74,6.66,42.0,253.0,295.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:21:25+00:00,sydney,edge-pooled,cold,67,200,322.91,11.5,35.0,258.0,293.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:21:26+00:00,sydney,edge-pooled,cold,68,200,364.74,12.02,90.0,246.0,336.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:21:27+00:00,sydney,edge-pooled,cold,69,200,357.04,8.13,81.0,254.0,335.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:21:28+00:00,sydney,edge-pooled,cold,70,200,488.33,12.29,198.0,260.0,458.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:21:29+00:00,sydney,edge-pooled,cold,71,200,310.59,13.7,32.0,249.0,281.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:30+00:00,sydney,edge-pooled,cold,72,200,456.12,12.36,174.0,248.0,422.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:21:31+00:00,sydney,edge-pooled,cold,73,200,447.66,11.45,164.0,255.0,419.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:32+00:00,sydney,edge-pooled,cold,74,200,333.81,12.19,43.0,259.0,302.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:21:33+00:00,sydney,edge-pooled,cold,75,200,605.73,7.31,342.0,245.0,587.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:21:34+00:00,sydney,edge-pooled,cold,76,200,460.56,11.4,165.0,260.0,425.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:21:35+00:00,sydney,edge-pooled,cold,77,200,477.79,12.92,187.0,260.0,447.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:21:36+00:00,sydney,edge-pooled,cold,78,200,442.24,13.77,160.0,254.0,414.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:21:37+00:00,sydney,edge-pooled,cold,79,200,327.18,11.94,38.0,259.0,297.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:21:38+00:00,sydney,edge-pooled,cold,80,200,485.16,13.07,193.0,263.0,456.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:21:39+00:00,sydney,edge-pooled,cold,81,200,442.65,7.81,167.0,257.0,424.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:21:40+00:00,sydney,edge-pooled,cold,82,200,459.03,8.99,174.0,255.0,429.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:21:40+00:00,sydney,edge-pooled,cold,83,200,376.54,8.37,97.0,263.0,360.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:21:41+00:00,sydney,edge-pooled,cold,84,200,372.59,13.23,85.0,259.0,344.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:21:42+00:00,sydney,edge-pooled,cold,85,200,336.51,11.28,38.0,266.0,304.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:21:43+00:00,sydney,edge-pooled,cold,86,200,484.74,12.5,193.0,257.0,450.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:21:44+00:00,sydney,edge-pooled,cold,87,200,316.53,6.95,41.0,257.0,298.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:21:45+00:00,sydney,edge-pooled,cold,88,200,466.04,13.32,166.0,272.0,438.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:21:46+00:00,sydney,edge-pooled,cold,89,200,418.02,13.98,128.0,260.0,388.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:47+00:00,sydney,edge-pooled,cold,90,200,326.06,12.4,38.0,257.0,295.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:21:48+00:00,sydney,edge-pooled,cold,91,200,336.96,15.44,44.0,251.0,295.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:21:48+00:00,sydney,edge-pooled,cold,92,200,437.89,8.17,167.0,255.0,422.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:21:49+00:00,sydney,edge-pooled,cold,93,200,381.18,16.87,94.0,253.0,347.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:50+00:00,sydney,edge-pooled,cold,94,200,452.75,12.14,175.0,250.0,425.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:21:51+00:00,sydney,edge-pooled,cold,95,200,372.06,17.3,90.0,253.0,343.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:21:52+00:00,sydney,edge-pooled,cold,96,200,478.89,13.29,182.0,262.0,444.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:21:53+00:00,sydney,edge-pooled,cold,97,200,318.82,8.05,44.0,246.0,290.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:21:54+00:00,sydney,edge-pooled,cold,98,200,470.25,13.62,195.0,246.0,441.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:21:55+00:00,sydney,edge-pooled,cold,99,200,365.09,13.25,81.0,252.0,333.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:21:56+00:00,sydney,edge-pooled,cold,100,200,360.56,12.25,85.0,246.0,331.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:21:57+00:00,sydney,edge-pooled,cold,101,200,328.47,12.26,37.0,262.0,299.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:21:57+00:00,sydney,edge-pooled,cold,102,200,315.85,9.25,35.0,250.0,285.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:21:58+00:00,sydney,edge-pooled,cold,103,200,489.87,11.54,196.0,266.0,462.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:21:59+00:00,sydney,edge-pooled,cold,104,200,445.38,11.76,164.0,250.0,414.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:22:00+00:00,sydney,edge-pooled,cold,105,200,317.13,10.98,37.0,256.0,293.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:22:01+00:00,sydney,edge-pooled,cold,106,200,354.13,7.7,77.0,260.0,337.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:22:02+00:00,sydney,edge-pooled,cold,107,200,319.23,8.11,35.0,258.0,293.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:22:03+00:00,sydney,edge-pooled,cold,108,200,486.65,12.73,193.0,267.0,460.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:04+00:00,sydney,edge-pooled,cold,109,200,507.1,12.27,217.0,259.0,476.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:05+00:00,sydney,edge-pooled,cold,110,200,314.27,6.33,37.0,255.0,292.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:22:06+00:00,sydney,edge-pooled,cold,111,200,482.16,12.82,184.0,258.0,442.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:22:06+00:00,sydney,edge-pooled,cold,112,200,315.73,8.73,36.0,260.0,296.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:22:07+00:00,sydney,edge-pooled,cold,113,200,383.99,7.9,101.0,262.0,363.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:22:08+00:00,sydney,edge-pooled,cold,114,200,446.28,7.89,179.0,247.0,426.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:22:09+00:00,sydney,edge-pooled,cold,115,200,362.77,12.33,73.0,256.0,329.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:10+00:00,sydney,edge-pooled,cold,116,200,486.4,8.01,190.0,262.0,452.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:22:11+00:00,sydney,edge-pooled,cold,117,200,314.36,8.53,43.0,253.0,296.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:22:12+00:00,sydney,edge-pooled,cold,118,200,323.21,8.15,42.0,261.0,303.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:22:13+00:00,sydney,edge-pooled,cold,119,200,454.67,13.12,174.0,249.0,423.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:14+00:00,sydney,edge-pooled,cold,120,200,392.76,12.15,102.0,260.0,362.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:15+00:00,sydney,edge-pooled,cold,121,200,444.18,8.14,171.0,253.0,424.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:22:16+00:00,sydney,edge-pooled,cold,122,200,371.6,10.22,82.0,254.0,336.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:22:16+00:00,sydney,edge-pooled,cold,123,200,465.97,13.46,175.0,258.0,433.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:17+00:00,sydney,edge-pooled,cold,124,200,319.13,7.62,35.0,264.0,299.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:22:18+00:00,sydney,edge-pooled,cold,125,200,359.66,8.71,84.0,252.0,336.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:22:19+00:00,sydney,edge-pooled,cold,126,200,466.34,8.45,184.0,260.0,444.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:22:20+00:00,sydney,edge-pooled,cold,127,200,313.27,12.14,32.0,251.0,283.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:22:21+00:00,sydney,edge-pooled,cold,128,200,423.86,9.51,159.0,245.0,404.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:22+00:00,sydney,edge-pooled,cold,129,200,461.02,15.61,171.0,254.0,425.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:22:23+00:00,sydney,edge-pooled,cold,130,200,385.93,12.03,93.0,260.0,353.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:24+00:00,sydney,edge-pooled,cold,131,200,331.88,9.49,36.0,266.0,302.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:25+00:00,sydney,edge-pooled,cold,132,200,455.14,9.4,172.0,252.0,424.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:22:26+00:00,sydney,edge-pooled,cold,133,200,449.37,13.27,165.0,255.0,420.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:22:26+00:00,sydney,edge-pooled,cold,134,200,308.61,10.87,39.0,248.0,287.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:22:27+00:00,sydney,edge-pooled,cold,135,200,456.63,10.7,178.0,244.0,422.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:22:28+00:00,sydney,edge-pooled,cold,136,200,310.69,7.08,31.0,259.0,290.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:22:29+00:00,sydney,edge-pooled,cold,137,200,495.64,13.09,207.0,257.0,464.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:30+00:00,sydney,edge-pooled,cold,138,200,322.82,7.71,35.0,268.0,303.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:31+00:00,sydney,edge-pooled,cold,139,200,481.96,12.31,191.0,261.0,452.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:22:32+00:00,sydney,edge-pooled,cold,140,200,385.37,17.63,92.0,253.0,345.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:22:33+00:00,sydney,edge-pooled,cold,141,200,490.01,12.94,206.0,252.0,458.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:34+00:00,sydney,edge-pooled,cold,142,200,315.27,9.23,31.0,265.0,296.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:22:34+00:00,sydney,edge-pooled,cold,143,200,307.41,10.38,35.0,243.0,278.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:22:35+00:00,sydney,edge-pooled,cold,144,200,486.49,6.51,207.0,260.0,467.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:22:36+00:00,sydney,edge-pooled,cold,145,200,372.23,11.41,80.0,259.0,339.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:22:37+00:00,sydney,edge-pooled,cold,146,200,311.01,8.39,39.0,255.0,294.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:22:38+00:00,sydney,edge-pooled,cold,147,200,352.31,7.25,86.0,250.0,336.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:22:39+00:00,sydney,edge-pooled,cold,148,200,305.3,7.59,36.0,253.0,289.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:40+00:00,sydney,edge-pooled,cold,149,200,327.29,10.78,41.0,258.0,299.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:22:41+00:00,sydney,edge-pooled,cold,150,200,396.68,10.84,101.0,267.0,368.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:22:41+00:00,sydney,edge-pooled,cold,151,200,319.72,7.43,36.0,266.0,302.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:22:42+00:00,sydney,edge-pooled,cold,152,200,308.39,8.84,35.0,255.0,290.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:22:43+00:00,sydney,edge-pooled,cold,153,200,382.27,10.08,88.0,259.0,347.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:22:44+00:00,sydney,edge-pooled,cold,154,200,331.12,13.43,42.0,246.0,288.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:22:45+00:00,sydney,edge-pooled,cold,155,200,298.39,8.19,35.0,245.0,280.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:22:46+00:00,sydney,edge-pooled,cold,156,200,358.46,9.26,83.0,258.0,341.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:22:46+00:00,sydney,edge-pooled,cold,157,200,357.77,8.42,87.0,251.0,338.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:22:47+00:00,sydney,edge-pooled,cold,158,200,496.56,14.84,196.0,259.0,455.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:22:48+00:00,sydney,edge-pooled,cold,159,200,384.78,14.44,97.0,260.0,357.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:22:49+00:00,sydney,edge-pooled,cold,160,200,311.3,7.63,38.0,256.0,294.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:22:50+00:00,sydney,edge-pooled,cold,161,200,530.56,12.48,248.0,252.0,500.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:22:51+00:00,sydney,edge-pooled,cold,162,200,332.48,14.07,41.0,257.0,298.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:22:52+00:00,sydney,edge-pooled,cold,163,200,484.48,11.67,201.0,253.0,454.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:22:53+00:00,sydney,edge-pooled,cold,164,200,440.93,8.16,163.0,258.0,421.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:22:54+00:00,sydney,edge-pooled,cold,165,200,297.88,9.51,29.0,248.0,277.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:22:55+00:00,sydney,edge-pooled,cold,166,200,640.25,9.98,354.0,256.0,610.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:22:56+00:00,sydney,edge-pooled,cold,167,200,364.41,7.53,94.0,252.0,346.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:22:57+00:00,sydney,edge-pooled,cold,168,200,470.57,12.96,186.0,255.0,441.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:22:58+00:00,sydney,edge-pooled,cold,169,200,372.34,11.64,80.0,260.0,340.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:22:59+00:00,sydney,edge-pooled,cold,170,200,381.85,10.27,91.0,263.0,354.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:22:59+00:00,sydney,edge-pooled,cold,171,200,357.84,13.04,81.0,247.0,328.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:23:00+00:00,sydney,edge-pooled,cold,172,200,458.48,14.05,166.0,259.0,425.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:23:01+00:00,sydney,edge-pooled,cold,173,200,322.68,8.74,42.0,262.0,304.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:23:02+00:00,sydney,edge-pooled,cold,174,200,385.44,9.13,103.0,262.0,365.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:03+00:00,sydney,edge-pooled,cold,175,200,456.21,7.86,174.0,266.0,440.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:23:04+00:00,sydney,edge-pooled,cold,176,200,314.59,8.69,42.0,253.0,295.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:23:05+00:00,sydney,edge-pooled,cold,177,200,369.51,9.46,86.0,252.0,338.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:23:06+00:00,sydney,edge-pooled,cold,178,200,325.97,12.52,39.0,251.0,290.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:23:07+00:00,sydney,edge-pooled,cold,179,200,453.52,8.44,170.0,254.0,424.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:23:08+00:00,sydney,edge-pooled,cold,180,200,469.18,8.13,196.0,255.0,451.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:23:08+00:00,sydney,edge-pooled,cold,181,200,305.42,9.95,38.0,248.0,286.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:23:09+00:00,sydney,edge-pooled,cold,182,200,468.63,7.53,195.0,258.0,453.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:23:10+00:00,sydney,edge-pooled,cold,183,200,449.45,8.73,180.0,250.0,430.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:23:11+00:00,sydney,edge-pooled,cold,184,200,488.72,11.21,188.0,267.0,455.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:12+00:00,sydney,edge-pooled,cold,185,200,429.37,8.24,161.0,249.0,410.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:23:13+00:00,sydney,edge-pooled,cold,186,200,337.17,10.42,55.0,257.0,312.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:23:14+00:00,sydney,edge-pooled,cold,187,200,489.89,11.9,200.0,258.0,458.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:23:15+00:00,sydney,edge-pooled,cold,188,200,447.55,7.33,170.0,258.0,428.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:23:16+00:00,sydney,edge-pooled,cold,189,200,493.2,9.11,208.0,266.0,474.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:23:17+00:00,sydney,edge-pooled,cold,190,200,358.0,6.12,93.0,248.0,341.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:23:18+00:00,sydney,edge-pooled,cold,191,200,492.02,10.65,203.0,268.0,471.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:23:19+00:00,sydney,edge-pooled,cold,192,200,323.34,12.06,42.0,252.0,294.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:23:20+00:00,sydney,edge-pooled,cold,193,200,435.58,9.7,168.0,247.0,415.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:23:21+00:00,sydney,edge-pooled,cold,194,200,371.6,9.01,88.0,264.0,352.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:23:22+00:00,sydney,edge-pooled,cold,195,200,633.04,8.71,351.0,248.0,599.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:23:22+00:00,sydney,edge-pooled,cold,196,200,327.5,8.59,42.0,267.0,309.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:23:23+00:00,sydney,edge-pooled,cold,197,200,472.39,9.42,201.0,251.0,452.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:23:24+00:00,sydney,edge-pooled,cold,198,200,363.62,7.81,84.0,258.0,342.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:25+00:00,sydney,edge-pooled,cold,199,200,331.02,12.03,48.0,254.0,302.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:23:26+00:00,sydney,edge-pooled,cold,200,200,470.57,8.55,204.0,248.0,452.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:23:27+00:00,sydney,edge-pooled,cold,201,200,392.21,11.98,90.0,270.0,360.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:23:28+00:00,sydney,edge-pooled,cold,202,200,491.22,12.63,202.0,259.0,461.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:23:29+00:00,sydney,edge-pooled,cold,203,200,320.59,12.86,36.0,255.0,291.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:30+00:00,sydney,edge-pooled,cold,204,200,435.09,8.23,167.0,248.0,415.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:23:31+00:00,sydney,edge-pooled,cold,205,200,324.46,11.5,38.0,258.0,296.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:23:32+00:00,sydney,edge-pooled,cold,206,200,412.03,11.2,117.0,272.0,389.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:23:32+00:00,sydney,edge-pooled,cold,207,200,367.97,7.94,90.0,258.0,348.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:23:33+00:00,sydney,edge-pooled,cold,208,200,417.94,16.18,125.0,250.0,375.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:23:35+00:00,sydney,edge-pooled,cold,209,200,677.88,9.21,406.0,253.0,659.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:35+00:00,sydney,edge-pooled,cold,210,200,316.61,12.51,33.0,253.0,286.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:23:36+00:00,sydney,edge-pooled,cold,211,200,456.46,10.78,172.0,261.0,433.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:23:37+00:00,sydney,edge-pooled,cold,212,200,428.33,6.9,167.0,244.0,411.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:23:38+00:00,sydney,edge-pooled,cold,213,200,486.65,14.81,182.0,256.0,438.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:23:39+00:00,sydney,edge-pooled,cold,214,200,466.07,13.79,176.0,255.0,431.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:23:40+00:00,sydney,edge-pooled,cold,215,200,352.67,8.86,89.0,246.0,335.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:23:41+00:00,sydney,edge-pooled,cold,216,200,323.06,12.64,34.0,257.0,291.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:23:42+00:00,sydney,edge-pooled,cold,217,200,383.9,11.81,86.0,266.0,352.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:23:43+00:00,sydney,edge-pooled,cold,218,200,438.01,7.28,168.0,253.0,421.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:23:44+00:00,sydney,edge-pooled,cold,219,200,361.75,9.08,82.0,252.0,334.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:23:45+00:00,sydney,edge-pooled,cold,220,200,471.29,8.42,206.0,248.0,454.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:23:46+00:00,sydney,edge-pooled,cold,221,200,437.04,9.25,169.0,249.0,418.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:23:46+00:00,sydney,edge-pooled,cold,222,200,301.97,8.2,36.0,248.0,284.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:23:47+00:00,sydney,edge-pooled,cold,223,200,443.77,9.65,178.0,247.0,425.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:23:48+00:00,sydney,edge-pooled,cold,224,200,306.72,9.31,36.0,251.0,287.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:23:49+00:00,sydney,edge-pooled,cold,225,200,356.54,12.7,79.0,249.0,328.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:23:50+00:00,sydney,edge-pooled,cold,226,200,329.61,12.28,43.0,256.0,299.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:23:51+00:00,sydney,edge-pooled,cold,227,200,340.09,12.77,43.0,257.0,300.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:23:51+00:00,sydney,edge-pooled,cold,228,200,318.38,9.8,45.0,255.0,300.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:23:52+00:00,sydney,edge-pooled,cold,229,200,462.29,7.22,180.0,265.0,445.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:23:53+00:00,sydney,edge-pooled,cold,230,200,325.91,6.89,38.0,269.0,307.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:23:54+00:00,sydney,edge-pooled,cold,231,200,444.91,8.4,170.0,257.0,427.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:23:55+00:00,sydney,edge-pooled,cold,232,200,332.73,8.48,49.0,254.0,303.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:23:56+00:00,sydney,edge-pooled,cold,233,200,446.65,7.15,171.0,258.0,429.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:23:57+00:00,sydney,edge-pooled,cold,234,200,374.35,15.38,89.0,256.0,345.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:23:58+00:00,sydney,edge-pooled,cold,235,200,451.4,8.23,162.0,260.0,422.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:23:59+00:00,sydney,edge-pooled,cold,236,200,400.45,11.04,116.0,257.0,373.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:24:00+00:00,sydney,edge-pooled,cold,237,200,425.0,9.34,144.0,262.0,406.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:24:01+00:00,sydney,edge-pooled,cold,238,200,456.52,10.53,172.0,253.0,425.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:24:02+00:00,sydney,edge-pooled,cold,239,200,312.78,7.69,38.0,257.0,295.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:24:03+00:00,sydney,edge-pooled,cold,240,200,507.91,12.38,220.0,253.0,473.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:24:03+00:00,sydney,edge-pooled,cold,241,200,464.06,8.75,177.0,269.0,446.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:24:04+00:00,sydney,edge-pooled,cold,242,200,452.06,13.17,173.0,250.0,423.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:24:05+00:00,sydney,edge-pooled,cold,243,200,440.96,8.26,176.0,248.0,424.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:24:06+00:00,sydney,edge-pooled,cold,244,200,494.01,8.35,217.0,258.0,475.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:24:07+00:00,sydney,edge-pooled,cold,245,200,318.51,8.79,38.0,258.0,296.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:24:08+00:00,sydney,edge-pooled,cold,246,200,464.88,9.24,171.0,265.0,436.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:24:09+00:00,sydney,edge-pooled,cold,247,200,310.17,8.32,34.0,259.0,293.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:24:10+00:00,sydney,edge-pooled,cold,248,200,362.17,8.67,88.0,257.0,345.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:24:11+00:00,sydney,edge-pooled,cold,249,200,450.55,8.49,165.0,263.0,428.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:24:12+00:00,sydney,edge-pooled,cold,250,200,463.84,8.75,192.0,254.0,446.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:24:13+00:00,sydney,edge-pooled,cold,251,200,388.67,16.03,87.0,267.0,354.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:24:14+00:00,sydney,edge-pooled,cold,252,200,442.99,8.0,164.0,258.0,422.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:24:14+00:00,sydney,edge-pooled,cold,253,200,319.69,7.65,41.0,261.0,302.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:24:15+00:00,sydney,edge-pooled,cold,254,200,322.76,11.82,42.0,252.0,294.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:24:16+00:00,sydney,edge-pooled,cold,255,200,504.58,9.13,226.0,260.0,486.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:24:17+00:00,sydney,edge-pooled,cold,256,200,388.81,15.18,99.0,253.0,352.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:24:18+00:00,sydney,edge-pooled,cold,257,200,459.41,8.69,179.0,263.0,442.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:24:19+00:00,sydney,edge-pooled,cold,258,200,323.34,6.6,38.0,266.0,304.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:24:20+00:00,sydney,edge-pooled,cold,259,200,311.71,8.71,43.0,250.0,293.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:24:21+00:00,sydney,edge-pooled,cold,260,200,357.72,8.42,90.0,250.0,340.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:24:22+00:00,sydney,edge-pooled,cold,261,200,323.16,7.98,41.0,255.0,296.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:24:23+00:00,sydney,edge-pooled,cold,262,200,481.0,8.72,206.0,256.0,462.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:24:23+00:00,sydney,edge-pooled,cold,263,200,478.63,14.38,194.0,253.0,447.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:24:24+00:00,sydney,edge-pooled,cold,264,200,354.79,12.55,78.0,247.0,325.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:24:25+00:00,sydney,edge-pooled,cold,265,200,332.28,14.05,55.0,248.0,303.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:26+00:00,sydney,edge-pooled,cold,266,200,489.74,7.22,202.0,266.0,468.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:24:27+00:00,sydney,edge-pooled,cold,267,200,359.5,8.61,83.0,258.0,341.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:24:28+00:00,sydney,edge-pooled,cold,268,200,482.43,6.9,206.0,260.0,466.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:24:29+00:00,sydney,edge-pooled,cold,269,200,494.97,11.91,212.0,253.0,465.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:24:30+00:00,sydney,edge-pooled,cold,270,200,474.46,7.74,205.0,252.0,457.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:24:31+00:00,sydney,edge-pooled,cold,271,200,328.27,7.48,38.0,269.0,307.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:24:32+00:00,sydney,edge-pooled,cold,272,200,368.71,8.52,96.0,255.0,351.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:24:33+00:00,sydney,edge-pooled,cold,273,200,332.15,9.04,41.0,262.0,303.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:33+00:00,sydney,edge-pooled,cold,274,200,368.63,8.7,89.0,260.0,349.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:34+00:00,sydney,edge-pooled,cold,275,200,321.2,13.0,40.0,251.0,291.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:35+00:00,sydney,edge-pooled,cold,276,200,470.18,9.12,191.0,257.0,448.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:24:36+00:00,sydney,edge-pooled,cold,277,200,452.02,8.02,179.0,254.0,433.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:37+00:00,sydney,edge-pooled,cold,278,200,358.41,7.69,81.0,258.0,339.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:24:38+00:00,sydney,edge-pooled,cold,279,200,438.83,7.37,168.0,253.0,421.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:24:39+00:00,sydney,edge-pooled,cold,280,200,313.59,12.82,33.0,256.0,289.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:40+00:00,sydney,edge-pooled,cold,281,200,361.56,7.76,88.0,255.0,343.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:24:41+00:00,sydney,edge-pooled,cold,282,200,437.4,11.66,161.0,246.0,407.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:24:41+00:00,sydney,edge-pooled,cold,283,200,308.46,7.83,39.0,253.0,292.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:24:42+00:00,sydney,edge-pooled,cold,284,200,468.51,13.79,178.0,248.0,426.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:24:43+00:00,sydney,edge-pooled,cold,285,200,316.57,7.36,35.0,254.0,289.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:44+00:00,sydney,edge-pooled,cold,286,200,472.97,8.49,196.0,259.0,455.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:24:45+00:00,sydney,edge-pooled,cold,287,200,482.57,9.92,195.0,266.0,461.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:24:46+00:00,sydney,edge-pooled,cold,288,200,470.16,7.87,197.0,256.0,453.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:47+00:00,sydney,edge-pooled,cold,289,200,489.72,8.55,209.0,262.0,471.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:24:48+00:00,sydney,edge-pooled,cold,290,200,379.62,11.67,97.0,254.0,351.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:24:49+00:00,sydney,edge-pooled,cold,291,200,439.75,8.6,165.0,254.0,419.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:24:50+00:00,sydney,edge-pooled,cold,292,200,318.19,7.13,41.0,261.0,302.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:24:51+00:00,sydney,edge-pooled,cold,293,200,453.85,12.36,162.0,263.0,425.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:24:52+00:00,sydney,edge-pooled,cold,294,200,435.55,7.06,161.0,259.0,420.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:24:53+00:00,sydney,edge-pooled,cold,295,200,312.42,8.44,36.0,252.0,288.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:24:53+00:00,sydney,edge-pooled,cold,296,200,309.2,10.54,36.0,253.0,289.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:24:54+00:00,sydney,edge-pooled,cold,297,200,333.89,9.94,55.0,258.0,313.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:24:55+00:00,sydney,edge-pooled,cold,298,200,458.74,9.21,172.0,266.0,438.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:24:56+00:00,sydney,edge-pooled,cold,299,200,477.52,13.59,196.0,250.0,446.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:25:01+00:00,sydney,edge-pooled,warm,0,200,436.6,0.0,175.0,253.0,428.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:25:02+00:00,sydney,edge-pooled,warm,1,200,430.59,0.0,167.0,255.0,422.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:25:03+00:00,sydney,edge-pooled,warm,2,200,487.17,0.0,221.0,257.0,478.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:25:04+00:00,sydney,edge-pooled,warm,3,200,360.79,0.0,97.0,255.0,352.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:04+00:00,sydney,edge-pooled,warm,4,200,300.13,0.0,36.0,255.0,291.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:25:05+00:00,sydney,edge-pooled,warm,5,200,381.2,0.0,97.0,275.0,372.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:06+00:00,sydney,edge-pooled,warm,6,200,368.26,0.0,109.0,250.0,359.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:07+00:00,sydney,edge-pooled,warm,7,200,430.87,0.0,163.0,260.0,423.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:08+00:00,sydney,edge-pooled,warm,8,200,284.29,0.0,32.0,244.0,276.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:09+00:00,sydney,edge-pooled,warm,9,200,361.78,0.0,90.0,263.0,353.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:10+00:00,sydney,edge-pooled,warm,10,200,469.21,0.0,205.0,256.0,461.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:10+00:00,sydney,edge-pooled,warm,11,200,295.21,0.0,38.0,248.0,286.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:25:11+00:00,sydney,edge-pooled,warm,12,200,460.81,0.0,201.0,251.0,452.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:25:12+00:00,sydney,edge-pooled,warm,13,200,443.27,0.0,180.0,253.0,433.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:13+00:00,sydney,edge-pooled,warm,14,200,367.15,0.0,95.0,263.0,358.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:25:14+00:00,sydney,edge-pooled,warm,15,200,301.54,0.0,36.0,257.0,293.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:25:15+00:00,sydney,edge-pooled,warm,16,200,473.21,0.0,200.0,263.0,463.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:16+00:00,sydney,edge-pooled,warm,17,200,301.23,0.0,35.0,257.0,292.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:17+00:00,sydney,edge-pooled,warm,18,200,358.46,0.0,86.0,262.0,348.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:17+00:00,sydney,edge-pooled,warm,19,200,352.48,0.0,87.0,256.0,343.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:25:18+00:00,sydney,edge-pooled,warm,20,200,434.06,0.0,171.0,252.0,423.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:25:19+00:00,sydney,edge-pooled,warm,21,200,342.1,0.0,83.0,250.0,333.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:25:20+00:00,sydney,edge-pooled,warm,22,200,468.54,0.0,203.0,256.0,459.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:21+00:00,sydney,edge-pooled,warm,23,200,353.03,0.0,98.0,245.0,343.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:25:22+00:00,sydney,edge-pooled,warm,24,200,435.26,0.0,172.0,251.0,423.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:25:23+00:00,sydney,edge-pooled,warm,25,200,350.55,0.0,87.0,254.0,341.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:24+00:00,sydney,edge-pooled,warm,26,200,300.71,0.0,35.0,257.0,292.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:24+00:00,sydney,edge-pooled,warm,27,200,309.0,0.0,34.0,265.0,299.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:25+00:00,sydney,edge-pooled,warm,28,200,423.72,0.0,156.0,258.0,414.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:25:26+00:00,sydney,edge-pooled,warm,29,200,424.87,0.0,158.0,255.0,413.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:25:27+00:00,sydney,edge-pooled,warm,30,200,473.91,0.0,202.0,260.0,462.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:28+00:00,sydney,edge-pooled,warm,31,200,309.41,0.0,40.0,260.0,300.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:25:29+00:00,sydney,edge-pooled,warm,32,200,456.08,0.0,191.0,256.0,447.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:25:30+00:00,sydney,edge-pooled,warm,33,200,441.8,0.0,168.0,264.0,432.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:25:31+00:00,sydney,edge-pooled,warm,34,200,311.07,0.0,38.0,262.0,300.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:32+00:00,sydney,edge-pooled,warm,35,200,443.91,0.0,169.0,266.0,435.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:25:33+00:00,sydney,edge-pooled,warm,36,200,362.8,0.0,84.0,270.0,354.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:25:33+00:00,sydney,edge-pooled,warm,37,200,353.87,0.0,85.0,259.0,344.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:34+00:00,sydney,edge-pooled,warm,38,200,435.86,0.0,174.0,252.0,426.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:25:35+00:00,sydney,edge-pooled,warm,39,200,467.83,0.0,213.0,243.0,456.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:36+00:00,sydney,edge-pooled,warm,40,200,430.02,0.0,165.0,254.0,419.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:25:37+00:00,sydney,edge-pooled,warm,41,200,363.69,0.0,98.0,254.0,352.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:25:38+00:00,sydney,edge-pooled,warm,42,200,304.47,0.0,39.0,256.0,295.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:25:39+00:00,sydney,edge-pooled,warm,43,200,357.25,0.0,92.0,257.0,349.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:25:40+00:00,sydney,edge-pooled,warm,44,200,419.48,0.0,160.0,249.0,409.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:25:41+00:00,sydney,edge-pooled,warm,45,200,313.29,0.0,45.0,259.0,304.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:41+00:00,sydney,edge-pooled,warm,46,200,358.45,0.0,94.0,254.0,348.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:25:42+00:00,sydney,edge-pooled,warm,47,200,470.75,0.0,212.0,249.0,461.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:43+00:00,sydney,edge-pooled,warm,48,200,438.26,0.0,174.0,255.0,429.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:25:44+00:00,sydney,edge-pooled,warm,49,200,428.38,0.0,171.0,248.0,419.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:45+00:00,sydney,edge-pooled,warm,50,200,287.3,0.0,35.0,243.0,278.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:25:46+00:00,sydney,edge-pooled,warm,51,200,314.61,0.0,38.0,266.0,304.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:47+00:00,sydney,edge-pooled,warm,52,200,308.35,0.0,35.0,263.0,298.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:47+00:00,sydney,edge-pooled,warm,53,200,298.37,0.0,34.0,254.0,288.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:25:48+00:00,sydney,edge-pooled,warm,54,200,307.3,0.0,35.0,261.0,296.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:49+00:00,sydney,edge-pooled,warm,55,200,372.53,0.0,105.0,258.0,363.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:25:50+00:00,sydney,edge-pooled,warm,56,200,295.11,0.0,36.0,250.0,286.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:51+00:00,sydney,edge-pooled,warm,57,200,306.09,0.0,47.0,248.0,295.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:25:52+00:00,sydney,edge-pooled,warm,58,200,338.9,0.0,79.0,251.0,330.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:25:53+00:00,sydney,edge-pooled,warm,59,200,467.72,0.0,208.0,250.0,458.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:25:54+00:00,sydney,edge-pooled,warm,60,200,454.27,0.0,186.0,257.0,443.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:25:54+00:00,sydney,edge-pooled,warm,61,200,434.73,0.0,171.0,254.0,425.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:25:55+00:00,sydney,edge-pooled,warm,62,200,429.9,0.0,163.0,256.0,419.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:25:56+00:00,sydney,edge-pooled,warm,63,200,357.01,0.0,97.0,249.0,346.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:25:57+00:00,sydney,edge-pooled,warm,64,200,295.77,0.0,36.0,250.0,286.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:25:58+00:00,sydney,edge-pooled,warm,65,200,297.35,0.0,33.0,255.0,288.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:25:59+00:00,sydney,edge-pooled,warm,66,200,356.43,0.0,87.0,259.0,346.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:26:00+00:00,sydney,edge-pooled,warm,67,200,442.34,0.0,179.0,254.0,433.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:26:01+00:00,sydney,edge-pooled,warm,68,200,437.84,0.0,177.0,250.0,427.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:26:01+00:00,sydney,edge-pooled,warm,69,200,351.96,0.0,99.0,245.0,344.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:26:02+00:00,sydney,edge-pooled,warm,70,200,361.35,0.0,99.0,253.0,352.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:26:03+00:00,sydney,edge-pooled,warm,71,200,352.9,0.0,88.0,254.0,342.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:26:04+00:00,sydney,edge-pooled,warm,72,200,429.01,0.0,168.0,251.0,419.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:05+00:00,sydney,edge-pooled,warm,73,200,308.86,0.0,46.0,255.0,301.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:26:06+00:00,sydney,edge-pooled,warm,74,200,466.56,0.0,195.0,261.0,456.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:07+00:00,sydney,edge-pooled,warm,75,200,299.02,0.0,35.0,255.0,290.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:26:08+00:00,sydney,edge-pooled,warm,76,200,360.61,0.0,93.0,257.0,350.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:08+00:00,sydney,edge-pooled,warm,77,200,297.48,0.0,34.0,253.0,287.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:09+00:00,sydney,edge-pooled,warm,78,200,298.64,0.0,41.0,248.0,289.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:10+00:00,sydney,edge-pooled,warm,79,200,321.27,0.0,47.0,265.0,312.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:26:11+00:00,sydney,edge-pooled,warm,80,200,441.81,0.0,174.0,257.0,431.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:26:12+00:00,sydney,edge-pooled,warm,81,200,298.46,0.0,32.0,258.0,290.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:26:13+00:00,sydney,edge-pooled,warm,82,200,393.43,0.0,117.0,266.0,383.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:26:13+00:00,sydney,edge-pooled,warm,83,200,292.44,0.0,33.0,249.0,282.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:26:14+00:00,sydney,edge-pooled,warm,84,200,298.97,0.0,36.0,254.0,290.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:15+00:00,sydney,edge-pooled,warm,85,200,368.8,0.0,101.0,259.0,360.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:26:16+00:00,sydney,edge-pooled,warm,86,200,353.79,0.0,86.0,259.0,345.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:17+00:00,sydney,edge-pooled,warm,87,200,356.81,0.0,84.0,265.0,349.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:26:18+00:00,sydney,edge-pooled,warm,88,200,466.16,0.0,195.0,261.0,456.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:26:19+00:00,sydney,edge-pooled,warm,89,200,306.46,0.0,34.0,263.0,297.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:26:19+00:00,sydney,edge-pooled,warm,90,200,433.2,0.0,161.0,264.0,425.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:26:20+00:00,sydney,edge-pooled,warm,91,200,431.81,0.0,172.0,251.0,423.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:26:21+00:00,sydney,edge-pooled,warm,92,200,300.82,0.0,35.0,256.0,291.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:26:22+00:00,sydney,edge-pooled,warm,93,200,312.75,0.0,33.0,269.0,302.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:26:23+00:00,sydney,edge-pooled,warm,94,200,288.68,0.0,33.0,247.0,280.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:26:24+00:00,sydney,edge-pooled,warm,95,200,312.92,0.0,42.0,263.0,305.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:26:24+00:00,sydney,edge-pooled,warm,96,200,346.46,0.0,83.0,254.0,337.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:26:25+00:00,sydney,edge-pooled,warm,97,200,386.21,0.0,118.0,253.0,371.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:26:26+00:00,sydney,edge-pooled,warm,98,200,356.47,0.0,95.0,252.0,347.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:26:27+00:00,sydney,edge-pooled,warm,99,200,418.91,0.0,158.0,252.0,410.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:26:28+00:00,sydney,edge-pooled,warm,100,200,434.79,0.0,171.0,254.0,425.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:26:29+00:00,sydney,edge-pooled,warm,101,200,429.21,0.0,166.0,254.0,420.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:26:30+00:00,sydney,edge-pooled,warm,102,200,336.97,0.0,80.0,248.0,328.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:26:31+00:00,sydney,edge-pooled,warm,103,200,290.72,0.0,34.0,247.0,281.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:26:32+00:00,sydney,edge-pooled,warm,104,200,429.07,0.0,165.0,255.0,420.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:26:32+00:00,sydney,edge-pooled,warm,105,200,297.99,0.0,38.0,251.0,289.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:26:33+00:00,sydney,edge-pooled,warm,106,200,313.47,0.0,41.0,262.0,303.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:26:34+00:00,sydney,edge-pooled,warm,107,200,474.62,0.0,204.0,261.0,465.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:35+00:00,sydney,edge-pooled,warm,108,200,354.42,0.0,82.0,263.0,345.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:26:36+00:00,sydney,edge-pooled,warm,109,200,427.58,0.0,156.0,262.0,418.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:26:37+00:00,sydney,edge-pooled,warm,110,200,429.98,0.0,159.0,262.0,421.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:26:38+00:00,sydney,edge-pooled,warm,111,200,310.08,0.0,43.0,258.0,301.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:26:38+00:00,sydney,edge-pooled,warm,112,200,296.88,0.0,36.0,253.0,289.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:26:39+00:00,sydney,edge-pooled,warm,113,200,304.25,0.0,36.0,259.0,295.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:26:40+00:00,sydney,edge-pooled,warm,114,200,447.02,0.0,178.0,259.0,437.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:41+00:00,sydney,edge-pooled,warm,115,200,363.34,0.0,99.0,253.0,352.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:42+00:00,sydney,edge-pooled,warm,116,200,300.27,0.0,33.0,257.0,290.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:26:43+00:00,sydney,edge-pooled,warm,117,200,354.27,0.0,88.0,257.0,345.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:44+00:00,sydney,edge-pooled,warm,118,200,300.44,0.0,37.0,254.0,291.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:44+00:00,sydney,edge-pooled,warm,119,200,352.26,0.0,90.0,250.0,340.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:45+00:00,sydney,edge-pooled,warm,120,200,341.6,0.0,82.0,250.0,332.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:26:46+00:00,sydney,edge-pooled,warm,121,200,351.37,0.0,91.0,251.0,342.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:47+00:00,sydney,edge-pooled,warm,122,200,348.77,0.0,85.0,255.0,340.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:26:48+00:00,sydney,edge-pooled,warm,123,200,298.23,0.0,35.0,255.0,290.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:49+00:00,sydney,edge-pooled,warm,124,200,426.11,0.0,162.0,253.0,415.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:26:49+00:00,sydney,edge-pooled,warm,125,200,363.69,0.0,104.0,249.0,353.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:26:50+00:00,sydney,edge-pooled,warm,126,200,478.22,0.0,211.0,259.0,470.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:26:51+00:00,sydney,edge-pooled,warm,127,200,447.28,0.0,172.0,264.0,436.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:26:52+00:00,sydney,edge-pooled,warm,128,200,304.96,0.0,40.0,256.0,296.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:26:53+00:00,sydney,edge-pooled,warm,129,200,441.83,0.0,166.0,266.0,432.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:26:54+00:00,sydney,edge-pooled,warm,130,200,421.69,0.0,160.0,252.0,412.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:55+00:00,sydney,edge-pooled,warm,131,200,469.17,0.0,201.0,254.0,455.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:26:56+00:00,sydney,edge-pooled,warm,132,200,465.32,0.0,193.0,262.0,455.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:26:57+00:00,sydney,edge-pooled,warm,133,200,293.81,0.0,32.0,253.0,285.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:26:58+00:00,sydney,edge-pooled,warm,134,200,292.9,0.0,36.0,248.0,284.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:26:58+00:00,sydney,edge-pooled,warm,135,200,310.71,0.0,39.0,262.0,301.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:26:59+00:00,sydney,edge-pooled,warm,136,200,306.9,0.0,34.0,264.0,298.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:27:00+00:00,sydney,edge-pooled,warm,137,200,301.2,0.0,38.0,255.0,293.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:27:01+00:00,sydney,edge-pooled,warm,138,200,303.94,0.0,34.0,259.0,293.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:02+00:00,sydney,edge-pooled,warm,139,200,293.4,0.0,34.0,251.0,285.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:27:03+00:00,sydney,edge-pooled,warm,140,200,437.47,0.0,167.0,261.0,428.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:27:04+00:00,sydney,edge-pooled,warm,141,200,455.37,0.0,175.0,271.0,446.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:27:04+00:00,sydney,edge-pooled,warm,142,200,424.92,0.0,169.0,246.0,415.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:27:05+00:00,sydney,edge-pooled,warm,143,200,439.18,0.0,177.0,252.0,429.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:06+00:00,sydney,edge-pooled,warm,144,200,369.1,0.0,106.0,255.0,361.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:27:07+00:00,sydney,edge-pooled,warm,145,200,305.86,0.0,41.0,256.0,297.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:27:08+00:00,sydney,edge-pooled,warm,146,200,442.51,0.0,171.0,263.0,434.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:27:09+00:00,sydney,edge-pooled,warm,147,200,295.6,0.0,37.0,250.0,287.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:27:10+00:00,sydney,edge-pooled,warm,148,200,441.86,0.0,170.0,262.0,432.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:27:11+00:00,sydney,edge-pooled,warm,149,200,455.69,0.0,174.0,272.0,446.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:27:12+00:00,sydney,edge-pooled,warm,150,200,353.16,0.0,88.0,257.0,345.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:12+00:00,sydney,edge-pooled,warm,151,200,350.49,0.0,82.0,259.0,341.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:27:13+00:00,sydney,edge-pooled,warm,152,200,308.78,0.0,31.0,267.0,298.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:14+00:00,sydney,edge-pooled,warm,153,200,458.46,0.0,197.0,252.0,449.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:27:15+00:00,sydney,edge-pooled,warm,154,200,440.78,0.0,167.0,264.0,431.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:27:16+00:00,sydney,edge-pooled,warm,155,200,302.54,0.0,43.0,250.0,293.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:27:17+00:00,sydney,edge-pooled,warm,156,200,293.11,0.0,34.0,250.0,284.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:27:18+00:00,sydney,edge-pooled,warm,157,200,298.68,0.0,38.0,252.0,290.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:18+00:00,sydney,edge-pooled,warm,158,200,347.23,0.0,86.0,252.0,338.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:19+00:00,sydney,edge-pooled,warm,159,200,360.47,0.0,96.0,253.0,349.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:27:20+00:00,sydney,edge-pooled,warm,160,200,304.65,0.0,37.0,259.0,296.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:21+00:00,sydney,edge-pooled,warm,161,200,439.25,0.0,174.0,256.0,430.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:27:22+00:00,sydney,edge-pooled,warm,162,200,437.53,0.0,170.0,259.0,429.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:23+00:00,sydney,edge-pooled,warm,163,200,295.73,0.0,35.0,252.0,287.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:24+00:00,sydney,edge-pooled,warm,164,200,425.48,0.0,163.0,254.0,417.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:27:24+00:00,sydney,edge-pooled,warm,165,200,312.11,0.0,36.0,265.0,301.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:27:25+00:00,sydney,edge-pooled,warm,166,200,464.72,0.0,200.0,256.0,456.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:26+00:00,sydney,edge-pooled,warm,167,200,467.53,0.0,194.0,263.0,457.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:27:27+00:00,sydney,edge-pooled,warm,168,200,347.07,0.0,86.0,253.0,339.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:27:28+00:00,sydney,edge-pooled,warm,169,200,298.62,0.0,43.0,246.0,289.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:29+00:00,sydney,edge-pooled,warm,170,200,301.41,0.0,39.0,253.0,292.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:30+00:00,sydney,edge-pooled,warm,171,200,458.43,0.0,202.0,249.0,451.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:27:31+00:00,sydney,edge-pooled,warm,172,200,438.05,0.0,175.0,255.0,430.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:27:32+00:00,sydney,edge-pooled,warm,173,200,444.27,0.0,173.0,263.0,436.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:33+00:00,sydney,edge-pooled,warm,174,200,346.88,0.0,83.0,253.0,336.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:27:33+00:00,sydney,edge-pooled,warm,175,200,345.6,0.0,88.0,247.0,335.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:27:34+00:00,sydney,edge-pooled,warm,176,200,340.45,0.0,85.0,244.0,329.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:27:35+00:00,sydney,edge-pooled,warm,177,200,436.04,0.0,172.0,255.0,427.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:27:36+00:00,sydney,edge-pooled,warm,178,200,447.47,0.0,192.0,246.0,438.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:27:37+00:00,sydney,edge-pooled,warm,179,200,482.38,0.0,212.0,261.0,473.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:27:38+00:00,sydney,edge-pooled,warm,180,200,444.66,0.0,171.0,264.0,435.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:27:39+00:00,sydney,edge-pooled,warm,181,200,383.48,0.0,112.0,262.0,374.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:27:40+00:00,sydney,edge-pooled,warm,182,200,463.36,0.0,194.0,260.0,454.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:27:41+00:00,sydney,edge-pooled,warm,183,200,461.4,0.0,195.0,256.0,451.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:27:42+00:00,sydney,edge-pooled,warm,184,200,441.46,0.0,174.0,259.0,433.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:27:43+00:00,sydney,edge-pooled,warm,185,200,351.72,0.0,84.0,257.0,341.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:27:44+00:00,sydney,edge-pooled,warm,186,200,472.52,0.0,199.0,261.0,460.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:27:44+00:00,sydney,edge-pooled,warm,187,200,298.78,0.0,37.0,253.0,290.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:27:45+00:00,sydney,edge-pooled,warm,188,200,452.32,0.0,197.0,246.0,443.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:27:46+00:00,sydney,edge-pooled,warm,189,200,304.11,0.0,37.0,258.0,295.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:27:47+00:00,sydney,edge-pooled,warm,190,200,296.59,0.0,39.0,250.0,289.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:48+00:00,sydney,edge-pooled,warm,191,200,349.14,0.0,88.0,249.0,337.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:27:49+00:00,sydney,edge-pooled,warm,192,200,424.75,0.0,170.0,247.0,417.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:27:50+00:00,sydney,edge-pooled,warm,193,200,307.65,0.0,36.0,261.0,297.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:27:50+00:00,sydney,edge-pooled,warm,194,200,343.32,0.0,85.0,248.0,333.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:27:51+00:00,sydney,edge-pooled,warm,195,200,599.76,0.0,332.0,258.0,590.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:52+00:00,sydney,edge-pooled,warm,196,200,365.9,0.0,106.0,251.0,357.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:27:53+00:00,sydney,edge-pooled,warm,197,200,349.38,0.0,87.0,252.0,339.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:27:54+00:00,sydney,edge-pooled,warm,198,200,457.26,0.0,198.0,248.0,446.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:27:55+00:00,sydney,edge-pooled,warm,199,200,449.24,0.0,180.0,259.0,439.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:27:56+00:00,sydney,edge-pooled,warm,200,200,607.47,0.0,353.0,245.0,598.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:27:57+00:00,sydney,edge-pooled,warm,201,200,432.73,0.0,169.0,255.0,424.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:27:58+00:00,sydney,edge-pooled,warm,202,200,450.52,0.0,187.0,254.0,441.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:27:59+00:00,sydney,edge-pooled,warm,203,200,445.23,0.0,176.0,258.0,434.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:28:00+00:00,sydney,edge-pooled,warm,204,200,430.32,0.0,171.0,251.0,422.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:01+00:00,sydney,edge-pooled,warm,205,200,356.86,0.0,90.0,258.0,348.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:28:02+00:00,sydney,edge-pooled,warm,206,200,349.52,0.0,85.0,255.0,340.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:28:02+00:00,sydney,edge-pooled,warm,207,200,296.52,0.0,31.0,255.0,286.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:28:03+00:00,sydney,edge-pooled,warm,208,200,306.09,0.0,35.0,261.0,296.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:28:04+00:00,sydney,edge-pooled,warm,209,200,444.51,0.0,172.0,263.0,435.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:05+00:00,sydney,edge-pooled,warm,210,200,299.63,0.0,37.0,254.0,291.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:28:06+00:00,sydney,edge-pooled,warm,211,200,298.38,0.0,36.0,253.0,289.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:28:07+00:00,sydney,edge-pooled,warm,212,200,311.04,0.0,33.0,269.0,302.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:08+00:00,sydney,edge-pooled,warm,213,200,463.29,0.0,199.0,254.0,453.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:28:09+00:00,sydney,edge-pooled,warm,214,200,651.59,0.0,385.0,256.0,641.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:28:10+00:00,sydney,edge-pooled,warm,215,200,429.54,0.0,167.0,253.0,420.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:10+00:00,sydney,edge-pooled,warm,216,200,293.55,0.0,38.0,246.0,284.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:11+00:00,sydney,edge-pooled,warm,217,200,426.51,0.0,172.0,247.0,419.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:12+00:00,sydney,edge-pooled,warm,218,200,336.11,0.0,81.0,245.0,326.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:28:13+00:00,sydney,edge-pooled,warm,219,200,430.37,0.0,162.0,260.0,422.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:28:14+00:00,sydney,edge-pooled,warm,220,200,473.99,0.0,207.0,256.0,463.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:15+00:00,sydney,edge-pooled,warm,221,200,355.22,0.0,86.0,260.0,346.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:28:16+00:00,sydney,edge-pooled,warm,222,200,463.06,0.0,203.0,250.0,453.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:28:17+00:00,sydney,edge-pooled,warm,223,200,296.67,0.0,35.0,253.0,288.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:28:18+00:00,sydney,edge-pooled,warm,224,200,309.28,0.0,37.0,264.0,301.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:28:18+00:00,sydney,edge-pooled,warm,225,200,432.25,0.0,166.0,256.0,422.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:28:19+00:00,sydney,edge-pooled,warm,226,200,352.63,0.0,91.0,253.0,344.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:28:20+00:00,sydney,edge-pooled,warm,227,200,634.06,0.0,374.0,250.0,624.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:21+00:00,sydney,edge-pooled,warm,228,200,308.67,0.0,38.0,262.0,300.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:28:22+00:00,sydney,edge-pooled,warm,229,200,429.01,0.0,169.0,251.0,420.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:28:23+00:00,sydney,edge-pooled,warm,230,200,349.54,0.0,97.0,244.0,341.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:24+00:00,sydney,edge-pooled,warm,231,200,359.88,0.0,88.0,262.0,350.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:28:25+00:00,sydney,edge-pooled,warm,232,200,418.3,0.0,161.0,248.0,409.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:28:26+00:00,sydney,edge-pooled,warm,233,200,788.53,0.0,517.0,262.0,779.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:28:27+00:00,sydney,edge-pooled,warm,234,200,311.16,0.0,43.0,257.0,300.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:28:28+00:00,sydney,edge-pooled,warm,235,200,462.42,0.0,195.0,258.0,453.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:28:29+00:00,sydney,edge-pooled,warm,236,200,530.96,0.0,270.0,253.0,523.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:30+00:00,sydney,edge-pooled,warm,237,200,463.2,0.0,186.0,265.0,451.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:28:31+00:00,sydney,edge-pooled,warm,238,200,336.07,0.0,81.0,246.0,327.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:28:32+00:00,sydney,edge-pooled,warm,239,200,353.06,0.0,85.0,259.0,344.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:28:32+00:00,sydney,edge-pooled,warm,240,200,299.41,0.0,33.0,257.0,290.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:28:33+00:00,sydney,edge-pooled,warm,241,200,434.69,0.0,172.0,253.0,425.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:28:34+00:00,sydney,edge-pooled,warm,242,200,304.59,0.0,40.0,256.0,296.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:28:35+00:00,sydney,edge-pooled,warm,243,200,301.16,0.0,40.0,253.0,293.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:36+00:00,sydney,edge-pooled,warm,244,200,419.66,0.0,163.0,248.0,411.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:28:37+00:00,sydney,edge-pooled,warm,245,200,351.05,0.0,86.0,256.0,342.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:38+00:00,sydney,edge-pooled,warm,246,200,648.73,0.0,379.0,261.0,640.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:28:39+00:00,sydney,edge-pooled,warm,247,200,341.58,0.0,80.0,252.0,332.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:28:39+00:00,sydney,edge-pooled,warm,248,200,312.72,0.0,47.0,258.0,305.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:28:40+00:00,sydney,edge-pooled,warm,249,200,486.43,0.0,227.0,251.0,478.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:28:41+00:00,sydney,edge-pooled,warm,250,200,420.52,0.0,161.0,249.0,410.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:28:42+00:00,sydney,edge-pooled,warm,251,200,427.68,0.0,161.0,258.0,419.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:43+00:00,sydney,edge-pooled,warm,252,200,448.08,0.0,191.0,249.0,440.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:44+00:00,sydney,edge-pooled,warm,253,200,434.33,0.0,161.0,264.0,425.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:28:45+00:00,sydney,edge-pooled,warm,254,200,366.7,0.0,90.0,267.0,357.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:28:46+00:00,sydney,edge-pooled,warm,255,200,424.63,0.0,165.0,249.0,414.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:28:47+00:00,sydney,edge-pooled,warm,256,200,490.87,0.0,232.0,249.0,481.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:28:48+00:00,sydney,edge-pooled,warm,257,200,425.39,0.0,170.0,246.0,416.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:49+00:00,sydney,edge-pooled,warm,258,200,321.87,0.0,41.0,271.0,312.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:28:50+00:00,sydney,edge-pooled,warm,259,200,437.33,0.0,182.0,246.0,428.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:28:51+00:00,sydney,edge-pooled,warm,260,200,352.68,0.0,93.0,249.0,342.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:28:51+00:00,sydney,edge-pooled,warm,261,200,363.2,0.0,105.0,249.0,354.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:28:52+00:00,sydney,edge-pooled,warm,262,200,432.53,0.0,167.0,257.0,424.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:53+00:00,sydney,edge-pooled,warm,263,200,478.92,0.0,213.0,257.0,470.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:28:54+00:00,sydney,edge-pooled,warm,264,200,298.89,0.0,36.0,253.0,289.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:28:55+00:00,sydney,edge-pooled,warm,265,200,304.75,0.0,36.0,258.0,294.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:28:56+00:00,sydney,edge-pooled,warm,266,200,304.11,0.0,37.0,256.0,293.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:28:57+00:00,sydney,edge-pooled,warm,267,200,314.39,0.0,42.0,264.0,306.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:28:57+00:00,sydney,edge-pooled,warm,268,200,427.28,0.0,160.0,257.0,417.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:28:58+00:00,sydney,edge-pooled,warm,269,200,441.04,0.0,172.0,259.0,431.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:28:59+00:00,sydney,edge-pooled,warm,270,200,303.37,0.0,36.0,258.0,294.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:00+00:00,sydney,edge-pooled,warm,271,200,431.27,0.0,165.0,255.0,420.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:29:01+00:00,sydney,edge-pooled,warm,272,200,432.05,0.0,176.0,247.0,423.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:29:02+00:00,sydney,edge-pooled,warm,273,200,445.42,0.0,177.0,258.0,435.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:29:03+00:00,sydney,edge-pooled,warm,274,200,451.35,0.0,183.0,259.0,442.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:29:04+00:00,sydney,edge-pooled,warm,275,200,430.57,0.0,170.0,252.0,422.0,SYD,edge-pooled,5,1.45,how is recall at ten measured
+2026-10-01T01:29:05+00:00,sydney,edge-pooled,warm,276,200,343.62,0.0,82.0,253.0,335.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:29:06+00:00,sydney,edge-pooled,warm,277,200,439.83,0.0,170.0,259.0,429.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:29:07+00:00,sydney,edge-pooled,warm,278,200,472.46,0.0,209.0,253.0,462.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:29:08+00:00,sydney,edge-pooled,warm,279,200,446.1,0.0,171.0,266.0,437.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:29:09+00:00,sydney,edge-pooled,warm,280,200,427.56,0.0,160.0,257.0,417.0,SYD,edge-pooled,5,1.45,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:09+00:00,sydney,edge-pooled,warm,281,200,449.1,0.0,169.0,270.0,439.0,SYD,edge-pooled,5,1.45,what is the cold start time of a V8 isolate
+2026-10-01T01:29:10+00:00,sydney,edge-pooled,warm,282,200,348.25,0.0,85.0,255.0,340.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:29:11+00:00,sydney,edge-pooled,warm,283,200,295.16,0.0,33.0,253.0,286.0,SYD,edge-pooled,5,1.45,how do read replicas affect data freshness
+2026-10-01T01:29:12+00:00,sydney,edge-pooled,warm,284,200,302.45,0.0,35.0,259.0,294.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:29:13+00:00,sydney,edge-pooled,warm,285,200,816.47,0.0,553.0,254.0,807.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:29:14+00:00,sydney,edge-pooled,warm,286,200,301.14,0.0,36.0,255.0,291.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:29:15+00:00,sydney,edge-pooled,warm,287,200,352.61,0.0,85.0,259.0,344.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:29:16+00:00,sydney,edge-pooled,warm,288,200,550.06,0.0,283.0,258.0,541.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:29:17+00:00,sydney,edge-pooled,warm,289,200,306.26,0.0,36.0,262.0,298.0,SYD,edge-pooled,5,1.45,when does edge computing reduce time to first token
+2026-10-01T01:29:18+00:00,sydney,edge-pooled,warm,290,200,337.15,0.0,78.0,249.0,327.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:29:19+00:00,sydney,edge-pooled,warm,291,200,414.08,0.0,156.0,249.0,405.0,SYD,edge-pooled,5,1.45,how much memory does a 768-dimensional vector index need
+2026-10-01T01:29:19+00:00,sydney,edge-pooled,warm,292,200,304.03,0.0,39.0,256.0,295.0,SYD,edge-pooled,5,1.45,how does connection pooling reduce database latency
+2026-10-01T01:29:20+00:00,sydney,edge-pooled,warm,293,200,428.59,0.0,162.0,258.0,420.0,SYD,edge-pooled,5,1.45,what does ef_search control in pgvector
+2026-10-01T01:29:21+00:00,sydney,edge-pooled,warm,294,200,422.8,0.0,161.0,253.0,414.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:29:22+00:00,sydney,edge-pooled,warm,295,200,302.95,0.0,37.0,255.0,292.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:29:23+00:00,sydney,edge-pooled,warm,296,200,344.54,0.0,82.0,252.0,334.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:29:24+00:00,sydney,edge-pooled,warm,297,200,629.15,0.0,353.0,267.0,620.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:29:25+00:00,sydney,edge-pooled,warm,298,200,368.89,0.0,113.0,247.0,360.0,SYD,edge-pooled,5,1.45,why are container cold starts slow
+2026-10-01T01:29:26+00:00,sydney,edge-pooled,warm,299,200,296.58,0.0,34.0,252.0,286.0,SYD,edge-pooled,5,1.45,what limits the recall of an HNSW index
+2026-10-01T01:29:28+00:00,sydney,edge-replica,cold,0,200,70.6,10.45,32.0,14.0,46.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:29:29+00:00,sydney,edge-replica,cold,1,200,71.27,7.81,32.0,16.0,48.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:29:29+00:00,sydney,edge-replica,cold,2,200,73.83,10.26,36.0,14.0,50.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:29:30+00:00,sydney,edge-replica,cold,3,200,204.41,9.9,167.0,13.0,180.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:29:31+00:00,sydney,edge-replica,cold,4,200,200.03,9.08,165.0,13.0,178.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:29:31+00:00,sydney,edge-replica,cold,5,200,64.41,8.13,35.0,11.0,46.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:29:32+00:00,sydney,edge-replica,cold,6,200,199.35,8.01,163.0,17.0,180.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:29:33+00:00,sydney,edge-replica,cold,7,200,249.36,14.21,195.0,14.0,209.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:29:34+00:00,sydney,edge-replica,cold,8,200,84.04,13.83,38.0,13.0,51.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:29:34+00:00,sydney,edge-replica,cold,9,200,219.89,10.42,184.0,11.0,195.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:29:35+00:00,sydney,edge-replica,cold,10,200,194.27,6.59,166.0,12.0,178.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:29:36+00:00,sydney,edge-replica,cold,11,200,120.38,5.62,90.0,13.0,103.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:29:36+00:00,sydney,edge-replica,cold,12,200,116.46,8.52,84.0,12.0,96.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:29:37+00:00,sydney,edge-replica,cold,13,200,194.9,8.37,159.0,14.0,173.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:29:38+00:00,sydney,edge-replica,cold,14,200,122.1,6.41,87.0,13.0,100.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:29:38+00:00,sydney,edge-replica,cold,15,200,282.05,18.45,190.0,16.0,206.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:29:39+00:00,sydney,edge-replica,cold,16,200,187.76,8.43,156.0,12.0,168.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:29:40+00:00,sydney,edge-replica,cold,17,200,215.94,11.76,172.0,14.0,186.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:29:40+00:00,sydney,edge-replica,cold,18,200,92.35,13.07,37.0,14.0,51.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:29:41+00:00,sydney,edge-replica,cold,19,200,196.0,8.95,165.0,12.0,177.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:29:42+00:00,sydney,edge-replica,cold,20,200,67.27,8.41,36.0,12.0,48.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:29:42+00:00,sydney,edge-replica,cold,21,200,187.55,7.59,159.0,12.0,171.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:29:43+00:00,sydney,edge-replica,cold,22,200,136.0,10.5,87.0,13.0,100.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:29:44+00:00,sydney,edge-replica,cold,23,200,202.24,12.22,158.0,13.0,171.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:29:44+00:00,sydney,edge-replica,cold,24,200,201.0,8.91,169.0,12.0,181.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:45+00:00,sydney,edge-replica,cold,25,200,204.66,8.19,172.0,12.0,184.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:29:46+00:00,sydney,edge-replica,cold,26,200,212.45,8.56,177.0,15.0,192.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:29:46+00:00,sydney,edge-replica,cold,27,200,205.84,10.29,173.0,12.0,185.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:47+00:00,sydney,edge-replica,cold,28,200,326.87,12.77,285.0,12.0,297.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:29:48+00:00,sydney,edge-replica,cold,29,200,205.43,6.86,171.0,16.0,187.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:29:49+00:00,sydney,edge-replica,cold,30,200,72.16,7.65,39.0,15.0,54.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:29:49+00:00,sydney,edge-replica,cold,31,200,96.69,10.37,35.0,16.0,51.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:29:50+00:00,sydney,edge-replica,cold,32,200,202.54,8.08,160.0,14.0,174.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:29:51+00:00,sydney,edge-replica,cold,33,200,246.1,8.2,213.0,12.0,225.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:29:51+00:00,sydney,edge-replica,cold,34,200,123.53,10.86,84.0,16.0,100.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:29:52+00:00,sydney,edge-replica,cold,35,200,72.74,8.18,39.0,14.0,53.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:29:52+00:00,sydney,edge-replica,cold,36,200,76.22,8.44,40.0,12.0,52.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:29:53+00:00,sydney,edge-replica,cold,37,200,121.14,8.13,90.0,12.0,102.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:29:54+00:00,sydney,edge-replica,cold,38,200,64.37,7.06,34.0,12.0,46.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:29:54+00:00,sydney,edge-replica,cold,39,200,126.89,8.81,92.0,14.0,106.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:29:55+00:00,sydney,edge-replica,cold,40,200,86.96,12.67,40.0,13.0,53.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:29:56+00:00,sydney,edge-replica,cold,41,200,131.33,11.48,92.0,13.0,105.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:29:56+00:00,sydney,edge-replica,cold,42,200,72.97,7.86,40.0,14.0,54.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:29:57+00:00,sydney,edge-replica,cold,43,200,73.09,11.42,37.0,13.0,50.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:29:57+00:00,sydney,edge-replica,cold,44,200,135.74,16.0,83.0,14.0,97.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:29:58+00:00,sydney,edge-replica,cold,45,200,386.21,7.87,355.0,13.0,368.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:29:59+00:00,sydney,edge-replica,cold,46,200,203.92,8.56,173.0,11.0,184.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:30:00+00:00,sydney,edge-replica,cold,47,200,146.55,13.22,95.0,13.0,108.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:30:01+00:00,sydney,edge-replica,cold,48,200,414.3,8.27,382.0,13.0,395.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:30:01+00:00,sydney,edge-replica,cold,49,200,163.08,16.63,101.0,12.0,113.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:30:02+00:00,sydney,edge-replica,cold,50,200,210.93,9.88,171.0,15.0,186.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:30:03+00:00,sydney,edge-replica,cold,51,200,259.33,13.75,214.0,13.0,227.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:30:03+00:00,sydney,edge-replica,cold,52,200,143.46,13.25,96.0,13.0,109.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:30:04+00:00,sydney,edge-replica,cold,53,200,76.33,9.03,46.0,10.0,56.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:30:05+00:00,sydney,edge-replica,cold,54,200,235.18,7.6,198.0,14.0,212.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:05+00:00,sydney,edge-replica,cold,55,200,69.87,9.56,34.0,14.0,48.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:30:06+00:00,sydney,edge-replica,cold,56,200,123.9,10.41,80.0,11.0,91.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:07+00:00,sydney,edge-replica,cold,57,200,206.69,12.91,167.0,12.0,179.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:30:07+00:00,sydney,edge-replica,cold,58,200,219.58,12.77,178.0,13.0,191.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:30:08+00:00,sydney,edge-replica,cold,59,200,138.84,11.01,104.0,13.0,117.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:30:09+00:00,sydney,edge-replica,cold,60,200,238.75,8.68,193.0,12.0,205.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:09+00:00,sydney,edge-replica,cold,61,200,124.92,7.01,92.0,13.0,105.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:30:10+00:00,sydney,edge-replica,cold,62,200,197.25,8.0,168.0,12.0,180.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:30:11+00:00,sydney,edge-replica,cold,63,200,70.59,10.24,35.0,13.0,48.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:30:11+00:00,sydney,edge-replica,cold,64,200,117.81,10.19,85.0,11.0,96.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:30:12+00:00,sydney,edge-replica,cold,65,200,253.91,14.29,211.0,15.0,226.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:13+00:00,sydney,edge-replica,cold,66,200,80.06,9.75,40.0,12.0,52.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:30:13+00:00,sydney,edge-replica,cold,67,200,72.93,9.04,40.0,13.0,53.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:30:14+00:00,sydney,edge-replica,cold,68,200,200.19,7.03,169.0,13.0,182.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:30:15+00:00,sydney,edge-replica,cold,69,200,232.67,12.0,190.0,13.0,203.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:30:15+00:00,sydney,edge-replica,cold,70,200,267.64,16.93,202.0,19.0,221.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:30:16+00:00,sydney,edge-replica,cold,71,200,235.21,8.81,199.0,14.0,213.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:17+00:00,sydney,edge-replica,cold,72,200,227.01,14.16,164.0,15.0,179.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:30:18+00:00,sydney,edge-replica,cold,73,200,195.31,11.16,160.0,12.0,172.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:18+00:00,sydney,edge-replica,cold,74,200,66.44,7.28,35.0,12.0,47.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:30:19+00:00,sydney,edge-replica,cold,75,200,201.06,6.35,173.0,14.0,187.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:30:19+00:00,sydney,edge-replica,cold,76,200,83.34,12.4,38.0,13.0,51.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:30:20+00:00,sydney,edge-replica,cold,77,200,262.95,16.03,194.0,16.0,210.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:30:21+00:00,sydney,edge-replica,cold,78,200,230.57,9.92,177.0,12.0,189.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:30:22+00:00,sydney,edge-replica,cold,79,200,135.4,8.37,103.0,12.0,115.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:30:22+00:00,sydney,edge-replica,cold,80,200,241.13,7.87,204.0,13.0,217.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:30:23+00:00,sydney,edge-replica,cold,81,200,232.37,8.96,196.0,16.0,212.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:30:24+00:00,sydney,edge-replica,cold,82,200,146.48,10.12,114.0,12.0,126.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:30:24+00:00,sydney,edge-replica,cold,83,200,227.07,11.71,192.0,12.0,204.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:30:25+00:00,sydney,edge-replica,cold,84,200,71.74,8.56,42.0,10.0,52.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:30:26+00:00,sydney,edge-replica,cold,85,200,68.89,8.48,39.0,12.0,51.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:30:26+00:00,sydney,edge-replica,cold,86,200,204.74,9.49,169.0,14.0,183.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:30:27+00:00,sydney,edge-replica,cold,87,200,134.18,12.13,85.0,13.0,98.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:30:28+00:00,sydney,edge-replica,cold,88,200,398.55,8.43,364.0,15.0,379.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:30:28+00:00,sydney,edge-replica,cold,89,200,76.34,7.88,42.0,13.0,55.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:29+00:00,sydney,edge-replica,cold,90,200,119.16,7.43,89.0,13.0,102.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:30:30+00:00,sydney,edge-replica,cold,91,200,116.2,7.16,86.0,13.0,99.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:30:30+00:00,sydney,edge-replica,cold,92,200,199.9,6.61,170.0,13.0,183.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:30:31+00:00,sydney,edge-replica,cold,93,200,116.43,7.37,87.0,12.0,99.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:32+00:00,sydney,edge-replica,cold,94,200,144.25,9.65,103.0,13.0,116.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:30:32+00:00,sydney,edge-replica,cold,95,200,223.43,14.3,171.0,11.0,182.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:30:33+00:00,sydney,edge-replica,cold,96,200,68.5,8.67,35.0,13.0,48.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:34+00:00,sydney,edge-replica,cold,97,200,238.87,9.8,204.0,13.0,217.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:30:34+00:00,sydney,edge-replica,cold,98,200,124.55,8.29,91.0,12.0,103.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:30:35+00:00,sydney,edge-replica,cold,99,200,211.42,16.24,168.0,13.0,181.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:30:36+00:00,sydney,edge-replica,cold,100,200,79.15,8.04,41.0,14.0,55.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:30:36+00:00,sydney,edge-replica,cold,101,200,220.64,8.17,190.0,12.0,202.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:30:37+00:00,sydney,edge-replica,cold,102,200,249.81,7.5,218.0,14.0,232.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:38+00:00,sydney,edge-replica,cold,103,200,73.12,9.27,36.0,14.0,50.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:30:38+00:00,sydney,edge-replica,cold,104,200,70.04,8.34,37.0,13.0,50.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:30:39+00:00,sydney,edge-replica,cold,105,200,64.72,8.48,34.0,13.0,47.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:30:40+00:00,sydney,edge-replica,cold,106,200,233.2,9.92,201.0,12.0,213.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:30:40+00:00,sydney,edge-replica,cold,107,200,243.69,7.23,203.0,13.0,216.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:30:41+00:00,sydney,edge-replica,cold,108,200,204.01,9.74,171.0,12.0,183.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:42+00:00,sydney,edge-replica,cold,109,200,216.77,11.7,168.0,14.0,182.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:43+00:00,sydney,edge-replica,cold,110,200,197.92,9.19,163.0,15.0,178.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:30:43+00:00,sydney,edge-replica,cold,111,200,273.28,15.6,223.0,11.0,234.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:30:44+00:00,sydney,edge-replica,cold,112,200,120.65,8.31,81.0,12.0,93.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:30:45+00:00,sydney,edge-replica,cold,113,200,87.12,11.47,41.0,13.0,54.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:30:45+00:00,sydney,edge-replica,cold,114,200,226.06,9.59,192.0,14.0,206.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:30:46+00:00,sydney,edge-replica,cold,115,200,132.55,8.71,95.0,16.0,111.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:46+00:00,sydney,edge-replica,cold,116,200,89.5,18.4,45.0,13.0,58.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:30:47+00:00,sydney,edge-replica,cold,117,200,306.2,11.8,263.0,14.0,277.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:30:48+00:00,sydney,edge-replica,cold,118,200,235.34,8.69,205.0,12.0,217.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:30:49+00:00,sydney,edge-replica,cold,119,200,190.93,7.95,159.0,11.0,170.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:49+00:00,sydney,edge-replica,cold,120,200,166.8,7.32,139.0,11.0,150.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:50+00:00,sydney,edge-replica,cold,121,200,196.88,7.51,169.0,11.0,180.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:30:51+00:00,sydney,edge-replica,cold,122,200,265.3,9.09,231.0,12.0,243.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:30:52+00:00,sydney,edge-replica,cold,123,200,234.93,8.89,205.0,12.0,217.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:30:52+00:00,sydney,edge-replica,cold,124,200,79.03,11.57,39.0,12.0,51.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:30:53+00:00,sydney,edge-replica,cold,125,200,261.34,10.72,214.0,15.0,229.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:30:54+00:00,sydney,edge-replica,cold,126,200,190.96,6.6,161.0,13.0,174.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:30:54+00:00,sydney,edge-replica,cold,127,200,209.19,12.29,165.0,13.0,178.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:30:55+00:00,sydney,edge-replica,cold,128,200,253.16,6.86,220.0,18.0,238.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:56+00:00,sydney,edge-replica,cold,129,200,238.26,8.42,197.0,16.0,213.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:30:57+00:00,sydney,edge-replica,cold,130,200,204.59,8.72,173.0,10.0,183.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:57+00:00,sydney,edge-replica,cold,131,200,125.42,8.62,93.0,12.0,105.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:30:58+00:00,sydney,edge-replica,cold,132,200,206.61,11.61,164.0,13.0,177.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:30:59+00:00,sydney,edge-replica,cold,133,200,254.29,13.09,206.0,12.0,218.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:30:59+00:00,sydney,edge-replica,cold,134,200,69.81,8.87,37.0,13.0,50.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:31:00+00:00,sydney,edge-replica,cold,135,200,270.36,15.77,210.0,13.0,223.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:31:01+00:00,sydney,edge-replica,cold,136,200,208.01,7.6,170.0,19.0,189.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:31:02+00:00,sydney,edge-replica,cold,137,200,223.23,8.42,192.0,10.0,202.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:02+00:00,sydney,edge-replica,cold,138,200,67.96,10.07,34.0,12.0,46.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:03+00:00,sydney,edge-replica,cold,139,200,221.18,7.02,180.0,21.0,201.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:03+00:00,sydney,edge-replica,cold,140,200,126.33,8.43,89.0,14.0,103.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:31:04+00:00,sydney,edge-replica,cold,141,200,70.99,9.05,35.0,12.0,47.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:05+00:00,sydney,edge-replica,cold,142,200,190.77,7.27,162.0,11.0,173.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:31:05+00:00,sydney,edge-replica,cold,143,200,211.62,8.63,181.0,13.0,194.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:31:06+00:00,sydney,edge-replica,cold,144,200,78.01,12.82,41.0,13.0,54.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:31:07+00:00,sydney,edge-replica,cold,145,200,215.72,12.39,169.0,14.0,183.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:31:08+00:00,sydney,edge-replica,cold,146,200,395.42,7.95,364.0,12.0,376.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:31:08+00:00,sydney,edge-replica,cold,147,200,64.09,8.73,33.0,12.0,45.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:31:09+00:00,sydney,edge-replica,cold,148,200,204.5,9.55,171.0,12.0,183.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:10+00:00,sydney,edge-replica,cold,149,200,206.2,8.53,171.0,15.0,186.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:31:10+00:00,sydney,edge-replica,cold,150,200,141.78,16.2,86.0,14.0,100.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:31:11+00:00,sydney,edge-replica,cold,151,200,123.88,9.06,90.0,12.0,102.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:31:12+00:00,sydney,edge-replica,cold,152,200,117.66,8.83,82.0,13.0,95.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:31:12+00:00,sydney,edge-replica,cold,153,200,195.5,8.11,165.0,12.0,177.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:31:13+00:00,sydney,edge-replica,cold,154,200,196.23,9.53,164.0,12.0,176.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:31:14+00:00,sydney,edge-replica,cold,155,200,259.84,9.81,226.0,11.0,237.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:31:14+00:00,sydney,edge-replica,cold,156,200,200.59,8.96,172.0,11.0,183.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:31:15+00:00,sydney,edge-replica,cold,157,200,257.19,12.96,216.0,12.0,228.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:31:16+00:00,sydney,edge-replica,cold,158,200,221.94,12.51,180.0,13.0,193.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:31:17+00:00,sydney,edge-replica,cold,159,200,114.04,7.44,84.0,12.0,96.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:31:17+00:00,sydney,edge-replica,cold,160,200,73.5,7.66,41.0,14.0,55.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:31:18+00:00,sydney,edge-replica,cold,161,200,69.25,12.2,35.0,12.0,47.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:31:18+00:00,sydney,edge-replica,cold,162,200,200.01,6.44,169.0,15.0,184.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:31:19+00:00,sydney,edge-replica,cold,163,200,267.37,9.0,231.0,14.0,245.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:31:20+00:00,sydney,edge-replica,cold,164,200,128.76,14.53,88.0,14.0,102.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:31:20+00:00,sydney,edge-replica,cold,165,200,120.76,8.91,89.0,13.0,102.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:31:21+00:00,sydney,edge-replica,cold,166,200,209.06,9.35,176.0,16.0,192.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:22+00:00,sydney,edge-replica,cold,167,200,255.46,8.75,212.0,22.0,234.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:31:23+00:00,sydney,edge-replica,cold,168,200,126.63,8.59,92.0,14.0,106.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:31:23+00:00,sydney,edge-replica,cold,169,200,229.59,8.71,198.0,13.0,211.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:31:24+00:00,sydney,edge-replica,cold,170,200,206.76,13.62,164.0,12.0,176.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:31:25+00:00,sydney,edge-replica,cold,171,200,192.0,7.6,162.0,13.0,175.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:31:25+00:00,sydney,edge-replica,cold,172,200,78.29,8.28,45.0,14.0,59.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:31:26+00:00,sydney,edge-replica,cold,173,200,139.89,10.62,98.0,14.0,112.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:31:27+00:00,sydney,edge-replica,cold,174,200,197.78,8.22,166.0,11.0,177.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:27+00:00,sydney,edge-replica,cold,175,200,76.84,9.06,32.0,15.0,47.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:31:28+00:00,sydney,edge-replica,cold,176,200,241.38,10.83,202.0,16.0,218.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:31:29+00:00,sydney,edge-replica,cold,177,200,197.39,7.63,163.0,12.0,175.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:31:30+00:00,sydney,edge-replica,cold,178,200,526.01,8.68,465.0,15.0,480.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:31:30+00:00,sydney,edge-replica,cold,179,200,135.75,7.15,99.0,13.0,112.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:31:31+00:00,sydney,edge-replica,cold,180,200,75.47,7.97,41.0,14.0,55.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:31:32+00:00,sydney,edge-replica,cold,181,200,209.52,7.3,179.0,14.0,193.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:31:32+00:00,sydney,edge-replica,cold,182,200,202.35,9.11,167.0,15.0,182.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:31:33+00:00,sydney,edge-replica,cold,183,200,193.8,8.61,164.0,12.0,176.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:31:34+00:00,sydney,edge-replica,cold,184,200,115.43,8.1,74.0,14.0,88.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:34+00:00,sydney,edge-replica,cold,185,200,134.12,9.41,103.0,12.0,115.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:35+00:00,sydney,edge-replica,cold,186,200,223.76,7.74,191.0,12.0,203.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:31:36+00:00,sydney,edge-replica,cold,187,200,201.8,9.6,163.0,12.0,175.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:31:36+00:00,sydney,edge-replica,cold,188,200,121.42,7.39,90.0,13.0,103.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:31:37+00:00,sydney,edge-replica,cold,189,200,265.35,12.34,217.0,14.0,231.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:31:38+00:00,sydney,edge-replica,cold,190,200,72.54,8.64,39.0,13.0,52.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:31:38+00:00,sydney,edge-replica,cold,191,200,237.08,12.97,192.0,14.0,206.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:31:39+00:00,sydney,edge-replica,cold,192,200,75.09,7.84,40.0,13.0,53.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:31:40+00:00,sydney,edge-replica,cold,193,200,81.75,9.7,44.0,12.0,56.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:31:40+00:00,sydney,edge-replica,cold,194,200,128.23,8.34,83.0,21.0,104.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:31:41+00:00,sydney,edge-replica,cold,195,200,371.51,6.12,342.0,13.0,355.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:31:42+00:00,sydney,edge-replica,cold,196,200,204.62,13.44,160.0,14.0,174.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:43+00:00,sydney,edge-replica,cold,197,200,140.04,12.44,104.0,14.0,118.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:31:43+00:00,sydney,edge-replica,cold,198,200,243.38,17.36,175.0,13.0,188.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:44+00:00,sydney,edge-replica,cold,199,200,211.3,10.35,167.0,13.0,180.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:31:45+00:00,sydney,edge-replica,cold,200,200,206.73,9.28,170.0,14.0,184.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:31:45+00:00,sydney,edge-replica,cold,201,200,191.99,6.97,154.0,13.0,167.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:46+00:00,sydney,edge-replica,cold,202,200,225.95,8.33,195.0,12.0,207.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:31:47+00:00,sydney,edge-replica,cold,203,200,71.03,9.31,41.0,12.0,53.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:47+00:00,sydney,edge-replica,cold,204,200,79.29,7.54,37.0,23.0,60.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:31:48+00:00,sydney,edge-replica,cold,205,200,69.49,8.75,35.0,12.0,47.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:31:49+00:00,sydney,edge-replica,cold,206,200,154.74,14.28,99.0,13.0,112.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:31:49+00:00,sydney,edge-replica,cold,207,200,120.76,9.13,88.0,13.0,101.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:31:50+00:00,sydney,edge-replica,cold,208,200,198.57,9.73,167.0,12.0,179.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:31:51+00:00,sydney,edge-replica,cold,209,200,245.74,9.25,212.0,14.0,226.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:51+00:00,sydney,edge-replica,cold,210,200,114.82,7.2,79.0,14.0,93.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:31:52+00:00,sydney,edge-replica,cold,211,200,201.61,14.32,158.0,12.0,170.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:31:53+00:00,sydney,edge-replica,cold,212,200,248.21,8.48,217.0,12.0,229.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:31:54+00:00,sydney,edge-replica,cold,213,200,291.39,14.34,239.0,13.0,252.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:54+00:00,sydney,edge-replica,cold,214,200,89.09,8.1,56.0,14.0,70.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:31:55+00:00,sydney,edge-replica,cold,215,200,201.66,9.1,171.0,12.0,183.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:31:56+00:00,sydney,edge-replica,cold,216,200,209.33,8.2,165.0,22.0,187.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:31:56+00:00,sydney,edge-replica,cold,217,200,118.14,8.11,87.0,13.0,100.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:31:57+00:00,sydney,edge-replica,cold,218,200,418.41,8.99,386.0,11.0,397.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:31:58+00:00,sydney,edge-replica,cold,219,200,119.44,8.44,88.0,13.0,101.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:31:58+00:00,sydney,edge-replica,cold,220,200,197.24,8.34,162.0,15.0,177.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:31:59+00:00,sydney,edge-replica,cold,221,200,239.27,6.67,208.0,14.0,222.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:32:00+00:00,sydney,edge-replica,cold,222,200,132.0,10.21,89.0,14.0,103.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:32:00+00:00,sydney,edge-replica,cold,223,200,196.16,9.38,165.0,12.0,177.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:32:01+00:00,sydney,edge-replica,cold,224,200,155.87,14.23,103.0,13.0,116.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:32:02+00:00,sydney,edge-replica,cold,225,200,390.37,8.5,353.0,15.0,368.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:32:03+00:00,sydney,edge-replica,cold,226,200,194.98,7.76,165.0,14.0,179.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:32:03+00:00,sydney,edge-replica,cold,227,200,65.63,9.01,34.0,12.0,46.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:32:04+00:00,sydney,edge-replica,cold,228,200,198.77,6.41,170.0,13.0,183.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:32:05+00:00,sydney,edge-replica,cold,229,200,125.79,8.02,94.0,12.0,106.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:32:05+00:00,sydney,edge-replica,cold,230,200,241.72,8.87,208.0,14.0,222.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:32:06+00:00,sydney,edge-replica,cold,231,200,195.51,7.92,164.0,13.0,177.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:32:07+00:00,sydney,edge-replica,cold,232,200,231.85,8.87,198.0,13.0,211.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:32:07+00:00,sydney,edge-replica,cold,233,200,131.94,12.54,87.0,14.0,101.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:32:08+00:00,sydney,edge-replica,cold,234,200,76.72,12.52,38.0,13.0,51.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:32:09+00:00,sydney,edge-replica,cold,235,200,203.17,7.44,170.0,14.0,184.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:32:09+00:00,sydney,edge-replica,cold,236,200,155.65,10.71,112.0,11.0,123.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:32:10+00:00,sydney,edge-replica,cold,237,200,67.19,9.57,31.0,13.0,44.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:11+00:00,sydney,edge-replica,cold,238,200,85.91,11.8,36.0,17.0,53.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:32:12+00:00,sydney,edge-replica,cold,239,200,382.26,16.88,338.0,12.0,350.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:12+00:00,sydney,edge-replica,cold,240,200,128.31,9.28,94.0,14.0,108.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:32:13+00:00,sydney,edge-replica,cold,241,200,247.87,9.51,195.0,14.0,209.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:32:14+00:00,sydney,edge-replica,cold,242,200,212.92,14.41,177.0,12.0,189.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:32:14+00:00,sydney,edge-replica,cold,243,200,78.05,10.36,28.0,24.0,52.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:32:15+00:00,sydney,edge-replica,cold,244,200,268.43,9.7,236.0,13.0,249.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:32:16+00:00,sydney,edge-replica,cold,245,200,128.91,12.93,87.0,12.0,99.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:32:16+00:00,sydney,edge-replica,cold,246,200,67.17,8.51,34.0,14.0,48.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:32:17+00:00,sydney,edge-replica,cold,247,200,138.81,14.28,91.0,17.0,108.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:32:17+00:00,sydney,edge-replica,cold,248,200,76.14,7.78,34.0,15.0,49.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:32:18+00:00,sydney,edge-replica,cold,249,200,267.66,14.51,210.0,14.0,224.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:32:19+00:00,sydney,edge-replica,cold,250,200,112.94,8.75,83.0,12.0,95.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:32:19+00:00,sydney,edge-replica,cold,251,200,74.93,10.66,40.0,12.0,52.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:32:20+00:00,sydney,edge-replica,cold,252,200,308.1,8.39,278.0,12.0,290.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:32:21+00:00,sydney,edge-replica,cold,253,200,405.1,11.08,372.0,12.0,384.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:32:22+00:00,sydney,edge-replica,cold,254,200,194.75,8.65,163.0,13.0,176.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:32:23+00:00,sydney,edge-replica,cold,255,200,226.66,8.23,195.0,14.0,209.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:32:23+00:00,sydney,edge-replica,cold,256,200,73.46,8.72,33.0,13.0,46.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:32:24+00:00,sydney,edge-replica,cold,257,200,212.04,12.91,168.0,13.0,181.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:32:24+00:00,sydney,edge-replica,cold,258,200,74.2,11.99,41.0,11.0,52.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:32:25+00:00,sydney,edge-replica,cold,259,200,269.74,8.39,240.0,13.0,253.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:32:26+00:00,sydney,edge-replica,cold,260,200,241.02,7.81,206.0,13.0,219.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:32:27+00:00,sydney,edge-replica,cold,261,200,67.65,9.05,36.0,13.0,49.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:32:27+00:00,sydney,edge-replica,cold,262,200,225.34,12.05,167.0,13.0,180.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:32:28+00:00,sydney,edge-replica,cold,263,200,112.45,8.96,79.0,12.0,91.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:32:29+00:00,sydney,edge-replica,cold,264,200,199.51,13.03,135.0,15.0,150.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:32:29+00:00,sydney,edge-replica,cold,265,200,72.02,8.99,42.0,10.0,52.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:30+00:00,sydney,edge-replica,cold,266,200,61.93,6.47,33.0,13.0,46.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:32:30+00:00,sydney,edge-replica,cold,267,200,71.93,9.24,37.0,13.0,50.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:32:31+00:00,sydney,edge-replica,cold,268,200,69.63,6.78,36.0,16.0,52.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:32:31+00:00,sydney,edge-replica,cold,269,200,64.89,6.09,37.0,13.0,50.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:32:32+00:00,sydney,edge-replica,cold,270,200,223.22,15.41,174.0,11.0,185.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:32:33+00:00,sydney,edge-replica,cold,271,200,262.2,7.61,231.0,12.0,243.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:32:34+00:00,sydney,edge-replica,cold,272,200,201.07,8.98,168.0,13.0,181.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:32:34+00:00,sydney,edge-replica,cold,273,200,110.69,8.4,78.0,11.0,89.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:35+00:00,sydney,edge-replica,cold,274,200,263.8,8.69,234.0,11.0,245.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:36+00:00,sydney,edge-replica,cold,275,200,65.01,8.21,36.0,11.0,47.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:36+00:00,sydney,edge-replica,cold,276,200,227.67,9.21,194.0,12.0,206.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:32:37+00:00,sydney,edge-replica,cold,277,200,269.36,8.42,229.0,13.0,242.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:38+00:00,sydney,edge-replica,cold,278,200,130.18,9.47,84.0,19.0,103.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:32:38+00:00,sydney,edge-replica,cold,279,200,68.87,7.63,39.0,13.0,52.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:32:39+00:00,sydney,edge-replica,cold,280,200,229.8,8.25,198.0,11.0,209.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:40+00:00,sydney,edge-replica,cold,281,200,218.21,9.19,186.0,12.0,198.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:32:41+00:00,sydney,edge-replica,cold,282,200,207.39,8.24,177.0,13.0,190.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:32:41+00:00,sydney,edge-replica,cold,283,200,274.84,9.81,245.0,11.0,256.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:32:42+00:00,sydney,edge-replica,cold,284,200,186.1,6.84,157.0,11.0,168.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:32:43+00:00,sydney,edge-replica,cold,285,200,60.03,7.37,30.0,13.0,43.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:43+00:00,sydney,edge-replica,cold,286,200,205.96,6.87,171.0,15.0,186.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:32:44+00:00,sydney,edge-replica,cold,287,200,64.18,8.44,34.0,12.0,46.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:32:44+00:00,sydney,edge-replica,cold,288,200,60.51,7.46,34.0,10.0,44.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:45+00:00,sydney,edge-replica,cold,289,200,207.86,7.54,174.0,15.0,189.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:32:46+00:00,sydney,edge-replica,cold,290,200,79.95,9.43,44.0,15.0,59.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:32:46+00:00,sydney,edge-replica,cold,291,200,233.15,7.72,204.0,12.0,216.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:32:47+00:00,sydney,edge-replica,cold,292,200,202.8,8.87,171.0,12.0,183.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:32:48+00:00,sydney,edge-replica,cold,293,200,225.91,8.42,194.0,12.0,206.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:49+00:00,sydney,edge-replica,cold,294,200,189.37,9.62,150.0,13.0,163.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:32:49+00:00,sydney,edge-replica,cold,295,200,223.82,6.34,187.0,14.0,201.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:32:50+00:00,sydney,edge-replica,cold,296,200,224.97,9.18,194.0,12.0,206.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:32:51+00:00,sydney,edge-replica,cold,297,200,227.71,7.37,195.0,15.0,210.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:32:51+00:00,sydney,edge-replica,cold,298,200,71.81,8.79,38.0,13.0,51.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:32:52+00:00,sydney,edge-replica,cold,299,200,61.59,8.16,26.0,13.0,39.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:32:55+00:00,sydney,edge-replica,warm,0,200,187.98,0.0,168.0,11.0,179.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:32:55+00:00,sydney,edge-replica,warm,1,200,126.88,0.0,102.0,13.0,115.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:32:56+00:00,sydney,edge-replica,warm,2,200,67.82,0.0,45.0,13.0,58.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:32:57+00:00,sydney,edge-replica,warm,3,200,326.66,0.0,306.0,11.0,317.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:32:57+00:00,sydney,edge-replica,warm,4,200,194.75,0.0,174.0,11.0,185.0,SYD,edge-replica,5,1.53,how do read replicas affect data freshness
+2026-10-01T01:32:58+00:00,sydney,edge-replica,warm,5,200,63.04,0.0,38.0,16.0,54.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:32:58+00:00,sydney,edge-replica,warm,6,200,195.29,0.0,170.0,12.0,182.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:32:59+00:00,sydney,edge-replica,warm,7,200,119.36,0.0,97.0,13.0,110.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:33:00+00:00,sydney,edge-replica,warm,8,200,182.07,0.0,160.0,12.0,172.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:33:00+00:00,sydney,edge-replica,warm,9,200,123.85,0.0,102.0,12.0,114.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:33:01+00:00,sydney,edge-replica,warm,10,200,188.29,0.0,166.0,13.0,179.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:33:02+00:00,sydney,edge-replica,warm,11,200,187.1,0.0,166.0,13.0,179.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:33:02+00:00,sydney,edge-replica,warm,12,200,58.32,0.0,37.0,12.0,49.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:33:03+00:00,sydney,edge-replica,warm,13,200,114.17,0.0,91.0,13.0,104.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:33:04+00:00,sydney,edge-replica,warm,14,200,108.5,0.0,85.0,12.0,97.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:33:04+00:00,sydney,edge-replica,warm,15,200,210.3,0.0,186.0,13.0,199.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:33:05+00:00,sydney,edge-replica,warm,16,200,185.86,0.0,164.0,12.0,176.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:33:06+00:00,sydney,edge-replica,warm,17,200,248.2,0.0,226.0,11.0,237.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:33:06+00:00,sydney,edge-replica,warm,18,200,54.08,0.0,32.0,13.0,45.0,SYD,edge-replica,5,1.53,why is fibre propagation slower than light in vacuum
+2026-10-01T01:33:07+00:00,sydney,edge-replica,warm,19,200,53.63,0.0,31.0,13.0,44.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:33:08+00:00,sydney,edge-replica,warm,20,200,205.99,0.0,177.0,12.0,189.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:33:08+00:00,sydney,edge-replica,warm,21,200,130.9,0.0,107.0,14.0,121.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:33:09+00:00,sydney,edge-replica,warm,22,200,121.93,0.0,100.0,12.0,112.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:33:09+00:00,sydney,edge-replica,warm,23,200,179.91,0.0,153.0,16.0,169.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:33:10+00:00,sydney,edge-replica,warm,24,200,200.91,0.0,175.0,13.0,188.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:33:11+00:00,sydney,edge-replica,warm,25,200,184.04,0.0,161.0,12.0,173.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:33:12+00:00,sydney,edge-replica,warm,26,200,182.97,0.0,162.0,12.0,174.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:33:12+00:00,sydney,edge-replica,warm,27,200,213.74,0.0,190.0,11.0,201.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:33:13+00:00,sydney,edge-replica,warm,28,200,185.91,0.0,163.0,13.0,176.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:33:14+00:00,sydney,edge-replica,warm,29,200,104.01,0.0,80.0,14.0,94.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:33:14+00:00,sydney,edge-replica,warm,30,200,227.61,0.0,204.0,12.0,216.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:33:15+00:00,sydney,edge-replica,warm,31,200,57.92,0.0,34.0,13.0,47.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:33:15+00:00,sydney,edge-replica,warm,32,200,119.35,0.0,82.0,28.0,110.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:33:16+00:00,sydney,edge-replica,warm,33,200,123.42,0.0,100.0,14.0,114.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:33:17+00:00,sydney,edge-replica,warm,34,200,215.62,0.0,192.0,13.0,205.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:33:17+00:00,sydney,edge-replica,warm,35,200,185.06,0.0,162.0,13.0,175.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:33:18+00:00,sydney,edge-replica,warm,36,200,60.34,0.0,36.0,14.0,50.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:33:19+00:00,sydney,edge-replica,warm,37,200,110.86,0.0,89.0,12.0,101.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:33:19+00:00,sydney,edge-replica,warm,38,200,181.31,0.0,158.0,12.0,170.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:33:20+00:00,sydney,edge-replica,warm,39,200,231.05,0.0,210.0,12.0,222.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:33:21+00:00,sydney,edge-replica,warm,40,200,55.12,0.0,32.0,13.0,45.0,SYD,edge-replica,5,1.53,how does connection pooling reduce database latency
+2026-10-01T01:33:21+00:00,sydney,edge-replica,warm,41,200,196.66,0.0,173.0,13.0,186.0,SYD,edge-replica,5,1.53,what limits the recall of an HNSW index
+2026-10-01T01:33:22+00:00,sydney,edge-replica,warm,42,200,52.18,0.0,32.0,11.0,43.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:33:22+00:00,sydney,edge-replica,warm,43,200,118.39,0.0,99.0,11.0,110.0,SYD,edge-replica,5,1.53,what is the cold start time of a V8 isolate
+2026-10-01T01:33:23+00:00,sydney,edge-replica,warm,44,200,60.19,0.0,37.0,13.0,50.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:33:24+00:00,sydney,edge-replica,warm,45,200,192.07,0.0,166.0,13.0,179.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:33:24+00:00,sydney,edge-replica,warm,46,200,116.11,0.0,93.0,13.0,106.0,SYD,edge-replica,5,1.53,how is recall at ten measured
+2026-10-01T01:33:25+00:00,sydney,edge-replica,warm,47,200,225.66,0.0,203.0,13.0,216.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:33:26+00:00,sydney,edge-replica,warm,48,200,68.99,0.0,46.0,12.0,58.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:33:26+00:00,sydney,edge-replica,warm,49,200,188.5,0.0,167.0,12.0,179.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
+2026-10-01T01:33:27+00:00,sydney,edge-replica,warm,50,200,198.35,0.0,170.0,18.0,188.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:33:28+00:00,sydney,edge-replica,warm,51,200,188.82,0.0,166.0,13.0,179.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:33:28+00:00,sydney,edge-replica,warm,52,200,111.62,0.0,90.0,12.0,102.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:33:29+00:00,sydney,edge-replica,warm,53,200,187.5,0.0,166.0,12.0,178.0,SYD,edge-replica,5,1.53,what does ef_search control in pgvector
+2026-10-01T01:33:30+00:00,sydney,edge-replica,warm,54,200,64.27,0.0,41.0,13.0,54.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:33:30+00:00,sydney,edge-replica,warm,55,200,256.35,0.0,232.0,15.0,247.0,SYD,edge-replica,5,1.53,when does edge computing reduce time to first token
+2026-10-01T01:33:31+00:00,sydney,edge-replica,warm,56,200,107.48,0.0,87.0,12.0,99.0,SYD,edge-replica,5,1.53,why are container cold starts slow
+2026-10-01T01:33:32+00:00,sydney,edge-replica,warm,57,200,189.05,0.0,167.0,12.0,179.0,SYD,edge-replica,5,1.53,how much memory does a 768-dimensional vector index need
