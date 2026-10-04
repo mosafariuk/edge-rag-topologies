@@ -62,6 +62,9 @@ RHO_INTL_ASSUMED = 1.3    # [assume] submarine cables follow near-great-circle r
 N_SETUP_ROUND_TRIPS = 7   # [vendor] Cloudflare (Hyperdrive launch post, Sep 2023): "upwards of
                           #   seven round-trips (TCP handshake; TLS negotiation; then auth)".
                           #   A 2025 Cloudflare post revises this to "a bare minimum of 5".
+                          #   Used by --compare as the propagation-only assumption under test.
+N_SETUP_CALIBRATED = 10.0 # [owned] median of 9.0-12.7 measured from four regions (paper Table II)
+K_POOL_CALIBRATED = 1.26  # [owned] median of 1.15-1.57: round trips the pooled query path costs
 IN_REGION_RTT_MS = 1.0    # [assume] app server <-> DB inside one cloud region
 EDGE_POP_KM = 25.0        # [assume] user <-> nearest PoP straight-line distance
 
@@ -72,14 +75,17 @@ class Scenario:
     label: str
     distance_km: float      # user <-> central region (us-east-1 / Ashburn), great-circle
     intercontinental: bool  # True -> RHO_INTL_ASSUMED applies, not the U.S. median
+    measured_rtt_ms: float | None = None  # [owned] median TCP connect, probe -> central server
 
 
 SCENARIOS = [
-    Scenario("metro",   "same-metro (edge-ideal)",                 25,    False),
-    Scenario("nyc",     "same-continent (NYC->Ashburn)",            330,   False),
-    Scenario("oregon",  "US coast-to-coast (Oregon->Ashburn)",      3500,  False),
-    Scenario("london",  "transatlantic (London->Ashburn)",          5900,  True),
-    Scenario("sydney",  "transpacific (Sydney->Ashburn)",           15900, True),
+    Scenario("metro",    "same-metro (edge-ideal)",                25,    False),
+    Scenario("nyc",      "same-continent (NYC->Ashburn)",           330,   False),
+    Scenario("oregon",   "US coast-to-coast (Oregon->Ashburn)",     3500,  False),
+    Scenario("london",   "London->Ashburn",                         5917,  True, 76.9),
+    Scenario("saopaulo", "Sao Paulo->Ashburn",                      7664,  True, 115.1),
+    Scenario("mumbai",   "Mumbai->Ashburn",                         12855, True, 184.9),
+    Scenario("sydney",   "Sydney->Ashburn",                         15674, True, 218.1),
 ]
 
 
@@ -88,12 +94,12 @@ SCENARIOS = [
 # ---------------------------------------------------------------------------
 @dataclass
 class ComputeModel:
-    embed_ms_edge: float = 25.0           # [assume] small encoder on edge GPU/WASM, warm
-    embed_ms_central: float = 25.0        # [assume] same model in the central region
-    central_embed_hop_ms: float = 3.0     # [assume] in-region service-to-service RTT when the
-                                          #   embedder is a separate service (common pattern)
-    search_compute_ms: float = 6.7        # [owned] pgvector HNSW p50 at recall 0.9999,
-                                          #   300k x 768, results/results.csv (Sec. V-E)
+    embed_ms_edge: float = 53.0           # [owned] Workers AI bge-base, median of the five PoP
+                                          #   medians (39-165 ms; strongly PoP-dependent)
+    embed_ms_central: float = 84.0        # [owned] same model on 2 vCPU, in-process
+    central_embed_hop_ms: float = 0.0     # [owned] baseline embeds in-process (no extra hop)
+    search_compute_ms: float = 4.0        # [owned] pgvector HNSW p50, 100k x 768, ef_search=100,
+                                          #   server-side, probe/results (paper Sec. VI)
     generation_prefill_ms: float = 400.0  # [blog] typical LLM prefill-to-first-token; held
                                           #   fixed across topologies by construction
 
@@ -122,6 +128,9 @@ def resolve_net(sc: Scenario, rho_us: float, rho_intl: float,
     rho = rho_intl if sc.intercontinental else rho_us
     if sc.key in measured_rtt:
         user_region = measured_rtt[sc.key]
+        src = "measured"
+    elif sc.measured_rtt_ms is not None:
+        user_region = sc.measured_rtt_ms
         src = "measured"
     else:
         user_region = rtt_model_ms(sc.distance_km, rho)
@@ -165,15 +174,15 @@ def centralized(sc: Scenario, n: Net, cm: ComputeModel, cold_conn: bool) -> Brea
 
 
 def edge_unpooled(sc: Scenario, n: Net, cm: ComputeModel) -> Breakdown:
-    net = n.user_pop + N_SETUP_ROUND_TRIPS * n.pop_db + n.pop_db
+    net = n.user_pop + N_SETUP_CALIBRATED * n.pop_db + n.pop_db
     return Breakdown(sc.label, "edge-unpooled", net, cm.embed_ms_edge, cm.search_compute_ms,
-                     cm.generation_prefill_ms, ["fresh DB conn per request: 7 x PoP<->DB RTT"])
+                     cm.generation_prefill_ms, ["fresh DB conn per request: ~10 x PoP<->DB RTT (calibrated)"])
 
 
 def edge_pooled(sc: Scenario, n: Net, cm: ComputeModel) -> Breakdown:
-    net = n.user_pop + n.pop_db
+    net = n.user_pop + K_POOL_CALIBRATED * n.pop_db
     return Breakdown(sc.label, "edge-pooled", net, cm.embed_ms_edge, cm.search_compute_ms,
-                     cm.generation_prefill_ms, ["warm pooled conn: 1 x PoP<->DB RTT"])
+                     cm.generation_prefill_ms, ["warm pooled conn: 1.26 x PoP<->DB RTT (calibrated)"])
 
 
 def edge_replica(sc: Scenario, n: Net, cm: ComputeModel) -> Breakdown:
@@ -318,6 +327,61 @@ def validate(csv_path: str, quiet: bool = False) -> list[dict]:
     return out
 
 
+def compare(summary_path: str, quiet: bool = False) -> list[dict]:
+    """
+    Model vs end-to-end measurement (probe/results/summary.json, warm connections).
+    Inputs taken from the measurements themselves, per region: the TCP round-trip time to the
+    central server, the embedding medians (edge PoP and central CPU), the search compute median
+    and the client<->PoP overhead. The STRUCTURAL assumptions under test are then:
+        centralized    wall = RTT + embed_central + search
+        edge-pooled    wall = net_pop + embed_edge + k_pool * RTT + search,   k_pool = 1
+        edge-unpooled  wall = net_pop + embed_edge + (n_rt + 1) * RTT + search, n_rt = 7
+        edge-replica   wall = net_pop + embed_edge + search_local           (replica region only)
+    The table reports prediction, measurement, relative error, and the k_pool / n_rt the data imply.
+    """
+    say = (lambda *a, **k: None) if quiet else print
+    rows = json.load(open(summary_path))
+
+    def cell(region, topology):
+        for r in rows:
+            if r["region"] == region and r["topology"] == topology and r["mode"] == "warm":
+                return r
+        return None
+
+    out = []
+    say(f"\nModel vs measurement, warm connections ({summary_path})")
+    hdr = f"{'region':<10}{'topology':<15}{'predicted':>10}{'measured':>10}{'error':>8}   implied parameter"
+    say(hdr)
+    say("-" * len(hdr))
+    regions = sorted({r["region"] for r in rows}, key=lambda g: cell(g, "centralized")["tcp_rtt_ms"])
+    for g in regions:
+        c = cell(g, "centralized")
+        rtt = c["tcp_rtt_ms"]
+        search = c["search_p50"]
+        preds = {"centralized": rtt + c["embed_p50"] + search}
+        implied = {"centralized": ""}
+        p = cell(g, "edge-pooled")
+        if p:
+            preds["edge-pooled"] = p["net_p50"] + p["embed_p50"] + 1.0 * rtt + search
+            implied["edge-pooled"] = f"k_pool = {(p['search_p50'] - search) / rtt:.2f}" if rtt > 5 else ""
+        u = cell(g, "edge-unpooled")
+        if u:
+            preds["edge-unpooled"] = u["net_p50"] + u["embed_p50"] + (N_SETUP_ROUND_TRIPS + 1) * rtt + search
+            implied["edge-unpooled"] = f"n_rt = {(u['search_p50'] - search) / rtt - 1:.1f}" if rtt > 5 else ""
+        r = cell(g, "edge-replica")
+        if r and r["search_p50"] < 50:  # the region that actually hosts the replica
+            preds["edge-replica"] = r["net_p50"] + r["embed_p50"] + r["search_p50"]
+            implied["edge-replica"] = "local replica"
+        for topo, pred in preds.items():
+            meas = cell(g, topo)["wall_p50"]
+            err = (pred - meas) / meas * 100
+            say(f"{g:<10}{topo:<15}{pred:>10.1f}{meas:>10.1f}{err:>7.0f}%   {implied[topo]}")
+            out.append({"region": g, "topology": topo, "predicted_ms": round(pred, 1),
+                        "measured_ms": meas, "error_pct": round(err, 1), "implied": implied[topo]})
+        say()
+    return out
+
+
 def parse_rtt(items: list[str]) -> dict[str, float]:
     out = {}
     for it in items:
@@ -341,6 +405,8 @@ def main() -> None:
     ap.add_argument("--search-ms", type=float, default=None, help="override T_search compute (ms)")
     ap.add_argument("--hnsw-sweep", action="store_true", help="print HNSW search-cost sensitivity")
     ap.add_argument("--validate", metavar="CSV", help="check the HNSW floor against bench.py results")
+    ap.add_argument("--compare", metavar="SUMMARY_JSON",
+                    help="compare the model with end-to-end probe results (probe/results/summary.json)")
     ap.add_argument("--json", action="store_true", help="emit machine-readable JSON")
     args = ap.parse_args()
 
@@ -375,22 +441,25 @@ def main() -> None:
             })
         if args.validate:
             payload["validation"] = validate(args.validate, quiet=True)
+        if args.compare:
+            payload["comparison"] = compare(args.compare, quiet=True)
         print(json.dumps(payload, indent=2))
         return
 
-    print("Edge-RAG latency model: analytical, no measurements.")
-    print(f"rho_us={args.rho}  rho_intl={args.rho_intl} [assume]  cold_conn(centralized)={args.cold_conn}"
-          f"  T_search={cm.search_compute_ms} ms [owned]  T_gen={cm.generation_prefill_ms} ms [blog]\n")
+    print("Edge-RAG latency model, calibrated against the end-to-end measurements (paper Sec. VI).")
+    print(f"rho_us={args.rho} (model-only scenarios)  cold_conn(centralized)={args.cold_conn}"
+          f"  E_edge={cm.embed_ms_edge} E_central={cm.embed_ms_central} S={cm.search_compute_ms} ms [owned]"
+          f"  k_pool={K_POOL_CALIBRATED} n_rt={N_SETUP_CALIBRATED} [owned]  T_gen={cm.generation_prefill_ms} ms [blog]\n")
     print_table(cm, args.rho, args.rho_intl, args.cold_conn, measured)
     if args.hnsw_sweep:
         print_hnsw_sweep()
     if args.validate:
         validate(args.validate)
-    print("\nBoundary: T_generation is held fixed across topologies. Edge placement acts on the\n"
-          "retrieval prefix only. Against a correctly specified centralized baseline, an edge Worker\n"
-          "that still queries a central DB gains nothing on the network term; the gain appears only\n"
-          "when the vector tier is replicated near the PoP. Pooling is what makes an edge Worker\n"
-          "viable at all (compare edge-unpooled vs edge-pooled), not what beats the central baseline.")
+    if args.compare:
+        compare(args.compare)
+    print("\nBoundary: T_generation is held fixed across topologies (not measured). The edge embedding\n"
+          "constant is a cross-PoP median; measured per-PoP medians range from 39 to 165 ms, which\n"
+          "changes the sign of the pooled-edge comparison by region (paper Table II).")
 
 
 if __name__ == "__main__":

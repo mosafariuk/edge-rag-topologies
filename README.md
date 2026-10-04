@@ -1,27 +1,38 @@
 # Edge-RAG: Latency Optimization in RAG via Edge Computing
 
-An IEEE-format paper, a reference implementation, an analytical latency model and an owned
-pgvector benchmark for the question: *when does moving the retrieval prefix of RAG (query
-embedding + vector search) to edge compute reduce time-to-first-token?*
+An IEEE-format measurement study, with all code and raw data, of the question: *when does moving
+the retrieval prefix of RAG (query embedding + vector search) to edge compute make it faster?*
 
-**Short answer from the model:** an edge Worker with a pooled connection to a central vector tier
-matches a centralized deployment; an unpooled edge Worker is far slower; the distance-dependent
-gain (about one user-to-region round trip) appears only when the vector tier is replicated near
-the point of presence. Generation remains the largest term everywhere.
+**Measured answer (30,000 requests, five regions, five topologies, 1 Oct 2026):**
+
+| Probe | Centralized | Edge, unpooled | Edge, pooled | Edge + near-user DB copy (Sydney) |
+|---|---|---|---|---|
+| Virginia | 92 | 141 | **76** | 316 |
+| London | 167 | 923 | **150** | 397 |
+| Sao Paulo | **205** | 1,360 | 257 | 495 |
+| Mumbai | **275** | 2,595 | 353 | 411 |
+| Sydney | 294 | 2,358 | 427 | **191** |
+
+Median wall time in ms on warm connections. A pooled edge Worker wins near a well-provisioned PoP,
+loses for distant users unless the database is near them too, and an unpooled one pays 9-13
+connection-setup round trips. On cold connections the pooled edge Worker wins everywhere outside
+the database's region because TLS terminates at the PoP.
 
 ## Contents
 
 | File | What it is |
 |------|-----------|
 | `paper.md` | The paper in Markdown (abstract to references). |
-| `ieee_manuscript.tex` / `.pdf` | The same paper in IEEE conference format (8 pages; `tectonic ieee_manuscript.tex`). |
+| `ieee_manuscript.tex` / `.pdf` | The same paper in IEEE conference format (9 pages; `tectonic ieee_manuscript.tex`). |
 | `SOURCES.md` | Every source with a quality tag, the figure taken from it, and the list of claims removed in the 2026-09-30 revision. |
 | `worker.ts`, `wrangler.toml`, `package.json`, `tsconfig.json` | Cloudflare Worker: embed at the edge (Workers AI, 768-d) → pooled pgvector cosine search inside one transaction → `Server-Timing` per stage. `npm run typecheck`. |
 | `schema.sql` | pgvector schema, HNSW / IVFFlat DDL and parameter notes. |
 | `hyperdrive.md` | Edge→Postgres pooling: Hyperdrive and PgBouncer, what pooling does and does not fix. |
 | `latency_sim.py` | Analytical calculator for four topologies (no I/O, every constant tagged) plus the HNSW cost and index-size models. |
 | `bench.py`, `docker-compose.yml` | Owned pgvector benchmark harness (HNSW vs IVFFlat recall@10 / latency / QPS grid). |
-| `results/` | Raw run outputs (`results.csv`, `run.log`), harness-written `summary.json`, and `ERRATA.md`. |
+| `results/` | Retrieval-tier benchmark: raw outputs, harness-written `summary.json`, `ERRATA.md`. |
+| `baseline/`, `deploy/`, `load_corpus.py`, `embed_chunked.py` | Centralized baseline server, TLS pgvector deployment, binary-COPY corpus loader, resumable embedder. |
+| `probe/` | Probe client, matrix runner, analyzer; `probe/results/` holds the 30,000-row end-to-end dataset and its summary. `PHASE2.md` is the runbook. |
 
 ## Run the model
 
@@ -59,11 +70,20 @@ npx wrangler deploy
 Apply `schema.sql`, load L2-normalized 768-d embeddings into `documents`, build the HNSW index and
 `ANALYZE`. Responses carry `Server-Timing: embed;dur=…, search;dur=…, total;dur=…`.
 
-## Status and next step
+## Regenerate the paper's tables
 
-The four topologies are modelled, not yet measured end to end. The next phase deploys the Worker
-in the centralized, edge-unpooled, edge-pooled and edge-replica configurations and probes them
-from at least five geographies (paper Section VII-D).
+```bash
+python3 probe/analyze.py probe/results/*.csv          # Table I / II inputs (medians, CIs, stages)
+python3 latency_sim.py --compare probe/results/summary.json   # Table III (model vs measurement)
+python3 latency_sim.py --validate results/results.csv         # HNSW cost bound vs Table IV
+```
+
+## Status
+
+End-to-end measurements are from a single session (01:20-03:38 UTC). A repeat session was lost
+when the cloud instances were terminated before collection; the paper states this limitation.
+Open items: repeat sessions, a larger retrieval benchmark on server-class hardware, a comparison
+with Workers AI + Vectorize, and peer review.
 
 ## Revision note (2026-09-30)
 

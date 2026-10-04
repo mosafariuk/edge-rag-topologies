@@ -36,8 +36,18 @@ re-fetched on 2026-09-30 and the figure the paper takes from it is noted.
 - [24] pgvector README — https://github.com/pgvector/pgvector **[vendor/open source]** — parameter semantics.
 
 ## Owned
-- `results/results.csv`, `results/run.log`, `results/summary.json`, `results/ERRATA.md` **[owned]** — the July 2026 pgvector 0.8.5 / PG 17.10 run (300k × 768). See ERRATA for the known artifacts.
-- `latency_sim.py` **[owned, analytical]** — no measurements; every constant tagged.
+- `probe/results/*.csv`, `probe/results/summary.{md,json}` **[owned]** — end-to-end probe run of 1 Oct 2026, 01:20–03:38 UTC: 30,000 requests (5 regions × 5 topologies × cold/warm × 600), all HTTP 200. Source of paper Tables I–III and every figure in Section VI.
+- `probe/embed_health_LHR_2026-09-30.json` **[owned]** — pre-test Workers AI embedding sample (n = 80, LHR).
+- `results/results.csv`, `results/run.log`, `results/summary.json`, `results/ERRATA.md` **[owned]** — the July 2026 pgvector 0.8.5 / PG 17.10 retrieval-tier run (300k × 768). See ERRATA for the known artifacts.
+- `latency_sim.py` **[owned, analytical]** — additive model; defaults now calibrated to the probe run (`--compare` reproduces Table III).
+- [25] Bajaj et al., MS MARCO, arXiv:1611.09268 **[primary]** — corpus source (first 100k passages of the passage collection).
+
+## Superseded by measurement in the 2026-10-01 revision
+1. "A pooled edge Worker matches the centralized baseline" (model) → measured: 16 ms faster near LHR/IAD, 52–133 ms slower from São Paulo, Mumbai, Sydney.
+2. "A near-PoP replica saves one round trip (~209 ms at Sydney)" (model) → measured: 104 ms, because SYD edge embedding takes 165 ms.
+3. "Edge embedding ≈ 25 ms" (assumption) → measured PoP medians 39–165 ms.
+4. "Connection setup ≈ 7 round trips" (vendor) → measured 9.0–12.7.
+5. "Intercontinental ρ = 1.3" (assumption) → measured 1.30–1.50.
 
 ## Removed in the 2026-09-30 revision (attribution or support failed on re-check)
 1. Container boot percentiles attributed to Cloudflare documentation → they are from [20]; Cloudflare's own figure is "1–3 s".
