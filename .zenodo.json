@@ -1,0 +1,26 @@
+{
+  "title": "Latency Optimization in Retrieval-Augmented Generation via Edge Computing: A Measurement Study of Edge-RAG Deployment Topologies",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Safari, Mohammad",
+      "affiliation": "Independent Research"
+    }
+  ],
+  "description": "<p>Retrieval-augmented generation (RAG) usually runs embedding, search and generation in one cloud region, so distant users pay cross-continent round trips before the first token. We measure when moving embedding and vector search to the edge shortens it. Five topologies over 100,000 MS MARCO passages in PostgreSQL/pgvector were probed from five regions with 30,000 requests and per-stage server timing: a centralized server, the same server behind an edge TLS proxy, and a Cloudflare Worker that embeds at the edge and reaches the database unpooled, pooled, or pooled to a copy near the user. On warm connections the pooled Worker is 16 ms faster than the centralized baseline in Virginia and London and 52 to 133 ms slower from São Paulo, Mumbai and Sydney, because the pooled path costs 1.15 to 1.57 round trips and edge embedding medians range from 39 to 165 ms by point of presence. A database copy near the user makes the edge fastest in Sydney, 104 ms (35%) below the baseline, about half the propagation-only prediction. Without pooling the Worker pays 9 to 13 setup round trips, for request times of 0.9 to 2.6 s. On cold connections the pooled Worker beats the centralized server in every region outside the database's own, by 151 to 298 ms, because TLS terminates nearby; an edge TLS proxy in front of the central server does as well or better in three of the four. An additive latency model predicts the centralized and near-copy topologies within 4% and, with propagation-only parameters, underestimates the pooled and unpooled paths by 7 to 42%; calibrated parameters are reported. On one million MS MARCO embeddings, HNSW is 82 times faster than an exact scan at Recall@10 of 0.994 and 10 to 19 times faster than IVFFlat settings reaching 0.93 or more, at equal or higher recall; HNSW index size is set by page packing, not graph degree. Code and raw data are released.</p><p>Includes the paper (ieee_manuscript.pdf), the Cloudflare Worker, the centralized baseline, probe and benchmark harnesses, the latency simulator, and all raw measurement data.</p>",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "retrieval-augmented generation",
+    "edge computing",
+    "serverless",
+    "Cloudflare Workers",
+    "pgvector",
+    "HNSW",
+    "approximate nearest neighbor search",
+    "connection pooling",
+    "latency measurement"
+  ],
+  "version": "1.0",
+  "language": "eng"
+}

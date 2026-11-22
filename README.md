@@ -100,3 +100,7 @@ An audit against the cited sources and the raw data found misattributed cold-sta
 mis-specified simulator baseline, an HNSW cost model contradicted by the measurements, and a
 Worker bug that left `ef_search` at its default. All were corrected in this revision; the removed
 claims are listed at the end of `SOURCES.md`.
+
+## License
+
+Paper and data: CC BY 4.0. Code: MIT. See `LICENSE`.
