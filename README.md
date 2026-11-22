@@ -1,5 +1,7 @@
 # Edge-RAG: Latency Optimization in RAG via Edge Computing
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24447712.svg)](https://doi.org/10.5281/zenodo.24447712)
+
 An IEEE-format measurement study, with all code and raw data, of the question: *when does moving
 the retrieval prefix of RAG (query embedding + vector search) to edge compute make it faster?*
 
