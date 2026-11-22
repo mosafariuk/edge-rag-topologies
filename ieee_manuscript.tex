@@ -48,13 +48,14 @@ managed edge inference embeds a query in a median of about 40~ms at one point of
 about 165~ms at another. Second, a database copy near the user makes the edge Worker the fastest
 option there, 104~ms (35 percent) below the baseline, about half of what a propagation-only model
 predicts. Third, an unpooled edge Worker pays 9 to 13 connection-setup round trips per request,
-0.9 to 2.6~s. Fourth, on cold connections the centralized baseline pays two additional round trips
+for request times of 0.9 to 2.6~s. Fourth, on cold connections the centralized baseline pays two additional round trips
 for TCP and TLS, so the pooled edge Worker beats it in every region outside the database's own, by
-151 to 298~ms, and the near-user copy beats it by 533~ms. An additive latency model predicts the
+151 to 298~ms, and the near-user copy beats it by 533~ms; an edge TLS proxy in front of the central server
+beats the pooled Worker in three of the four remote regions. An additive latency model predicts the
 centralized and near-replica topologies within 4 percent and underestimates the pooled and
 unpooled paths by 7 to 42 percent; we report the calibrated parameters. Separate measurements of
 the retrieval tier on one million MS~MARCO passage embeddings show HNSW serving 10 to 19 times
-faster than IVFFlat at equal or higher recall and 82 times faster than an exact scan at
+faster than IVFFlat at equal or higher recall where IVFFlat reaches Recall@10 of 0.93 or more and 82 times faster than an exact scan at
 Recall@10 of 0.994, and confirm that the on-disk HNSW index size is fixed by page packing rather
 than graph degree. Code,
 harnesses and raw data are released.
@@ -108,7 +109,7 @@ auth)''~\cite{hyperdrive2023}; a later Cloudflare post gives ``a bare minimum of
 five regions: 30{,}000 requests with per-stage server timing, on cold and warm client connections
 (Section~\ref{sec:e2e}).
 \item Four empirical findings on when edge placement helps: parity or a small gain near
-well-provisioned points of presence, a loss for distant users unless the database is also near
+the database's region, a loss for distant users unless the database is also near
 them, a large penalty without pooling, and a consistent gain on cold connections.
 \item An additive latency model, compared against the measurements topology by topology, with the
 calibrated pooled-path and connection-setup parameters that the comparison yields
@@ -181,7 +182,7 @@ We consider a user at great-circle distance $D$ from the cloud region that hosts
 database, and a nearby point of presence (PoP); see Fig.~\ref{fig:topo}. In the
 \emph{centralized} baseline one server in the database's region embeds the query on CPU and
 queries the database over a pooled in-region connection. \emph{Central-tunnel} places a Cloudflare
-edge proxy in front of the same server, so the user's TLS session terminates at a nearby PoP while
+edge proxy (a Cloudflare quick tunnel) in front of the same server, so the user's TLS session terminates at a nearby PoP while
 all computation stays central. In the three \emph{edge} topologies a Cloudflare Worker at the PoP
 embeds the query through Workers AI and reaches the database with a fresh connection per request
 (\emph{edge-unpooled}), through Cloudflare Hyperdrive (\emph{edge-pooled}), or through Hyperdrive
@@ -346,7 +347,7 @@ bandwidth gives a lower bound on search compute. With $c = 0.5$ and an assumed 8
 ranges from 0.37 to 5.16~ms over the twelve HNSW configurations of Section~\ref{sec:meas} and lies
 below every measured median, at 24 to 39 percent of it. A multiplicative form,
 $c\,\mathrm{ef}\,\bar m \log N$, which appeared in an earlier draft, predicts a floor of 44.7~ms
-for a configuration measured at 6.7~ms and is withdrawn.
+for a configuration measured at 6.7~ms in an earlier synthetic run and is withdrawn.
 
 \textbf{Index size.} pgvector stores each element's vector and its neighbour list in 8~KiB pages,
 and tuples are not split across pages. With $d = 768$ an element tuple is about 3{,}104 bytes and a
@@ -413,11 +414,11 @@ Virginia   & warm & 92 [91, 93]            & 114 [111, 116] & 141 [140, 142]    
 London     & warm & 167 [166, 168]         & 187 [184, 189] & 923 [918, 925]         & \textbf{150 [149, 152]} & 397 [395, 399] \\
 S\~ao Paulo & warm & \textbf{205 [204, 206]} & 236 [235, 237] & 1{,}360 [1{,}341, 1{,}370] & 257 [253, 260]      & 495 [492, 498] \\
 Mumbai     & warm & \textbf{275 [274, 276]} & 303 [301, 306] & 2{,}595 [2{,}584, 2{,}615] & 353 [351, 355]      & 411 [374, 543] \\
-Sydney     & warm & 294 [294, 295]         & 324 [323, 326] & 2{,}358 [2{,}343, 2{,}373] & 427 [425, 430]      & \textbf{191 [189, 192]} \\
+Sydney     & warm & 295 [294, 295]         & 324 [323, 326] & 2{,}358 [2{,}343, 2{,}373] & 427 [425, 430]      & \textbf{191 [189, 192]} \\
 \midrule
 Virginia   & cold & \textbf{96 [95, 97]}   & 134 [132, 136] & 166 [164, 169]         & 106 [104, 109]          & 348 [346, 350] \\
 London     & cold & 327 [325, 330]         & 205 [204, 207] & 941 [938, 943]         & \textbf{170 [168, 171]} & 417 [415, 419] \\
-S\~ao Paulo & cold & 436 [435, 437]         & \textbf{251 [249, 253]} & 1{,}431 [1{,}418, 1{,}439] & 284 [281, 291] & 508 [503, 514] \\
+S\~ao Paulo & cold & 436 [435, 437]         & \textbf{251 [249, 253]} & 1{,}431 [1{,}418, 1{,}439] & 285 [281, 291] & 508 [503, 514] \\
 Mumbai     & cold & 655 [650, 656]         & \textbf{319 [317, 320]} & 2{,}654 [2{,}646, 2{,}665] & 373 [371, 376] & 351 [348, 355] \\
 Sydney     & cold & 738 [736, 741]         & 338 [336, 341] & 2{,}363 [2{,}355, 2{,}372] & 441 [437, 444]      & \textbf{205 [204, 207]} \\
 \bottomrule
@@ -434,7 +435,7 @@ Sydney     & cold & 738 [736, 741]         & 338 [336, 341] & 2{,}363 [2{,}355, 
   enlarge x limits=0.14, ymajorgrids, grid style={black!12},
   legend style={font=\scriptsize, at={(0.5,1.03)}, anchor=south, legend columns=4, draw=none},
   tick label style={font=\scriptsize}, label style={font=\scriptsize}]
-\addplot[fill=black!75, draw=black] coordinates {(Virginia,92) (London,167) (S\~ao Paulo,205) (Mumbai,275) (Sydney,294)};
+\addplot[fill=black!75, draw=black] coordinates {(Virginia,92) (London,167) (S\~ao Paulo,205) (Mumbai,275) (Sydney,295)};
 \addplot[fill=red!55, draw=red!70!black] coordinates {(Virginia,141) (London,923) (S\~ao Paulo,1360) (Mumbai,2595) (Sydney,2358)};
 \addplot[fill=blue!55, draw=blue!70!black] coordinates {(Virginia,76) (London,150) (S\~ao Paulo,257) (Mumbai,353) (Sydney,427)};
 \addplot[fill=green!45!black!40, draw=green!40!black] coordinates {(Virginia,316) (London,397) (S\~ao Paulo,495) (Mumbai,411) (Sydney,191)};
@@ -473,37 +474,40 @@ probe the edge-replica search time is 12.5~ms.}
 \end{table}
 
 \subsection{Findings}\label{sec:findings}
-\textbf{1. Warm connections: a pooled edge Worker helps near a well-provisioned PoP and hurts far
-from the database.} At Virginia and London the pooled Worker is 16~ms faster than the centralized
-baseline. At S\~ao Paulo, Mumbai and Sydney it is 52, 78 and 133~ms slower. Two measured effects
+\textbf{1. Warm connections: a pooled edge Worker is roughly level near the database and slower
+far from it.} At Virginia and London the pooled Worker is 16~ms faster than the centralized
+baseline, about the size of the shared-baseline effect described in Section~\ref{sec:threats}. At S\~ao Paulo, Mumbai and Sydney it is 52, 78 and 133~ms slower. Two measured effects
 explain this. The pooled query path costs more than one round trip: $k_{\mathrm{pool}}$ is 1.15 to
 1.57, and the minimum search time in every region exceeds $R$, so no response was served from a
 cache. And edge embedding time depends on the PoP: the median is 39 to 53~ms at London, Virginia
 and Mumbai, below the baseline's 84~ms on two CPU cores, but 91~ms at S\~ao Paulo and 165~ms at
-Sydney. The same model is evidently not served with the same capacity at every location.
+Sydney. In this session the same model was served at different speeds at different locations;
+with one session we cannot separate PoP capacity from time-of-day load.
 
 \textbf{2. A database copy near the user makes the edge fastest there, by about half the modelled
-amount.} For the Sydney probe, edge-replica takes 191~ms against 294~ms for the baseline, a 104~ms
+amount.} For the Sydney probe, edge-replica takes 191~ms against 295~ms for the baseline, a 104~ms
 or 35 percent reduction, and 236~ms below the pooled Worker that queries Virginia. Removing one
 218~ms round trip does not yield 218~ms because embedding at the Sydney PoP takes 165~ms against
-83~ms centrally. From the other four regions the same Sydney database is distant, and edge-replica
-is the slowest pooled option: placing data away from the user is as costly as placing it near is
-beneficial.
+83~ms centrally. From the other four regions the same Sydney database is distant, and on warm
+connections edge-replica is the slowest pooled option, 136 to 290~ms slower than the centralized
+baseline: placing data away from the user costs more than placing it near saves.
 
 \textbf{3. Without pooling, an edge Worker pays 9 to 13 setup round trips on every request.} The
 unpooled search time is 870~ms from London and over 2.1~s from Mumbai and Sydney. Even next to the
-database (Virginia) connection setup costs 71~ms against 14~ms pooled. The vendor's figure of
-seven round trips~\cite{hyperdrive2023} underestimates what we observe with TLS and SCRAM
+database (Virginia) connection setup costs 71~ms against 14~ms pooled. The vendor describes
+``upwards of seven'' round trips~\cite{hyperdrive2023}; we observe 9 to 13 with TLS and SCRAM
 authentication through the Workers socket API.
 
-\textbf{4. Cold connections favour the pooled edge Worker everywhere outside the database's
-region.} A new connection to the centralized server costs the client two additional round trips,
+\textbf{4. Cold connections favour terminating TLS at the edge everywhere outside the
+database's region.} A new connection to the centralized server costs the client two additional round trips,
 TCP and TLS~1.3, over the long path: the median connect time is 156~ms from London and 438~ms from
-Sydney, twice $R$. Edge topologies terminate TLS at the PoP in 8 to 15~ms. On cold connections the
+Sydney, twice $R$. Edge topologies terminate TLS at the PoP in 6 to 15~ms. On cold connections the
 pooled Worker is therefore 157~ms faster than the baseline at London, 151~ms at S\~ao Paulo,
 282~ms at Mumbai and 298~ms at Sydney, and the near-user copy is 533~ms faster at Sydney. The
 tunnel row isolates this effect: with all computation still central, edge TLS termination alone
-brings Sydney from 738 to 338~ms cold, while costing 20 to 31~ms on warm connections.
+brings Sydney from 738 to 338~ms cold, while costing 20 to 31~ms on warm connections. On cold
+connections the tunnel is faster than the pooled Worker at S\~ao Paulo, Mumbai and Sydney (251,
+319 and 338~ms against 285, 373 and 441~ms) and slower only at London (205 against 170~ms).
 
 \textbf{5. Embedding tails differ by an order of magnitude.} Across 3{,}600 edge requests per
 region, the 99th-percentile embedding time is 83~ms at London, 150~ms at Virginia, 174~ms at
@@ -530,7 +534,7 @@ Virginia    & 90  & 92  & 67  & 76  & 81      & 141     &     &     \\
 London      & 165 & 167 & 132 & 150 & 680     & 923     &     &     \\
 S\~ao Paulo & 204 & 205 & 223 & 257 & 1{,}022 & 1{,}360 &     &     \\
 Mumbai      & 273 & 275 & 251 & 353 & 1{,}542 & 2{,}595 &     &     \\
-Sydney      & 305 & 294 & 396 & 427 & 1{,}931 & 2{,}358 & 191 & 191 \\
+Sydney      & 305 & 295 & 396 & 427 & 1{,}931 & 2{,}358 & 191 & 191 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -538,7 +542,7 @@ Sydney      & 305 & 294 & 396 & 427 & 1{,}931 & 2{,}358 & 191 & 191 \\
 The additive structure predicts the centralized topology within 4 percent and the near-user copy
 within 1 percent. With $k_{\mathrm{pool}} = 1$ it underestimates the pooled Worker by 7 to 29
 percent, and with $n_{rt} = 7$ the unpooled Worker by 18 to 42 percent. The data imply
-$k_{\mathrm{pool}}$ between 1.15 and 1.57 (median 1.26) and $n_{rt}$ between 9.0 and 12.7 (median
+$k_{\mathrm{pool}}$ between 1.15 and 1.57 (median 1.25) and $n_{rt}$ between 9.0 and 12.7 (median
 10.0). With these calibrated values the model can be used for regions not probed;
 \code{latency\_sim.py --compare} regenerates the table from the raw data.
 
@@ -647,8 +651,8 @@ An exact sequential scan, the brute-force baseline, measured Recall@10 of 1.000 
 \item Recall rises with \code{ef\_search} within every build, and with \code{ef\_construction} and
 $m$ across builds at every \code{ef\_search}; median latency rises with \code{ef\_search} in every
 build. No configuration in the grid reaches Recall@10 of 0.999.
-\item At equal or higher recall, the fastest HNSW configuration is 10 to 19 times faster than
-IVFFlat: 2.17~ms at 0.949 against 21.94~ms at 0.938 (\code{lists = 4000}, \code{probes = 100}), and
+\item Against the IVFFlat settings that reach Recall@10 of 0.93 or more, the fastest HNSW
+configuration of equal or higher recall is 10 to 19 times faster: 2.17~ms at 0.949 against 21.94~ms at 0.938 (\code{lists = 4000}, \code{probes = 100}), and
 4.26~ms at 0.975 against 80.64~ms at 0.968 (\code{lists = 1000}, \code{probes = 100}).
 \item One configuration reaches Recall@10 of at least 0.99: $m = 32$, \code{ef\_search = 400}, at
 13.39~ms, 82 times faster than the exact scan. At 0.987 to 0.988 the medians are 7.47 and
@@ -661,8 +665,9 @@ latency from \code{probes = 10} upward.
 \item Index size is invariant to $m$ at this dimensionality, as the page-packing model predicts.
 \end{enumerate}
 An earlier run of the same grid on 300{,}000 synthetic Gaussian-mixture vectors on a laptop
-(\code{results/}) reached Recall@10 of 0.9999 at settings that give 0.977 to 0.987 here: synthetic
-mixtures overstate the recall of both index types, and that run is no longer reported. On the
+(\code{results/}) reached Recall@10 of 0.9999 at settings that give 0.977 and 0.988 here for HNSW and 0.818 to
+0.968 for IVFFlat. That synthetic benchmark, at under a third of the corpus size, overstated the
+recall of both index types, and it is no longer reported. On the
 servers of Section~\ref{sec:e2e}, with 100{,}000 vectors and \code{ef\_search = 100}, the
 server-side search median was 4~ms, the same magnitude as the 2.5 to 4.3~ms measured here at
 \code{ef\_search = 100}.
@@ -671,25 +676,29 @@ server-side search median was 4~ms, the same magnitude as the 2.5 to 4.3~ms meas
 The measurements support a conditional answer to the question in the title. Moving the retrieval
 prefix to the edge is not a uniform improvement. Its effect is the sum of three terms that differ
 in sign across regions: client connection setup, which the edge always shortens; embedding time,
-which the edge shortens or lengthens depending on the inference capacity of the serving PoP; and
+which the edge shortens or lengthens depending on the embedding latency at the serving PoP; and
 the path to the database, which pooling makes tolerable and which only a nearby copy of the data
 makes short.
 
-For a deployment, this yields three practical rules. A Worker without a connection pool should not
-be deployed against a distant database under any workload. A pooled Worker with a central database
-is the better choice when sessions are short and connections are mostly cold, and the worse choice
-for long-lived warm connections from distant regions. And a regional copy of the vector tier is
+For a deployment, this yields four practical rules. A Worker without a connection pool should not
+be deployed against a distant database under any workload. When sessions are short and
+connections mostly cold, terminating TLS at the edge is what pays: a TLS proxy in front of the
+central server was the fastest central-database option from S\~ao Paulo, Mumbai and Sydney, and the
+pooled Worker only from London. For long-lived warm connections from distant regions, the pooled
+Worker is the worse choice. And a regional copy of the vector tier is
 worthwhile only together with a check of the embedding latency at the PoPs that will serve it,
 since slow edge inference can consume half of the gain.
 
 The centralized baseline was also improved by an edge component: terminating TLS at the edge and
-proxying to the central server captured most of the cold-connection benefit with no change to
-where embedding or search run. A fair evaluation of an edge architecture should include this
+proxying to the central server captured as much of the cold-connection benefit as the pooled
+Worker, or more, in three of four remote regions, with no change to where embedding or search
+run. A fair evaluation of an edge architecture should include this
 cheaper alternative.
 
-The single-round-trip transaction was the largest implementation effect we encountered, a factor
-of about four in pooled search time. Statement count per request matters more at the edge than in
-a region, because every statement is a wide-area round trip.
+The single-round-trip transaction was the largest implementation effect we encountered: about
+460~ms of pooled search time as four statements against 125 to 130~ms as one, in pre-test requests
+through the London PoP. Across a wide-area path every
+statement is a round trip, so the statement count per request matters.
 
 \section{Threats to Validity and Future Work}\label{sec:threats}
 
@@ -749,23 +758,23 @@ set.
 \item Compare against the vendor-default stack, Workers AI with
 Vectorize~\cite{cfragtutorial,cfvectorize}, and against a GPU-backed central embedder.
 \item Replace the independent copy with streaming replicas and measure staleness.
-\item Rerun the retrieval benchmark with warm-up and repeats on server-class memory, at one
-million or more real text embeddings.
+\item Measure the retrieval tier under concurrent load and with more embedding models.
 \item Add generation to measure TTFT end to end.
 \end{enumerate}
 
 \section{Conclusion}
 We deployed five topologies for the retrieval prefix of retrieval-augmented generation and
 measured them with 30{,}000 requests from five regions. An edge Worker with a pooled connection to
-a central vector database is slightly faster than a centralized server for users near a
-well-provisioned point of presence and 52 to 133~ms slower for distant users on warm connections,
+a central vector database is 16~ms faster than a centralized server near the database's region, about the size of a
+load effect on the baseline, and 52 to 133~ms slower for distant users on warm connections,
 because the pooled path costs more than one round trip and edge embedding time varies fourfold
 between points of presence. A copy of the database near the user makes the edge the fastest option
 there, by 104~ms at Sydney. An unpooled edge Worker pays 9 to 13 setup round trips per request. On
 cold connections the pooled edge Worker beats the centralized server in every region outside the
-database's own, by 151 to 298~ms, because TLS terminates nearby. An additive model reproduces the
-centralized and near-copy topologies within 4 percent and, once calibrated, the pooled and
-unpooled ones. The retrieval tier itself contributes 4~ms at this corpus size; its recall and
+database's own, by 151 to 298~ms, because TLS terminates nearby; an edge TLS proxy in front of the
+central server does as well or better in three of the four. An additive model reproduces the
+centralized and near-copy topologies within 4 percent and, with propagation-only parameters,
+underestimates the pooled and unpooled ones by 7 to 42 percent; we report calibrated parameters. The retrieval tier itself contributes 4~ms at this corpus size; its recall and
 latency behaviour and the page-packing invariance of HNSW index size are characterized separately.
 All code and data are released at
 \url{https://github.com/mosafariuk/edge-rag-topologies}.

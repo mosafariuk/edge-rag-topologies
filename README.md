@@ -11,12 +11,14 @@ the retrieval prefix of RAG (query embedding + vector search) to edge compute ma
 | London | 167 | 923 | **150** | 397 |
 | Sao Paulo | **205** | 1,360 | 257 | 495 |
 | Mumbai | **275** | 2,595 | 353 | 411 |
-| Sydney | 294 | 2,358 | 427 | **191** |
+| Sydney | 295 | 2,358 | 427 | **191** |
 
-Median wall time in ms on warm connections. A pooled edge Worker wins near a well-provisioned PoP,
-loses for distant users unless the database is near them too, and an unpooled one pays 9-13
-connection-setup round trips. On cold connections the pooled edge Worker wins everywhere outside
-the database's region because TLS terminates at the PoP.
+Median wall time in ms on warm connections. A pooled edge Worker is roughly level near the
+database's region, loses for distant users unless the database is near them too, and an unpooled
+one pays 9-13 connection-setup round trips. On cold connections the pooled edge Worker beats the
+centralized server everywhere outside the database's region because TLS terminates at the PoP;
+an edge TLS proxy in front of the unchanged central server does better still from São Paulo,
+Mumbai and Sydney.
 
 ## Contents
 

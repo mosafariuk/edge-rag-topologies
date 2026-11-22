@@ -44,7 +44,7 @@ re-fetched on 2026-09-30 and the figure the paper takes from it is noted.
 - [25] Bajaj et al., MS MARCO, arXiv:1611.09268 **[primary]** — corpus source (first 100k passages of the passage collection for Section VI; first 1M passages and first 1,000 dev.small queries for Section VII).
 
 ## Superseded by measurement in the 2026-11-22 revision (real embeddings replace synthetic vectors)
-1. "At Recall@10 of 0.9999, HNSW is 1.9–2.7× faster than IVFFlat" (synthetic 300k) → on 1M real embeddings no configuration reaches 0.999; at equal or higher recall HNSW is 10–19× faster (2.17 vs 21.94 ms at 0.949/0.938; 4.26 vs 80.64 ms at 0.975/0.968).
+1. "At Recall@10 of 0.9999, HNSW is 1.9–2.7× faster than IVFFlat" (synthetic 300k) → on 1M real embeddings no configuration reaches 0.999; against IVFFlat settings reaching Recall@10 ≥ 0.93, HNSW at equal or higher recall is 10–19× faster (2.17 vs 21.94 ms at 0.949/0.938; 4.26 vs 80.64 ms at 0.975/0.968).
 2. "At Recall@10 ≥ 0.99, HNSW is 48–169× faster than the exact scan" → one configuration reaches ≥ 0.99 (0.994, 13.39 ms), 82× faster than the 1,094.7 ms exact scan.
 3. "IVFFlat recall saturates by probes = 10" → on real embeddings recall keeps rising to probes = 100 (0.818 → 0.968 at lists = 1000).
 4. "IVFFlat lists = 4000 cannot be built" → it builds with 16 GB maintenance_work_mem (810.6 s); the failure was the laptop's 2 GB budget.

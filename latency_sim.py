@@ -64,7 +64,7 @@ N_SETUP_ROUND_TRIPS = 7   # [vendor] Cloudflare (Hyperdrive launch post, Sep 202
                           #   A 2025 Cloudflare post revises this to "a bare minimum of 5".
                           #   Used by --compare as the propagation-only assumption under test.
 N_SETUP_CALIBRATED = 10.0 # [owned] median of 9.0-12.7 measured from four regions (paper Table II)
-K_POOL_CALIBRATED = 1.26  # [owned] median of 1.15-1.57: round trips the pooled query path costs
+K_POOL_CALIBRATED = 1.25  # [owned] median of 1.15-1.57 (1.254): round trips the pooled query path costs
 IN_REGION_RTT_MS = 1.0    # [assume] app server <-> DB inside one cloud region
 EDGE_POP_KM = 25.0        # [assume] user <-> nearest PoP straight-line distance
 
@@ -182,7 +182,7 @@ def edge_unpooled(sc: Scenario, n: Net, cm: ComputeModel) -> Breakdown:
 def edge_pooled(sc: Scenario, n: Net, cm: ComputeModel) -> Breakdown:
     net = n.user_pop + K_POOL_CALIBRATED * n.pop_db
     return Breakdown(sc.label, "edge-pooled", net, cm.embed_ms_edge, cm.search_compute_ms,
-                     cm.generation_prefill_ms, ["warm pooled conn: 1.26 x PoP<->DB RTT (calibrated)"])
+                     cm.generation_prefill_ms, ["warm pooled conn: 1.25 x PoP<->DB RTT (calibrated)"])
 
 
 def edge_replica(sc: Scenario, n: Net, cm: ComputeModel) -> Breakdown:
