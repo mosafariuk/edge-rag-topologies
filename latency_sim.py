@@ -239,7 +239,8 @@ def pgvector_hnsw_index_bytes(n_vectors: int, dim: int, m: int) -> dict:
       expected upper layers per element = sum_k m^-k = 1/(m-1)   (level ~ Geometric(1/m))
     Tuples are not split across pages, so the index size is quantised by how many
     (element + neighbour) pairs fit in one page. For dim=768 that is 2 per page for every
-    m up to ~48, which is why the paper's m=16 and m=32 indexes are both exactly 1172 MB.
+    m up to ~48: the 300k-vector m=16/32 indexes were both 1172 MB (predicted 1171.9 MiB) and the
+    1M-vector indexes all 3904 MB (predicted 3906.2 MiB, within 0.1 %).
     """
     elem = 4 * dim + 8 + 24
     upper_layers = 1.0 / (m - 1)

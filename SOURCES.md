@@ -38,9 +38,17 @@ re-fetched on 2026-09-30 and the figure the paper takes from it is noted.
 ## Owned
 - `probe/results/*.csv`, `probe/results/summary.{md,json}` **[owned]** — end-to-end probe run of 1 Oct 2026, 01:20–03:38 UTC: 30,000 requests (5 regions × 5 topologies × cold/warm × 600), all HTTP 200. Source of paper Tables I–III and every figure in Section VI.
 - `probe/embed_health_LHR_2026-09-30.json` **[owned]** — pre-test Workers AI embedding sample (n = 80, LHR).
-- `results/results.csv`, `results/run.log`, `results/summary.json`, `results/ERRATA.md` **[owned]** — the July 2026 pgvector 0.8.5 / PG 17.10 retrieval-tier run (300k × 768). See ERRATA for the known artifacts.
+- `results_phase3/` **[owned]** — retrieval-tier run of 22 Nov 2026 (source of paper Tables IV–V and Fig. 3): pgvector 0.8.7 / PG 17.12 on GCP c3-standard-22; 1M MS MARCO passages + 1,000 dev.small queries, bge-base-en-v1.5 fp32 (embedded on an RTX 4090, `deploy/phase3_gpu_embed.sh`; CPU parity cosine 1.000000 on 144k passages, `embeddings.sha256`); 50 warm-up + 5 timed sweeps per configuration, bootstrap 95 % CI of p50. `run.log`, `gpu_embed.log`, harness-written `summary.json`, `server.txt`.
+- `results/results.csv`, `results/run.log`, `results/summary.json`, `results/ERRATA.md` **[owned, superseded]** — the July 2026 pgvector 0.8.5 / PG 17.10 retrieval-tier run (300k × 768 synthetic vectors, laptop, no warm-up). No longer reported in the paper except as the 1,172 MB page-packing check; see ERRATA for its artifacts.
 - `latency_sim.py` **[owned, analytical]** — additive model; defaults now calibrated to the probe run (`--compare` reproduces Table III).
-- [25] Bajaj et al., MS MARCO, arXiv:1611.09268 **[primary]** — corpus source (first 100k passages of the passage collection).
+- [25] Bajaj et al., MS MARCO, arXiv:1611.09268 **[primary]** — corpus source (first 100k passages of the passage collection for Section VI; first 1M passages and first 1,000 dev.small queries for Section VII).
+
+## Superseded by measurement in the 2026-11-22 revision (real embeddings replace synthetic vectors)
+1. "At Recall@10 of 0.9999, HNSW is 1.9–2.7× faster than IVFFlat" (synthetic 300k) → on 1M real embeddings no configuration reaches 0.999; at equal or higher recall HNSW is 10–19× faster (2.17 vs 21.94 ms at 0.949/0.938; 4.26 vs 80.64 ms at 0.975/0.968).
+2. "At Recall@10 ≥ 0.99, HNSW is 48–169× faster than the exact scan" → one configuration reaches ≥ 0.99 (0.994, 13.39 ms), 82× faster than the 1,094.7 ms exact scan.
+3. "IVFFlat recall saturates by probes = 10" → on real embeddings recall keeps rising to probes = 100 (0.818 → 0.968 at lists = 1000).
+4. "IVFFlat lists = 4000 cannot be built" → it builds with 16 GB maintenance_work_mem (810.6 s); the failure was the laptop's 2 GB budget.
+5. HNSW cost floor "1–59 % of measured p50" → 24–39 % on the new run (`latency_sim.py --validate results_phase3/results.csv`).
 
 ## Superseded by measurement in the 2026-10-01 revision
 1. "A pooled edge Worker matches the centralized baseline" (model) → measured: 16 ms faster near LHR/IAD, 52–133 ms slower from São Paulo, Mumbai, Sydney.

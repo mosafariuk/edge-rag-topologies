@@ -30,7 +30,8 @@ the database's region because TLS terminates at the PoP.
 | `hyperdrive.md` | Edge→Postgres pooling: Hyperdrive and PgBouncer, what pooling does and does not fix. |
 | `latency_sim.py` | Analytical calculator for four topologies (no I/O, every constant tagged) plus the HNSW cost and index-size models. |
 | `bench.py`, `docker-compose.yml` | Owned pgvector benchmark harness (HNSW vs IVFFlat recall@10 / latency / QPS grid). |
-| `results/` | Retrieval-tier benchmark: raw outputs, harness-written `summary.json`, `ERRATA.md`. |
+| `results_phase3/` | Retrieval-tier benchmark behind Tables IV–V: 1M MS MARCO bge-base embeddings, raw CSV, logs, harness-written `summary.json`, embedding checksums. |
+| `results/` | Superseded July 2026 retrieval run on 300k synthetic vectors (kept with `ERRATA.md`). |
 | `baseline/`, `deploy/`, `load_corpus.py`, `embed_chunked.py` | Centralized baseline server, TLS pgvector deployment, binary-COPY corpus loader, resumable embedder. |
 | `probe/` | Probe client, matrix runner, analyzer; `probe/results/` holds the 30,000-row end-to-end dataset and its summary. `PHASE2.md` is the runbook. |
 
@@ -40,7 +41,7 @@ the database's region because TLS terminates at the PoP.
 python3 latency_sim.py                          # four topologies × five distances
 python3 latency_sim.py --rtt sydney=205         # replace the modelled RTT with a measured one
 python3 latency_sim.py --hnsw-sweep             # HNSW cost + page-packing index-size model
-python3 latency_sim.py --validate results/results.csv   # cost-model floor vs measured p50s
+python3 latency_sim.py --validate results_phase3/results.csv   # cost-model floor vs measured p50s
 python3 latency_sim.py --json
 ```
 
@@ -54,9 +55,15 @@ BENCH_DSN="postgresql://bench:bench@127.0.0.1:55432/bench" \
   --warmup 50 --repeats 3 --note "<describe the host and VM>"
 ```
 
-The harness writes `results/summary.json` itself (invocation, versions, config). Use `--resume`
+The harness writes `summary.json` itself (invocation, versions, config). Use `--resume`
 to restart from the index-build step after a failure. The July 2026 run in `results/` predates
 the warm-up/repeats options; `results/ERRATA.md` lists its known artifacts.
+
+The paper's Tables IV–V come from the real-embedding run: `deploy/phase3_gpu_embed.sh` embeds
+1M MS MARCO passages and 1,000 dev queries on one GPU (about 15 min on an RTX 4090), and
+`deploy/phase3_run.sh` runs on one large Linux VM (we used GCP `c3-standard-22`): it installs
+Docker and pgvector, embeds on CPU if `corpus.npy`/`queries.npy` are absent (about 4.5 h), and runs
+`bench.py --vectors corpus.npy --query-vectors queries.npy --out results_phase3 --repeats 5`.
 
 ## Deploy the Worker (sketch)
 
@@ -75,7 +82,7 @@ Apply `schema.sql`, load L2-normalized 768-d embeddings into `documents`, build 
 ```bash
 python3 probe/analyze.py probe/results/*.csv          # Table I / II inputs (medians, CIs, stages)
 python3 latency_sim.py --compare probe/results/summary.json   # Table III (model vs measurement)
-python3 latency_sim.py --validate results/results.csv         # HNSW cost bound vs Table IV
+python3 latency_sim.py --validate results_phase3/results.csv  # HNSW cost bound vs Table IV
 ```
 
 ## Status

@@ -6,7 +6,7 @@ Mohammad Safari, Independent Research (mo@aioapex.com)
 
 ## Abstract
 
-Retrieval-Augmented Generation (RAG) is the prevailing pattern for grounding large language models in external knowledge. Its canonical deployment routes every request to one cloud region that performs query embedding, vector search and generation, so a distant user pays cross-continent round trips before the first token can stream. This paper measures when relocating the retrieval prefix of RAG, query embedding plus vector search, to globally distributed edge compute reduces that delay. We deploy five topologies over one corpus of 100,000 MS MARCO passages in PostgreSQL with pgvector: a centralized server in the database's region, the same server behind an edge TLS proxy, and a Cloudflare Worker that embeds at the edge and reaches the database through an unpooled connection, a pooled connection, or a pooled connection to a copy of the database near the user. Probes in five regions issued 30,000 requests with per-stage server timing. Four findings follow. First, on warm connections an edge Worker with a pooled connection to a central database is 16 ms faster than the centralized baseline for nearby users and 52 to 133 ms slower for distant ones, because the pooled query path costs 1.15 to 1.57 round trips and because managed edge inference embeds a query in a median of about 40 ms at one point of presence and about 165 ms at another. Second, a database copy near the user makes the edge Worker the fastest option there, 104 ms (35 percent) below the baseline, about half of what a propagation-only model predicts. Third, an unpooled edge Worker pays 9 to 13 connection-setup round trips per request, 0.9 to 2.6 s. Fourth, on cold connections the centralized baseline pays two additional round trips for TCP and TLS, so the pooled edge Worker beats it in every region outside the database's own, by 151 to 298 ms, and the near-user copy beats it by 533 ms. An additive latency model predicts the centralized and near-replica topologies within 4 percent and underestimates the pooled and unpooled paths by 7 to 42 percent; we report the calibrated parameters. Separate measurements of the retrieval tier on 300,000 vectors quantify the recall and latency of HNSW and IVFFlat indexes and show that the on-disk HNSW index size is fixed by page packing rather than graph degree. Code, harnesses and raw data are released.
+Retrieval-Augmented Generation (RAG) is the prevailing pattern for grounding large language models in external knowledge. Its canonical deployment routes every request to one cloud region that performs query embedding, vector search and generation, so a distant user pays cross-continent round trips before the first token can stream. This paper measures when relocating the retrieval prefix of RAG, query embedding plus vector search, to globally distributed edge compute reduces that delay. We deploy five topologies over one corpus of 100,000 MS MARCO passages in PostgreSQL with pgvector: a centralized server in the database's region, the same server behind an edge TLS proxy, and a Cloudflare Worker that embeds at the edge and reaches the database through an unpooled connection, a pooled connection, or a pooled connection to a copy of the database near the user. Probes in five regions issued 30,000 requests with per-stage server timing. Four findings follow. First, on warm connections an edge Worker with a pooled connection to a central database is 16 ms faster than the centralized baseline for nearby users and 52 to 133 ms slower for distant ones, because the pooled query path costs 1.15 to 1.57 round trips and because managed edge inference embeds a query in a median of about 40 ms at one point of presence and about 165 ms at another. Second, a database copy near the user makes the edge Worker the fastest option there, 104 ms (35 percent) below the baseline, about half of what a propagation-only model predicts. Third, an unpooled edge Worker pays 9 to 13 connection-setup round trips per request, 0.9 to 2.6 s. Fourth, on cold connections the centralized baseline pays two additional round trips for TCP and TLS, so the pooled edge Worker beats it in every region outside the database's own, by 151 to 298 ms, and the near-user copy beats it by 533 ms. An additive latency model predicts the centralized and near-replica topologies within 4 percent and underestimates the pooled and unpooled paths by 7 to 42 percent; we report the calibrated parameters. Separate measurements of the retrieval tier on one million MS MARCO passage embeddings show HNSW serving 10 to 19 times faster than IVFFlat at equal or higher recall and 82 times faster than an exact scan at Recall@10 of 0.994, and confirm that the on-disk HNSW index size is fixed by page packing rather than graph degree. Code, harnesses and raw data are released.
 
 **Index Terms:** retrieval-augmented generation, edge computing, serverless, V8 isolates, pgvector, HNSW, approximate nearest neighbor search, connection pooling, latency measurement, time-to-first-token.
 
@@ -33,7 +33,7 @@ The default cloud posture concentrates inference and data in a small number of r
 1. An end-to-end measurement of five deployment topologies for the retrieval prefix of RAG from five regions: 30,000 requests with per-stage server timing, on cold and warm client connections (Section VI).
 2. Four empirical findings on when edge placement helps: parity or a small gain near well-provisioned points of presence, a loss for distant users unless the database is also near them, a large penalty without pooling, and a consistent gain on cold connections.
 3. An additive latency model, compared against the measurements topology by topology, with the calibrated pooled-path and connection-setup parameters that the comparison yields (Sections V and VI-E).
-4. Measurements of the pgvector retrieval tier on 300,000 vectors, a corrected HNSW search-cost bound checked against them, and a page-packing model that explains why index size is invariant to the graph degree parameter at this dimensionality (Sections V-C and VII).
+4. Measurements of the pgvector retrieval tier on one million real text embeddings, a corrected HNSW search-cost bound checked against them, and a page-packing model that explains why index size is invariant to the graph degree parameter at this dimensionality (Sections V-C and VII).
 5. Released artifacts: the Worker with per-stage timing, the centralized baseline, the loader, the probe and analysis tools, the simulator, and all raw result files.
 
 ---
@@ -102,12 +102,12 @@ The Worker validates the request, embeds the query, runs the search, and returns
 
 ### C. Corpus loading
 
-The corpus is the first 100,000 passages of the MS MARCO passage collection [25], embedded once; the same vectors are loaded into both databases, so identifiers and results are comparable across topologies. Loading uses pgvector's binary `COPY` format (`int16` dimension, `int16` unused, big-endian `float4` values). Binary `COPY` loaded 100,000 rows in 5.1 s, 1.18 million rows per minute, on the central server; the text `COPY` used for the retrieval-tier benchmark of Section VII, which formats every float as a string on the client, reached 28,500 rows per minute on a laptop. The two were measured on different hosts, so the ratio is indicative only. The HNSW index ($m = 16$, `ef_construction = 200`) built in 124 s.
+The corpus is the first 100,000 passages of the MS MARCO passage collection [25], embedded once; the same vectors are loaded into both databases, so identifiers and results are comparable across topologies. Loading uses pgvector's binary `COPY` format (`int16` dimension, `int16` unused, big-endian `float4` values). Binary `COPY` loaded 100,000 rows in 5.1 s, 1.18 million rows per minute, on the central server; the text `COPY` used for the retrieval-tier benchmark of Section VII, which formats every float as a string on the client, loaded one million rows in 598 s, 100,000 rows per minute, on that benchmark's host. The two were measured on different hosts, so the ratio is indicative only. The HNSW index ($m = 16$, `ef_construction = 200`) built in 124 s.
 
 ### D. Observations from building the retrieval benchmark
 
-- **Parallel index builds need shared memory.** pgvector's parallel HNSW build allocates a dynamic shared-memory segment; on a container with a 1 GB `/dev/shm`, a 300,000-vector build requested 1.25 GB and aborted. Building serially uses backend-local `maintenance_work_mem` instead.
-- **IVFFlat build memory scales with `lists`.** A `lists = 4000` build required 3,738 MB of `maintenance_work_mem` against a 2,048 MB budget and failed.
+- **Parallel index builds need shared memory.** pgvector's parallel HNSW build allocates a dynamic shared-memory segment; on a laptop container with a 1 GB `/dev/shm`, a 300,000-vector build requested 1.25 GB and aborted. Building serially uses backend-local `maintenance_work_mem` instead. The one-million-vector builds of Section VII ran with eight parallel workers and a 24 GB `/dev/shm`.
+- **IVFFlat build memory scales with `lists`.** A `lists = 4000` build required 3,738 MB of `maintenance_work_mem` against a 2,048 MB budget and failed on the laptop; with 16 GB on the benchmark host it completed in 810.6 s.
 
 ---
 
@@ -146,9 +146,9 @@ $$
 N_{dist} \approx c\,\text{ef}\,(2m) + m\log_2 N,
 $$
 
-with $c < 1$ accounting for neighbours already visited. Each evaluation over $d$-dimensional single-precision vectors reads $4d$ bytes; for $d = 768$ that is 3,072 bytes. Because traversal is random access, bytes moved per query, $4d\,N_{dist}$, divided by an effective memory bandwidth gives a lower bound on search compute. With $c = 0.5$ and an assumed 8 GB/s the bound ranges from 0.36 to 5.14 ms over the twelve HNSW configurations of Section VII and lies below every measured median, at 1 to 59 percent of it. A multiplicative form, $c\,\text{ef}\,\bar m \log N$, which appeared in an earlier draft, predicts a floor of 44.7 ms for a configuration measured at 6.7 ms and is withdrawn.
+with $c < 1$ accounting for neighbours already visited. Each evaluation over $d$-dimensional single-precision vectors reads $4d$ bytes; for $d = 768$ that is 3,072 bytes. Because traversal is random access, bytes moved per query, $4d\,N_{dist}$, divided by an effective memory bandwidth gives a lower bound on search compute. With $c = 0.5$ and an assumed 8 GB/s the bound ranges from 0.37 to 5.16 ms over the twelve HNSW configurations of Section VII and lies below every measured median, at 24 to 39 percent of it. A multiplicative form, $c\,\text{ef}\,\bar m \log N$, which appeared in an earlier draft, predicts a floor of 44.7 ms for a configuration measured at 6.7 ms and is withdrawn.
 
-**Index size.** pgvector stores each element's vector and its neighbour list in 8 KiB pages, and tuples are not split across pages. With $d = 768$ an element tuple is about 3,104 bytes and a neighbour tuple about $6(2m + m/(m-1)) + 8$ bytes, so exactly two element-plus-neighbour pairs fit in a page for every $m$ up to about 48. The index therefore occupies $\lceil N/2 \rceil$ pages regardless of $m$: 150,000 pages, 1,171.9 MiB, for $N = 300{,}000$, which is the size PostgreSQL reported for both the $m = 16$ and the $m = 32$ index (Table IV). At this dimensionality raising $m$ costs build time and query bandwidth, not storage.
+**Index size.** pgvector stores each element's vector and its neighbour list in 8 KiB pages, and tuples are not split across pages. With $d = 768$ an element tuple is about 3,104 bytes and a neighbour tuple about $6(2m + m/(m-1)) + 8$ bytes, so exactly two element-plus-neighbour pairs fit in a page for every $m$ up to about 48. The index therefore occupies $\lceil N/2 \rceil$ pages regardless of $m$: 500,000 pages, 3,906.2 MiB, for $N = 10^6$. PostgreSQL reported 3,904 MB for all three builds, $m = 16$ and $m = 32$ alike (Table IV), within 0.1 percent of the prediction; an earlier 300,000-vector run matched it to the megabyte (1,172 MB). At this dimensionality raising $m$ costs build time and query bandwidth, not storage.
 
 ---
 
@@ -228,52 +228,52 @@ The additive structure predicts the centralized topology within 4 percent and th
 
 ## VII. Retrieval-Tier Measurements
 
-This section characterizes the index that all topologies share, on a separate, larger synthetic corpus.
+This section characterizes the index that all topologies share, on a larger corpus of the same kind of vectors: one million real text embeddings.
 
-**Setup.** PostgreSQL 17.10 with pgvector 0.8.5 in a Docker VM limited to 4.8 GiB of memory on an 8-core, 8 GB laptop-class host. The corpus is 300,000 L2-normalized 768-dimensional vectors drawn from a mixture of 1,000 Gaussians. Ground truth is the exact top-10 by brute-force cosine. Recall@10 is measured for 1,000 held-out queries drawn from the same mixture; the exact-scan baseline used the first 30. Queries are issued serially over one connection. The index path is forced with `enable_seqscan = off` and confirmed with `EXPLAIN`. This run had no warm-up pass and a single timed sweep per configuration, with `ef_search` swept in ascending order after each build; `results/ERRATA.md` lists its artifacts.
+**Setup.** PostgreSQL 17.12 with pgvector 0.8.7 in Docker on a GCP `c3-standard-22` instance (22 vCPU, 88 GB, `us-central1`); `shared_buffers` 16 GB, so every index fits in memory. The corpus is MS MARCO passages 0 to 999,999 [25], a superset of the Section VI corpus, embedded with bge-base-en-v1.5 (CLS pooling, L2-normalized, fp32, no query instruction, as at the edge). The queries are the first 1,000 MS MARCO dev queries. Embedding ran on one RTX 4090; for the 144,000 passages and 1,000 queries also embedded on CPU, every cosine similarity between the two was 1.000000 and the exact top-10 lists were identical. Ground truth is the exact top-10 by brute-force cosine, so Recall@10 measures the index against exact search in embedding space, not against MS MARCO relevance labels. The client runs on the same host and issues queries serially over one connection; the index path is forced with `enable_seqscan = off` and confirmed with `EXPLAIN`. Each configuration gets 50 untimed warm-up queries and five timed sweeps of all 1,000 queries. The reported p50, p95 and p99 are medians of the five per-sweep values; the bracketed interval is a 95% percentile bootstrap of the median over all 5,000 timed queries. Per-sweep medians agree within 3.4 percent in every configuration. Indexes are built with eight parallel workers and 16 GB of `maintenance_work_mem`.
 
-**Table IV. HNSW on 300,000 × 768 vectors: Recall@10, latency and serial throughput versus `ef_search`. Index size 1172 MB for every build.**
+**Table IV. HNSW on 10⁶ × 768 MS MARCO embeddings: Recall@10, latency and serial throughput versus `ef_search`. Index size 3,904 MB for every build.**
 
-| build (`m`, `ef_construction`) | build time (s) | `ef_search` | Recall@10 | p50 (ms) | p95 (ms) | p99 (ms) | QPS (serial) |
+| build (`m`, `ef_construction`) | build time (s) | `ef_search` | Recall@10 | p50 (ms) [95% CI] | p95 (ms) | p99 (ms) | QPS (serial) |
 |---|---|---|---|---|---|---|---|
-| 16, 64  | 293.9 | 40  | 0.903 | 12.50 | 42.45 | 72.41 | 60.1 |
-| 16, 64  | 293.9 | 100 | 0.933 | 8.07 | 35.63 | 110.16 | 77.6 |
-| 16, 64  | 293.9 | 200 | 0.952 | 3.92 | 7.42 | 11.26 | 228.3 |
-| 16, 64  | 293.9 | 400 | 0.973 | 8.03 | 25.74 | 51.12 | 96.0 |
-| 16, 200 | 669.4 | 40  | 0.972 | 25.71 | 114.27 | 217.55 | 27.4 |
-| 16, 200 | 669.4 | 100 | 0.998 | 12.28 | 30.40 | 55.85 | 70.3 |
-| 16, 200 | 669.4 | 200 | 0.9999 | 9.43 | 40.84 | 83.95 | 70.3 |
-| 16, 200 | 669.4 | 400 | 0.9999 | 6.70 | 18.72 | 35.70 | 116.7 |
-| 32, 200 | n/a† | 40  | 0.996 | 21.93 | 79.94 | 162.82 | 33.9 |
-| 32, 200 | n/a† | 100 | 0.999 | 7.98 | 24.63 | 57.70 | 97.5 |
-| 32, 200 | n/a† | 200 | 0.999 | 6.29 | 12.26 | 23.97 | 146.5 |
-| 32, 200 | n/a† | 400 | 0.9998 | 8.71 | 24.94 | 43.32 | 90.8 |
+| 16, 64  | 107.1 | 40  | 0.880 | 1.36 [1.35, 1.37] | 2.06 | 2.54 | 716 |
+| 16, 64  | 107.1 | 100 | 0.935 | 2.51 [2.49, 2.54] | 3.68 | 4.42 | 393 |
+| 16, 64  | 107.1 | 200 | 0.957 | 4.26 [4.21, 4.32] | 6.19 | 6.86 | 234 |
+| 16, 64  | 107.1 | 400 | 0.974 | 7.78 [7.68, 7.84] | 11.36 | 12.21 | 128 |
+| 16, 200 | 263.0 | 40  | 0.924 | 1.52 [1.51, 1.54] | 2.11 | 2.51 | 652 |
+| 16, 200 | 263.0 | 100 | 0.962 | 2.79 [2.78, 2.82] | 3.84 | 4.44 | 360 |
+| 16, 200 | 263.0 | 200 | 0.977 | 5.00 [4.92, 5.02] | 6.96 | 7.42 | 201 |
+| 16, 200 | 263.0 | 400 | 0.988 | 9.00 [8.89, 9.10] | 12.61 | 13.47 | 112 |
+| 32, 200 | 435.2 | 40  | 0.949 | 2.17 [2.14, 2.20] | 3.30 | 3.99 | 451 |
+| 32, 200 | 435.2 | 100 | 0.975 | 4.26 [4.21, 4.33] | 6.46 | 7.14 | 234 |
+| 32, 200 | 435.2 | 200 | 0.987 | 7.47 [7.33, 7.58] | 11.60 | 12.64 | 133 |
+| 32, 200 | 435.2 | 400 | 0.994 | 13.39 [13.20, 13.60] | 21.12 | 23.39 | 73 |
 
-† The host suspended overnight during this build; the recorded wall-clock includes system sleep and is not reported. The query rows for this build ran after wake and are valid.
+**Table V. IVFFlat on the same corpus: Recall@10 and latency versus `probes`. `lists = 1000`: build 97.6 s, index 3,912 MB; `lists = 4000`: build 810.6 s, index 3,930 MB.**
 
-**Table V. IVFFlat (`lists = 1000`, build 166.7 s, index 1178 MB): Recall@10 and latency versus `probes`.**
+| `lists` | `probes` | Recall@10 | p50 (ms) [95% CI] | p95 (ms) | p99 (ms) | QPS (serial) |
+|---|---|---|---|---|---|---|
+| 1000 | 1   | 0.445 | 1.38 [1.38, 1.40] | 2.04 | 2.37 | 713 |
+| 1000 | 10  | 0.818 | 8.98 [8.93, 9.03] | 11.50 | 12.38 | 111 |
+| 1000 | 40  | 0.927 | 32.85 [32.78, 33.06] | 39.07 | 41.58 | 30 |
+| 1000 | 100 | 0.968 | 80.64 [80.36, 80.87] | 92.29 | 97.33 | 13 |
+| 4000 | 1   | 0.436 | 1.45 [1.44, 1.45] | 1.64 | 1.77 | 689 |
+| 4000 | 10  | 0.772 | 3.31 [3.30, 3.32] | 4.07 | 4.55 | 300 |
+| 4000 | 40  | 0.892 | 9.53 [9.48, 9.55] | 11.25 | 12.28 | 105 |
+| 4000 | 100 | 0.938 | 21.94 [21.84, 22.05] | 25.40 | 26.25 | 46 |
 
-| `probes` | Recall@10 | p50 (ms) | p95 (ms) | p99 (ms) | QPS (serial) |
-|---|---|---|---|---|---|
-| 1   | 0.873 | 9.55 | 29.20 | 55.82 | 77.6 |
-| 10  | 0.9999 | 18.08 | 39.95 | 94.43 | 45.3 |
-| 40  | 0.9999 | 41.63 | 75.24 | 97.17 | 22.7 |
-| 100 | 0.9999 | 75.33 | 164.22 | 208.94 | 11.7 |
-
-A second IVFFlat build with `lists = 4000` failed for lack of `maintenance_work_mem` (Section IV-D). An exact sequential scan over the corpus, the brute-force baseline, measured Recall@10 of 1.000 at a median of 1,061.6 ms over 30 queries.
+An exact sequential scan, the brute-force baseline, measured Recall@10 of 1.000 at a median of 1,094.7 ms over 200 queries.
 
 **Findings.**
 
-1. Recall rises with `ef_search` within every build and with `ef_construction` and `m` across builds. At `ef_search = 40` the recall floor is 0.903, 0.972 and 0.996 for the three builds; the single exception to monotonicity is at `ef_search = 400`, where the `m = 32` build scores 0.9998 against 0.9999 for `m = 16`.
-2. At Recall@10 of 0.9999, HNSW serves at a median of 6.70, 8.71 or 9.43 ms depending on the build, against 18.08 ms for IVFFlat with `probes = 10`: 1.9 to 2.7 times lower latency. We report the range because the median varies by up to 3.2 times between sweeps of the same build.
-3. At Recall@10 of at least 0.99, HNSW medians range from 6.3 to 21.9 ms, 48 to 169 times faster than the exact scan.
-4. IVFFlat recall saturates by `probes = 10`; raising `probes` to 40 and 100 multiplies the median latency by 2.3 and 4.2 with no recall gain.
-5. IVFFlat built in 166.7 s, HNSW in 293.9 s at `ef_construction = 64` and 669.4 s at 200.
+1. Recall rises with `ef_search` within every build, and with `ef_construction` and `m` across builds at every `ef_search`; median latency rises with `ef_search` in every build. No configuration in the grid reaches Recall@10 of 0.999.
+2. At equal or higher recall, the fastest HNSW configuration is 10 to 19 times faster than IVFFlat: 2.17 ms at 0.949 against 21.94 ms at 0.938 (`lists = 4000`, `probes = 100`), and 4.26 ms at 0.975 against 80.64 ms at 0.968 (`lists = 1000`, `probes = 100`).
+3. One configuration reaches Recall@10 of at least 0.99: `m = 32`, `ef_search = 400`, at 13.39 ms, 82 times faster than the exact scan. At 0.987 to 0.988 the medians are 7.47 and 9.00 ms, 147 and 122 times faster.
+4. IVFFlat recall keeps rising up to `probes = 100` and stays below the HNSW builds at comparable latency. Quadrupling `lists` lowers recall at a given `probes` and lowers latency from `probes = 10` upward.
+5. With eight workers, HNSW built in 107.1, 263.0 and 435.2 s and IVFFlat in 97.6 s (`lists = 1000`) and 810.6 s (`lists = 4000`).
 6. Index size is invariant to `m` at this dimensionality, as the page-packing model predicts.
 
-On the server-class instances of Section VI, with real text embeddings, 100,000 vectors and `ef_search = 100`, the server-side search median was 4 ms, consistent with the lower end of these laptop measurements.
-
----
+An earlier run of the same grid on 300,000 synthetic Gaussian-mixture vectors on a laptop (`results/`) reached Recall@10 of 0.9999 at settings that give 0.977 to 0.987 here: synthetic mixtures overstate the recall of both index types, and that run is no longer reported. On the servers of Section VI, with 100,000 vectors and `ef_search = 100`, the server-side search median was 4 ms, the same magnitude as the 2.5 to 4.3 ms measured here at `ef_search = 100`.
 
 ## VIII. Discussion
 
@@ -294,7 +294,7 @@ The single-round-trip transaction was the largest implementation effect we encou
 - **Single session.** All end-to-end data come from one session of about two hours and twenty minutes. A second session at a different time of day was started and lost when the instances were terminated before collection. Diurnal variation in PoP load and routing is therefore not captured.
 - **Shared baseline.** The five probes ran concurrently against one two-core baseline server. Its embedding median was 83 to 91 ms in every cell during the run, against about 70 ms when idle, so concurrency added roughly 15 ms to the centralized measurements, near-uniformly across regions.
 - **Co-located Virginia probe.** The Virginia probe ran on the central server; its centralized requests use the loopback interface and its probe process shares the server's CPUs.
-- **Retrieval-tier latency noise.** The Table IV run had no warm-up, so cache warming is confounded with the `ef_search` dial; recall is unaffected.
+- **Retrieval-tier host.** The benchmark client and the database share one 22-vCPU host, and queries are serial; concurrent throughput is not measured.
 
 ### B. External validity
 
@@ -303,7 +303,7 @@ The single-round-trip transaction was the largest implementation effect we encou
 - **Small query set and corpus.** Ten distinct queries and 100,000 passages. The search compute term is 4 ms here and grows with corpus size and recall target (Section VII).
 - **Baseline hardware.** The baseline embeds on two CPU cores. A GPU-backed central embedder would lower $E_c$ and move every warm comparison in the baseline's favour.
 - **The near-user copy is not a replica.** It is an independently loaded identical database; replication lag and its effect on freshness are not measured.
-- **Synthetic vectors in Section VII.** Gaussian mixtures do not reproduce the geometry of text embeddings.
+- **Recall definition in Section VII.** Recall@10 is measured against exact nearest neighbours in embedding space for 1,000 queries, one model and one corpus; it is not answer relevance, and other embedding models may be easier or harder to index.
 
 ### C. Construct validity and source quality
 
