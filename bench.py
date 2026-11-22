@@ -23,6 +23,8 @@ Methodology notes:
 
 Usage:
   python bench.py --n 1000000 --dim 768 --queries 1000 --k 10
+  # Phase 3, real corpus: --vectors/--query-vectors are float32 .npy (L2-normalized embeddings)
+  python bench.py --vectors corpus.npy --query-vectors queries.npy --out results_phase3 --build-workers 8
 Env: DSN defaults to the docker-compose DB on host port 55432.
 """
 
@@ -39,7 +41,7 @@ import numpy as np
 import psycopg
 
 DSN = os.environ.get("BENCH_DSN", "postgresql://bench:bench@127.0.0.1:55432/bench")
-OUT = Path(__file__).parent / "results"
+OUT = Path(__file__).parent / "results"  # overridden by --out
 DATA = Path(__file__).parent / "data"
 
 
@@ -138,14 +140,15 @@ def drop_indexes(conn: psycopg.Connection) -> None:
     conn.commit()
 
 
-def build_index(conn: psycopg.Connection, kind: str, params: dict) -> tuple[float, str]:
+def build_index(conn: psycopg.Connection, kind: str, params: dict,
+                workers: int = 0, mwm: str = "2GB") -> tuple[float, str]:
     drop_indexes(conn)
     with conn.cursor() as cur:
-        # Serial build: uses backend-local maintenance_work_mem, NOT /dev/shm dynamic shared
-        # memory, so it avoids the parallel-worker shm segment that overflows a small container
-        # /dev/shm. Slower but robust on memory-constrained hosts.
-        cur.execute("SET max_parallel_maintenance_workers = 0")
-        cur.execute("SET maintenance_work_mem = '2GB'")
+        # Default workers=0 is a serial build: uses backend-local maintenance_work_mem, NOT
+        # /dev/shm dynamic shared memory, so it avoids the parallel-worker shm segment that
+        # overflows a small container /dev/shm (the July laptop run). Big hosts pass workers>0.
+        cur.execute(f"SET max_parallel_maintenance_workers = {int(workers)}")
+        cur.execute(f"SET maintenance_work_mem = '{mwm}'")
     conn.commit()
     if kind == "hnsw":
         opts = f"m = {params['m']}, ef_construction = {params['ef_construction']}"
@@ -214,6 +217,10 @@ def measure(conn: psycopg.Connection, queries: np.ndarray, gt: np.ndarray, k: in
         _sweep(conn, queries[:warmup], None, k, setup)
     runs = [_sweep(conn, queries, gt, k, setup) for _ in range(max(1, repeats))]
     p50s = [float(np.percentile(l, 50)) for l, _ in runs]
+    # 95% percentile-bootstrap CI of the p50 over all timed queries pooled across repeats
+    pooled = np.concatenate([l for l, _ in runs])
+    rng = np.random.default_rng(1)
+    boot = np.median(rng.choice(pooled, size=(2000, pooled.size)), axis=1)
     p95s = [float(np.percentile(l, 95)) for l, _ in runs]
     p99s = [float(np.percentile(l, 99)) for l, _ in runs]
     means = [float(l.mean()) for l, _ in runs]
@@ -228,6 +235,8 @@ def measure(conn: psycopg.Connection, queries: np.ndarray, gt: np.ndarray, k: in
         "warmup": warmup,
         "repeats": len(runs),
         "p50_runs": json.dumps([round(x, 3) for x in p50s]),
+        "p50_ci_lo": float(np.percentile(boot, 2.5)),
+        "p50_ci_hi": float(np.percentile(boot, 97.5)),
     }
 
 
@@ -243,6 +252,7 @@ IVF_PROBES = [1, 10, 40, 100]
 
 
 def main() -> None:
+    global OUT
     ap = argparse.ArgumentParser()
     ap.add_argument("--n", type=int, default=1_000_000)
     ap.add_argument("--dim", type=int, default=768)
@@ -259,10 +269,17 @@ def main() -> None:
     ap.add_argument("--note", default="host not described; pass --note with hardware/VM details")
     ap.add_argument("--summarize-only", action="store_true",
                     help="rebuild results/summary.json from an existing results.csv without a DB")
+    ap.add_argument("--vectors", help="real corpus embeddings (.npy float32, L2-normalized); "
+                    "replaces the synthetic generator; --n/--dim are taken from the file")
+    ap.add_argument("--query-vectors", help="real query embeddings (.npy); first --queries rows used")
+    ap.add_argument("--out", default=str(OUT), help="output dir (default results/, the July run)")
+    ap.add_argument("--build-workers", type=int, default=0, help="max_parallel_maintenance_workers")
+    ap.add_argument("--mwm", default="2GB", help="maintenance_work_mem for index builds")
     ap.add_argument("--provenance-note", default="",
                     help="free-text provenance appended to summary.json (e.g. for runs made "
                          "before the harness recorded its own configuration)")
     args = ap.parse_args()
+    OUT = Path(args.out)
 
     OUT.mkdir(exist_ok=True)
     if args.summarize_only:
@@ -271,14 +288,21 @@ def main() -> None:
 
     DATA.mkdir(exist_ok=True)
 
-    vectors = generate_vectors(args.n, args.dim, args.clusters, args.seed, DATA / "vectors.f32")
-    queries = make_queries(args.dim, args.queries, args.clusters, args.seed)
+    if args.vectors:
+        vectors = np.load(args.vectors, mmap_mode="r")
+        args.n, args.dim = vectors.shape
+        queries = np.ascontiguousarray(np.load(args.query_vectors)[: args.queries], dtype="float32")
+        assert queries.shape == (args.queries, args.dim), queries.shape
+        assert abs(float(np.linalg.norm(vectors[0])) - 1) < 1e-3, "corpus vectors must be L2-normalized"
+    else:
+        vectors = generate_vectors(args.n, args.dim, args.clusters, args.seed, DATA / "vectors.f32")
+        queries = make_queries(args.dim, args.queries, args.clusters, args.seed)
     gt = exact_topk(vectors, queries, args.k)
 
     csv_path = OUT / "results.csv"
     fields = ["index", "build_params", "build_s", "index_size", "dial", "recall_at_k",
               "p50_ms", "p95_ms", "p99_ms", "mean_ms", "qps_serial", "n", "dim", "k",
-              "queries", "warmup", "repeats", "p50_runs", "note"]
+              "queries", "warmup", "repeats", "p50_runs", "p50_ci_lo", "p50_ci_hi", "note"]
     resume = args.resume and csv_path.exists()
     if resume:
         with open(csv_path) as f:
@@ -331,7 +355,7 @@ def main() -> None:
         # HNSW grid. Force the index path (enable_seqscan=off) so we measure the index, not a
         # planner fallback to seqscan on any config.
         for bp in HNSW_BUILDS:
-            build_s, size = build_index(conn, "hnsw", bp)
+            build_s, size = build_index(conn, "hnsw", bp, args.build_workers, args.mwm)
             print("[plan]", verify_index_used(conn, queries, args.k,
                   ["SET LOCAL enable_seqscan=off", "SET LOCAL hnsw.ef_search = 100"]))
             for ef in HNSW_EF_SEARCH:
@@ -342,7 +366,7 @@ def main() -> None:
 
         # IVFFlat grid
         for bp in IVF_BUILDS:
-            build_s, size = build_index(conn, "ivfflat", bp)
+            build_s, size = build_index(conn, "ivfflat", bp, args.build_workers, args.mwm)
             print("[plan]", verify_index_used(conn, queries, args.k,
                   ["SET LOCAL enable_seqscan=off", "SET LOCAL ivfflat.probes = 10"]))
             for pr in IVF_PROBES:
@@ -366,7 +390,9 @@ def write_summary(csv_path: Path, args: argparse.Namespace, server: dict | None,
         "argv": sys.argv,
         "config": vars(args),
         "server": server,
-        "data": "synthetic clustered mixture-of-Gaussians, L2-normalized (NOT a real corpus)",
+        "data": (f"real embeddings: corpus {args.vectors}, queries {args.query_vectors}"
+                 if getattr(args, "vectors", None) else
+                 "synthetic clustered mixture-of-Gaussians, L2-normalized (NOT a real corpus)"),
         "qps_note": "serial single-connection QPS; concurrent throughput would be higher",
         "provenance": provenance,
         "rows": rows,

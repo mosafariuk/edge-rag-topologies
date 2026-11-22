@@ -1,0 +1,42 @@
+[gt] exact top-10 for 1000 queries in 8.9s
+[load] COPY 1000000 rows ...
+[load]   20000/1000000  (12s)
+[load]   220000/1000000  (132s)
+[load]   420000/1000000  (251s)
+[load]   620000/1000000  (371s)
+[load]   820000/1000000  (490s)
+[load] done in 598s
+[result] seqscan_exact {} exact: recall=1.000 p50=1094.75ms p99=1112.44ms qps=1
+[build] hnsw {'m': 16, 'ef_construction': 64} -> 107.1s, index 3904 MB
+[plan] index
+[result] hnsw {'m': 16, 'ef_construction': 64} ef_search=40: recall=0.880 p50=1.36ms p99=2.54ms qps=716
+[result] hnsw {'m': 16, 'ef_construction': 64} ef_search=100: recall=0.935 p50=2.51ms p99=4.42ms qps=393
+[result] hnsw {'m': 16, 'ef_construction': 64} ef_search=200: recall=0.957 p50=4.26ms p99=6.86ms qps=234
+[result] hnsw {'m': 16, 'ef_construction': 64} ef_search=400: recall=0.974 p50=7.78ms p99=12.21ms qps=128
+[build] hnsw {'m': 16, 'ef_construction': 200} -> 263.0s, index 3904 MB
+[plan] index
+[result] hnsw {'m': 16, 'ef_construction': 200} ef_search=40: recall=0.924 p50=1.52ms p99=2.51ms qps=652
+[result] hnsw {'m': 16, 'ef_construction': 200} ef_search=100: recall=0.962 p50=2.79ms p99=4.44ms qps=360
+[result] hnsw {'m': 16, 'ef_construction': 200} ef_search=200: recall=0.977 p50=5.00ms p99=7.42ms qps=201
+[result] hnsw {'m': 16, 'ef_construction': 200} ef_search=400: recall=0.988 p50=9.00ms p99=13.47ms qps=112
+[build] hnsw {'m': 32, 'ef_construction': 200} -> 435.2s, index 3904 MB
+[plan] index
+[result] hnsw {'m': 32, 'ef_construction': 200} ef_search=40: recall=0.949 p50=2.17ms p99=3.99ms qps=451
+[result] hnsw {'m': 32, 'ef_construction': 200} ef_search=100: recall=0.975 p50=4.26ms p99=7.14ms qps=234
+[result] hnsw {'m': 32, 'ef_construction': 200} ef_search=200: recall=0.987 p50=7.47ms p99=12.64ms qps=133
+[result] hnsw {'m': 32, 'ef_construction': 200} ef_search=400: recall=0.994 p50=13.39ms p99=23.39ms qps=73
+[build] ivfflat {'lists': 1000} -> 97.6s, index 3912 MB
+[plan] index
+[result] ivfflat {'lists': 1000} probes=1: recall=0.445 p50=1.38ms p99=2.37ms qps=713
+[result] ivfflat {'lists': 1000} probes=10: recall=0.818 p50=8.98ms p99=12.38ms qps=111
+[result] ivfflat {'lists': 1000} probes=40: recall=0.927 p50=32.85ms p99=41.58ms qps=30
+[result] ivfflat {'lists': 1000} probes=100: recall=0.968 p50=80.64ms p99=97.33ms qps=13
+[build] ivfflat {'lists': 4000} -> 810.6s, index 3930 MB
+[plan] index
+[result] ivfflat {'lists': 4000} probes=1: recall=0.436 p50=1.45ms p99=1.77ms qps=689
+[result] ivfflat {'lists': 4000} probes=10: recall=0.772 p50=3.31ms p99=4.55ms qps=300
+[result] ivfflat {'lists': 4000} probes=40: recall=0.892 p50=9.53ms p99=12.28ms qps=105
+[result] ivfflat {'lists': 4000} probes=100: recall=0.938 p50=21.94ms p99=26.25ms qps=46
+
+[done] 21 result rows -> results_phase3/results.csv; summary -> results_phase3/summary.json
+[phase3] done 2026-11-22T13:58:55Z

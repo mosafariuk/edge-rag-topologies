@@ -1,0 +1,112 @@
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+NVIDIA GeForce RTX 4090, 615.71.09
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 10579.59it/s]
+[embed] 1000 passages, device=cuda, chunk=1000, batch=32, worker 0/1
+[embed] chunk 1/1 (1000 in 1s) this worker 1000 done, 1690.2/s
+[done] (1000, 768) -> queries.npy
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 9024.20it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[embed] 1000000 passages, device=cuda, chunk=10000, batch=256, worker 0/1
+[embed] chunk 1/100 (10000 in 8s) this worker 10000 done, 1251.5/s
+[embed] chunk 2/100 (10000 in 8s) this worker 20000 done, 1281.8/s
+[embed] chunk 3/100 (10000 in 9s) this worker 30000 done, 1239.6/s
+[embed] chunk 4/100 (10000 in 8s) this worker 40000 done, 1243.2/s
+[embed] chunk 5/100 (10000 in 8s) this worker 50000 done, 1247.7/s
+[embed] chunk 6/100 (10000 in 8s) this worker 60000 done, 1256.2/s
+[embed] chunk 7/100 (10000 in 8s) this worker 70000 done, 1252.9/s
+[embed] chunk 8/100 (10000 in 7s) this worker 80000 done, 1263.7/s
+[embed] chunk 9/100 (10000 in 8s) this worker 90000 done, 1264.9/s
+[embed] chunk 10/100 (10000 in 8s) this worker 100000 done, 1269.0/s
+[embed] chunk 11/100 (10000 in 9s) this worker 110000 done, 1259.4/s
+[embed] chunk 12/100 (10000 in 9s) this worker 120000 done, 1244.2/s
+[embed] chunk 13/100 (10000 in 9s) this worker 130000 done, 1237.5/s
+[embed] chunk 14/100 (10000 in 9s) this worker 140000 done, 1229.3/s
+[embed] chunk 15/100 (10000 in 9s) this worker 150000 done, 1221.3/s
+[embed] chunk 16/100 (10000 in 8s) this worker 160000 done, 1225.0/s
+[embed] chunk 17/100 (10000 in 8s) this worker 170000 done, 1223.9/s
+[embed] chunk 18/100 (10000 in 9s) this worker 180000 done, 1218.6/s
+[embed] chunk 19/100 (10000 in 8s) this worker 190000 done, 1216.9/s
+[embed] chunk 20/100 (10000 in 8s) this worker 200000 done, 1218.1/s
+[embed] chunk 21/100 (10000 in 9s) this worker 210000 done, 1213.8/s
+[embed] chunk 22/100 (10000 in 8s) this worker 220000 done, 1216.5/s
+[embed] chunk 23/100 (10000 in 8s) this worker 230000 done, 1215.4/s
+[embed] chunk 24/100 (10000 in 8s) this worker 240000 done, 1214.9/s
+[embed] chunk 25/100 (10000 in 9s) this worker 250000 done, 1210.5/s
+[embed] chunk 26/100 (10000 in 8s) this worker 260000 done, 1211.4/s
+[embed] chunk 27/100 (10000 in 9s) this worker 270000 done, 1207.2/s
+[embed] chunk 28/100 (10000 in 8s) this worker 280000 done, 1209.9/s
+[embed] chunk 29/100 (10000 in 8s) this worker 290000 done, 1209.8/s
+[embed] chunk 30/100 (10000 in 8s) this worker 300000 done, 1211.9/s
+[embed] chunk 31/100 (10000 in 8s) this worker 310000 done, 1213.5/s
+[embed] chunk 32/100 (10000 in 8s) this worker 320000 done, 1213.4/s
+[embed] chunk 33/100 (10000 in 8s) this worker 330000 done, 1214.7/s
+[embed] chunk 34/100 (10000 in 8s) this worker 340000 done, 1213.8/s
+[embed] chunk 35/100 (10000 in 8s) this worker 350000 done, 1213.7/s
+[embed] chunk 36/100 (10000 in 8s) this worker 360000 done, 1213.2/s
+[embed] chunk 37/100 (10000 in 9s) this worker 370000 done, 1211.2/s
+[embed] chunk 38/100 (10000 in 8s) this worker 380000 done, 1212.0/s
+[embed] chunk 39/100 (10000 in 9s) this worker 390000 done, 1210.7/s
+[embed] chunk 40/100 (10000 in 9s) this worker 400000 done, 1209.6/s
+[embed] chunk 41/100 (10000 in 8s) this worker 410000 done, 1211.2/s
+[embed] chunk 42/100 (10000 in 8s) this worker 420000 done, 1212.3/s
+[embed] chunk 43/100 (10000 in 8s) this worker 430000 done, 1212.1/s
+[embed] chunk 44/100 (10000 in 8s) this worker 440000 done, 1212.2/s
+[embed] chunk 45/100 (10000 in 8s) this worker 450000 done, 1211.6/s
+[embed] chunk 46/100 (10000 in 8s) this worker 460000 done, 1213.1/s
+[embed] chunk 47/100 (10000 in 8s) this worker 470000 done, 1212.8/s
+[embed] chunk 48/100 (10000 in 8s) this worker 480000 done, 1213.0/s
+[embed] chunk 49/100 (10000 in 8s) this worker 490000 done, 1212.6/s
+[embed] chunk 50/100 (10000 in 8s) this worker 500000 done, 1212.2/s
+[embed] chunk 51/100 (10000 in 9s) this worker 510000 done, 1210.5/s
+[embed] chunk 52/100 (10000 in 8s) this worker 520000 done, 1210.1/s
+[embed] chunk 53/100 (10000 in 9s) this worker 530000 done, 1209.2/s
+[embed] chunk 54/100 (10000 in 9s) this worker 540000 done, 1206.7/s
+[embed] chunk 55/100 (10000 in 8s) this worker 550000 done, 1206.1/s
+[embed] chunk 56/100 (10000 in 9s) this worker 560000 done, 1205.5/s
+[embed] chunk 57/100 (10000 in 8s) this worker 570000 done, 1206.5/s
+[embed] chunk 58/100 (10000 in 8s) this worker 580000 done, 1207.4/s
+[embed] chunk 59/100 (10000 in 9s) this worker 590000 done, 1205.3/s
+[embed] chunk 60/100 (10000 in 8s) this worker 600000 done, 1206.4/s
+[embed] chunk 61/100 (10000 in 8s) this worker 610000 done, 1206.5/s
+[embed] chunk 62/100 (10000 in 8s) this worker 620000 done, 1206.1/s
+[embed] chunk 63/100 (10000 in 9s) this worker 630000 done, 1205.1/s
+[embed] chunk 64/100 (10000 in 8s) this worker 640000 done, 1205.2/s
+[embed] chunk 65/100 (10000 in 8s) this worker 650000 done, 1205.2/s
+[embed] chunk 66/100 (10000 in 8s) this worker 660000 done, 1204.8/s
+[embed] chunk 67/100 (10000 in 8s) this worker 670000 done, 1206.0/s
+[embed] chunk 68/100 (10000 in 8s) this worker 680000 done, 1206.1/s
+[embed] chunk 69/100 (10000 in 8s) this worker 690000 done, 1207.0/s
+[embed] chunk 70/100 (10000 in 9s) this worker 700000 done, 1206.4/s
+[embed] chunk 71/100 (10000 in 9s) this worker 710000 done, 1205.2/s
+[embed] chunk 72/100 (10000 in 8s) this worker 720000 done, 1206.0/s
+[embed] chunk 73/100 (10000 in 8s) this worker 730000 done, 1206.1/s
+[embed] chunk 74/100 (10000 in 8s) this worker 740000 done, 1206.0/s
+[embed] chunk 75/100 (10000 in 8s) this worker 750000 done, 1207.1/s
+[embed] chunk 76/100 (10000 in 8s) this worker 760000 done, 1207.6/s
+[embed] chunk 77/100 (10000 in 8s) this worker 770000 done, 1207.9/s
+[embed] chunk 78/100 (10000 in 8s) this worker 780000 done, 1207.8/s
+[embed] chunk 79/100 (10000 in 8s) this worker 790000 done, 1208.2/s
+[embed] chunk 80/100 (10000 in 8s) this worker 800000 done, 1207.9/s
+[embed] chunk 81/100 (10000 in 9s) this worker 810000 done, 1206.9/s
+[embed] chunk 82/100 (10000 in 9s) this worker 820000 done, 1206.4/s
+[embed] chunk 83/100 (10000 in 9s) this worker 830000 done, 1205.8/s
+[embed] chunk 84/100 (10000 in 8s) this worker 840000 done, 1206.7/s
+[embed] chunk 85/100 (10000 in 9s) this worker 850000 done, 1206.2/s
+[embed] chunk 86/100 (10000 in 8s) this worker 860000 done, 1206.2/s
+[embed] chunk 87/100 (10000 in 8s) this worker 870000 done, 1206.0/s
+[embed] chunk 88/100 (10000 in 9s) this worker 880000 done, 1205.4/s
+[embed] chunk 89/100 (10000 in 8s) this worker 890000 done, 1205.2/s
+[embed] chunk 90/100 (10000 in 8s) this worker 900000 done, 1205.8/s
+[embed] chunk 91/100 (10000 in 8s) this worker 910000 done, 1206.2/s
+[embed] chunk 92/100 (10000 in 8s) this worker 920000 done, 1206.6/s
+[embed] chunk 93/100 (10000 in 8s) this worker 930000 done, 1207.5/s
+[embed] chunk 94/100 (10000 in 8s) this worker 940000 done, 1208.2/s
+[embed] chunk 95/100 (10000 in 8s) this worker 950000 done, 1207.9/s
+[embed] chunk 96/100 (10000 in 8s) this worker 960000 done, 1208.2/s
+[embed] chunk 97/100 (10000 in 9s) this worker 970000 done, 1207.5/s
+[embed] chunk 98/100 (10000 in 8s) this worker 980000 done, 1208.1/s
+[embed] chunk 99/100 (10000 in 9s) this worker 990000 done, 1207.0/s
+[embed] chunk 100/100 (10000 in 8s) this worker 1000000 done, 1207.8/s
+[done] (1000000, 768) -> corpus.npy
+[gpu] done 2026-11-22T12:16:16Z

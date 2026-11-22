@@ -2,3 +2,5 @@ results/*.csv -text
 results/run.log -text
 probe/results/*.csv -text
 probe/results_partial/*.csv -text
+results_phase3/*.csv -text
+results_phase3/*.log -text
